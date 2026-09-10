@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-10T10:59:52.338Z",
+ "geradoEm": "2026-09-10T11:24:29.583Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 7,
  "candidatos": [
@@ -52,7 +52,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 7403347,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002541303",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "250002549705",
@@ -99,7 +105,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 392838,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002549705",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "250002536915",
@@ -142,7 +154,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 567706,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002536915",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "250002550913",
@@ -185,7 +203,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 608840,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002550913",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "250002553062",
@@ -228,7 +252,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 96070,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002553062",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "250002548080",
@@ -346,7 +376,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 3,
+    "bytes": 4417218,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6259/SP/250002544912",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   }
  ]
 }

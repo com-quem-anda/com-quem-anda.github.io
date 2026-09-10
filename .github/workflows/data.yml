@@ -35,6 +35,11 @@ jobs:
       - name: Baixar dados do TSE
         run: npm run fetch
 
+      # Lê só o índice dos pacotes de proposta, por Range: ~8 KB por UF em vez
+      # de ~14 MB. Nenhum PDF é baixado.
+      - name: Indexar propostas de governo
+        run: npm run propostas -- --uf=all
+
       - name: Normalizar
         run: npm run normalize -- --uf=all
 

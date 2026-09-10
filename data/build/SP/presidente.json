@@ -3,11 +3,11 @@
  "cargo": "presidente",
  "eleicao": {
   "ano": 2026,
-  "codigo": "6259",
-  "descricao": "Eleições Gerais Estaduais 2026",
+  "codigo": "6257",
+  "descricao": "Eleição Geral Federal 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-10T10:59:52.342Z",
+ "geradoEm": "2026-09-10T11:24:29.586Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 13,
  "candidatos": [
@@ -56,7 +56,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 1189907,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002542548",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "280002540694",
@@ -99,7 +105,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 1691345,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002540694",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "280002541457",
@@ -142,7 +154,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 738999,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002541457",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "280002551975",
@@ -185,7 +203,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 314957,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002551975",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "280002551544",
@@ -228,7 +252,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 1940855,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002551544",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "280002552484",
@@ -271,7 +301,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 64568,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002552484",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "280002553884",
@@ -314,7 +350,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 1913582,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002553884",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "280002552487",
@@ -357,7 +399,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 96070,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002552487",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "280002539826",
@@ -400,7 +448,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 882639,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002539826",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "280002548139",
@@ -443,7 +497,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 1612696,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002548139",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "280002551932",
@@ -486,7 +546,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 1000707,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002551932",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "280002551547",
@@ -529,7 +595,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 4927342,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002551547",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   },
   {
    "sq": "280002538811",
@@ -572,7 +644,13 @@
       "codigo": null
      }
     }
-   ]
+   ],
+   "proposta": {
+    "arquivos": 1,
+    "bytes": 1431032,
+    "urlTse": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2026/6257/BR/280002538811",
+    "coletadoEm": "2026-09-10T11:23:59.014Z"
+   }
   }
  ]
 }

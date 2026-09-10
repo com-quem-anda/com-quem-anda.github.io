@@ -187,11 +187,22 @@ dialog.folha[open] { display: flex; flex-direction: column; animation: subir 0.2
 
 .item {
   display: grid;
+  grid-template-columns: 1fr var(--toque);
+  gap: var(--folga);
+  align-items: center;
+  height: 72px;
+  padding: 0 0.5rem 0 0;
+  border-radius: var(--raio);
+}
+.item[aria-current="true"] { background: var(--acento-fundo); }
+
+.item__principal {
+  display: grid;
   grid-template-columns: 4.2rem 1fr;
   gap: 0.7rem;
   align-items: center;
-  width: 100%;
-  height: 72px;
+  min-width: 0;
+  height: 100%;
   padding: 0 0.6rem;
   border: none;
   border-radius: var(--raio);
@@ -200,8 +211,23 @@ dialog.folha[open] { display: flex; flex-direction: column; animation: subir 0.2
   text-align: left;
   cursor: pointer;
 }
-.item:hover { background: var(--fundo-sutil); }
-.item[aria-current="true"] { background: var(--acento-fundo); }
+.item__principal:hover { background: var(--fundo-sutil); }
+
+/* Acesso visível à ficha, onde fica o link da proposta de governo. */
+.item__info {
+  width: var(--toque);
+  height: var(--toque);
+  padding: 0;
+  border: 1px solid var(--borda);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--texto-suave);
+  font-family: var(--fonte-numero);
+  font-weight: 700;
+  cursor: pointer;
+}
+.item__info:hover { background: var(--fundo-sutil); border-color: var(--borda-forte); }
+
 .item__numero {
   font-family: var(--fonte-numero);
   font-variant-numeric: tabular-nums;
@@ -257,6 +283,16 @@ dialog.ficha[open] { display: flex; flex-direction: column; }
 .campos dt { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--texto-fraco); }
 .campos dd { margin: 0.15rem 0 0; overflow-wrap: anywhere; }
 .campos .vazio { color: var(--texto-fraco); font-style: italic; }
+
+.proposta {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--borda);
+}
+.proposta h3 { margin-bottom: 0.4rem; }
+.proposta .vazio { color: var(--texto-fraco); font-style: italic; margin: 0; }
+.proposta__nota { font-size: 0.8rem; color: var(--texto-fraco); margin: 0.6rem 0 0; }
+.proposta .botao { margin-top: 0.5rem; }
 
 /* ---- ≥900 px: cédula à esquerda, diagnóstico fixo à direita (§6.3) ---- */
 

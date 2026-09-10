@@ -4,7 +4,7 @@
  * Mostra só o que o TSE publica, e mostra o vazio como vazio. Campo sem fonte
  * aparece dizendo que não há fonte — nunca sumindo da tela (§0.2).
  */
-import { NOME_CARGO, type Candidato } from "./tipos.ts";
+import { CARGOS_COM_PROPOSTA, NOME_CARGO, type Candidato } from "./tipos.ts";
 
 export function abrirFicha(c: Candidato, escolhido: boolean): Promise<"escolher" | "fechar"> {
   return new Promise((resolver) => {
@@ -67,7 +67,7 @@ export function abrirFicha(c: Candidato, escolhido: boolean): Promise<"escolher"
 
     campo(campos, "Identificador no TSE (SQ_CANDIDATO)", c.sq);
 
-    corpo.append(id, campos);
+    corpo.append(id, campos, blocoProposta(c));
 
     const base = document.createElement("div");
     base.className = "ficha__base";
@@ -96,6 +96,66 @@ export function abrirFicha(c: Candidato, escolhido: boolean): Promise<"escolher"
 
     dialogo.showModal();
   });
+}
+
+/**
+ * Proposta de governo.
+ *
+ * O documento não é hospedado, extraído nem resumido aqui: o eleitor vai ler a
+ * versão oficial, no TSE. Um resumo automático errado em ano eleitoral é
+ * processo garantido, e nenhum ganho de conveniência paga esse risco.
+ */
+function blocoProposta(c: Candidato): HTMLElement {
+  const secao = document.createElement("section");
+  secao.className = "proposta";
+
+  const titulo = document.createElement("h3");
+  titulo.textContent = "Proposta de governo";
+  secao.append(titulo);
+
+  if (!CARGOS_COM_PROPOSTA.includes(c.cargo)) {
+    const p = document.createElement("p");
+    p.className = "vazio";
+    p.textContent = `O TSE não exige proposta de governo para o cargo de ${NOME_CARGO[c.cargo].toLowerCase()}.`;
+    secao.append(p);
+    return secao;
+  }
+
+  if (!c.proposta) {
+    const p = document.createElement("p");
+    p.className = "vazio";
+    p.textContent = "Não consta proposta registrada para este candidato na última coleta.";
+    secao.append(p);
+    return secao;
+  }
+
+  const resumo = document.createElement("p");
+  resumo.textContent =
+    c.proposta.arquivos === 1
+      ? `O TSE tem 1 documento registrado (${tamanho(c.proposta.bytes)}).`
+      : `O TSE tem ${c.proposta.arquivos} documentos registrados (${tamanho(c.proposta.bytes)} no total).`;
+
+  const link = document.createElement("a");
+  link.className = "botao botao--primario botao--largo";
+  link.href = c.proposta.urlTse;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = "Ler a proposta no site do TSE";
+
+  const nota = document.createElement("p");
+  nota.className = "proposta__nota";
+  nota.textContent =
+    "O documento é o que a campanha registrou, sem edição, resumo ou comentário desta ferramenta. " +
+    "O link abre o site do Tribunal Superior Eleitoral.";
+
+  secao.append(resumo, link, nota);
+  return secao;
+}
+
+function tamanho(bytes: number): string {
+  return bytes >= 1024 * 1024
+    ? `${(bytes / 1024 / 1024).toFixed(1)} MB`.replace(".", ",")
+    : `${Math.round(bytes / 1024)} KB`;
 }
 
 function campo(lista: HTMLElement, rotulo: string, valor: string | null, textoVazio = "sem informação no arquivo do TSE"): void {

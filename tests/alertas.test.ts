@@ -89,3 +89,30 @@ test("situação indisponível é informada, não silenciada (§0.2)", () => {
   assert.ok(s, "enquanto o TSE publicar #NE, a interface tem que dizer isso");
   assert.equal(s.gravidade, "informacao");
 });
+
+test("proposta só é anexada a cargo majoritário, e só com fonte", () => {
+  const comProposta = PRESIDENTES.filter((c) => c.proposta);
+  assert.equal(comProposta.length, PRESIDENTES.length, "todos os 13 presidentes registraram proposta");
+
+  const gov = GOVERNADORES.filter((c) => c.proposta);
+  assert.ok(gov.length < GOVERNADORES.length, "há governador sem proposta, e isso tem que aparecer como ausência");
+
+  // Senador não registra proposta — verificado contra o pacote oficial de 2026.
+  assert.equal(SENADORES.filter((c) => c.proposta).length, 0);
+});
+
+test("o link da proposta usa o código de eleição do próprio pleito", () => {
+  // Federal é 6257, estadual de SP é 6259. Trocar os dois quebra o link no TSE.
+  const lula = acharPorNumero(PRESIDENTES, "13");
+  assert.match(lula.proposta!.urlTse, /\/2026\/6257\/BR\/280002542548$/);
+
+  const haddad = acharPorNumero(GOVERNADORES, "13");
+  assert.match(haddad.proposta!.urlTse, /\/2026\/6259\/SP\/250002549705$/);
+});
+
+test("nenhuma proposta é servida pelo próprio site", () => {
+  // O produto liga para o TSE; não republica o documento (§3.3, §12 nº 3).
+  for (const c of [...PRESIDENTES, ...GOVERNADORES].filter((x) => x.proposta)) {
+    assert.match(c.proposta!.urlTse, /^https:\/\/divulgacandcontas\.tse\.jus\.br\//);
+  }
+});

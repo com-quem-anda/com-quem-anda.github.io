@@ -10,10 +10,42 @@ import { lerZip } from "./lib/unzip.ts";
 import { lerCsvTse, limparValor } from "./lib/csv.ts";
 import { contadoresSituacao, processarUf } from "./lib/normalizar.ts";
 import { ANO, CARGOS_VOTAVEIS, URL_CANDIDATOS, dataIso } from "./lib/tse.ts";
+import { urlCandidatoNoTse, type ArquivoPropostas } from "./lib/propostas.ts";
 import type { Anomalia, ArquivoCargo, Cargo, Candidato } from "./lib/types.ts";
 
 const DIR_RAW = new URL("../data/raw/", import.meta.url);
 const DIR_BUILD = new URL("../data/build/", import.meta.url);
+
+/** Lê o índice de propostas, se ele já tiver sido gerado. */
+async function lerIndicePropostas(): Promise<ArquivoPropostas | null> {
+  try {
+    return JSON.parse(await readFile(new URL("propostas.json", DIR_BUILD), "utf8")) as ArquivoPropostas;
+  } catch {
+    // Sem o índice, nenhum candidato recebe o bloco de proposta — que é o
+    // comportamento certo: não afirmamos existência que não conferimos.
+    return null;
+  }
+}
+
+/** Anexa a proposta aos candidatos que a registraram. */
+function aplicarPropostas(
+  lista: Candidato[],
+  propostas: ArquivoPropostas | null,
+  cdEleicao: string,
+  sgUe: string,
+): void {
+  if (!propostas) return;
+  for (const c of lista) {
+    const ind = propostas.porCandidato[c.sq];
+    if (!ind) continue;
+    c.proposta = {
+      arquivos: ind.arquivos,
+      bytes: ind.bytes,
+      urlTse: urlCandidatoNoTse(cdEleicao, sgUe, c.sq),
+      coletadoEm: propostas.geradoEm,
+    };
+  }
+}
 
 /** Lê consulta_cand_2026_BRASIL.csv e conta candidaturas por UF e cargo. */
 function contarConsolidado(zipBytes: Buffer): Record<string, number> {
@@ -59,6 +91,18 @@ async function main(): Promise<void> {
   const linhasBr = lerCsvTse(csvBr).linhas;
   const presidentes: Candidato[] = processarUf("BR", linhasBr, anomalias).get("presidente") ?? [];
 
+  // O pleito federal tem CD_ELEICAO próprio (6257), diferente do estadual
+  // (6259 em SP). Usar o do estado aqui geraria link quebrado para o TSE.
+  const eleicaoBr = {
+    ano: ANO,
+    codigo: linhasBr[0]?.["CD_ELEICAO"] ?? "",
+    descricao: linhasBr[0]?.["DS_ELEICAO"] ?? "",
+    dataPleito: dataIso(limparValor(linhasBr[0]?.["DT_ELEICAO"] ?? "")),
+  };
+
+  const propostas = await lerIndicePropostas();
+  aplicarPropostas(presidentes, propostas, eleicaoBr.codigo, "BR");
+
   const contagens: Record<string, Record<string, number>> = {};
   let totalLinhas = linhasBr.length;
 
@@ -77,6 +121,9 @@ async function main(): Promise<void> {
     };
 
     const porCargoUf = processarUf(uf, linhas, anomalias);
+    for (const [cargo, lista] of porCargoUf) {
+      if (cargo !== "presidente") aplicarPropostas(lista, propostas, eleicao.codigo, uf);
+    }
     porCargoUf.set("presidente", presidentes);
 
     const dir = new URL(`${uf}/`, DIR_BUILD);
@@ -85,7 +132,8 @@ async function main(): Promise<void> {
 
     for (const [cargo, candidatos] of porCargoUf) {
       const arquivo: ArquivoCargo = {
-        uf, cargo: cargo as Cargo, eleicao,
+        uf, cargo: cargo as Cargo,
+        eleicao: cargo === "presidente" ? eleicaoBr : eleicao,
         geradoEm: new Date().toISOString(),
         fonte: URL_CANDIDATOS,
         total: candidatos.length,

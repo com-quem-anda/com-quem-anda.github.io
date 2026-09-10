@@ -1,0 +1,94 @@
+{
+  "geradoEm": "2026-09-10T11:23:59.014Z",
+  "metodo": "Índice do pacote oficial lido por requisição HTTP Range. Nenhum PDF é baixado, hospedado ou processado; a ferramenta liga para a página do TSE.",
+  "pacotes": {
+    "BR": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip",
+      "arquivos": 13,
+      "atualizadoEm": "2026-09-10T11:23:58.242Z"
+    },
+    "SP": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_SP.zip",
+      "arquivos": 8,
+      "atualizadoEm": "2026-09-10T11:23:58.712Z"
+    }
+  },
+  "porCandidato": {
+    "280002538811": {
+      "arquivos": 1,
+      "bytes": 1431032
+    },
+    "280002539826": {
+      "arquivos": 1,
+      "bytes": 882639
+    },
+    "280002540694": {
+      "arquivos": 1,
+      "bytes": 1691345
+    },
+    "280002541457": {
+      "arquivos": 1,
+      "bytes": 738999
+    },
+    "280002542548": {
+      "arquivos": 1,
+      "bytes": 1189907
+    },
+    "280002548139": {
+      "arquivos": 1,
+      "bytes": 1612696
+    },
+    "280002551544": {
+      "arquivos": 1,
+      "bytes": 1940855
+    },
+    "280002551547": {
+      "arquivos": 1,
+      "bytes": 4927342
+    },
+    "280002551932": {
+      "arquivos": 1,
+      "bytes": 1000707
+    },
+    "280002551975": {
+      "arquivos": 1,
+      "bytes": 314957
+    },
+    "280002552484": {
+      "arquivos": 1,
+      "bytes": 64568
+    },
+    "280002552487": {
+      "arquivos": 1,
+      "bytes": 96070
+    },
+    "280002553884": {
+      "arquivos": 1,
+      "bytes": 1913582
+    },
+    "250002536915": {
+      "arquivos": 1,
+      "bytes": 567706
+    },
+    "250002541303": {
+      "arquivos": 1,
+      "bytes": 7403347
+    },
+    "250002544912": {
+      "arquivos": 3,
+      "bytes": 4417218
+    },
+    "250002549705": {
+      "arquivos": 1,
+      "bytes": 392838
+    },
+    "250002550913": {
+      "arquivos": 1,
+      "bytes": 608840
+    },
+    "250002553062": {
+      "arquivos": 1,
+      "bytes": 96070
+    }
+  }
+}

@@ -43,7 +43,17 @@ export interface Candidato {
   situacao: SituacaoRegistro;
   vice?: Vinculado[];
   suplentes?: Vinculado[];
+  /** Só para cargos majoritários. O PDF vive no TSE, não aqui. */
+  proposta?: {
+    arquivos: number;
+    bytes: number;
+    urlTse: string;
+    coletadoEm: string;
+  };
 }
+
+/** Cargos para os quais o TSE exige proposta de governo. */
+export const CARGOS_COM_PROPOSTA: Cargo[] = ["presidente", "governador"];
 
 export interface ArquivoCargo {
   uf: string;

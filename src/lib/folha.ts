@@ -42,7 +42,6 @@ export function abrirFolha(op: {
 
     const lista = document.createElement("div");
     lista.className = "folha__lista";
-    lista.setAttribute("role", "listbox");
     lista.setAttribute("aria-label", `Candidatos a ${NOME_CARGO[op.cargo].toLowerCase()}`);
 
     const base = document.createElement("div");
@@ -141,12 +140,19 @@ export function abrirFolha(op: {
   });
 }
 
+/**
+ * Uma linha da lista: escolher e ver a ficha são ações diferentes, e as duas
+ * precisam de alvo próprio. Antes a ficha só abria por toque longo — o que
+ * ninguém descobre, e é onde mora o link da proposta de governo.
+ */
 function item(c: Candidato, escolhido: boolean, aoEscolher: () => void, aoVerFicha: () => void): HTMLElement {
-  const b = document.createElement("button");
-  b.type = "button";
-  b.className = "item";
-  b.setAttribute("role", "option");
-  b.setAttribute("aria-current", String(escolhido));
+  const linha = document.createElement("div");
+  linha.className = "item";
+  linha.setAttribute("aria-current", String(escolhido));
+
+  const principal = document.createElement("button");
+  principal.type = "button";
+  principal.className = "item__principal";
 
   const numero = document.createElement("span");
   numero.className = "item__numero";
@@ -162,11 +168,22 @@ function item(c: Candidato, escolhido: boolean, aoEscolher: () => void, aoVerFic
   meta.textContent = c.partido.sigla + (c.coligacao.nome && c.coligacao.nome !== "PARTIDO ISOLADO" ? ` · ${c.coligacao.nome}` : "");
   texto.append(nome, meta);
 
-  b.append(numero, texto);
-  b.addEventListener("click", aoEscolher);
-  // Toque longo abre a ficha sem escolher — no desktop, o botão direito.
-  b.addEventListener("contextmenu", (e) => { e.preventDefault(); aoVerFicha(); });
-  return b;
+  principal.append(numero, texto);
+  principal.setAttribute(
+    "aria-label",
+    `${escolhido ? "Seu voto atual: " : ""}${c.nomeUrna}, ${c.partido.sigla}, número ${c.numero.split("").join(" ")}. Escolher.`,
+  );
+  principal.addEventListener("click", aoEscolher);
+
+  const info = document.createElement("button");
+  info.type = "button";
+  info.className = "item__info";
+  info.textContent = "i";
+  info.setAttribute("aria-label", `Ver dados de ${c.nomeUrna}`);
+  info.addEventListener("click", aoVerFicha);
+
+  linha.append(principal, info);
+  return linha;
 }
 
 /** Arrastar o puxador para baixo fecha a folha (§1.4). */

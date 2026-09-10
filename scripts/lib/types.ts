@@ -58,6 +58,18 @@ export interface Candidato {
   /** Vices (governador/presidente) e suplentes (senador), aninhados na chapa. */
   vice?: Vinculado[];
   suplentes?: Vinculado[];
+  /**
+   * Proposta de governo. Só existe para cargos majoritários.
+   *
+   * A ferramenta não hospeda nem processa o PDF: informa que ele existe e liga
+   * para a página oficial do candidato no TSE.
+   */
+  proposta?: {
+    arquivos: number;
+    bytes: number;
+    urlTse: string;
+    coletadoEm: string;
+  };
 }
 
 export interface ArquivoCargo {

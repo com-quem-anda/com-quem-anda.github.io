@@ -38,11 +38,28 @@ const m = meta();
       </div>
     </dl>
 
+    <h2>Propostas de governo</h2>
+    <p>
+      Esta ferramenta <strong>não hospeda, não extrai e não resume</strong> proposta de governo.
+      Ela informa que o documento existe e leva você à página oficial do candidato no
+      Tribunal Superior Eleitoral, onde está o arquivo que a campanha registrou.
+    </p>
+    <p>
+      A decisão é deliberada: um resumo automático que distorça a proposta de um candidato em
+      ano eleitoral é um dano que nenhuma conveniência compensa. Se um dia houver resumo aqui,
+      ele virá rotulado como gerado por máquina, ao lado do documento original e nunca sozinho.
+    </p>
+    <p style="font-size: 0.88rem; color: var(--texto-suave);">
+      Para saber quem registrou proposta, lemos apenas o índice do pacote oficial de cada estado,
+      por requisição HTTP Range — cerca de 8 KB por unidade da federação, sem transferir PDF algum.
+      Só cargos majoritários registram proposta: verificado no dado de 2026, são os candidatos a
+      presidente e a governador; senadores e deputados não registram.
+    </p>
+
     <h2>O que ainda não vem de fonte nenhuma</h2>
     <ul class="pilha" style="--espaco: 0.4rem;">
       <li><strong>Situação do registro</strong> — o TSE publica o campo vazio para 2026.</li>
       <li><strong>Bens declarados</strong> — existem no portal, ainda não incorporados.</li>
-      <li><strong>Propostas de governo</strong> — existem em PDF por estado, ainda não incorporadas.</li>
       <li><strong>Posições dos candidatos em temas</strong> — dependem de leitura documental, e não entram por inferência.</li>
     </ul>
 

@@ -15,6 +15,7 @@ npm ci
 npx playwright install chromium   # só para os testes de navegador
 
 npm run fetch                     # baixa o pacote do TSE para data/raw/ (não versionado)
+npm run propostas -- --uf=SP      # índice de propostas por Range (~8 KB/UF, nenhum PDF)
 npm run normalize -- --uf=SP      # gera data/build/SP/*.json   (--uf=all para as 27)
 npm run validate                  # invariantes do dado; falhou, não publica
 
@@ -69,6 +70,12 @@ isso `situacao.disponivel` existe no modelo: a interface precisa dizer "o TSE ai
 nunca traduzir ausência para "deferido". O alerta de registro indeferido/cassado (§5.4) fica
 bloqueado até `meta.json.situacaoRegistro.comSituacao` deixar de ser 0 — o `validate` avisa.
 
+**O runner do GitHub Actions é bloqueado pelo TSE.** Recebe 403 do CDN e do portal CKAN, enquanto
+a máquina do mantenedor, com IP residencial brasileiro, recebe 200. A Akamai bloqueia faixas de IP
+de datacenter. Por isso a coleta é local (`npm run build:data` e commit), e o workflow `coletar`
+espera um runner próprio pela variável `RUNNER_COLETA`. O workflow `verificar`, que roda em todo
+PR, não fala com o TSE.
+
 **O TSE bloqueia requisições HEAD.** Devolve 403 mesmo para URL que existe. Use sempre GET
 e cancele o corpo — é o que `scripts/conferir-fontes.ts` faz.
 
@@ -84,6 +91,24 @@ diário precisa ser lido por humano em período eleitoral.
 **Gerar as 27 UFs produz ~12 MB em `data/build`.** Com PR diário durante a campanha isso pesa no
 repositório. Decidir no M6 se o dado versionado vai minificado.
 
+## Propostas de governo: link, não cópia
+
+A ferramenta **não hospeda, não extrai e não resume** proposta de governo. Diz que o documento
+existe e leva à página oficial do candidato no TSE.
+
+Isso apaga de uma vez o risco nº 3 da spec — resumo gerado por IA sair errado — e toda a dívida
+de OCR do §3.3. O que continua sendo trabalho nosso é saber *quem* registrou proposta, sem o que
+o link viraria promessa vazia.
+
+Como: o CDN do TSE aceita requisições `Range`, então lemos apenas o índice do pacote de cada
+estado — **~8 KB por UF em vez de 13,6 MB**. Nas 27 unidades, 216 KB por coleta em vez de ~380 MB.
+
+Verificado no dado de 2026: só cargos majoritários registram proposta (13 de 13 presidentes,
+6 de 7 governadores de SP). Senadores e deputados, nenhum — o que confirma a suposição da spec.
+
+O código da eleição difere entre o pleito federal (6257) e cada estadual (6259 em SP), e vem do
+dado. Fixá-lo no código geraria link quebrado para metade dos candidatos.
+
 ## O que a interface garante
 
 - **Filtro reordena, nunca apaga.** A busca alcança o universo inteiro do cargo; a contagem
@@ -92,6 +117,9 @@ repositório. Decidir no M6 se o dado versionado vai minificado.
   O único destaque é o que o eleitor criou ao votar.
 - **A ausência de dado aparece como ausência.** A situação do registro, que o TSE ainda não
   publicou, é dita na cédula, na ficha e na página de transparência — não é omitida.
+- **A ficha tem acesso visível.** O botão redondo em cada linha da lista abre os dados do
+  candidato. Antes só abria por toque longo, o que ninguém descobre — e é lá que fica o link
+  da proposta.
 - **Funciona sem rede.** O voto vive no aparelho e a cédula desenha antes de qualquer
   requisição. O service worker guarda a casca e a lista da UF escolhida.
 
@@ -103,8 +131,10 @@ scripts/
   normalize.ts        casca de I/O
   validate.ts         invariantes do CI
   conferir-fontes.ts  checagem semanal das URLs do §3
+  indexar-propostas.ts  quem registrou proposta, lendo só o índice do pacote
   lib/
     unzip.ts          leitor de ZIP sem dependência (build-time)
+    zip-remoto.ts     índice de ZIP remoto por HTTP Range, sem baixar o arquivo
     csv.ts            CSV latin-1 do TSE
     normalizar.ts     lógica pura de normalização — é aqui que se mexe
     tse.ts            constantes verificadas contra o dado

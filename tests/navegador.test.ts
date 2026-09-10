@@ -171,6 +171,56 @@ describe("cédula", () => {
   });
 });
 
+describe("proposta de governo", () => {
+  test("o botão de ficha abre os dados do candidato", async () => {
+    const { page } = await abrir("/SP/");
+    await page.locator('[data-slot="4"]').click();
+    await page.locator(".busca input").fill("13");
+    await page.locator(".item__info").first().click();
+    await page.locator("dialog.ficha").waitFor({ state: "visible" });
+    assert.match((await page.locator("dialog.ficha h2").textContent()) ?? "", /HADDAD/);
+    await page.context().close();
+  });
+
+  test("a proposta liga para o TSE e não é servida por nós", async () => {
+    const { page, externas } = await abrir("/SP/");
+    await page.locator('[data-slot="4"]').click();
+    await page.locator(".busca input").fill("13");
+    await page.locator(".item__info").first().click();
+
+    const link = page.locator(".proposta a");
+    await link.waitFor();
+    const href = await link.getAttribute("href");
+    assert.match(href ?? "", /^https:\/\/divulgacandcontas\.tse\.jus\.br\/divulga\/#\/candidato\/2026\/6259\/SP\//);
+    assert.equal(await link.getAttribute("rel"), "noopener noreferrer");
+    assert.match((await link.textContent()) ?? "", /TSE/);
+
+    // Mostrar o link não pode disparar requisição para fora (§8).
+    assert.deepEqual(externas, []);
+    await page.context().close();
+  });
+
+  test("candidato de cargo sem proposta diz isso, em vez de omitir", async () => {
+    const { page } = await abrir("/SP/");
+    await page.locator('[data-slot="2"]').click();          // senador
+    await page.locator(".item__info").first().click();
+    await page.locator(".proposta").waitFor();
+    assert.match((await page.locator(".proposta").textContent()) ?? "", /não exige proposta/);
+    assert.equal(await page.locator(".proposta a").count(), 0);
+    await page.context().close();
+  });
+
+  test("governador sem proposta registrada aparece como ausência", async () => {
+    const { page } = await abrir("/SP/");
+    await page.locator('[data-slot="4"]').click();
+    await page.locator(".busca input").fill("36");          // POLICIAL EDJANE, sem proposta
+    await page.locator(".item__info").first().click();
+    await page.locator(".proposta").waitFor();
+    assert.match((await page.locator(".proposta").textContent()) ?? "", /Não consta proposta registrada/);
+    await page.context().close();
+  });
+});
+
 describe("offline (§1.4)", () => {
   test("com a rede desligada, a cédula salva ainda abre", async () => {
     const contexto = await navegador.newContext({ viewport: { width: 360, height: 740 } });
