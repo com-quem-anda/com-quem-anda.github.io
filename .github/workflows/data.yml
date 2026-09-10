@@ -1,0 +1,62 @@
+name: dados do TSE
+
+# Cron diário (§0.1): refetch -> normalize -> validate -> PR.
+# Nunca faz commit direto na branch principal: mudança de dado de candidatura
+# em período eleitoral tem que passar por revisão humana com diff à vista.
+on:
+  schedule:
+    - cron: "17 9 * * *"   # 06:17 em Brasília
+  workflow_dispatch:
+  pull_request:
+    paths: ["scripts/**", "tests/**", "package.json", "tsconfig.json"]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  dados:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.18"
+
+      - run: npm ci --no-audit --no-fund
+
+      - name: Tipos
+        run: npm run typecheck
+
+      - name: Testes
+        run: npm test
+
+      # O CDN do TSE está atrás de Akamai e devolve 403 para clientes que não
+      # pareçam navegador. Se este passo falhar em 403 no runner do GitHub e
+      # passar na sua máquina, o bloqueio é por IP do runner — não por código.
+      - name: Baixar dados do TSE
+        run: npm run fetch
+
+      - name: Normalizar
+        run: npm run normalize -- --uf=all
+
+      - name: Validar invariantes
+        run: npm run validate
+
+      - name: Abrir PR se o dado mudou
+        if: github.event_name != 'pull_request'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: dados/atualizacao-tse
+          title: "dados: atualização do pacote do TSE"
+          commit-message: "dados: atualização do pacote do TSE"
+          body: |
+            Regeneração automática a partir de `consulta_cand_2026.zip`.
+
+            Confira antes de aprovar:
+            - o diff de contagem por cargo em `data/build/meta.json`;
+            - a lista de `anomalias` — candidaturas duplicadas e chapas incompletas;
+            - `situacaoRegistro.comSituacao`: quando deixar de ser 0, o TSE passou a
+              publicar a situação do registro e o alerta da §5.4 vira implementável.
+          add-paths: data/build

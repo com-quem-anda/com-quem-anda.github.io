@@ -1,0 +1,152 @@
+{
+  "geradoEm": "2026-09-10T04:51:20.173Z",
+  "ufs": [
+    "SP"
+  ],
+  "fonte": {
+    "nome": "TSE — Portal de Dados Abertos, dataset candidatos-2026",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+    "licenca": "Creative Commons Atribuição (CC-BY)",
+    "sha256": "9a9b45f6fa1949c5d276b948bb5eef94f30459174f088f867234e8f89453ef3d"
+  },
+  "contagens": {
+    "SP": {
+      "governador": 7,
+      "senador": 16,
+      "deputado-federal": 1130,
+      "deputado-estadual": 1430,
+      "presidente": 13
+    }
+  },
+  "linhasCsvLidas": 2652,
+  "situacaoRegistroDisponivel": false,
+  "situacaoRegistro": {
+    "comSituacao": 0,
+    "semSituacao": 2656,
+    "observacao": "O TSE ainda publica #NE em DS_SITUACAO_CANDIDATURA para 2026. Enquanto isto for 0, o alerta de registro indeferido/cassado (§5.4) não tem fonte."
+  },
+  "anomalias": [
+    {
+      "tipo": "vice-multiplo",
+      "uf": "SP",
+      "cargo": "governador",
+      "detalhe": "POLICIAL EDJANE (nº 36) tem 2 vices, esperado 1",
+      "sq": [
+        "250002548080",
+        "250002554211",
+        "250002548079"
+      ]
+    },
+    {
+      "tipo": "vice-multiplo",
+      "uf": "SP",
+      "cargo": "governador",
+      "detalhe": "VIVIAN MENDES (nº 80) tem 2 vices, esperado 1",
+      "sq": [
+        "250002544912",
+        "250002544911",
+        "250002552372"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "SP",
+      "cargo": "senador",
+      "detalhe": "GERALDO RUFINO (nº 200) tem 3 suplentes, esperado 2",
+      "sq": [
+        "250002544673",
+        "250002554098",
+        "250002544671",
+        "250002544672"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "SP",
+      "cargo": "senador",
+      "detalhe": "SALLES (nº 300) tem 3 suplentes, esperado 2",
+      "sq": [
+        "250002532794",
+        "250002532793",
+        "250002550682",
+        "250002532792"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "SP",
+      "cargo": "senador",
+      "detalhe": "GUTO SCHIAVETTO (nº 144) tem 4 suplentes, esperado 2",
+      "sq": [
+        "250002553928",
+        "250002554136",
+        "250002553929",
+        "250002553930",
+        "250002554143"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "SP",
+      "cargo": "senador",
+      "detalhe": "GUTO SCHIAVETTO (nº 144) tem 4 suplentes, esperado 2",
+      "sq": [
+        "250002554075",
+        "250002554136",
+        "250002553929",
+        "250002553930",
+        "250002554143"
+      ]
+    },
+    {
+      "tipo": "cpf-duplicado",
+      "uf": "SP",
+      "cargo": "senador",
+      "detalhe": "GUTO SCHIAVETTO aparece 2x com o mesmo CPF (…9802)",
+      "sq": [
+        "250002553928",
+        "250002554075"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "SP",
+      "cargo": "senador",
+      "detalhe": "nº 144 usado por 2 candidaturas: GUTO SCHIAVETTO, GUTO SCHIAVETTO",
+      "sq": [
+        "250002553928",
+        "250002554075"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "SP",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 7027 usado por 2 candidaturas: ELIEL DE LIMA, CHICÃO",
+      "sq": [
+        "250002554040",
+        "250002551112"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "SP",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 3605 usado por 2 candidaturas: SIRLEA MATHEUS, MARIA LOPES DA MICHELLE B",
+      "sq": [
+        "250002554238",
+        "250002553909"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "SP",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 80123 usado por 2 candidaturas: GUSTAVO MATOS, LUCAS DA FRENTE OPERÁRIA",
+      "sq": [
+        "250002536890",
+        "250002552506"
+      ]
+    }
+  ]
+}

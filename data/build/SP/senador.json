@@ -1,0 +1,1067 @@
+{
+ "uf": "SP",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-10T04:51:20.171Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 16,
+ "candidatos": [
+  {
+   "sq": "250002541312",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "111",
+   "nomeUrna": "GUILHERME DERRITE",
+   "nomeCompleto": "GUILHERME MURARO DERRITE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "CORAGEM PARA SEGUIR AVANÇANDO",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / REPUBLICANOS / PL / MDB / DEMOCRATA / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / AVANTE",
+    "sq": "250001800556"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002541311",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "VICENTE SANTINI",
+     "nomeCompleto": "JOSE VICENTE SANTINI",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002541310",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JULIO SERSON",
+     "nomeCompleto": "JULIO SERSON",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002553928",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "144",
+   "nomeUrna": "GUTO SCHIAVETTO",
+   "nomeCompleto": "RICARDO AUGUSTO MANGUE SCHIAVETTO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "250001801467"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002554136",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MEDON",
+     "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002553929",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MEDON",
+     "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002553930",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FABIO RODRIGUES",
+     "nomeCompleto": "FABIO RODRIGUES",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002554143",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FABIO RODRIGUES",
+     "nomeCompleto": "FABIO RODRIGUES",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002554075",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "144",
+   "nomeUrna": "GUTO SCHIAVETTO",
+   "nomeCompleto": "RICARDO AUGUSTO MANGUE SCHIAVETTO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "250001801467"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002554136",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MEDON",
+     "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002553929",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MEDON",
+     "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002553930",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FABIO RODRIGUES",
+     "nomeCompleto": "FABIO RODRIGUES",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002554143",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FABIO RODRIGUES",
+     "nomeCompleto": "FABIO RODRIGUES",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002541365",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "160",
+   "nomeUrna": "WELLER GONÇALVES",
+   "nomeCompleto": "WELLER PEREIRA GONÇALVES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "250001800477"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002541366",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MARIA GUILHERME",
+     "nomeCompleto": "MARIA GUILHERME",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002541364",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "BRUNO TEIXEIRA",
+     "nomeCompleto": "BRUNO MENDES COELHO TEIXEIRA",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002541362",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "161",
+   "nomeUrna": "DRA ELIANA FERREIRA",
+   "nomeCompleto": "ELIANA LUCIA FERREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "250001800477"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002541363",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CLAUDIO DONIZETE",
+     "nomeCompleto": "CLAUDIO DONIZETE DOS REIS",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002541361",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "VERUSKA TENÓRIO",
+     "nomeCompleto": "VERUSKA OLIVEIRA TENÓRIO",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002551501",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "180",
+   "nomeUrna": "MARINA SILVA",
+   "nomeCompleto": "MARIA OSMARINA MARINA DA SILVA VAZ DE LIMA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REDE",
+    "numero": "18",
+    "nome": "REDE SUSTENTABILIDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "DESPERTA SÃO PAULO",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "250001801164"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002551504",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "DJALMA NERY",
+     "nomeCompleto": "DJALMA NERY FERREIRA NETO",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002551506",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ANTONIO NETO",
+     "nomeCompleto": "ANTONIO FERNANDES DOS SANTOS NETO",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002544673",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "200",
+   "nomeUrna": "GERALDO RUFINO",
+   "nomeCompleto": "GERALDO ARISTIDES RUFINO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PODE",
+    "numero": "20",
+    "nome": "PODEMOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PODE",
+    "sq": "250001800739"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002554098",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "LUCIANA FELIX",
+     "nomeCompleto": "LUCIANA AVIGO FELIX",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002544671",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ANA ESTIMA",
+     "nomeCompleto": "ANA CLAUDIA DE ALMEIDA ESTIMA",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002544672",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JASON ALBUQUERQUE",
+     "nomeCompleto": "JASON MOISES DE ALBUQUERQUE",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002552153",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "211",
+   "nomeUrna": "PETTER MAAHS",
+   "nomeCompleto": "PETTER MAAHS DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCB",
+    "numero": "21",
+    "nome": "PARTIDO COMUNISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCB",
+    "sq": "250001801242"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002552151",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "OLGA SOARES",
+     "nomeCompleto": "OLGA SOARES GALLATTI",
+     "partido": {
+      "sigla": "PCB",
+      "numero": "21",
+      "nome": "PARTIDO COMUNISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002552152",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "VINICIUS JARDIM",
+     "nomeCompleto": "VINÍCIUS JARDIM CARVALHO",
+     "partido": {
+      "sigla": "PCB",
+      "numero": "21",
+      "nome": "PARTIDO COMUNISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002541308",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "ANDRÉ DO PRADO",
+   "nomeCompleto": "ANDRE LUIS DO PRADO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "CORAGEM PARA SEGUIR AVANÇANDO",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / REPUBLICANOS / PL / MDB / DEMOCRATA / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / AVANTE",
+    "sq": "250001800556"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002541309",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "FERNANDO GODOY",
+     "nomeCompleto": "FERNANDO FIORI DE GODOY",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002541313",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "RUTE COSTA",
+     "nomeCompleto": "RUTE FREIRE DA COSTA SILVA",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002552369",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "232",
+   "nomeUrna": "SONINHA FRANCINE",
+   "nomeCompleto": "SONIA FRANCINE GASPAR MARMO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "CIDADANIA",
+    "numero": "23",
+    "nome": "CIDADANIA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "sq": "250001801300"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002552371",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "DR. FABIO LOPES",
+     "nomeCompleto": "FABIO DOS SANTOS LOPES",
+     "partido": {
+      "sigla": "CIDADANIA",
+      "numero": "23",
+      "nome": "CIDADANIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002552370",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "SHELL GOMES",
+     "nomeCompleto": "ALAN GOMES FERREIRA",
+     "partido": {
+      "sigla": "CIDADANIA",
+      "numero": "23",
+      "nome": "CIDADANIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002552955",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "290",
+   "nomeUrna": "EDNELSON CESARETTI",
+   "nomeCompleto": "EDNELSON CESARETTI",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "250001801285"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002552954",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CARLOS AUGUSTO",
+     "nomeCompleto": "CARLOS AUGUSTO RODRIGUES",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002552956",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ANDRÉ AMADO",
+     "nomeCompleto": "ANDRÉ AMADO",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002532794",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "300",
+   "nomeUrna": "SALLES",
+   "nomeCompleto": "RICARDO DE AQUINO SALLES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "250001800130"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002532793",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ALCANTARA MACHADO",
+     "nomeCompleto": "MARCOS DE ALCANTARA MACHADO",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002550682",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "FREDERICO D AVILA",
+     "nomeCompleto": "FREDERICO BRAUN DAVILA",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002532792",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FERREIRA",
+     "nomeCompleto": "ROBERTO CARLOS FERREIRA",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002553252",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "360",
+   "nomeUrna": "WILLIAM TEIXEIRA",
+   "nomeCompleto": "WILLIAM TEIXEIRA DE OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AGIR",
+    "numero": "36",
+    "nome": "AGIR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "AGIR",
+    "sq": "250001801351"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002553251",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "TONINHO SERAPIÃO TUBARÃO",
+     "nomeCompleto": "ANTONIO SERAPIAO DA SILVA",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002553250",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JOSÉ VAZ",
+     "nomeCompleto": "JOSE ANTONIO VAZ",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002551502",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "400",
+   "nomeUrna": "SIMONE TEBET",
+   "nomeCompleto": "SIMONE NASSAR TEBET ROCHA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSB",
+    "numero": "40",
+    "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "DESPERTA SÃO PAULO",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "250001801164"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002551505",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "LAIO MORAIS",
+     "nomeCompleto": "LAIO CORREIA MORAIS",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002551503",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARCELO BARBIERI",
+     "nomeCompleto": "MARCELO FORTES BARBIERI",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002544514",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "800",
+   "nomeUrna": "MARCIO ALVES",
+   "nomeCompleto": "MARCIO ALVES DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "250001800723"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002544513",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MANOEL PEREIRA",
+     "nomeCompleto": "MANOEL DE SOUZA PEREIRA",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002544517",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ALLANA MATTOS",
+     "nomeCompleto": "ALLANA MATTOS DOS SANTOS",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "250002544516",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "808",
+   "nomeUrna": "MAÍRA DE SOUZA",
+   "nomeCompleto": "MAÍRA DIAS DE SOUZA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "250001800723"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002544518",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "RENATO MELO",
+     "nomeCompleto": "RENATO RODRIGUES DE MELO",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002544515",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PENHA DAOLIO",
+     "nomeCompleto": "MARIA DA PENHA RIBEIRO DAOLIO",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}
