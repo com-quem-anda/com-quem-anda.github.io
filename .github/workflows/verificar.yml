@@ -1,0 +1,42 @@
+name: verificar
+
+# Roda em todo PR e push. Não fala com o TSE: valida o código contra o dado já
+# versionado em data/build/. É esta a checagem que bloqueia merge.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.18"
+          cache: npm
+
+      - run: npm ci --no-audit --no-fund
+
+      - name: Tipos
+        run: npm run typecheck
+
+      - name: Testes de unidade
+        run: npm run test:unidade
+
+      - name: Invariantes do dado versionado
+        run: npm run validate
+
+      - name: Construir o site
+        run: npm run build
+
+      - name: Instalar navegador de teste
+        run: npx playwright install --with-deps chromium
+
+      # Rede zero, viewport 360/390/414, offline, impressão e o orçamento
+      # de performance da §1.4. Estourou, não passa.
+      - name: Testes de navegador e orçamento
+        run: npm run test:navegador
