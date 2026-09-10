@@ -9,11 +9,27 @@ import { createHash } from "node:crypto";
 import { lerZip } from "./lib/unzip.ts";
 import { lerCsvTse, limparValor } from "./lib/csv.ts";
 import { contadoresSituacao, processarUf } from "./lib/normalizar.ts";
-import { ANO, URL_CANDIDATOS, dataIso } from "./lib/tse.ts";
+import { ANO, CARGOS_VOTAVEIS, URL_CANDIDATOS, dataIso } from "./lib/tse.ts";
 import type { Anomalia, ArquivoCargo, Cargo, Candidato } from "./lib/types.ts";
 
 const DIR_RAW = new URL("../data/raw/", import.meta.url);
 const DIR_BUILD = new URL("../data/build/", import.meta.url);
+
+/** Lê consulta_cand_2026_BRASIL.csv e conta candidaturas por UF e cargo. */
+function contarConsolidado(zipBytes: Buffer): Record<string, number> {
+  const entrada = lerZip(zipBytes).find((e) => e.nome === "consulta_cand_2026_BRASIL.csv");
+  if (!entrada) throw new Error("consulta_cand_2026_BRASIL.csv ausente: sem ele não há conferência independente");
+
+  const contagem: Record<string, number> = {};
+  for (const l of lerCsvTse(entrada.conteudo()).linhas) {
+    const cargo = CARGOS_VOTAVEIS[l["CD_CARGO"] ?? ""];
+    if (!cargo) continue;   // vices e suplentes contam pela chapa, não pela lista
+    const uf = cargo === "presidente" ? "BR" : (l["SG_UF"] ?? "");
+    const chave = `${uf}/${cargo}`;
+    contagem[chave] = (contagem[chave] ?? 0) + 1;
+  }
+  return contagem;
+}
 
 async function main(): Promise<void> {
   const arg = process.argv.find((a) => a.startsWith("--uf="))?.slice(5) ?? "SP";
@@ -28,6 +44,11 @@ async function main(): Promise<void> {
   }
 
   const alvos = arg === "all" ? [...csvPorUf.keys()].filter((u) => u !== "BR").sort() : [arg];
+
+  // Contagem independente, tirada do consolidado que o TSE gera à parte dos
+  // arquivos por UF. Fica gravada no meta.json para o CI poder conferir sem ter
+  // o ZIP bruto em mãos — ele não é versionado.
+  const esperadoTse = contarConsolidado(zipBytes);
   const anomalias: Anomalia[] = [];
 
   // Presidente é nacional (SG_UF = BR) e é copiado para a pasta de cada UF, para
@@ -88,6 +109,13 @@ async function main(): Promise<void> {
       sha256: sha,
     },
     contagens,
+    conferencia: {
+      fonte: "consulta_cand_2026_BRASIL.csv",
+      descricao:
+        "Contagem por UF e cargo lida do arquivo consolidado do TSE, gerado por ele " +
+        "separadamente dos arquivos por UF. O validate compara os JSONs contra isto.",
+      esperado: esperadoTse,
+    },
     linhasCsvLidas: totalLinhas,
     situacaoRegistroDisponivel: sit.comSituacao > 0,
     situacaoRegistro: {

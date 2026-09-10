@@ -29,6 +29,7 @@ interface Meta {
   ufs: string[];
   fonte: { sha256: string; licenca: string; url: string };
   contagens: Record<string, Record<string, number>>;
+  conferencia: { fonte: string; esperado: Record<string, number> };
   situacaoRegistro: { comSituacao: number; semSituacao: number };
   anomalias: { tipo: string; detalhe: string }[];
 }
@@ -112,41 +113,73 @@ async function main(): Promise<void> {
 }
 
 /**
- * consulta_cand_2026_BRASIL.csv é gerado pelo TSE separadamente dos arquivos por
- * UF. Contar nele e bater com o que emitimos é uma conferência de verdade
- * independente, e não a nossa própria soma conferindo a si mesma.
+ * Confere a contagem contra o consolidado do TSE.
+ *
+ * consulta_cand_2026_BRASIL.csv é gerado pelo TSE separadamente dos arquivos
+ * por UF, então comparar com ele é conferência independente — não é a nossa
+ * própria soma conferindo a si mesma.
+ *
+ * A contagem esperada foi gravada no meta.json durante a coleta, porque o ZIP
+ * bruto não é versionado e o CI precisa validar o dado já commitado. Quando o
+ * ZIP está presente, refazemos a leitura a partir dele: isso pega tanto um
+ * pipeline que perdeu candidato quanto um meta.json adulterado.
  */
 async function conferirContraConsolidado(meta: Meta, arquivos: ArquivoCargo[]): Promise<void> {
-  const zip = lerZip(await readFile(new URL("consulta_cand_2026.zip", DIR_RAW)));
-  const consolidado = zip.find((e) => e.nome === "consulta_cand_2026_BRASIL.csv");
-  if (!consolidado) {
-    avisar("consulta_cand_2026_BRASIL.csv ausente — conferência independente não executada");
+  const esperado = meta.conferencia?.esperado;
+  if (!esperado || Object.keys(esperado).length === 0) {
+    falhar("meta.json não traz a contagem do consolidado do TSE — rode o normalize de novo");
     return;
   }
 
-  const { linhas } = lerCsvTse(consolidado.conteudo());
-  const esperadoTse = new Map<string, number>();
-  for (const l of linhas) {
-    const cargo = CARGOS_VOTAVEIS[l["CD_CARGO"] ?? ""];
-    if (!cargo) continue;  // vices e suplentes contam pela chapa, não pela lista
-    const uf = cargo === "presidente" ? "BR" : (l["SG_UF"] ?? "");
-    esperadoTse.set(`${uf}/${cargo}`, (esperadoTse.get(`${uf}/${cargo}`) ?? 0) + 1);
-  }
-
   for (const a of arquivos) {
-    const chave = a.cargo === "presidente" ? `BR/presidente` : `${a.uf}/${a.cargo}`;
-    const esperado = esperadoTse.get(chave);
-    if (esperado === undefined) {
+    const chave = a.cargo === "presidente" ? "BR/presidente" : `${a.uf}/${a.cargo}`;
+    const n = esperado[chave];
+    if (n === undefined) {
       falhar(`${a.uf}/${a.cargo}: cargo inexistente no consolidado do TSE`);
-    } else if (esperado !== a.total) {
+    } else if (n !== a.total) {
       falhar(
-        `CONTAGEM DIVERGE — ${a.uf}/${a.cargo}: geramos ${a.total}, o consolidado do TSE tem ${esperado}. ` +
+        `CONTAGEM DIVERGE — ${a.uf}/${a.cargo}: geramos ${a.total}, o consolidado do TSE tem ${n}. ` +
         `Isto é bug de pipeline, nunca escolha editorial (§1.3).`,
       );
     } else {
       console.log(`  ✓ ${chave.padEnd(28)} ${a.total} candidatos — bate com o consolidado do TSE`);
     }
   }
+
+  await reconferirComOriginal(esperado);
+}
+
+/** Se o ZIP baixado estiver por perto, refaz a contagem a partir dele. */
+async function reconferirComOriginal(esperado: Record<string, number>): Promise<void> {
+  let bytes: Buffer;
+  try {
+    bytes = await readFile(new URL("consulta_cand_2026.zip", DIR_RAW));
+  } catch {
+    console.log("  · ZIP bruto ausente: conferência feita contra o registro do meta.json");
+    return;
+  }
+
+  const consolidado = lerZip(bytes).find((e) => e.nome === "consulta_cand_2026_BRASIL.csv");
+  if (!consolidado) {
+    avisar("consulta_cand_2026_BRASIL.csv ausente do ZIP — releitura não executada");
+    return;
+  }
+
+  const relido: Record<string, number> = {};
+  for (const l of lerCsvTse(consolidado.conteudo()).linhas) {
+    const cargo = CARGOS_VOTAVEIS[l["CD_CARGO"] ?? ""];
+    if (!cargo) continue;
+    const uf = cargo === "presidente" ? "BR" : (l["SG_UF"] ?? "");
+    const chave = `${uf}/${cargo}`;
+    relido[chave] = (relido[chave] ?? 0) + 1;
+  }
+
+  for (const [chave, n] of Object.entries(relido)) {
+    if (esperado[chave] !== undefined && esperado[chave] !== n) {
+      falhar(`meta.json diz ${esperado[chave]} para ${chave}, mas o arquivo do TSE tem ${n}`);
+    }
+  }
+  console.log("  ✓ releitura do arquivo original do TSE confere com o meta.json");
 }
 
 function relatar(): void {
