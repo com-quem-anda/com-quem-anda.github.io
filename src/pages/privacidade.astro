@@ -1,0 +1,24 @@
+---
+import Base from "../layouts/Base.astro";
+---
+<Base titulo="Privacidade — Cédula Aberta">
+  <div class="conteudo">
+    <h1>Privacidade</h1>
+    <p>Cinco linhas, e o código prova cada uma:</p>
+    <ol class="pilha" style="--espaco: 0.6rem;">
+      <li>Seus votos ficam no seu navegador, em <code>localStorage</code>, sob uma única chave. Nunca são enviados a lugar nenhum.</li>
+      <li>Não há login, cadastro, e-mail, cookie, pixel, analytics ou identificador de visitante.</li>
+      <li>Não há servidor recebendo dados: o site é um conjunto de arquivos estáticos.</li>
+      <li>Depois que a página carrega, a única requisição possível é buscar a lista de candidatos do próprio site — e ela some quando o aparelho já tem o arquivo salvo.</li>
+      <li>Nenhuma estatística de uso é coletada, nem agregada, nem publicada. Nem internamente.</li>
+    </ol>
+    <p>
+      A tipografia é a do seu próprio sistema: não há fonte carregada de terceiros, porque
+      isso entregaria seu endereço de rede a outra empresa a cada visita.
+    </p>
+    <p>
+      Para apagar tudo, use o botão <strong>Limpar</strong> na sua cédula, ou limpe os dados
+      do site pelo navegador.
+    </p>
+  </div>
+</Base>

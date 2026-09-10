@@ -1,0 +1,86 @@
+---
+import Base from "../layouts/Base.astro";
+import { meta } from "../lib/build.ts";
+const m = meta();
+---
+<Base titulo="Metodologia — Cédula Aberta">
+  <div class="conteudo">
+    <h1>Metodologia</h1>
+
+    <p>
+      Esta versão faz uma coisa só: registra os seus seis votos e aponta inconsistências
+      <em>estruturais</em> na chapa que você montou. Ela não pontua candidatos, não mede
+      afinidade e não recomenda voto.
+    </p>
+
+    <h2>Quem aparece na lista</h2>
+    <p>
+      <strong>Todas</strong> as candidaturas registradas para o seu estado e cargo, sem exceção.
+      Não existe lista de exclusão no código, e há um teste automatizado que compara a nossa
+      contagem com o arquivo consolidado do TSE — se der diferença, a publicação falha.
+    </p>
+    <p>
+      A ordem padrão é <strong>o número na urna, do menor para o maior</strong>. É uma regra
+      mecânica: nem relevância, nem intenção de voto, nem tamanho de partido. A busca por
+      nome ou número alcança a lista inteira.
+    </p>
+
+    <h2>O diagnóstico da chapa</h2>
+    <p>Cada aviso corresponde a um fato verificável no registro oficial:</p>
+
+    <dl class="campos">
+      <div>
+        <dt>Mesmo candidato nas duas vagas de Senado</dt>
+        <dd>Comparação direta entre os dois votos de Senado. Na urna, o voto repetido é anulado.</dd>
+      </div>
+      <div>
+        <dt>Cargos ainda não preenchidos</dt>
+        <dd>Contagem dos slots vazios. Nenhum julgamento sobre votar ou não votar em cada cargo.</dd>
+      </div>
+      <div>
+        <dt>Governador e presidente em campos opostos</dt>
+        <dd>
+          Lemos a composição da coligação do governador, declarada no registro. Se o partido do
+          presidente que você escolheu não estiver nela, mas estiver o partido de outro
+          candidato à Presidência, o aviso aparece — nomeando os dois. É o que consta no
+          registro, não uma leitura nossa sobre alianças.
+        </dd>
+      </div>
+      <div>
+        <dt>Candidatura com registro duplicado</dt>
+        <dd>
+          O arquivo do TSE às vezes traz a mesma pessoa, ou o mesmo número, em mais de uma
+          linha. Quando isso atinge alguém da sua cédula, avisamos. Não escolhemos qual
+          registro é o válido — as divergências estão listadas em
+          {" "}<a href="/transparencia/">Transparência</a>.
+        </dd>
+      </div>
+      <div>
+        <dt>Situação do registro</dt>
+        <dd>
+          {m.situacaoRegistroDisponivel
+            ? "Exibida em toda ficha, conforme publicado pelo TSE."
+            : "Não implementado, porque não há fonte: o TSE ainda publica este campo vazio para 2026. Preferimos dizer isso a deixar a ausência parecer aprovação."}
+        </dd>
+      </div>
+    </dl>
+
+    <h2>O que esta ferramenta nunca faz</h2>
+    <ul class="pilha" style="--espaco: 0.4rem;">
+      <li>Não atribui nota de qualidade, honestidade ou preparo a candidato.</li>
+      <li>Não usa julgamento de quem mantém o projeto para posicionar ninguém.</li>
+      <li>Não esconde candidato: filtro do usuário reordena, nunca apaga.</li>
+      <li>Não agrega nem publica o que os visitantes escolhem.</li>
+      <li>Não recomenda voto.</li>
+    </ul>
+
+    <h2>Ainda não existe aqui</h2>
+    <p>
+      A comparação de posições entre você e cada candidato — o questionário e o percentual de
+      aderência — <strong>não faz parte desta versão</strong>. Ela só entra quando cada posição
+      atribuída a um candidato puder ser apontada para uma fonte documental citável: proposta
+      de governo registrada no TSE ou voto nominal registrado. Até lá, um percentual seria
+      opinião com aparência de medida.
+    </p>
+  </div>
+</Base>

@@ -1,0 +1,107 @@
+/*
+ * Tokens da Cédula Aberta.
+ *
+ * Três estados de tema (§6.3): "claro" e "escuro" carimbam data-tema no <html>;
+ * "sistema" não carimba nada e deixa prefers-color-scheme decidir. Por isso a
+ * paleta clara vive em :root puro, e cada token que muda no escuro é redefinido
+ * duas vezes — na media query (guardada contra a escolha explícita de claro) e
+ * em [data-tema="escuro"], para o seletor vencer nos dois sentidos.
+ *
+ * Tipografia: pilha de sistema. Zero byte de fonte, zero requisição externa
+ * (§8) e nenhuma troca de fonte para causar deslocamento de layout.
+ */
+
+:root {
+  color-scheme: light;
+
+  --fundo: #fbfaf8;
+  --fundo-elevado: #ffffff;
+  --fundo-sutil: #f2f0ec;
+  --borda: #ddd8d0;
+  --borda-forte: #b8b1a6;
+
+  --texto: #1c1a17;
+  --texto-suave: #55504a;
+  --texto-fraco: #6f6961;
+
+  --acento: #1c5d4a;
+  --acento-texto: #ffffff;
+  --acento-fundo: #e4efe9;
+
+  --alerta: #8a3324;
+  --alerta-fundo: #fbeae6;
+  --aviso: #7a5314;
+  --aviso-fundo: #fbf1de;
+
+  --foco: #1c5d4a;
+
+  --fonte: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --fonte-numero: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+  --raio: 10px;
+  --raio-g: 16px;
+  /* Alvo de toque mínimo da §1.4. Nada clicável abaixo disto. */
+  --toque: 44px;
+  --folga: 8px;
+
+  --sombra: 0 1px 2px rgb(28 26 23 / 0.06), 0 4px 12px rgb(28 26 23 / 0.05);
+  --sombra-folha: 0 -4px 24px rgb(28 26 23 / 0.16);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) {
+    color-scheme: dark;
+
+    --fundo: #16151a;
+    --fundo-elevado: #201f26;
+    --fundo-sutil: #2a2831;
+    --borda: #383641;
+    --borda-forte: #565361;
+
+    --texto: #f2f0f4;
+    --texto-suave: #bdb9c4;
+    --texto-fraco: #948fa0;
+
+    --acento: #6fd3ae;
+    --acento-texto: #10231d;
+    --acento-fundo: #1b3830;
+
+    --alerta: #ffa898;
+    --alerta-fundo: #3d201b;
+    --aviso: #f0c674;
+    --aviso-fundo: #372c14;
+
+    --foco: #6fd3ae;
+
+    --sombra: 0 1px 2px rgb(0 0 0 / 0.4), 0 4px 12px rgb(0 0 0 / 0.3);
+    --sombra-folha: 0 -4px 24px rgb(0 0 0 / 0.5);
+  }
+}
+
+:root[data-tema="escuro"] {
+  color-scheme: dark;
+
+  --fundo: #16151a;
+  --fundo-elevado: #201f26;
+  --fundo-sutil: #2a2831;
+  --borda: #383641;
+  --borda-forte: #565361;
+
+  --texto: #f2f0f4;
+  --texto-suave: #bdb9c4;
+  --texto-fraco: #948fa0;
+
+  --acento: #6fd3ae;
+  --acento-texto: #10231d;
+  --acento-fundo: #1b3830;
+
+  --alerta: #ffa898;
+  --alerta-fundo: #3d201b;
+  --aviso: #f0c674;
+  --aviso-fundo: #372c14;
+
+  --foco: #6fd3ae;
+
+  --sombra: 0 1px 2px rgb(0 0 0 / 0.4), 0 4px 12px rgb(0 0 0 / 0.3);
+  --sombra-folha: 0 -4px 24px rgb(0 0 0 / 0.5);
+}

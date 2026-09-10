@@ -1,0 +1,19 @@
+name: fontes do TSE ainda respondem
+
+# Quando o TSE mudar o caminho de um arquivo — e vai — você descobre antes do
+# usuário (§10). Este job não gera dado: só confere que as URLs vivem.
+on:
+  schedule:
+    - cron: "23 12 * * 1"   # segunda-feira, 09:23 em Brasília
+  workflow_dispatch:
+
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.18"
+      - name: Conferir URLs
+        run: node scripts/conferir-fontes.ts

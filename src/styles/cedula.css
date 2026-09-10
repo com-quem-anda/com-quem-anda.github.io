@@ -1,0 +1,284 @@
+/* A cédula. Projetada em 360 px; ≥900 px ganha a segunda coluna (§6.3). */
+
+.cedula-topo { padding: 1rem 1rem 0; max-width: 60rem; margin: 0 auto; }
+
+/* Espaço para a barra de ação fixa não cobrir o fim da página — inclusive o
+   texto que vem depois da cédula. */
+body:has(.barra-acao) { padding-bottom: calc(9rem + env(safe-area-inset-bottom)); }
+.cedula-topo h1 { font-size: 1.35rem; margin-bottom: 0.25rem; }
+.cedula-topo .sub { color: var(--texto-suave); font-size: 0.9rem; margin-bottom: 1rem; }
+
+.cedula-corpo {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* ---- Slots ---- */
+
+.slots { display: grid; gap: var(--folga); margin: 0; padding: 0; list-style: none; }
+
+.slot {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "cargo cargo" "numero nome";
+  gap: 0.15rem 0.85rem;
+  align-items: center;
+  width: 100%;
+  min-height: 84px;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--borda);
+  border-radius: var(--raio-g);
+  background: var(--fundo-elevado);
+  box-shadow: var(--sombra);
+  text-align: left;
+  cursor: pointer;
+}
+.slot:hover { border-color: var(--borda-forte); }
+.slot--vazio { border-style: dashed; background: transparent; box-shadow: none; }
+
+.slot__cargo {
+  grid-area: cargo;
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--texto-fraco);
+}
+.slot__numero {
+  grid-area: numero;
+  font-family: var(--fonte-numero);
+  font-variant-numeric: tabular-nums;
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+}
+.slot--vazio .slot__numero { color: var(--texto-fraco); font-weight: 500; }
+.slot__nome { grid-area: nome; min-width: 0; }
+.slot__nome b { display: block; font-size: 1rem; font-weight: 600; overflow-wrap: anywhere; }
+.slot__meta { font-size: 0.82rem; color: var(--texto-suave); overflow-wrap: anywhere; }
+.slot__acao { grid-area: nome; color: var(--acento); font-weight: 600; }
+
+/* ---- Barra de ação fixa: fica no alcance do polegar ---- */
+
+.barra-acao {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 5;
+  /* Em 360 px três botões lado a lado quebram o rótulo em três linhas.
+     O principal ocupa a largura toda; os secundários dividem a linha de baixo. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--folga);
+  padding: 0.7rem 1rem calc(0.7rem + env(safe-area-inset-bottom));
+  background: color-mix(in srgb, var(--fundo) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid var(--borda);
+}
+.barra-acao > :first-child { grid-column: 1 / -1; }
+
+/* ---- Diagnóstico ---- */
+
+.diagnostico { margin-top: 1.5rem; }
+.diagnostico h2 { font-size: 1rem; }
+.alerta {
+  border: 1px solid;
+  border-left-width: 4px;
+  border-radius: var(--raio);
+  padding: 0.7rem 0.85rem;
+  margin-bottom: var(--folga);
+  font-size: 0.88rem;
+}
+.alerta b { display: block; margin-bottom: 0.15rem; }
+.alerta--alerta { color: var(--alerta); background: var(--alerta-fundo); border-color: currentColor; }
+.alerta--aviso { color: var(--aviso); background: var(--aviso-fundo); border-color: currentColor; }
+.alerta--informacao { color: var(--texto-suave); background: var(--fundo-sutil); border-color: var(--borda); }
+.alerta p { margin: 0; color: inherit; }
+
+/* ---- Bottom sheet ---- */
+
+dialog.folha {
+  width: 100%;
+  max-width: 34rem;
+  max-height: 92dvh;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  border-radius: var(--raio-g) var(--raio-g) 0 0;
+  background: var(--fundo-elevado);
+  color: var(--texto);
+  box-shadow: var(--sombra-folha);
+  /* Ancorada embaixo: o alcance do polegar é o terço inferior (§1.4). */
+  position: fixed;
+  inset: auto 0 0 0;
+  overflow: hidden;
+}
+dialog.folha::backdrop { background: rgb(0 0 0 / 0.45); }
+dialog.folha[open] { display: flex; flex-direction: column; animation: subir 0.22s cubic-bezier(0.2, 0.8, 0.2, 1); }
+@keyframes subir { from { transform: translateY(100%); } to { transform: translateY(0); } }
+
+.folha__puxador {
+  flex: none;
+  padding: 0.6rem 0 0.4rem;
+  display: flex;
+  justify-content: center;
+  cursor: grab;
+  touch-action: none;
+}
+.folha__puxador::before {
+  content: "";
+  width: 44px; height: 5px;
+  border-radius: 3px;
+  background: var(--borda-forte);
+}
+
+.folha__titulo {
+  flex: none;
+  padding: 0 1rem 0.5rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--folga);
+}
+.folha__titulo h2 { margin: 0; font-size: 1.05rem; }
+.folha__titulo .contagem { font-size: 0.82rem; color: var(--texto-fraco); white-space: nowrap; }
+
+.folha__lista {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 0.5rem;
+}
+.folha__vazio { padding: 2rem 1rem; text-align: center; color: var(--texto-fraco); }
+
+/* Busca e ações na BASE da folha, não no topo (§1.4). */
+.folha__base {
+  flex: none;
+  display: grid;
+  gap: var(--folga);
+  padding: 0.7rem 1rem calc(0.7rem + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--borda);
+  background: var(--fundo-elevado);
+}
+.busca { display: flex; gap: var(--folga); }
+.busca input {
+  flex: 1;
+  min-width: 0;
+  min-height: var(--toque);
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--borda-forte);
+  border-radius: var(--raio);
+  background: var(--fundo);
+  font-family: var(--fonte-numero);
+  font-size: 1.05rem;
+}
+.busca input::placeholder { font-family: var(--fonte); font-size: 0.95rem; }
+.busca input[data-modo="texto"] { font-family: var(--fonte); }
+.busca button { flex: none; padding-inline: 0.8rem; }
+.folha__acoes { display: flex; gap: var(--folga); }
+.folha__acoes > * { flex: 1; }
+
+/* ---- Lista virtualizada ---- */
+
+.virt { position: relative; }
+.virt__janela { position: absolute; inset: 0 0 auto 0; }
+
+.item {
+  display: grid;
+  grid-template-columns: 4.2rem 1fr;
+  gap: 0.7rem;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  padding: 0 0.6rem;
+  border: none;
+  border-radius: var(--raio);
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.item:hover { background: var(--fundo-sutil); }
+.item[aria-current="true"] { background: var(--acento-fundo); }
+.item__numero {
+  font-family: var(--fonte-numero);
+  font-variant-numeric: tabular-nums;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+/* Precisa ser bloco: em elemento inline, min-width:0 e text-overflow não valem,
+   e o nome vaza para fora da folha. */
+.item__texto { display: grid; min-width: 0; align-content: center; gap: 0.1rem; }
+.item__nome {
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.item__meta {
+  font-size: 0.8rem;
+  color: var(--texto-suave);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ---- Ficha do candidato: tela cheia no celular ---- */
+
+dialog.ficha {
+  width: 100%;
+  max-width: 34rem;
+  height: 100dvh;
+  max-height: 100dvh;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  background: var(--fundo);
+  color: var(--texto);
+}
+dialog.ficha::backdrop { background: rgb(0 0 0 / 0.45); }
+dialog.ficha[open] { display: flex; flex-direction: column; }
+.ficha__corpo { flex: 1 1 auto; overflow-y: auto; padding: 1rem 1rem 1.5rem; }
+.ficha__base {
+  flex: none;
+  display: flex; gap: var(--folga);
+  padding: 0.7rem 1rem calc(0.7rem + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--borda);
+  background: var(--fundo-elevado);
+}
+.ficha__base > * { flex: 1; }
+.ficha__id { display: flex; align-items: center; gap: 0.9rem; margin-bottom: 1rem; }
+.ficha__id .numero { font-size: 2.2rem; }
+
+.campos { display: grid; gap: 0.7rem; margin: 0; }
+.campos > div { border-top: 1px solid var(--borda); padding-top: 0.7rem; }
+.campos dt { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--texto-fraco); }
+.campos dd { margin: 0.15rem 0 0; overflow-wrap: anywhere; }
+.campos .vazio { color: var(--texto-fraco); font-style: italic; }
+
+/* ---- ≥900 px: cédula à esquerda, diagnóstico fixo à direita (§6.3) ---- */
+
+@media (min-width: 900px) {
+  .cedula-corpo {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 22rem;
+    gap: 2rem;
+    align-items: start;
+    padding-bottom: 3rem;
+  }
+  .diagnostico { position: sticky; top: 1rem; margin-top: 0; }
+  body:has(.barra-acao) { padding-bottom: 0; }
+  .barra-acao {
+    position: static;
+    display: flex;
+    max-width: 60rem;
+    margin: 1rem auto 0;
+    background: none;
+    backdrop-filter: none;
+    border: none;
+    padding-inline: 1rem;
+  }
+  .barra-acao > * { flex: 0 1 auto; }
+}

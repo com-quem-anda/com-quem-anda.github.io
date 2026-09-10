@@ -29,8 +29,8 @@ jobs:
       - name: Tipos
         run: npm run typecheck
 
-      - name: Testes
-        run: npm test
+      - name: Testes de unidade
+        run: npm run test:unidade
 
       # O CDN do TSE está atrás de Akamai e devolve 403 para clientes que não
       # pareçam navegador. Se este passo falhar em 403 no runner do GitHub e
@@ -43,6 +43,17 @@ jobs:
 
       - name: Validar invariantes
         run: npm run validate
+
+      - name: Construir o site
+        run: npm run build
+
+      - name: Instalar navegador de teste
+        run: npx playwright install --with-deps chromium
+
+      # Rede zero, viewport 360/390/414, offline, impressão e o orçamento
+      # de performance da §1.4. Falhou, não publica.
+      - name: Testes de navegador e orçamento
+        run: npm run test:navegador
 
       - name: Abrir PR se o dado mudou
         if: github.event_name != 'pull_request'

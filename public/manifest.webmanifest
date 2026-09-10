@@ -1,0 +1,17 @@
+{
+  "name": "Cédula Aberta",
+  "short_name": "Cédula",
+  "description": "Monte sua cédula, consulte os dados oficiais dos candidatos e confira a coerência da sua chapa. Sem login e sem coleta de dados.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbfaf8",
+  "theme_color": "#1c5d4a",
+  "lang": "pt-BR",
+  "categories": ["government", "education"],
+  "icons": [
+    { "src": "/icone.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icone.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

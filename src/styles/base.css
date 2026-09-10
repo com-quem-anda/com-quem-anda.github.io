@@ -1,0 +1,151 @@
+/* Base mobile-first. Projetada em 360 px; ≥900 px é o caso ampliado (§1.4). */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  background: var(--fundo);
+  /* Nunca 100vh: a barra do Safari móvel mente sobre a altura (§1.4). */
+  min-height: 100dvh;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: var(--fonte);
+  font-size: 16px;
+  line-height: 1.5;
+  /* Respeita as bordas do aparelho; o rodapé fixo soma a sua própria inset. */
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-area-inset-left);
+  overflow-x: hidden;
+}
+
+h1, h2, h3 { line-height: 1.25; text-wrap: balance; margin: 0 0 0.5em; }
+h1 { font-size: 1.5rem; letter-spacing: -0.01em; }
+h2 { font-size: 1.15rem; }
+h3 { font-size: 1rem; }
+p { margin: 0 0 1em; text-wrap: pretty; }
+
+a { color: var(--acento); text-underline-offset: 2px; }
+
+:where(a, button, input, select, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--foco);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Nada abaixo do alvo mínimo de toque, com folga entre alvos (§1.4). */
+:where(button, .botao, select) { min-height: var(--toque); }
+
+button, input, select { font: inherit; color: inherit; }
+
+.conteudo {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 1rem 1rem 2rem;
+}
+
+.botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: var(--toque);
+  padding: 0.7rem 1.1rem;
+  border: 1px solid var(--borda-forte);
+  border-radius: var(--raio);
+  background: var(--fundo-elevado);
+  color: var(--texto);
+  font-weight: 550;
+  text-decoration: none;
+  cursor: pointer;
+}
+.botao:hover { background: var(--fundo-sutil); }
+.botao--primario {
+  background: var(--acento);
+  border-color: var(--acento);
+  color: var(--acento-texto);
+}
+.botao--primario:hover { filter: brightness(1.08); }
+.botao--largo { width: 100%; }
+
+.numero {
+  font-family: var(--fonte-numero);
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+}
+
+.aviso-caixa {
+  border: 1px solid currentColor;
+  border-radius: var(--raio);
+  padding: 0.75rem 0.9rem;
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+}
+.aviso-caixa--alerta { color: var(--alerta); background: var(--alerta-fundo); }
+.aviso-caixa--aviso  { color: var(--aviso);  background: var(--aviso-fundo); }
+.aviso-caixa > :last-child { margin-bottom: 0; }
+.aviso-caixa strong { display: block; }
+
+.pilha > * + * { margin-top: var(--espaco, 1rem); }
+
+.rodape {
+  border-top: 1px solid var(--borda);
+  margin-top: 2.5rem;
+  padding: 1.25rem 1rem calc(1.25rem + env(safe-area-inset-bottom));
+  color: var(--texto-fraco);
+  font-size: 0.82rem;
+}
+.rodape a { color: var(--texto-suave); }
+.rodape nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; margin-bottom: 0.75rem; }
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--folga);
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid var(--borda);
+  background: var(--fundo);
+}
+.cabecalho a.marca {
+  font-weight: 650;
+  color: var(--texto);
+  text-decoration: none;
+  font-size: 0.98rem;
+}
+
+.so-leitor {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Link de pular para o conteúdo: aparece só no foco por teclado. */
+.pular {
+  position: absolute;
+  left: 0.5rem;
+  top: -3rem;
+  z-index: 10;
+  background: var(--acento);
+  color: var(--acento-texto);
+  padding: 0.6rem 1rem;
+  border-radius: var(--raio);
+  text-decoration: none;
+  transition: top 0.15s;
+}
+.pular:focus { top: 0.5rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,78 @@
+---
+import Base from "../../layouts/Base.astro";
+import "../../styles/cedula.css";
+import { NOME_UF, dataBr, meta, ufsDisponiveis } from "../../lib/build.ts";
+
+export function getStaticPaths() {
+  return ufsDisponiveis().map((uf) => ({ params: { uf } }));
+}
+
+const { uf } = Astro.params;
+const m = meta();
+const nomeUf = NOME_UF[uf!] ?? uf!;
+
+// O DF elege deputado distrital no lugar do estadual — a ordem da urna muda lá.
+const cargos = uf === "DF"
+  ? ["deputado-distrital", "deputado-federal", "senador", "senador", "governador", "presidente"]
+  : ["deputado-estadual", "deputado-federal", "senador", "senador", "governador", "presidente"];
+
+const contagem = m.contagens[uf!] ?? {};
+const totalUf = Object.entries(contagem)
+  .filter(([c]) => c !== "presidente")
+  .reduce((s, [, n]) => s + n, 0);
+---
+<Base titulo={`Sua cédula — ${nomeUf} | Cédula Aberta`} compacto>
+  <div class="cedula-topo">
+    <h1>Sua cédula — {nomeUf}</h1>
+    <p class="sub">
+      Toque em cada cargo para escolher. A ordem é a mesma da urna.
+      <a href="/">trocar de estado</a>
+    </p>
+  </div>
+
+  <!-- Cabeçalho que só existe no papel (§7). -->
+  <div class="so-impressao folha-cabecalho">
+    <h1>Minha cédula — {nomeUf}</h1>
+    <p>Eleições Gerais de 2026 · dados do TSE coletados em {dataBr(m.geradoEm)}</p>
+  </div>
+
+  <cedula-app class="cedula-corpo" data-uf={uf} data-cargos={cargos.join(",")}>
+    <ul class="slots" aria-label="Seus seis votos, na ordem da urna">
+      <!-- Preenchido pelo cliente; a altura do slot é reservada no CSS (CLS ≈ 0). -->
+      {cargos.map(() => <li><div class="slot slot--vazio" aria-hidden="true"></div></li>)}
+    </ul>
+
+    <section class="diagnostico" aria-live="polite">
+      <h2>Diagnóstico da chapa</h2>
+    </section>
+
+    <div class="barra-acao no-print">
+      <button type="button" class="botao botao--primario" data-acao="imprimir">Imprimir / salvar PDF</button>
+      <button type="button" class="botao" data-acao="exportar">Baixar JSON</button>
+      <button type="button" class="botao" data-acao="limpar">Limpar</button>
+    </div>
+  </cedula-app>
+
+  <div class="so-impressao folha-rodape folha-fontes">
+    <p>
+      <strong>Confira seus dados de votação no aplicativo e-Título antes de ir votar.</strong>
+      Esta folha é uma anotação pessoal, não tem valor oficial e não substitui a urna.
+    </p>
+    <p>
+      Dados: Tribunal Superior Eleitoral, dataset candidatos-2026, licença Creative Commons
+      Atribuição (CC-BY), coletados em {dataBr(m.geradoEm)}.
+      {!m.situacaoRegistroDisponivel && " A situação dos registros (deferido, indeferido, cassado ou sub judice) ainda não foi publicada pelo TSE e não consta desta folha."}
+    </p>
+    <p><a href="https://cedula-aberta.org/">cedula-aberta.org</a></p>
+  </div>
+
+  <p class="conteudo no-print" style="font-size: 0.85rem; color: var(--texto-fraco); max-width: 60rem;">
+    {totalUf.toLocaleString("pt-BR")} candidaturas registradas em {nomeUf}, todas listadas.
+    Esta ferramenta não remove candidatos, não ordena por relevância e não recomenda voto.
+    <a href="/metodologia/">como isso é calculado</a> · <a href="/transparencia/">divergências nos dados oficiais</a>
+  </p>
+
+  <script>
+    import "../../lib/cedula.ts";
+  </script>
+</Base>

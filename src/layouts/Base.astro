@@ -1,0 +1,70 @@
+---
+import "../styles/tokens.css";
+import "../styles/base.css";
+import "../styles/impressao.css";
+
+interface Props {
+  titulo: string;
+  descricao?: string;
+  /** Telas do app escondem o rodapé de navegação longo. */
+  compacto?: boolean;
+}
+
+const { titulo, descricao = "Monte sua cédula, veja os dados oficiais de cada candidato e teste a coerência da sua chapa. Sem login, sem coleta de dados.", compacto = false } = Astro.props;
+---
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <!-- viewport-fit=cover: sem isso o rodapé fixo some sob a barra de gestos do iPhone (§1.4) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{titulo}</title>
+    <meta name="description" content={descricao} />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" href="/icone.svg" type="image/svg+xml" />
+    <!-- Sem referrer para lugar nenhum (§8). -->
+    <meta name="referrer" content="no-referrer" />
+    <script is:inline>
+      // Aplica o tema antes da primeira pintura, senão a tela pisca em claro.
+      // Chave única de armazenamento em todo o produto (§8).
+      try {
+        var e = JSON.parse(localStorage.getItem("cedula-aberta") || "{}");
+        if (e.tema === "claro" || e.tema === "escuro") {
+          document.documentElement.dataset.tema = e.tema;
+        }
+      } catch (_) {}
+    </script>
+  </head>
+  <body>
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+    <header class="cabecalho no-print">
+      <a class="marca" href="/">Cédula&nbsp;Aberta</a>
+      <seletor-tema></seletor-tema>
+    </header>
+
+    <main id="conteudo">
+      <slot />
+    </main>
+
+    {!compacto && (
+      <footer class="rodape no-print">
+        <nav aria-label="Rodapé">
+          <a href="/metodologia/">Metodologia</a>
+          <a href="/fontes/">Fontes</a>
+          <a href="/transparencia/">Transparência</a>
+          <a href="/privacidade/">Privacidade</a>
+        </nav>
+        <p>
+          Dados do <a href="https://dadosabertos.tse.jus.br/dataset/candidatos-2026">Tribunal Superior Eleitoral</a>,
+          sob licença Creative Commons Atribuição (CC-BY). Esta ferramenta não recomenda voto,
+          não classifica candidatos por mérito e não coleta nenhum dado seu.
+        </p>
+      </footer>
+    )}
+
+    <script>
+      import "../lib/seletor-tema.ts";
+      import "../lib/offline.ts";
+    </script>
+  </body>
+</html>

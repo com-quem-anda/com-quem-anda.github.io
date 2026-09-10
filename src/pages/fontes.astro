@@ -1,0 +1,57 @@
+---
+import Base from "../layouts/Base.astro";
+import { dataBr, meta } from "../lib/build.ts";
+const m = meta();
+---
+<Base titulo="Fontes — Cédula Aberta">
+  <div class="conteudo">
+    <h1>Fontes</h1>
+
+    <h2>Dado usado nesta versão</h2>
+    <dl class="campos">
+      <div>
+        <dt>Origem</dt>
+        <dd><a href="https://dadosabertos.tse.jus.br/dataset/candidatos-2026">{m.fonte.nome}</a></dd>
+      </div>
+      <div>
+        <dt>Arquivo</dt>
+        <dd style="font-family: var(--fonte-numero); font-size: 0.85rem;">{m.fonte.url}</dd>
+      </div>
+      <div>
+        <dt>Licença</dt>
+        <dd>
+          {m.fonte.licenca} — a atribuição ao TSE é obrigatória e está em todas as páginas.
+          Os dados derivados publicados aqui herdam a mesma licença.
+        </dd>
+      </div>
+      <div>
+        <dt>Última coleta</dt>
+        <dd>{dataBr(m.geradoEm)}</dd>
+      </div>
+      <div>
+        <dt>SHA-256 do arquivo baixado</dt>
+        <dd style="font-family: var(--fonte-numero); font-size: 0.8rem;">{m.fonte.sha256}</dd>
+      </div>
+      <div>
+        <dt>Candidaturas lidas</dt>
+        <dd>{m.linhasCsvLidas.toLocaleString("pt-BR")}</dd>
+      </div>
+    </dl>
+
+    <h2>O que ainda não vem de fonte nenhuma</h2>
+    <ul class="pilha" style="--espaco: 0.4rem;">
+      <li><strong>Situação do registro</strong> — o TSE publica o campo vazio para 2026.</li>
+      <li><strong>Bens declarados</strong> — existem no portal, ainda não incorporados.</li>
+      <li><strong>Propostas de governo</strong> — existem em PDF por estado, ainda não incorporadas.</li>
+      <li><strong>Posições dos candidatos em temas</strong> — dependem de leitura documental, e não entram por inferência.</li>
+    </ul>
+
+    <h2>Como contestar</h2>
+    <p>
+      Se um dado aqui estiver errado, ele está errado <em>ou</em> na nossa transformação,
+      <em>ou</em> no arquivo do TSE — e as duas coisas são verificáveis. As divergências que já
+      encontramos estão em <a href="/transparencia/">Transparência</a>, com o identificador
+      de cada candidatura envolvida.
+    </p>
+  </div>
+</Base>

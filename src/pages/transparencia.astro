@@ -1,0 +1,124 @@
+---
+import Base from "../layouts/Base.astro";
+import { NOME_UF, dataBr, meta } from "../lib/build.ts";
+
+const m = meta();
+
+// Nada nesta página é escrito à mão: o pipeline preenche (§6.2).
+const porTipo = new Map<string, typeof m.anomalias>();
+for (const a of m.anomalias) {
+  const lista = porTipo.get(a.tipo) ?? [];
+  lista.push(a);
+  porTipo.set(a.tipo, lista);
+}
+
+const EXPLICACAO: Record<string, string> = {
+  "cpf-duplicado": "A mesma pessoa aparece mais de uma vez no mesmo cargo, com identificadores diferentes.",
+  "numero-duplicado": "O mesmo número de urna aparece em mais de uma candidatura do mesmo cargo.",
+  "vice-multiplo": "A chapa tem mais de um vice registrado.",
+  "vice-ausente": "A chapa não tem vice registrado no arquivo.",
+  "suplentes-cardinalidade": "A chapa ao Senado tem um número de suplentes diferente de dois.",
+  "suplentes-ausentes": "A chapa ao Senado não tem suplentes registrados.",
+  "vinculado-orfao": "Um vice ou suplente cujo número não corresponde a nenhum titular.",
+};
+---
+<Base titulo="Transparência — Cédula Aberta">
+  <div class="conteudo">
+    <h1>Transparência</h1>
+
+    <h2>Fontes de dados</h2>
+    <p style="font-size: 0.9rem; color: var(--texto-suave);">
+      Esta tabela é gerada pelo pipeline a cada coleta. Se um dado falhar, a falha aparece aqui.
+    </p>
+
+    <div style="overflow-x: auto;">
+      <table style="width: 100%; border-collapse: collapse; font-size: 0.88rem;">
+        <thead>
+          <tr>
+            <th style="text-align: left; padding: 0.5rem; border-bottom: 2px solid var(--borda);">Fonte</th>
+            <th style="text-align: left; padding: 0.5rem; border-bottom: 2px solid var(--borda);">O que fornece</th>
+            <th style="text-align: left; padding: 0.5rem; border-bottom: 2px solid var(--borda);">Licença</th>
+            <th style="text-align: left; padding: 0.5rem; border-bottom: 2px solid var(--borda);">Última coleta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 0.5rem; border-bottom: 1px solid var(--borda);">
+              <a href={m.fonte.url}>{m.fonte.nome}</a>
+            </td>
+            <td style="padding: 0.5rem; border-bottom: 1px solid var(--borda);">
+              Nome, número, partido, federação e coligação de todas as candidaturas
+            </td>
+            <td style="padding: 0.5rem; border-bottom: 1px solid var(--borda);">{m.fonte.licenca}</td>
+            <td style="padding: 0.5rem; border-bottom: 1px solid var(--borda);">{dataBr(m.geradoEm)}</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.5rem; border-bottom: 1px solid var(--borda);">Situação do registro</td>
+            <td style="padding: 0.5rem; border-bottom: 1px solid var(--borda);">
+              Se cada registro está deferido, indeferido, cassado ou sub judice
+            </td>
+            <td style="padding: 0.5rem; border-bottom: 1px solid var(--borda);">—</td>
+            <td style="padding: 0.5rem; border-bottom: 1px solid var(--borda); color: var(--alerta);">
+              não publicada pelo TSE
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p style="font-size: 0.85rem; color: var(--texto-fraco);">
+      Impressão digital do arquivo baixado (SHA-256):
+      <code style="overflow-wrap: anywhere; font-family: var(--fonte-numero);">{m.fonte.sha256}</code>
+    </p>
+
+    {!m.situacaoRegistroDisponivel && (
+      <div class="aviso-caixa aviso-caixa--alerta">
+        <strong>Um buraco que preferimos declarar</strong>
+        <p>
+          O TSE ainda não publicou a situação dos registros de 2026: o campo vem vazio nas
+          {" "}{m.situacaoRegistro.semSituacao.toLocaleString("pt-BR")} candidaturas coletadas.
+          Por isso esta ferramenta <strong>não</strong> informa se uma candidatura está deferida,
+          indeferida, cassada ou sub judice, e não avisa se você escolher alguém nessa situação.
+          Confira no e-Título ou no site do TSE antes de votar.
+        </p>
+      </div>
+    )}
+
+    <h2>Divergências no dado oficial</h2>
+    <p>
+      O pipeline encontrou <strong>{m.anomalias.length}</strong> divergências no arquivo do TSE.
+      Nenhuma candidatura foi removida ou corrigida por causa delas — o que está abaixo é o que
+      consta no registro oficial, com a divergência apontada.
+    </p>
+
+    {[...porTipo.entries()].map(([tipo, lista]) => (
+      <details style="border: 1px solid var(--borda); border-radius: var(--raio); padding: 0.75rem 0.9rem; margin-bottom: 0.5rem;">
+        <summary style="cursor: pointer; font-weight: 600; min-height: 1.5rem;">
+          {tipo} ({lista.length})
+        </summary>
+        <p style="font-size: 0.88rem; color: var(--texto-suave); margin: 0.5rem 0;">
+          {EXPLICACAO[tipo] ?? ""}
+        </p>
+        <ul style="font-size: 0.88rem; padding-left: 1.2rem; margin: 0;">
+          {lista.map((a) => (
+            <li style="margin-bottom: 0.35rem;">
+              <strong>{NOME_UF[a.uf] ?? a.uf}</strong>, {a.cargo}: {a.detalhe}
+              <br />
+              <span style="color: var(--texto-fraco); font-family: var(--fonte-numero); font-size: 0.8rem;">
+                {a.sq.join(" · ")}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </details>
+    ))}
+
+    <h2>Como o diagnóstico é calculado</h2>
+    <p>
+      Nesta versão a ferramenta <strong>não pontua nem classifica candidatos</strong>. O único
+      cálculo é o diagnóstico estrutural da sua chapa, e cada um dos seus avisos é um fato
+      derivável do registro oficial. A explicação completa está em
+      {" "}<a href="/metodologia/">Metodologia</a>.
+    </p>
+  </div>
+</Base>

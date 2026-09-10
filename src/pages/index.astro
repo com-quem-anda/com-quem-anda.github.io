@@ -1,0 +1,54 @@
+---
+import Base from "../layouts/Base.astro";
+import { NOME_UF, dataBr, meta, ufsDisponiveis } from "../lib/build.ts";
+
+const m = meta();
+const ufs = ufsDisponiveis();
+---
+<Base titulo="Cédula Aberta — monte sua cédula para as eleições de 2026">
+  <div class="conteudo">
+    <h1>Monte sua cédula antes de entrar na cabine</h1>
+    <p>
+      Registre seus seis votos na ordem da urna, veja os dados oficiais de cada candidato
+      e confira se a sua chapa é consistente. Os dados vêm do Tribunal Superior Eleitoral.
+    </p>
+    <p>
+      <strong>Nada do que você escolher sai do seu aparelho.</strong> Não há login, cadastro,
+      cookie ou servidor recebendo seus votos — e nenhuma estatística de uso é coletada.
+    </p>
+
+    <form method="get" action="/" id="escolher-uf" class="pilha" style="--espaco: 0.75rem; margin-top: 1.5rem;">
+      <label for="uf" style="font-weight: 600;">Onde você vota?</label>
+      <p style="font-size: 0.88rem; color: var(--texto-suave); margin: 0;">
+        Em 2026 o estado é o que define sua lista de candidatos: quem vota em qualquer cidade
+        de São Paulo escolhe entre os mesmos nomes. Não é preciso informar município nem seção.
+      </p>
+      <select id="uf" name="uf" class="botao" style="width: 100%;">
+        {ufs.map((uf) => <option value={uf}>{NOME_UF[uf] ?? uf} ({uf})</option>)}
+      </select>
+      <button type="submit" class="botao botao--primario botao--largo">Montar minha cédula</button>
+    </form>
+
+    {ufs.length < 27 && (
+      <p class="aviso-caixa aviso-caixa--aviso" style="margin-top: 1.5rem;">
+        <strong>Ainda não são todos os estados.</strong>
+        Estão publicados: {ufs.join(", ")}. Os demais entram conforme os dados são conferidos.
+      </p>
+    )}
+
+    <p style="margin-top: 2rem; font-size: 0.85rem; color: var(--texto-fraco);">
+      Dados coletados em {dataBr(m.geradoEm)} · {m.linhasCsvLidas.toLocaleString("pt-BR")} candidaturas lidas ·
+      <a href="/fontes/">fontes e licença</a>
+    </p>
+  </div>
+
+  <script>
+    // Navegação sem servidor: o formulário vira /<uf>/.
+    const form = document.getElementById("escolher-uf") as HTMLFormElement | null;
+    form?.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const uf = new FormData(form).get("uf");
+      if (typeof uf === "string" && uf) location.href = `/${uf}/`;
+    });
+  </script>
+</Base>
