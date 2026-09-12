@@ -3,7 +3,9 @@
 Ferramenta pública para o eleitor registrar seus votos, consultar os dados oficiais de cada
 candidato e testar a coerência da própria chapa. Sem login, sem coleta, sem servidor.
 
-Este repositório está no **M1: pipeline de dados** (§9 da spec). Ainda não há interface.
+Este repositório tem o **M1 (pipeline de dados)** e a **camada vertical do M2**: o índice de
+coerência da chapa. Ainda não há interface versionada aqui — o protótipo da camada vertical roda
+como artifact, a partir dos mesmos JSONs de `data/build`.
 
 Especificação completa: [`CEDULA-ABERTA-SPEC.md`](CEDULA-ABERTA-SPEC.md).
 
@@ -13,6 +15,7 @@ Especificação completa: [`CEDULA-ABERTA-SPEC.md`](CEDULA-ABERTA-SPEC.md).
 npm ci
 npm run fetch                   # baixa o pacote do TSE para data/raw/ (não versionado)
 npm run normalize -- --uf=SP    # gera data/build/SP/*.json   (--uf=all para as 27)
+npm run alianca                 # gera data/build/alianca.json  (exige --uf=all)
 npm run validate                # invariantes; falhou, não publica
 npm run check                   # tipos + testes + invariantes
 ```
@@ -23,6 +26,27 @@ TSE, Portal de Dados Abertos, dataset [`candidatos-2026`](https://dadosabertos.t
 licença **Creative Commons Atribuição (CC-BY)** — a atribuição é obrigatória e visível em
 qualquer publicação derivada. A proveniência de cada coleta (URL, sha256, data, `last-modified`
 do TSE) fica em `data/raw/proveniencia.json` e em `data/build/meta.json`.
+
+## A camada vertical: coerência da chapa
+
+Dado que o eleitor declare em quem vota, o índice diz o quanto aquelas escolhas costumam andar
+juntas. Ele **não** mede ideologia, e não precisa de nenhuma fonte além do próprio TSE.
+
+- **Proximidade é comportamento revelado.** Cada coligação majoritária e cada federação é um
+  conjunto de partidos; a similaridade de Jaccard sobre os 433 conjuntos do país dá π(a,b) sem
+  nenhum parâmetro para ajustar — e portanto sem espaço para escolha editorial. Federação entra
+  como aresta fixa de peso 1, porque é vínculo legal de quatro anos e não acordo de uma eleição.
+- **O número cru não significa nada,** então o que se reporta é a posição dele numa distribuição
+  nula montada com o universo real de candidatos da UF. Quando dá para enumerar todas as
+  combinações, enumeramos; só acima de 500 mil entra Monte Carlo, com semente fixa.
+- **O diagnóstico é por voto, não agregado.** A alavancagem deixa-um-de-fora aponta qual escolha
+  puxa a chapa para longe das outras — que é a saída útil, e não a nota.
+- **Coerência não é virtude.** Voto dividido é estratégia legítima. Nada no código chama chapa
+  dispersa de erro, e a interface também não deve.
+
+Por que o grafo exige `--uf=all`: com os 11 conjuntos de São Paulo sozinho, MDB~PL cravava 1,00
+porque coincidiram uma vez. Com as 27 UFs o mesmo par cai para 0,10. Grafo magro não é grafo
+impreciso, é grafo errado — o `validate` reprova abaixo de 100 conjuntos.
 
 ## O que este pipeline garante
 
@@ -49,6 +73,12 @@ isso `situacao.disponivel` existe no modelo: a interface precisa dizer "o TSE ai
 nunca traduzir ausência para "deferido". O alerta de registro indeferido/cassado (§5.4) fica
 bloqueado até `meta.json.situacaoRegistro.comSituacao` deixar de ser 0 — o `validate` avisa.
 
+**O TSE grafa o mesmo partido de dois jeitos.** `SG_PARTIDO` traz `PCDOB`; as composições de
+coligação e federação trazem `PC do B`. Sem canonizar, o partido do candidato nunca casa com o
+partido do grafo e o PCDOB fica com proximidade zero contra todo mundo — inclusive contra o PT,
+com quem tem federação. O erro é silencioso, que é o que o torna perigoso. O mapa está em
+`APELIDOS`, em `lib/alianca.ts`, e o `validate` falha se aparecer grafia nova.
+
 **A API DivulgaCandContas está vazia para 2026.** Responde 200 com `candidatos: []` em todos os
 cargos (CD_ELEICAO 6259, verificado em 10/09/2026). O critério de pronto do M1 na spec dependia
 dela; foi substituído pela conferência contra o CSV consolidado.
@@ -67,14 +97,17 @@ repositório. Decidir no M6 se o dado versionado vai minificado.
 scripts/
   fetch-tse.ts        download do pacote + proveniência
   normalize.ts        casca de I/O
+  build-alianca.ts    grafo de proximidade entre partidos
   validate.ts         invariantes do CI
   lib/
     unzip.ts          leitor de ZIP sem dependência (build-time)
     csv.ts            CSV latin-1 do TSE
     normalizar.ts     lógica pura de normalização — é aqui que se mexe
+    alianca.ts        conjuntos de aliança + Jaccard + bootstrap
+    coerencia.ts      índice da chapa, distribuição nula, alavancagem
     tse.ts            constantes verificadas contra o dado
     types.ts          modelo de dados
 tests/                node:test, sem framework
-data/build/           JSONs versionados
+data/build/           JSONs versionados, incluindo alianca.json
 data/raw/             baixado do TSE, fora do git
 ```

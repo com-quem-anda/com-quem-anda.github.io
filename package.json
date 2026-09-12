@@ -11,10 +11,11 @@
     "fetch": "node scripts/fetch-tse.ts",
     "normalize": "node scripts/normalize.ts",
     "validate": "node scripts/validate.ts",
-    "build:data": "npm run fetch && npm run normalize && npm run validate",
+    "build:data": "npm run fetch && npm run normalize -- --uf=all && npm run alianca && npm run validate",
     "test": "node --test \"tests/*.test.ts\"",
     "typecheck": "tsc --noEmit",
-    "check": "npm run typecheck && npm test && npm run validate"
+    "check": "npm run typecheck && npm test && npm run validate",
+    "alianca": "node scripts/build-alianca.ts"
   },
   "devDependencies": {
     "@types/node": "^22.20.2",

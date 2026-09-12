@@ -41,6 +41,9 @@ jobs:
       - name: Normalizar
         run: npm run normalize -- --uf=all
 
+      - name: Grafo de aliança
+        run: npm run alianca
+
       - name: Validar invariantes
         run: npm run validate
 
@@ -58,5 +61,7 @@ jobs:
             - o diff de contagem por cargo em `data/build/meta.json`;
             - a lista de `anomalias` — candidaturas duplicadas e chapas incompletas;
             - `situacaoRegistro.comSituacao`: quando deixar de ser 0, o TSE passou a
-              publicar a situação do registro e o alerta da §5.4 vira implementável.
+              publicar a situação do registro e o alerta da §5.4 vira implementável;
+            - `alianca.json`: mudança de coligação muda o índice de coerência de todo
+              mundo, então o diff das arestas merece leitura antes de aprovar.
           add-paths: data/build
