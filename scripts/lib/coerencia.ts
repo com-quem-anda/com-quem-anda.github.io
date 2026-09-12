@@ -210,3 +210,45 @@ export function integridadeChapa(
     return { papel: v.cargo, nomeUrna: v.nomeUrna, partido: q, relacao, proximidade: prox };
   });
 }
+
+export interface SugestaoPartido {
+  partido: string;
+  /** Coerência da chapa se o voto que falta for para este partido. */
+  coerencia: number;
+  /** Variação em relação à chapa como está hoje. */
+  delta: number;
+  /** Quantos candidatos deste partido existem no cargo em aberto. */
+  candidatos: number;
+}
+
+/**
+ * Que PARTIDO deixaria a chapa mais coesa no cargo que falta.
+ *
+ * Partido, e não candidato — e a distinção não é escrúpulo, é o que o dado
+ * permite. π é medido entre legendas, então todos os candidatos de um mesmo
+ * partido empatam exatamente, até a última casa. Ranquear pessoas aqui seria
+ * inventar uma diferença que a fonte não tem, e ainda por cima pareceria
+ * recomendação de voto em alguém.
+ *
+ * Ordena por coerência resultante. Devolve lista vazia sem nada escolhido:
+ * não há com o que ser coerente.
+ */
+export function sugerirPartidos(
+  partidosEscolhidos: string[],
+  poolDoCargo: string[],
+  g: GrafoAlianca,
+): SugestaoPartido[] {
+  if (partidosEscolhidos.length === 0 || poolDoCargo.length === 0) return [];
+
+  const quantos = new Map<string, number>();
+  for (const p of poolDoCargo) quantos.set(p, (quantos.get(p) ?? 0) + 1);
+
+  const atual = coerencia(partidosEscolhidos, g);
+
+  return [...quantos.entries()]
+    .map(([partido, candidatos]) => {
+      const c = coerencia([...partidosEscolhidos, partido], g)!;
+      return { partido, coerencia: c, delta: atual === null ? 0 : c - atual, candidatos };
+    })
+    .sort((a, b) => b.coerencia - a.coerencia || a.partido.localeCompare(b.partido, "pt-BR"));
+}

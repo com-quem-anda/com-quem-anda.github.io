@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
-  alavancagem, coerencia, distribuicaoNula, integridadeChapa, percentil, type Escolha,
+  alavancagem, coerencia, distribuicaoNula, integridadeChapa, percentil, sugerirPartidos, type Escolha,
 } from "../scripts/lib/coerencia.ts";
 import { chaveAresta, type GrafoAlianca } from "../scripts/lib/alianca.ts";
 
@@ -84,4 +84,17 @@ test("suplente de outro partido é sinalizado, e suplente da federação não", 
   }, g);
   assert.deepEqual(r.map((v) => v.relacao), ["mesmo-partido", "mesma-federacao", "sem-alianca"]);
   assert.equal(r[2]!.proximidade, 0);
+});
+
+test("a sugestão é por partido, porque candidato do mesmo partido empata exatamente", () => {
+  const r = sugerirPartidos(["A", "A"], ["B", "B", "B", "D", "E"], g);
+  assert.deepEqual(r.map((x) => x.partido), ["E", "B", "D"], "E é federado com A; B é aliado; D não tem aliança");
+  assert.equal(r[0]!.coerencia, 1, "federação leva a chapa a 1");
+  assert.equal(r.find((x) => x.partido === "B")!.candidatos, 3, "conta candidatos, mas não os ordena entre si");
+  assert.ok(r.find((x) => x.partido === "D")!.delta < 0, "partido sem aliança derruba a coerência");
+});
+
+test("sem nenhum voto declarado não há sugestão — não há com o que ser coerente", () => {
+  assert.deepEqual(sugerirPartidos([], ["A", "B"], g), []);
+  assert.deepEqual(sugerirPartidos(["A"], [], g), []);
 });

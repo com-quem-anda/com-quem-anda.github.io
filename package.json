@@ -15,7 +15,12 @@
     "test": "node --test \"tests/*.test.ts\"",
     "typecheck": "tsc --noEmit",
     "check": "npm run typecheck && npm test && npm run validate",
-    "alianca": "node scripts/build-alianca.ts"
+    "alianca": "node scripts/build-alianca.ts",
+    "eleitorado": "node --max-old-space-size=6144 scripts/build-eleitorado.ts",
+    "malha": "node scripts/build-malha.ts",
+    "web": "node scripts/build-web.ts",
+    "artifact": "node scripts/build-artifact.ts",
+    "build:site": "npm run web && npm run artifact"
   },
   "devDependencies": {
     "@types/node": "^22.20.2",

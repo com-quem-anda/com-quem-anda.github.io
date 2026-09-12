@@ -17,6 +17,8 @@ npm run fetch                   # baixa o pacote do TSE para data/raw/ (não ver
 npm run normalize -- --uf=SP    # gera data/build/SP/*.json   (--uf=all para as 27)
 npm run alianca                 # gera data/build/alianca.json  (exige --uf=all)
 npm run validate                # invariantes; falhou, não publica
+npm run web                     # dados compactos do site em web/dados/
+npm run artifact                # empacota o site num HTML único
 npm run check                   # tipos + testes + invariantes
 ```
 
@@ -47,6 +49,27 @@ juntas. Ele **não** mede ideologia, e não precisa de nenhuma fonte além do pr
 Por que o grafo exige `--uf=all`: com os 11 conjuntos de São Paulo sozinho, MDB~PL cravava 1,00
 porque coincidiram uma vez. Com as 27 UFs o mesmo par cai para 0,10. Grafo magro não é grafo
 impreciso, é grafo errado — o `validate` reprova abaixo de 100 conjuntos.
+
+## O site
+
+`web/` é estático e sem dependência nenhuma — nem framework, nem analytics, nem cookie,
+nem chamada a terceiros. Abrir em São Paulo custa **58 KB comprimidos**: a base (grafo,
+eleitorado, malha, presidentes) mais o arquivo daquela UF, carregado sob demanda.
+
+O mesmo código roda de dois jeitos. Se `window.CEDULA_DADOS` existir, os dados estão
+embutidos no próprio HTML (é o que `build-artifact.ts` gera); senão, ele busca
+`dados/base.json` e `dados/uf/<UF>.json`. Não há uma segunda versão do app para sair de sincronia.
+
+**A matemática da tela é conferida contra a biblioteca antes de publicar.** `app.js` reimplementa
+em JS o que `lib/{alianca,coerencia}.ts` faz em TypeScript, e uma reimplementação não verificada
+seria só um segundo lugar onde errar. A conferência compara os 900 pares de partidos, centenas de
+cédulas aleatórias, a distribuição nula enumerada, os 20.000 sorteios do Monte Carlo e a sugestão
+por partido — tudo exato até 1e-12.
+
+**Analytics: não há, por decisão.** Nem contador, nem identificador. É por isso que não existe
+estatística agregada de como as pessoas montam suas cédulas: coletar isso, mesmo em agregado e
+com consentimento, exigiria um servidor para receber — e servidor é exatamente o que este projeto
+não tem. A promessa vale mais que o dado.
 
 ## O que este pipeline garante
 
@@ -98,6 +121,10 @@ scripts/
   fetch-tse.ts        download do pacote + proveniência
   normalize.ts        casca de I/O
   build-alianca.ts    grafo de proximidade entre partidos
+  build-eleitorado.ts eleitores por UF — sob demanda, fora do cron
+  build-malha.ts      malha dos estados, do IBGE — idem
+  build-web.ts        forma compacta que o site consome
+  build-artifact.ts   mesmo site num arquivo só
   validate.ts         invariantes do CI
   lib/
     unzip.ts          leitor de ZIP sem dependência (build-time)
@@ -109,5 +136,7 @@ scripts/
     types.ts          modelo de dados
 tests/                node:test, sem framework
 data/build/           JSONs versionados, incluindo alianca.json
+web/                  o site: index.html, estilo.css, app.js
+  dados/              forma compacta gerada por build-web.ts
 data/raw/             baixado do TSE, fora do git
 ```

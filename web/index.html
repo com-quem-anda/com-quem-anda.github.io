@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coerência da Chapa — Cédula Aberta</title>
+<meta name="description" content="Monte sua cédula e veja o quanto os partidos em que você votou costumam se aliar entre si. Dados oficiais do TSE, sem login e sem coleta.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <span class="eyebrow">Cédula Aberta · camada vertical</span>
+    <h1>Coerência da chapa</h1>
+    <p class="lede">
+      Monte sua cédula. O índice mede se os partidos em que você votou costumam se aliar entre si —
+      com quem eles andam, não o que defendem. Roda no seu navegador e não envia nada para lugar nenhum.
+    </p>
+    <div class="abas" role="tablist">
+      <button class="aba" role="tab" id="tab-cedula" aria-selected="true" aria-controls="pane-cedula">Cédula</button>
+      <button class="aba" role="tab" id="tab-mapa" aria-selected="false" aria-controls="pane-mapa">Mapa</button>
+      <button class="aba" role="tab" id="tab-metodo" aria-selected="false" aria-controls="pane-metodo">Método</button>
+    </div>
+  </header>
+
+  <!-- ============ CÉDULA ============ -->
+  <div id="pane-cedula" role="tabpanel" aria-labelledby="tab-cedula">
+    <div class="controles">
+      <label for="uf">Estado</label>
+      <select id="uf"></select>
+      <button class="botao" id="sortear" type="button">Sortear cédula</button>
+      <button class="botao" id="limpar" type="button">Limpar</button>
+    </div>
+
+    <div class="painel">
+      <div class="coluna">
+        <h2>Sua cédula</h2>
+        <div class="cedula" id="cedula"></div>
+
+        <div class="cartao"><div class="cartao-corpo">
+          <div class="sug-cabeca">
+            <h3>Quem deixaria a chapa mais coesa</h3>
+            <select id="sugCargo" aria-label="Cargo a analisar"></select>
+          </div>
+          <p class="nota" id="sugNota"></p>
+          <ul class="sug" id="sug"></ul>
+        </div></div>
+
+        <div class="cartao"><div class="cartao-corpo">
+          <h3>Quem você elege junto</h3>
+          <p class="nota">Vice e suplentes entram com o titular e quase nunca são olhados. A relação mostrada é com o partido do titular.</p>
+          <div class="chapa" id="chapa"></div>
+        </div></div>
+      </div>
+
+      <div class="coluna">
+        <h2>Leitura</h2>
+        <div class="cartao"><div class="cartao-corpo">
+          <div class="nivel">
+            <span class="eyebrow">Nível</span>
+            <span class="nivel-nome" id="nivelNome">—</span>
+            <div class="degraus" id="degraus" aria-hidden="true"></div>
+            <p class="nivel-frase" id="nivelFrase">Escolha pelo menos dois cargos.</p>
+            <span class="nivel-pct" id="nivelPct"></span>
+          </div>
+          <figure>
+            <svg id="hist" viewBox="0 0 560 164" role="img" aria-labelledby="histCap"></svg>
+            <figcaption id="histCap">Cada barra é um grupo de cédulas possíveis no estado. A linha marca a sua.</figcaption>
+          </figure>
+          <div class="metricas" id="metricas"></div>
+        </div></div>
+
+        <div class="cartao"><div class="cartao-corpo">
+          <h3>Qual voto puxa para fora</h3>
+          <p class="nota">Quanto a coerência sobe se aquele voto sair da conta.</p>
+          <ul class="votos" id="alavancagem"></ul>
+        </div></div>
+
+        <p class="ressalva">
+          <b>Chapa dispersa não é erro.</b> Quem quer freio e contrapeso monta assim de propósito, e
+          quem julga candidato por competência e não por partido também. Isto descreve suas escolhas,
+          não as corrige.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ MAPA ============ -->
+  <div id="pane-mapa" role="tabpanel" aria-labelledby="tab-mapa" hidden>
+    <div class="mapa-grade">
+      <figure>
+        <svg id="mapa" viewBox="0 0 520 520" role="img" aria-labelledby="mapaCap"></svg>
+        <div class="legenda">
+          <div class="legenda-faixas" id="legFaixas"></div>
+          <div class="legenda-rotulos" id="legRotulos"></div>
+        </div>
+        <figcaption id="mapaCap">Eleitores aptos por estado, em quintis. Clique num estado para montar a cédula dele.</figcaption>
+      </figure>
+      <div class="coluna">
+        <h2>Eleitorado</h2>
+        <p class="nota" id="mapaResumo"></p>
+        <div class="tab-rolo">
+          <table class="tab-ufs">
+            <thead><tr><th>UF</th><th>Eleitores</th><th>% do país</th><th>Candidatos</th></tr></thead>
+            <tbody id="tabUfs"></tbody>
+          </table>
+        </div>
+        <p class="nota" id="mapaExterior"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ MÉTODO ============ -->
+  <div id="pane-metodo" role="tabpanel" aria-labelledby="tab-metodo" hidden>
+    <div class="metodo">
+      <section>
+        <h2>O que o índice mede — e o que ele não mede</h2>
+        <p>
+          Ele mede <strong>proximidade de aliança</strong>: o quanto os partidos em que você votou
+          costumam aparecer juntos nas mesmas coligações e federações pelo país. Não mede ideologia,
+          e a diferença não é detalhe. Coligação brasileira mistura programa com disputa por cargo, e
+          existe literatura inteira sobre coligações inconsistentes exatamente por isso. Dois partidos
+          podem andar juntos por conveniência regional sem concordar em nada.
+        </p>
+        <p>Também não mede qualidade de voto. Não há nota boa nem ruim aqui — há uma descrição de quanto suas escolhas circulam no mesmo meio.</p>
+      </section>
+
+      <section>
+        <h2>Como a proximidade entre dois partidos é calculada</h2>
+        <p>
+          Cada coligação majoritária e cada federação é um conjunto de partidos. A proximidade é a
+          similaridade de Jaccard sobre esses conjuntos — quantas vezes os dois aparecem juntos,
+          dividido por quantas vezes algum dos dois aparece.
+        </p>
+        <div class="formula">π(a, b) = conjuntos com a <em>e</em> b &nbsp;÷&nbsp; conjuntos com a <em>ou</em> b</div>
+        <p>
+          Não há parâmetro para ajustar, e portanto não há espaço para escolha editorial. Duas regras
+          completam: <strong>federação vale 1</strong>, porque é vínculo jurídico de quatro anos e não
+          acordo de uma eleição; e <strong>candidatura isolada conta no denominador</strong>, porque
+          recusar aliança também é comportamento de aliança.
+        </p>
+        <p>
+          Desde a Emenda Constitucional 97/2017 não existe coligação em eleição proporcional, então as
+          arestas vêm só de presidente, governador e senador — mais as federações, que aparecem em todos os cargos.
+        </p>
+      </section>
+
+      <section>
+        <h2>Por que a proximidade é nacional e a comparação é do seu estado</h2>
+        <p>
+          São duas escalas diferentes, de propósito. <strong>π é calculado com as 27 UFs</strong> porque
+          um estado sozinho não dá amostra: com os 11 conjuntos de aliança de São Paulo, MDB e PL
+          cravavam proximidade 1,00 por terem coincidido uma única vez. Com o país inteiro o mesmo par
+          cai para 0,10. Grafo magro não é grafo impreciso, é grafo errado.
+        </p>
+        <p>
+          <strong>A comparação, porém, é só do seu estado.</strong> As cédulas de referência são montadas
+          exclusivamente com quem está na urna da UF selecionada — governador de lá, deputados de lá, os
+          mesmos senadores que você poderia escolher. Nenhuma combinação impossível, como deputado de
+          Alagoas com governador de São Paulo, entra na conta. O único cargo nacional é presidente,
+          porque ele é nacional de fato.
+        </p>
+      </section>
+
+      <section>
+        <h2>Por que sorteio, e quando não há sorteio</h2>
+        <p>
+          A coerência bruta não significa nada sozinha: 0,42 é alto ou baixo depende de quem estava na
+          urna. Então o que se mostra é a posição dela entre <em>todas as cédulas que dava para montar
+          no seu estado</em>. O problema é o tamanho desse universo.
+        </p>
+        <p>
+          Preenchendo os cinco cargos em São Paulo existem cerca de <strong>17,7 bilhões</strong> de
+          cédulas possíveis. Não dá para contar uma a uma, então sorteamos 20.000 delas —
+          <strong>Monte Carlo</strong> é isso: quando o universo é grande demais para ser percorrido,
+          uma amostra aleatória grande o bastante o representa com erro pequeno e conhecido.
+        </p>
+        <p>
+          O sorteio usa semente fixa, então o mesmo pacote do TSE devolve sempre o mesmo número — o
+          resultado é reproduzível, não é sorte do dia. E quando o universo é pequeno, <strong>não há
+          sorteio nenhum</strong>: preenchendo só presidente, governador e senador em São Paulo são
+          10.920 combinações, e a conta percorre todas. A tela sempre diz qual dos dois casos está valendo.
+        </p>
+      </section>
+
+      <section>
+        <h2>Os níveis</h2>
+        <p>Os cortes são de percentil, não de coerência bruta — de novo porque o valor cru não tem escala própria.</p>
+        <table class="tabela">
+          <thead><tr><th>Nível</th><th>Percentil</th><th>O que quer dizer</th></tr></thead>
+          <tbody id="tabNiveis"></tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Onde o percentil deixa de resolver</h2>
+        <p>
+          Quase toda cédula montada por afinidade partidária fica no topo da distribuição, porque a
+          esmagadora maioria das combinações possíveis é incoerente. Duas cédulas bem diferentes — uma
+          com coerência bruta 1,00 e outra com 0,41 — podem aparecer as duas como <em>Bloco único</em>.
+          O percentil responde "isto é incomum?", e a resposta satura em "muito".
+        </p>
+        <p>
+          Por isso a leitura não para nele. A razão <strong>acima da mediana</strong> continua separando
+          as duas, e o diagnóstico por voto é onde está a informação acionável. Um número só nunca ia dar conta.
+        </p>
+      </section>
+
+      <section>
+        <h2>Por que a sugestão é por partido e não por candidato</h2>
+        <p>
+          Porque é o que o dado permite. π é medido entre legendas, então <strong>todos os candidatos de
+          um mesmo partido empatam exatamente</strong>, até a última casa decimal. Ranquear pessoas ali
+          seria inventar uma diferença que a fonte não tem — e, pior, pareceria indicação de voto em
+          alguém. A ferramenta diz que um voto no partido X deixaria a chapa mais coesa; quem escolhe a
+          pessoa é você, com critérios que este índice não conhece.
+        </p>
+      </section>
+
+      <section>
+        <h2>Fontes</h2>
+        <p>Tudo aqui vem de dado público e citável. Nenhuma informação foi estimada, arbitrada ou preenchida por inferência.</p>
+        <div class="fontes" id="fontes"></div>
+      </section>
+
+      <section>
+        <h2>O que ainda não está aqui</h2>
+        <p>
+          <strong>A situação dos registros.</strong> O TSE ainda publica <code>#NE</code> em todas as
+          candidaturas de 2026, então nenhum nome nesta tela está confirmado como deferido, e a
+          ferramenta não tem como saber quem será indeferido ou cassado.
+        </p>
+        <p>
+          <strong>As anomalias do pacote.</strong> Candidaturas duplicadas e chapas fora da cardinalidade
+          estão registradas no pipeline, mas ainda não aparecem ao lado do candidato. As arestas frágeis
+          do grafo também ainda não são marcadas na tela.
+        </p>
+        <p>
+          <strong>Estatísticas de uso.</strong> Não há nenhuma. A página não tem analytics, cookie,
+          identificador ou chamada a terceiros — e por isso não existe um número agregado de como os
+          eleitores brasileiros montam suas cédulas. Coletar isso, mesmo com consentimento e mesmo só
+          em agregado, exigiria um servidor para receber, e servidor é justamente o que este projeto
+          não tem. A escolha foi manter a promessa.
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    <p class="versao" id="versao"></p>
+    <p id="rodapeGrafo"></p>
+    <p>Dados do TSE sob licença Creative Commons Atribuição (CC-BY); malha territorial do IBGE. Detalhe e somas de verificação na aba Método.</p>
+    <p class="ia">Ferramenta construída com auxílio de inteligência artificial (Claude). O método está aberto na aba Método e o código é conferível — não confie nela por confiar em quem a escreveu.</p>
+  </footer>
+</div>
+
+<div class="dica" id="dica" role="tooltip"></div>
+<script src="app.js"></script>
+</body>
+</html>
