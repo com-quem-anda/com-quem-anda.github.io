@@ -71,6 +71,28 @@ estatística agregada de como as pessoas montam suas cédulas: coletar isso, mes
 com consentimento, exigiria um servidor para receber — e servidor é exatamente o que este projeto
 não tem. A promessa vale mais que o dado.
 
+## Desempenho: o encaixe existe, a nota não
+
+Cruzar coerência com desempenho parlamentar depende de duas coisas separadas, e só uma
+delas está em nossas mãos.
+
+**A chave de ligação está pronta.** `build-parlamentares.ts` casa candidatura de 2026 com
+mandato em exercício pelas APIs oficiais da Câmara e do Senado — 490 das 20.028 candidaturas.
+Casa por nome normalizado mais UF, e recusa homônimo dentro da mesma UF, porque vínculo errado
+é pior que vínculo ausente. Cargo nacional casa sem UF: presidente tem `SG_UF = BR`, e exigir UF
+igual descartava justamente quem tem mandato e disputa o Planalto.
+
+O teto é duro e vale saber antes de investir: **2,4% das candidaturas**. Só há registro de
+mandato para quem já teve mandato. Em compensação, **82% dos 594 parlamentares em exercício
+estão concorrendo**.
+
+**A nota depende de autorização.** O Ranking dos Políticos é organização séria e o trabalho é
+público — mas publicar não é licenciar. Não há termos de reuso no site, e o `robots.txt` traz
+`Disallow: /api/`: o próprio operador pede que agentes automatizados não acessem a API.
+`parlamentares.json` já tem o campo `desempenho`, vazio, esperando. Obtida a autorização, a nota
+entra **ao lado** do índice e nunca dentro dele, com crédito visível. Coerência descreve alianças;
+desempenho avalia mandato com critérios de terceiros. Somar as duas num número só destruiria as duas.
+
 ## O que este pipeline garante
 
 - **Universo completo.** Nenhum candidato é removido, em nenhuma etapa. Não existe lista de
@@ -121,6 +143,7 @@ scripts/
   fetch-tse.ts        download do pacote + proveniência
   normalize.ts        casca de I/O
   build-alianca.ts    grafo de proximidade entre partidos
+  build-parlamentares.ts quem tem mandato hoje — Câmara e Senado
   build-eleitorado.ts eleitores por UF — sob demanda, fora do cron
   build-malha.ts      malha dos estados, do IBGE — idem
   build-web.ts        forma compacta que o site consome
@@ -131,6 +154,7 @@ scripts/
     csv.ts            CSV latin-1 do TSE
     normalizar.ts     lógica pura de normalização — é aqui que se mexe
     alianca.ts        conjuntos de aliança + Jaccard + bootstrap
+    parlamentares.ts  casamento candidato <-> mandato em exercício
     coerencia.ts      índice da chapa, distribuição nula, alavancagem
     tse.ts            constantes verificadas contra o dado
     types.ts          modelo de dados

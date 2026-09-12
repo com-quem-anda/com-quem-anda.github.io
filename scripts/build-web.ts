@@ -20,11 +20,20 @@ const DIR_WEB = new URL("../web/dados/", import.meta.url);
 
 const ler = async (p: string) => JSON.parse(await readFile(new URL(p, DIR_BUILD), "utf8"));
 
-/** [numero, nomeUrna, partido, vinculados] — vinculados só nos majoritários. */
+/**
+ * [numero, nomeUrna, partido, mandato, vinculados?]
+ *
+ * A posição de `mandato` é a mesma nos dois formatos de propósito: já houve
+ * bug aqui por índice que mudava de significado conforme o cargo.
+ * mandato: 0 sem mandato, "CD" deputado federal, "SF" senador.
+ */
+type Mandatos = Record<string, { casa: string }>;
 const vinculados = (c: Candidato) =>
   [...(c.vice ?? []), ...(c.suplentes ?? [])].map((v) => [v.cargo, v.nomeUrna, v.partido.sigla]);
-const majoritario = (c: Candidato) => [c.numero, c.nomeUrna, c.partido.sigla, vinculados(c)];
-const proporcional = (c: Candidato) => [c.numero, c.nomeUrna, c.partido.sigla];
+const mandato = (c: Candidato, m: Mandatos) =>
+  m[c.sq] ? (m[c.sq]!.casa === "senado" ? "SF" : "CD") : 0;
+const majoritario = (c: Candidato, m: Mandatos) => [c.numero, c.nomeUrna, c.partido.sigla, mandato(c, m), vinculados(c)];
+const proporcional = (c: Candidato, m: Mandatos) => [c.numero, c.nomeUrna, c.partido.sigla, mandato(c, m)];
 
 async function main(): Promise<void> {
   await mkdir(new URL("uf/", DIR_WEB), { recursive: true });
@@ -33,6 +42,10 @@ async function main(): Promise<void> {
   const grafo = await ler("alianca.json");
   const eleitorado = await ler("eleitorado.json");
   const malha = await ler("malha-uf.json");
+  let parlamentares: { vinculos: Mandatos; comMandato: number; fontes: unknown[]; metodo: string } | null = null;
+  try { parlamentares = await ler("parlamentares.json"); }
+  catch { console.log("AVISO parlamentares.json ausente — rode `npm run parlamentares`"); }
+  const mand: Mandatos = parlamentares?.vinculos ?? {};
 
   // Só v das arestas: o site não usa n nem o intervalo, mas precisa saber quais
   // são frágeis para poder marcá-las.
@@ -68,7 +81,10 @@ async function main(): Promise<void> {
     },
     eleitorado: { ufs: eleitorado.ufs, total: eleitorado.total, exterior: eleitorado.exterior },
     malha: { type: malha.type, features: malha.features },
-    presidentes: presidentes.candidatos.map(majoritario),
+    presidentes: presidentes.candidatos.map((c) => majoritario(c, mand)),
+    mandatos: parlamentares
+      ? { comMandato: parlamentares.comMandato, fontes: parlamentares.fontes, metodo: parlamentares.metodo }
+      : null,
     anomalias: meta.anomalias.length,
     ufsDisponiveis: ufs,
   };
@@ -90,10 +106,10 @@ async function main(): Promise<void> {
     const dados = {
       uf,
       distrital: de?.cargo === "deputado-distrital",
-      gov: (gov?.candidatos ?? []).map(majoritario),
-      sen: (sen?.candidatos ?? []).map(majoritario),
-      df: (df?.candidatos ?? []).map(proporcional),
-      de: (de?.candidatos ?? []).map(proporcional),
+      gov: (gov?.candidatos ?? []).map((c) => majoritario(c, mand)),
+      sen: (sen?.candidatos ?? []).map((c) => majoritario(c, mand)),
+      df: (df?.candidatos ?? []).map((c) => proporcional(c, mand)),
+      de: (de?.candidatos ?? []).map((c) => proporcional(c, mand)),
     };
     const txt = JSON.stringify(dados);
     maior = Math.max(maior, txt.length);

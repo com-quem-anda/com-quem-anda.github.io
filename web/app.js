@@ -151,6 +151,9 @@
   const pool = (slot) => { const campo = meta(slot)[2]; return campo === null ? D.presidentes : (dadosUf()[campo] ?? []); };
   const cand = (slot) => { const i = escolhas[slot]; return i === undefined ? null : pool(slot)[i] ?? null; };
   const rotulo = (slot) => (slot === "deputado-estadual" && dadosUf().distrital ? "Deputado distrital" : meta(slot)[1]);
+  /** c[3]: 0 sem mandato, "CD" deputado federal em exercício, "SF" senador. */
+  const selo = (c) => c && c[3]
+    ? `<span class="mandato" title="${c[3] === "SF" ? "Senador" : "Deputado federal"} em exercício hoje, segundo a API oficial da casa">mandato</span>` : "";
 
   const el = (id) => document.getElementById(id);
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -183,7 +186,7 @@
       return `<div class="slot">
         <button class="slot-topo" type="button" data-slot="${slot}" aria-expanded="${aberto === slot}">
           <span class="slot-cargo">${esc(rotulo(slot))}</span>
-          <span class="slot-nome${c ? "" : " vazio"}">${corpo}</span>
+          <span class="slot-nome${c ? "" : " vazio"}">${corpo} ${selo(c)}</span>
           <span class="slot-acao">${c ? `<span class="sigla">${esc(c[2])}</span>` : "escolher"}</span>
         </button>${aberto === slot ? `<div class="picker">
           <input type="search" id="busca" placeholder="Nome, número ou partido — ${pool(slot).length} candidatos" value="${esc(busca)}" autocomplete="off" aria-label="Buscar candidato">
@@ -204,7 +207,7 @@
     }
     if (!achados.length) return `<div class="vazio-msg">Nenhum candidato com esse nome, número ou partido.</div>`;
     return achados.map(([i, c]) => `<button class="opcao" type="button" data-slot="${slot}" data-i="${i}" aria-current="${escolhas[slot] === i}">
-      <span class="n">${esc(c[0])}</span><span>${esc(c[1])}</span><span class="p">${esc(c[2])}</span></button>`).join("");
+      <span class="n">${esc(c[0])}</span><span>${esc(c[1])} ${selo(c)}</span><span class="p">${esc(c[2])}</span></button>`).join("");
   }
 
   function calcular() {
@@ -301,10 +304,10 @@
     const itens = [];
     for (const slot of ["governador", "senador", "senador2"]) {
       const c = cand(slot);
-      if (!c || !c[3] || !c[3].length) continue;
+      if (!c || !c[4] || !c[4].length) continue;
       itens.push(`<div class="chapa-item">
-        <span class="titulo">${esc(c[1])} <span class="sigla">${esc(c[2])}</span> <span class="cargo">${esc(rotulo(slot))}</span></span>
-        ${c[3].map(([papel, nome, part]) => {
+        <span class="titulo">${esc(c[1])} <span class="sigla">${esc(c[2])}</span> ${selo(c)} <span class="cargo">${esc(rotulo(slot))}</span></span>
+        ${c[4].map(([papel, nome, part]) => {
           const rel = relacaoChapa(c[2], part);
           const txt = { "mesmo-partido": "mesmo partido", "mesma-federacao": "mesma federação", "aliado": "partido aliado", "sem-alianca": "sem aliança com o titular" }[rel];
           return `<span class="vinc">${esc(papel.toLowerCase())}: ${esc(nome)} <span class="rel ${rel}">${esc(part)} · ${txt}</span></span>`;
@@ -547,16 +550,22 @@
         <p class="meta">IBGE · malhas territoriais, divisão por UF<br>${esc(f.ibge.url)}<br>obtida em ${dt(f.ibge.geradoEm)}</p>
       </div>
       <div class="fonte">
-        <h3>O que não é fonte daqui</h3>
+        <h3>Mandatos em exercício</h3>
+        <p>Quem, entre os candidatos, é deputado federal ou senador hoje. É o que permite marcar "mandato" na cédula e é a chave que qualquer avaliação externa de desempenho exigiria para saber de quem se está falando.</p>
+        <p class="meta">${(D.mandatos?.fontes ?? []).map((f) => `${esc(f.nome)} · ${esc(f.registros)} registros<br>${esc(f.url)}`).join("<br>")}<br>${esc(D.mandatos?.comMandato ?? 0)} candidaturas casadas</p>
+      </div>
+      <div class="fonte">
+        <h3>O que ainda não é fonte daqui</h3>
         <p>
-          Rankings e notas de desempenho parlamentar — como o do Ranking dos Políticos — avaliam
-          mandatos com critérios atribuídos por um conselho editorial. É um trabalho legítimo e de
-          natureza diferente da deste índice, que não atribui mérito a ninguém. Além disso cobriria só
-          quem já tem mandato, e "sem nota" acabaria lido como nota neutra. Se um dia entrar, entra com
-          autorização, rótulo próprio e por fora do índice — nunca dissolvido dentro dele.
+          A nota do Ranking dos Políticos. O site não publica termos de reuso e seu
+          <code>robots.txt</code> traz <code>Disallow: /api/</code>, um pedido explícito para que
+          agentes automatizados não acessem a API. Fica pendente de autorização — e, obtida, entra
+          com crédito visível, em eixo próprio, por fora do índice de coerência.
         </p>
       </div>`;
 
+    const q = el("qtMandato");
+    if (q) q.textContent = mil(D.mandatos?.comMandato ?? 0);
     el("versao").innerHTML = `<span>versão ${esc(D.versao)}</span><span>candidaturas de ${dt(f.tse.geradoEm)}</span><span>eleitorado de ${dt(f.eleitorado.geradoEm)}</span>`;
     el("rodapeGrafo").textContent =
       `Grafo de aliança: ${D.grafo.conjuntos} conjuntos observados nas 27 UFs, ${D.grafo.partidos.length} partidos, ${Object.keys(D.grafo.prox).length} arestas com proximidade maior que zero — ${Object.keys(D.grafo.fragil).length} delas apoiadas em menos de três coincidências. ${D.anomalias} anomalias no pacote do TSE ainda não aparecem nesta tela.`;

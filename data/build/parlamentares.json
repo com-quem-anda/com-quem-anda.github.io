@@ -1,0 +1,3458 @@
+{
+ "geradoEm": "2026-09-12T12:59:29.288Z",
+ "fontes": [
+  {
+   "nome": "Câmara dos Deputados — Dados Abertos, deputados em exercício",
+   "url": "https://dadosabertos.camara.leg.br/api/v2/deputados",
+   "registros": 513
+  },
+  {
+   "nome": "Senado Federal — Dados Abertos, parlamentares em exercício",
+   "url": "https://legis.senado.leg.br/dadosabertos/senador/lista/atual.json",
+   "registros": 81
+  }
+ ],
+ "metodo": "Casamento por nome normalizado (sem acento, sem pontuação, em maiúsculas) mais UF, testando nome de urna e nome completo. Homônimo dentro da mesma UF não é casado: vínculo errado é pior que vínculo ausente.",
+ "desempenho": {},
+ "totalCandidaturas": 20028,
+ "comMandato": 490,
+ "porCargoDisputado": {
+  "deputado-federal": 396,
+  "governador": 15,
+  "presidente": 1,
+  "senador": 65,
+  "deputado-estadual": 13
+ },
+ "vinculos": {
+  "10002532489": {
+   "casa": "camara",
+   "id": 220588,
+   "uf": "AC",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "10002545231": {
+   "casa": "camara",
+   "id": 104552,
+   "uf": "AC",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "10002545229": {
+   "casa": "camara",
+   "id": 230768,
+   "uf": "AC",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "10002545227": {
+   "casa": "camara",
+   "id": 220592,
+   "uf": "AC",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "10002532419": {
+   "casa": "camara",
+   "id": 123756,
+   "uf": "AC",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "10002545228": {
+   "casa": "camara",
+   "id": 220590,
+   "uf": "AC",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "10002532492": {
+   "casa": "senado",
+   "id": null,
+   "uf": "AC",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "280002551544": {
+   "casa": "senado",
+   "id": null,
+   "uf": "RJ",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "10002548050": {
+   "casa": "senado",
+   "id": null,
+   "uf": "AC",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "10002535804": {
+   "casa": "senado",
+   "id": null,
+   "uf": "AC",
+   "partidoAtual": "PSD",
+   "confianca": "nome-civil"
+  },
+  "10002544274": {
+   "casa": "camara",
+   "id": 220589,
+   "uf": "AC",
+   "partidoAtual": "SOLIDARIEDADE",
+   "confianca": "nome-urna"
+  },
+  "20002547841": {
+   "casa": "camara",
+   "id": 220582,
+   "uf": "AL",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "20002547849": {
+   "casa": "camara",
+   "id": 220583,
+   "uf": "AL",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "20002546939": {
+   "casa": "camara",
+   "id": 220586,
+   "uf": "AL",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "20002546941": {
+   "casa": "camara",
+   "id": 204436,
+   "uf": "AL",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "20002547846": {
+   "casa": "camara",
+   "id": 194260,
+   "uf": "AL",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "20002547844": {
+   "casa": "camara",
+   "id": 178843,
+   "uf": "AL",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "20002540495": {
+   "casa": "camara",
+   "id": 220581,
+   "uf": "AL",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "20002553745": {
+   "casa": "senado",
+   "id": null,
+   "uf": "AL",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "20002553272": {
+   "casa": "camara",
+   "id": 160541,
+   "uf": "AL",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "20002553727": {
+   "casa": "senado",
+   "id": null,
+   "uf": "AL",
+   "partidoAtual": "MDB",
+   "confianca": "nome-civil"
+  },
+  "40002533207": {
+   "casa": "camara",
+   "id": 220715,
+   "uf": "AM",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "40002533206": {
+   "casa": "camara",
+   "id": 74356,
+   "uf": "AM",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "40002531445": {
+   "casa": "camara",
+   "id": 220714,
+   "uf": "AM",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "40002531441": {
+   "casa": "camara",
+   "id": 220713,
+   "uf": "AM",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "40002542670": {
+   "casa": "camara",
+   "id": 220712,
+   "uf": "AM",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "40002532763": {
+   "casa": "camara",
+   "id": 74090,
+   "uf": "AM",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "40002532761": {
+   "casa": "camara",
+   "id": 204557,
+   "uf": "AM",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "40002532272": {
+   "casa": "senado",
+   "id": null,
+   "uf": "AM",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "40002531447": {
+   "casa": "senado",
+   "id": null,
+   "uf": "AM",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "40002542686": {
+   "casa": "camara",
+   "id": 204572,
+   "uf": "AM",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "40002537344": {
+   "casa": "senado",
+   "id": null,
+   "uf": "AM",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "30002536307": {
+   "casa": "camara",
+   "id": 178831,
+   "uf": "AP",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "30002532841": {
+   "casa": "camara",
+   "id": 220578,
+   "uf": "AP",
+   "partidoAtual": "PDT",
+   "confianca": "nome-urna"
+  },
+  "30002532842": {
+   "casa": "camara",
+   "id": 220573,
+   "uf": "AP",
+   "partidoAtual": "PDT",
+   "confianca": "nome-urna"
+  },
+  "30002533100": {
+   "casa": "camara",
+   "id": 233592,
+   "uf": "AP",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "30002538084": {
+   "casa": "camara",
+   "id": 160591,
+   "uf": "AP",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "30002536304": {
+   "casa": "camara",
+   "id": 204353,
+   "uf": "AP",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "30002533096": {
+   "casa": "camara",
+   "id": 160641,
+   "uf": "AP",
+   "partidoAtual": "PCdoB",
+   "confianca": "nome-urna"
+  },
+  "30002549909": {
+   "casa": "senado",
+   "id": null,
+   "uf": "AP",
+   "partidoAtual": "PT",
+   "confianca": "nome-civil"
+  },
+  "30002549911": {
+   "casa": "camara",
+   "id": 204379,
+   "uf": "AP",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "30002530069": {
+   "casa": "senado",
+   "id": null,
+   "uf": "AP",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "50002532501": {
+   "casa": "camara",
+   "id": 220695,
+   "uf": "BA",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "50002531452": {
+   "casa": "camara",
+   "id": 150418,
+   "uf": "BA",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "50002532502": {
+   "casa": "camara",
+   "id": 220691,
+   "uf": "BA",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "50002532515": {
+   "casa": "camara",
+   "id": 204558,
+   "uf": "BA",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "50002535007": {
+   "casa": "camara",
+   "id": 74537,
+   "uf": "BA",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "50002538767": {
+   "casa": "camara",
+   "id": 220696,
+   "uf": "BA",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "50002538770": {
+   "casa": "camara",
+   "id": 160508,
+   "uf": "BA",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "50002538765": {
+   "casa": "camara",
+   "id": 160610,
+   "uf": "BA",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "50002538779": {
+   "casa": "camara",
+   "id": 178857,
+   "uf": "BA",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "50002538757": {
+   "casa": "camara",
+   "id": 204559,
+   "uf": "BA",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "50002536627": {
+   "casa": "camara",
+   "id": 220694,
+   "uf": "BA",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "50002532910": {
+   "casa": "camara",
+   "id": 220693,
+   "uf": "BA",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "50002532900": {
+   "casa": "camara",
+   "id": 220690,
+   "uf": "BA",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "50002537398": {
+   "casa": "camara",
+   "id": 178858,
+   "uf": "BA",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "50002537372": {
+   "casa": "camara",
+   "id": 139285,
+   "uf": "BA",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "50002538756": {
+   "casa": "camara",
+   "id": 69871,
+   "uf": "BA",
+   "partidoAtual": "PV",
+   "confianca": "nome-urna"
+  },
+  "50002535000": {
+   "casa": "camara",
+   "id": 178860,
+   "uf": "BA",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "50002535004": {
+   "casa": "camara",
+   "id": 92102,
+   "uf": "BA",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "50002534990": {
+   "casa": "camara",
+   "id": 220692,
+   "uf": "BA",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "50002532643": {
+   "casa": "camara",
+   "id": 204560,
+   "uf": "BA",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "50002532626": {
+   "casa": "camara",
+   "id": 160553,
+   "uf": "BA",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "50002532635": {
+   "casa": "camara",
+   "id": 205476,
+   "uf": "BA",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "50002532621": {
+   "casa": "camara",
+   "id": 74574,
+   "uf": "BA",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "50002532630": {
+   "casa": "camara",
+   "id": 204567,
+   "uf": "BA",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "50002532637": {
+   "casa": "camara",
+   "id": 220708,
+   "uf": "BA",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "50002532632": {
+   "casa": "camara",
+   "id": 73808,
+   "uf": "BA",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "50002538772": {
+   "casa": "camara",
+   "id": 74057,
+   "uf": "BA",
+   "partidoAtual": "PCdoB",
+   "confianca": "nome-urna"
+  },
+  "50002534737": {
+   "casa": "camara",
+   "id": 204553,
+   "uf": "BA",
+   "partidoAtual": "AVANTE",
+   "confianca": "nome-urna"
+  },
+  "50002534738": {
+   "casa": "camara",
+   "id": 220703,
+   "uf": "BA",
+   "partidoAtual": "AVANTE",
+   "confianca": "nome-urna"
+  },
+  "50002533124": {
+   "casa": "senado",
+   "id": null,
+   "uf": "BA",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "50002536317": {
+   "casa": "senado",
+   "id": null,
+   "uf": "BA",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "60002541557": {
+   "casa": "senado",
+   "id": null,
+   "uf": "CE",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "60002534881": {
+   "casa": "camara",
+   "id": 204549,
+   "uf": "CE",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "60002534888": {
+   "casa": "camara",
+   "id": 62881,
+   "uf": "CE",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "60002536601": {
+   "casa": "camara",
+   "id": 133439,
+   "uf": "CE",
+   "partidoAtual": "PDT",
+   "confianca": "nome-urna"
+  },
+  "60002542442": {
+   "casa": "camara",
+   "id": 220660,
+   "uf": "CE",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "60002536979": {
+   "casa": "camara",
+   "id": 220657,
+   "uf": "CE",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "60002536967": {
+   "casa": "camara",
+   "id": 204481,
+   "uf": "CE",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "60002536974": {
+   "casa": "camara",
+   "id": 226075,
+   "uf": "CE",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "60002536984": {
+   "casa": "camara",
+   "id": 220661,
+   "uf": "CE",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "60002536706": {
+   "casa": "camara",
+   "id": 204489,
+   "uf": "CE",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "60002540732": {
+   "casa": "camara",
+   "id": 204541,
+   "uf": "CE",
+   "partidoAtual": "PV",
+   "confianca": "nome-urna"
+  },
+  "60002534893": {
+   "casa": "camara",
+   "id": 178997,
+   "uf": "CE",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "60002537016": {
+   "casa": "camara",
+   "id": 204488,
+   "uf": "CE",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "60002537654": {
+   "casa": "camara",
+   "id": 220658,
+   "uf": "CE",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "60002537018": {
+   "casa": "camara",
+   "id": 143632,
+   "uf": "CE",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "60002537021": {
+   "casa": "camara",
+   "id": 220656,
+   "uf": "CE",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "60002540733": {
+   "casa": "camara",
+   "id": 74295,
+   "uf": "CE",
+   "partidoAtual": "PCdoB",
+   "confianca": "nome-urna"
+  },
+  "60002542479": {
+   "casa": "senado",
+   "id": null,
+   "uf": "CE",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "70002538527": {
+   "casa": "camara",
+   "id": 204372,
+   "uf": "DF",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-civil"
+  },
+  "70002538521": {
+   "casa": "camara",
+   "id": 220534,
+   "uf": "DF",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "70002538935": {
+   "casa": "camara",
+   "id": 220532,
+   "uf": "DF",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "70002550316": {
+   "casa": "senado",
+   "id": null,
+   "uf": "DF",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "70002550322": {
+   "casa": "camara",
+   "id": 73579,
+   "uf": "DF",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "70002539533": {
+   "casa": "camara",
+   "id": 220533,
+   "uf": "DF",
+   "partidoAtual": "PV",
+   "confianca": "nome-urna"
+  },
+  "70002552492": {
+   "casa": "senado",
+   "id": null,
+   "uf": "DF",
+   "partidoAtual": "PDT",
+   "confianca": "nome-civil"
+  },
+  "70002552490": {
+   "casa": "camara",
+   "id": 160575,
+   "uf": "DF",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "70002552934": {
+   "casa": "camara",
+   "id": 204374,
+   "uf": "DF",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "80002541024": {
+   "casa": "camara",
+   "id": 160517,
+   "uf": "ES",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "80002542403": {
+   "casa": "camara",
+   "id": 204356,
+   "uf": "ES",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "80002542409": {
+   "casa": "camara",
+   "id": 204355,
+   "uf": "ES",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "80002549470": {
+   "casa": "camara",
+   "id": 220527,
+   "uf": "ES",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "80002536278": {
+   "casa": "camara",
+   "id": 220529,
+   "uf": "ES",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "80002542411": {
+   "casa": "camara",
+   "id": 220530,
+   "uf": "ES",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "80002551833": {
+   "casa": "camara",
+   "id": 178873,
+   "uf": "ES",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "80002553265": {
+   "casa": "camara",
+   "id": 178871,
+   "uf": "ES",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-civil"
+  },
+  "80002550187": {
+   "casa": "senado",
+   "id": null,
+   "uf": "ES",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "80002538202": {
+   "casa": "senado",
+   "id": null,
+   "uf": "ES",
+   "partidoAtual": "AVANTE",
+   "confianca": "nome-urna"
+  },
+  "90002548364": {
+   "casa": "camara",
+   "id": 220566,
+   "uf": "GO",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "90002548376": {
+   "casa": "camara",
+   "id": 220572,
+   "uf": "GO",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "90002543239": {
+   "casa": "camara",
+   "id": 121948,
+   "uf": "GO",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "90002539151": {
+   "casa": "camara",
+   "id": 74371,
+   "uf": "GO",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "90002539157": {
+   "casa": "camara",
+   "id": 220565,
+   "uf": "GO",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "90002543218": {
+   "casa": "camara",
+   "id": 160598,
+   "uf": "GO",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "90002543226": {
+   "casa": "camara",
+   "id": 178876,
+   "uf": "GO",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "90002537390": {
+   "casa": "camara",
+   "id": 204419,
+   "uf": "GO",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "90002542624": {
+   "casa": "camara",
+   "id": 166402,
+   "uf": "GO",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "90002543246": {
+   "casa": "camara",
+   "id": 204391,
+   "uf": "GO",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "90002543243": {
+   "casa": "camara",
+   "id": 220569,
+   "uf": "GO",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "90002547109": {
+   "casa": "camara",
+   "id": 204390,
+   "uf": "GO",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "90002547100": {
+   "casa": "camara",
+   "id": 220567,
+   "uf": "GO",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "90002543473": {
+   "casa": "camara",
+   "id": 220571,
+   "uf": "GO",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "90002543471": {
+   "casa": "camara",
+   "id": 220570,
+   "uf": "GO",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "90002551791": {
+   "casa": "senado",
+   "id": null,
+   "uf": "GO",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "90002546974": {
+   "casa": "camara",
+   "id": 204412,
+   "uf": "GO",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "90002543556": {
+   "casa": "camara",
+   "id": 220568,
+   "uf": "GO",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "90002543215": {
+   "casa": "senado",
+   "id": null,
+   "uf": "GO",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "100002537278": {
+   "casa": "camara",
+   "id": 220689,
+   "uf": "MA",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "100002535230": {
+   "casa": "camara",
+   "id": 178881,
+   "uf": "MA",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "100002542869": {
+   "casa": "camara",
+   "id": 220707,
+   "uf": "MA",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "100002536094": {
+   "casa": "camara",
+   "id": 204574,
+   "uf": "MA",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "100002536090": {
+   "casa": "camara",
+   "id": 141408,
+   "uf": "MA",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "100002536098": {
+   "casa": "camara",
+   "id": 178884,
+   "uf": "MA",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "100002537305": {
+   "casa": "camara",
+   "id": 220681,
+   "uf": "MA",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "100002537261": {
+   "casa": "camara",
+   "id": 204570,
+   "uf": "MA",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "100002542560": {
+   "casa": "camara",
+   "id": 204566,
+   "uf": "MA",
+   "partidoAtual": "PRD",
+   "confianca": "nome-urna"
+  },
+  "100002541474": {
+   "casa": "senado",
+   "id": null,
+   "uf": "MA",
+   "partidoAtual": "PSB",
+   "confianca": "nome-civil"
+  },
+  "100002542884": {
+   "casa": "camara",
+   "id": 215043,
+   "uf": "MA",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "100002542878": {
+   "casa": "camara",
+   "id": 122974,
+   "uf": "MA",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "100002548246": {
+   "casa": "camara",
+   "id": 178886,
+   "uf": "MA",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "100002546927": {
+   "casa": "camara",
+   "id": 81055,
+   "uf": "MA",
+   "partidoAtual": "PCdoB",
+   "confianca": "nome-urna"
+  },
+  "100002550746": {
+   "casa": "camara",
+   "id": 220686,
+   "uf": "MA",
+   "partidoAtual": "AVANTE",
+   "confianca": "nome-urna"
+  },
+  "100002542575": {
+   "casa": "camara",
+   "id": 220687,
+   "uf": "MA",
+   "partidoAtual": "SOLIDARIEDADE",
+   "confianca": "nome-urna"
+  },
+  "100002537338": {
+   "casa": "senado",
+   "id": null,
+   "uf": "MA",
+   "partidoAtual": "PDT",
+   "confianca": "nome-civil"
+  },
+  "100002541459": {
+   "casa": "senado",
+   "id": null,
+   "uf": "MA",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "130002550162": {
+   "casa": "senado",
+   "id": null,
+   "uf": "MG",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "130002540596": {
+   "casa": "camara",
+   "id": 236284,
+   "uf": "MG",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "130002537223": {
+   "casa": "camara",
+   "id": 204491,
+   "uf": "MG",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "130002537206": {
+   "casa": "camara",
+   "id": 204482,
+   "uf": "MG",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "130002537202": {
+   "casa": "camara",
+   "id": 210989,
+   "uf": "MG",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "130002542743": {
+   "casa": "camara",
+   "id": 160599,
+   "uf": "MG",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "130002542701": {
+   "casa": "camara",
+   "id": 204524,
+   "uf": "MG",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "130002542700": {
+   "casa": "camara",
+   "id": 220630,
+   "uf": "MG",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "130002542714": {
+   "casa": "camara",
+   "id": 107970,
+   "uf": "MG",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "130002538287": {
+   "casa": "camara",
+   "id": 74158,
+   "uf": "MG",
+   "partidoAtual": "PDT",
+   "confianca": "nome-urna"
+  },
+  "130002535317": {
+   "casa": "camara",
+   "id": 74161,
+   "uf": "MG",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "130002535279": {
+   "casa": "camara",
+   "id": 204480,
+   "uf": "MG",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "130002535276": {
+   "casa": "camara",
+   "id": 220632,
+   "uf": "MG",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "130002535303": {
+   "casa": "camara",
+   "id": 160556,
+   "uf": "MG",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "130002535300": {
+   "casa": "camara",
+   "id": 220629,
+   "uf": "MG",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "130002535286": {
+   "casa": "camara",
+   "id": 171786,
+   "uf": "MG",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "130002535313": {
+   "casa": "camara",
+   "id": 74156,
+   "uf": "MG",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "130002535293": {
+   "casa": "camara",
+   "id": 204492,
+   "uf": "MG",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "130002547896": {
+   "casa": "camara",
+   "id": 178896,
+   "uf": "MG",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "130002539715": {
+   "casa": "camara",
+   "id": 204515,
+   "uf": "MG",
+   "partidoAtual": "REDE",
+   "confianca": "nome-urna"
+  },
+  "130002548795": {
+   "casa": "camara",
+   "id": 220622,
+   "uf": "MG",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "130002542031": {
+   "casa": "camara",
+   "id": 204517,
+   "uf": "MG",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "130002541996": {
+   "casa": "camara",
+   "id": 220628,
+   "uf": "MG",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "130002542027": {
+   "casa": "camara",
+   "id": 220620,
+   "uf": "MG",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "130002542026": {
+   "casa": "camara",
+   "id": 209787,
+   "uf": "MG",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "130002542004": {
+   "casa": "camara",
+   "id": 220625,
+   "uf": "MG",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "130002542015": {
+   "casa": "camara",
+   "id": 74585,
+   "uf": "MG",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "130002542017": {
+   "casa": "camara",
+   "id": 161550,
+   "uf": "MG",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "130002542016": {
+   "casa": "camara",
+   "id": 179000,
+   "uf": "MG",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "130002542036": {
+   "casa": "camara",
+   "id": 204518,
+   "uf": "MG",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "130002542019": {
+   "casa": "camara",
+   "id": 198197,
+   "uf": "MG",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "130002542007": {
+   "casa": "camara",
+   "id": 160640,
+   "uf": "MG",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "130002542008": {
+   "casa": "camara",
+   "id": 204520,
+   "uf": "MG",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "130002533240": {
+   "casa": "camara",
+   "id": 204494,
+   "uf": "MG",
+   "partidoAtual": "PRD",
+   "confianca": "nome-urna"
+  },
+  "130002542695": {
+   "casa": "camara",
+   "id": 220631,
+   "uf": "MG",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "130002542730": {
+   "casa": "camara",
+   "id": 204512,
+   "uf": "MG",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "130002542738": {
+   "casa": "camara",
+   "id": 220626,
+   "uf": "MG",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "130002542715": {
+   "casa": "camara",
+   "id": 141531,
+   "uf": "MG",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "130002542716": {
+   "casa": "camara",
+   "id": 204508,
+   "uf": "MG",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "130002542724": {
+   "casa": "camara",
+   "id": 160632,
+   "uf": "MG",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "130002539842": {
+   "casa": "camara",
+   "id": 141516,
+   "uf": "MG",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "130002539728": {
+   "casa": "camara",
+   "id": 220623,
+   "uf": "MG",
+   "partidoAtual": "PSOL",
+   "confianca": "nome-urna"
+  },
+  "130002539741": {
+   "casa": "camara",
+   "id": 206018,
+   "uf": "MG",
+   "partidoAtual": "PSOL",
+   "confianca": "nome-urna"
+  },
+  "130002545577": {
+   "casa": "camara",
+   "id": 160518,
+   "uf": "MG",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "130002545565": {
+   "casa": "camara",
+   "id": 92776,
+   "uf": "MG",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "130002545559": {
+   "casa": "camara",
+   "id": 160588,
+   "uf": "MG",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "130002543112": {
+   "casa": "camara",
+   "id": 160510,
+   "uf": "MG",
+   "partidoAtual": "AVANTE",
+   "confianca": "nome-urna"
+  },
+  "130002552296": {
+   "casa": "senado",
+   "id": null,
+   "uf": "MG",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-civil"
+  },
+  "130002550464": {
+   "casa": "camara",
+   "id": 74160,
+   "uf": "MG",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "130002551786": {
+   "casa": "camara",
+   "id": 160758,
+   "uf": "MG",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "130002554332": {
+   "casa": "camara",
+   "id": 74646,
+   "uf": "MG",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "130002545590": {
+   "casa": "senado",
+   "id": null,
+   "uf": "MG",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "120002537355": {
+   "casa": "camara",
+   "id": 204358,
+   "uf": "MS",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "120002538791": {
+   "casa": "camara",
+   "id": 141411,
+   "uf": "MS",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "120002538786": {
+   "casa": "camara",
+   "id": 204351,
+   "uf": "MS",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "120002537465": {
+   "casa": "camara",
+   "id": 220548,
+   "uf": "MS",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "120002536281": {
+   "casa": "camara",
+   "id": 220546,
+   "uf": "MS",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "120002536282": {
+   "casa": "camara",
+   "id": 220547,
+   "uf": "MS",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "120002538784": {
+   "casa": "camara",
+   "id": 74374,
+   "uf": "MS",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "120002547435": {
+   "casa": "camara",
+   "id": 74376,
+   "uf": "MS",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "120002547434": {
+   "casa": "senado",
+   "id": null,
+   "uf": "MS",
+   "partidoAtual": "PSB",
+   "confianca": "nome-civil"
+  },
+  "110002549187": {
+   "casa": "camara",
+   "id": 204474,
+   "uf": "MT",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "110002540127": {
+   "casa": "camara",
+   "id": 204449,
+   "uf": "MT",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "110002538411": {
+   "casa": "camara",
+   "id": 220595,
+   "uf": "MT",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "110002538954": {
+   "casa": "camara",
+   "id": 230767,
+   "uf": "MT",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "110002538410": {
+   "casa": "camara",
+   "id": 220594,
+   "uf": "MT",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "110002550863": {
+   "casa": "camara",
+   "id": 178905,
+   "uf": "MT",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "110002551737": {
+   "casa": "senado",
+   "id": null,
+   "uf": "MT",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "110002544986": {
+   "casa": "senado",
+   "id": null,
+   "uf": "MT",
+   "partidoAtual": "PSD",
+   "confianca": "nome-civil"
+  },
+  "140002541715": {
+   "casa": "camara",
+   "id": 74075,
+   "uf": "PA",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "140002548357": {
+   "casa": "camara",
+   "id": 220671,
+   "uf": "PA",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "140002548362": {
+   "casa": "camara",
+   "id": 204495,
+   "uf": "PA",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "140002540462": {
+   "casa": "camara",
+   "id": 220675,
+   "uf": "PA",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "140002540457": {
+   "casa": "camara",
+   "id": 220677,
+   "uf": "PA",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "140002540454": {
+   "casa": "camara",
+   "id": 153423,
+   "uf": "PA",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "140002547300": {
+   "casa": "camara",
+   "id": 204498,
+   "uf": "PA",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "140002547295": {
+   "casa": "camara",
+   "id": 220674,
+   "uf": "PA",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "140002546709": {
+   "casa": "camara",
+   "id": 220673,
+   "uf": "PA",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "140002546710": {
+   "casa": "camara",
+   "id": 178910,
+   "uf": "PA",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "140002540619": {
+   "casa": "camara",
+   "id": 220676,
+   "uf": "PA",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "140002540470": {
+   "casa": "camara",
+   "id": 220672,
+   "uf": "PA",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "140002537040": {
+   "casa": "camara",
+   "id": 74084,
+   "uf": "PA",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "140002537039": {
+   "casa": "camara",
+   "id": 204497,
+   "uf": "PA",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "140002538404": {
+   "casa": "camara",
+   "id": 204496,
+   "uf": "PA",
+   "partidoAtual": "PDT",
+   "confianca": "nome-urna"
+  },
+  "140002542691": {
+   "casa": "senado",
+   "id": null,
+   "uf": "PA",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "140002544855": {
+   "casa": "camara",
+   "id": 178908,
+   "uf": "PA",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "150002544200": {
+   "casa": "camara",
+   "id": 115200,
+   "uf": "PB",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "150002544204": {
+   "casa": "camara",
+   "id": 236423,
+   "uf": "PB",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "150002549636": {
+   "casa": "camara",
+   "id": 160527,
+   "uf": "PB",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "150002544174": {
+   "casa": "camara",
+   "id": 74041,
+   "uf": "PB",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "150002533578": {
+   "casa": "camara",
+   "id": 160635,
+   "uf": "PB",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "150002538457": {
+   "casa": "camara",
+   "id": 220574,
+   "uf": "PB",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "150002544010": {
+   "casa": "camara",
+   "id": 74043,
+   "uf": "PB",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "150002544003": {
+   "casa": "camara",
+   "id": 220585,
+   "uf": "PB",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "150002544178": {
+   "casa": "camara",
+   "id": 204394,
+   "uf": "PB",
+   "partidoAtual": "PCdoB",
+   "confianca": "nome-urna"
+  },
+  "150002538692": {
+   "casa": "senado",
+   "id": null,
+   "uf": "PB",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "150002544905": {
+   "casa": "senado",
+   "id": null,
+   "uf": "PB",
+   "partidoAtual": "MDB",
+   "confianca": "nome-civil"
+  },
+  "170002539476": {
+   "casa": "camara",
+   "id": 204423,
+   "uf": "PE",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "170002542896": {
+   "casa": "camara",
+   "id": 220668,
+   "uf": "PE",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "170002532733": {
+   "casa": "camara",
+   "id": 160665,
+   "uf": "PE",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "170002532954": {
+   "casa": "camara",
+   "id": 204425,
+   "uf": "PE",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "170002544063": {
+   "casa": "camara",
+   "id": 220669,
+   "uf": "PE",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "170002544062": {
+   "casa": "camara",
+   "id": 220665,
+   "uf": "PE",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "170002533326": {
+   "casa": "camara",
+   "id": 204426,
+   "uf": "PE",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "170002537254": {
+   "casa": "camara",
+   "id": 220670,
+   "uf": "PE",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "170002539175": {
+   "casa": "camara",
+   "id": 220666,
+   "uf": "PE",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "170002541341": {
+   "casa": "camara",
+   "id": 204427,
+   "uf": "PE",
+   "partidoAtual": "PRD",
+   "confianca": "nome-urna"
+  },
+  "170002540291": {
+   "casa": "camara",
+   "id": 72442,
+   "uf": "PE",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "170002540289": {
+   "casa": "camara",
+   "id": 220662,
+   "uf": "PE",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "170002540301": {
+   "casa": "camara",
+   "id": 220667,
+   "uf": "PE",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "170002533320": {
+   "casa": "camara",
+   "id": 88256,
+   "uf": "PE",
+   "partidoAtual": "PV",
+   "confianca": "nome-urna"
+  },
+  "170002552555": {
+   "casa": "camara",
+   "id": 160642,
+   "uf": "PE",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "170002540316": {
+   "casa": "camara",
+   "id": 92699,
+   "uf": "PE",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "170002533308": {
+   "casa": "camara",
+   "id": 73801,
+   "uf": "PE",
+   "partidoAtual": "PCdoB",
+   "confianca": "nome-urna"
+  },
+  "170002538985": {
+   "casa": "camara",
+   "id": 91228,
+   "uf": "PE",
+   "partidoAtual": "AVANTE",
+   "confianca": "nome-urna"
+  },
+  "170002552102": {
+   "casa": "camara",
+   "id": 141421,
+   "uf": "PE",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "170002547773": {
+   "casa": "senado",
+   "id": null,
+   "uf": "PE",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "170002539456": {
+   "casa": "camara",
+   "id": 74428,
+   "uf": "PE",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "170002552097": {
+   "casa": "camara",
+   "id": 157130,
+   "uf": "PE",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "180002539133": {
+   "casa": "camara",
+   "id": 123086,
+   "uf": "PI",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "180002539127": {
+   "casa": "camara",
+   "id": 66385,
+   "uf": "PI",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "180002532475": {
+   "casa": "camara",
+   "id": 220700,
+   "uf": "PI",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "180002532472": {
+   "casa": "camara",
+   "id": 191923,
+   "uf": "PI",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "180002532479": {
+   "casa": "camara",
+   "id": 220688,
+   "uf": "PI",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "180002532476": {
+   "casa": "camara",
+   "id": 188097,
+   "uf": "PI",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "180002536461": {
+   "casa": "camara",
+   "id": 220699,
+   "uf": "PI",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "180002540446": {
+   "casa": "senado",
+   "id": null,
+   "uf": "PI",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "180002533967": {
+   "casa": "senado",
+   "id": null,
+   "uf": "PI",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "180002533964": {
+   "casa": "camara",
+   "id": 74317,
+   "uf": "PI",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "160002547611": {
+   "casa": "camara",
+   "id": 225846,
+   "uf": "PR",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "160002540769": {
+   "casa": "camara",
+   "id": 204395,
+   "uf": "PR",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "160002532851": {
+   "casa": "camara",
+   "id": 178934,
+   "uf": "PR",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "160002532874": {
+   "casa": "camara",
+   "id": 73768,
+   "uf": "PR",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "160002532857": {
+   "casa": "camara",
+   "id": 73788,
+   "uf": "PR",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "160002532858": {
+   "casa": "camara",
+   "id": 220684,
+   "uf": "PR",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "160002536519": {
+   "casa": "camara",
+   "id": 160592,
+   "uf": "PR",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "160002536517": {
+   "casa": "camara",
+   "id": 224333,
+   "uf": "PR",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "160002536520": {
+   "casa": "camara",
+   "id": 220682,
+   "uf": "PR",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "160002536512": {
+   "casa": "camara",
+   "id": 220704,
+   "uf": "PR",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "160002540782": {
+   "casa": "camara",
+   "id": 178933,
+   "uf": "PR",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "160002546900": {
+   "casa": "camara",
+   "id": 204398,
+   "uf": "PR",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "160002547565": {
+   "casa": "camara",
+   "id": 204396,
+   "uf": "PR",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "160002547569": {
+   "casa": "camara",
+   "id": 204387,
+   "uf": "PR",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "160002532596": {
+   "casa": "camara",
+   "id": 178931,
+   "uf": "PR",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "160002536505": {
+   "casa": "camara",
+   "id": 178927,
+   "uf": "PR",
+   "partidoAtual": "PV",
+   "confianca": "nome-urna"
+  },
+  "160002532863": {
+   "casa": "camara",
+   "id": 178929,
+   "uf": "PR",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "160002532859": {
+   "casa": "camara",
+   "id": 220685,
+   "uf": "PR",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "160002532855": {
+   "casa": "camara",
+   "id": 204410,
+   "uf": "PR",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "160002532878": {
+   "casa": "camara",
+   "id": 220701,
+   "uf": "PR",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "160002532876": {
+   "casa": "camara",
+   "id": 220702,
+   "uf": "PR",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "160002532872": {
+   "casa": "camara",
+   "id": 236518,
+   "uf": "PR",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "160002549533": {
+   "casa": "camara",
+   "id": 220683,
+   "uf": "PR",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "160002542337": {
+   "casa": "camara",
+   "id": 178832,
+   "uf": "PR",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "160002542314": {
+   "casa": "camara",
+   "id": 220698,
+   "uf": "PR",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "160002542323": {
+   "casa": "camara",
+   "id": 162332,
+   "uf": "PR",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "160002540833": {
+   "casa": "senado",
+   "id": null,
+   "uf": "PR",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "160002549553": {
+   "casa": "camara",
+   "id": 160621,
+   "uf": "PR",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "160002547660": {
+   "casa": "camara",
+   "id": 204411,
+   "uf": "PR",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "190002543347": {
+   "casa": "camara",
+   "id": 178945,
+   "uf": "RJ",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "190002543344": {
+   "casa": "camara",
+   "id": 204459,
+   "uf": "RJ",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "190002541064": {
+   "casa": "camara",
+   "id": 74253,
+   "uf": "RJ",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "190002541063": {
+   "casa": "camara",
+   "id": 220612,
+   "uf": "RJ",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "190002539658": {
+   "casa": "camara",
+   "id": 220604,
+   "uf": "RJ",
+   "partidoAtual": "PDT",
+   "confianca": "nome-urna"
+  },
+  "190002543102": {
+   "casa": "camara",
+   "id": 220602,
+   "uf": "RJ",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "190002543104": {
+   "casa": "camara",
+   "id": 220606,
+   "uf": "RJ",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "190002539336": {
+   "casa": "camara",
+   "id": 204456,
+   "uf": "RJ",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "190002543278": {
+   "casa": "camara",
+   "id": 220618,
+   "uf": "RJ",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "190002532819": {
+   "casa": "camara",
+   "id": 220611,
+   "uf": "RJ",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "190002532834": {
+   "casa": "camara",
+   "id": 204462,
+   "uf": "RJ",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "190002532807": {
+   "casa": "camara",
+   "id": 178946,
+   "uf": "RJ",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "190002532827": {
+   "casa": "camara",
+   "id": 220603,
+   "uf": "RJ",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "190002532798": {
+   "casa": "camara",
+   "id": 227991,
+   "uf": "RJ",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "190002532825": {
+   "casa": "camara",
+   "id": 220613,
+   "uf": "RJ",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "190002532810": {
+   "casa": "camara",
+   "id": 178937,
+   "uf": "RJ",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "190002532795": {
+   "casa": "camara",
+   "id": 178947,
+   "uf": "RJ",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "190002532808": {
+   "casa": "camara",
+   "id": 204460,
+   "uf": "RJ",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "190002534633": {
+   "casa": "camara",
+   "id": 204455,
+   "uf": "RJ",
+   "partidoAtual": "NOVO",
+   "confianca": "nome-urna"
+  },
+  "190002543087": {
+   "casa": "camara",
+   "id": 220605,
+   "uf": "RJ",
+   "partidoAtual": "PV",
+   "confianca": "nome-urna"
+  },
+  "190002550489": {
+   "casa": "camara",
+   "id": 160161,
+   "uf": "RJ",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "190002550483": {
+   "casa": "camara",
+   "id": 221329,
+   "uf": "RJ",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "190002550511": {
+   "casa": "camara",
+   "id": 220617,
+   "uf": "RJ",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "190002550520": {
+   "casa": "camara",
+   "id": 204457,
+   "uf": "RJ",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "190002550514": {
+   "casa": "camara",
+   "id": 236375,
+   "uf": "RJ",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "190002536152": {
+   "casa": "camara",
+   "id": 220598,
+   "uf": "RJ",
+   "partidoAtual": "PSOL",
+   "confianca": "nome-urna"
+  },
+  "190002536145": {
+   "casa": "camara",
+   "id": 220615,
+   "uf": "RJ",
+   "partidoAtual": "PSOL",
+   "confianca": "nome-urna"
+  },
+  "190002536144": {
+   "casa": "camara",
+   "id": 74171,
+   "uf": "RJ",
+   "partidoAtual": "PSOL",
+   "confianca": "nome-urna"
+  },
+  "190002536156": {
+   "casa": "camara",
+   "id": 204464,
+   "uf": "RJ",
+   "partidoAtual": "PSOL",
+   "confianca": "nome-urna"
+  },
+  "190002536155": {
+   "casa": "camara",
+   "id": 152605,
+   "uf": "RJ",
+   "partidoAtual": "PSOL",
+   "confianca": "nome-urna"
+  },
+  "190002539471": {
+   "casa": "camara",
+   "id": 141450,
+   "uf": "RJ",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "190002540158": {
+   "casa": "camara",
+   "id": 204441,
+   "uf": "RJ",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "190002540184": {
+   "casa": "camara",
+   "id": 74856,
+   "uf": "RJ",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "190002543077": {
+   "casa": "camara",
+   "id": 230765,
+   "uf": "RJ",
+   "partidoAtual": "PCdoB",
+   "confianca": "nome-urna"
+  },
+  "190002543096": {
+   "casa": "camara",
+   "id": 74848,
+   "uf": "RJ",
+   "partidoAtual": "PCdoB",
+   "confianca": "nome-urna"
+  },
+  "190002534839": {
+   "casa": "camara",
+   "id": 160512,
+   "uf": "RJ",
+   "partidoAtual": "SOLIDARIEDADE",
+   "confianca": "nome-urna"
+  },
+  "190002550184": {
+   "casa": "camara",
+   "id": 220599,
+   "uf": "RJ",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "190002548141": {
+   "casa": "camara",
+   "id": 73701,
+   "uf": "RJ",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "190002542888": {
+   "casa": "camara",
+   "id": 204460,
+   "uf": "RJ",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "190002535142": {
+   "casa": "senado",
+   "id": null,
+   "uf": "RJ",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "190002548145": {
+   "casa": "camara",
+   "id": 122158,
+   "uf": "RJ",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "200002535715": {
+   "casa": "camara",
+   "id": 141459,
+   "uf": "RN",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "200002535721": {
+   "casa": "camara",
+   "id": 220624,
+   "uf": "RN",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "200002533872": {
+   "casa": "camara",
+   "id": 204453,
+   "uf": "RN",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "200002533875": {
+   "casa": "camara",
+   "id": 204473,
+   "uf": "RN",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "200002533876": {
+   "casa": "camara",
+   "id": 213762,
+   "uf": "RN",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "200002533877": {
+   "casa": "camara",
+   "id": 220621,
+   "uf": "RN",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "200002535722": {
+   "casa": "camara",
+   "id": 109429,
+   "uf": "RN",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "200002534448": {
+   "casa": "senado",
+   "id": null,
+   "uf": "RN",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "200002535507": {
+   "casa": "senado",
+   "id": null,
+   "uf": "RN",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "220002536038": {
+   "casa": "camara",
+   "id": 220608,
+   "uf": "RO",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "220002536035": {
+   "casa": "camara",
+   "id": 233594,
+   "uf": "RO",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "220002536880": {
+   "casa": "camara",
+   "id": 204378,
+   "uf": "RO",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "220002536882": {
+   "casa": "camara",
+   "id": 178954,
+   "uf": "RO",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "220002542944": {
+   "casa": "camara",
+   "id": 220597,
+   "uf": "RO",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "220002542943": {
+   "casa": "camara",
+   "id": 220609,
+   "uf": "RO",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "220002541939": {
+   "casa": "senado",
+   "id": null,
+   "uf": "RO",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "220002547309": {
+   "casa": "camara",
+   "id": 204360,
+   "uf": "RO",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "220002539996": {
+   "casa": "camara",
+   "id": 220610,
+   "uf": "RO",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "230002549304": {
+   "casa": "senado",
+   "id": null,
+   "uf": "RR",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "230002549298": {
+   "casa": "camara",
+   "id": 220538,
+   "uf": "RR",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "230002538187": {
+   "casa": "camara",
+   "id": 220540,
+   "uf": "RR",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "230002549634": {
+   "casa": "camara",
+   "id": 224117,
+   "uf": "RR",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "230002549632": {
+   "casa": "camara",
+   "id": 180214,
+   "uf": "RR",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "230002549628": {
+   "casa": "camara",
+   "id": 220536,
+   "uf": "RR",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "230002549630": {
+   "casa": "camara",
+   "id": 220539,
+   "uf": "RR",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "230002534804": {
+   "casa": "camara",
+   "id": 204479,
+   "uf": "RR",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "230002550794": {
+   "casa": "senado",
+   "id": null,
+   "uf": "RR",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "210002536917": {
+   "casa": "camara",
+   "id": 178962,
+   "uf": "RS",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "210002537718": {
+   "casa": "camara",
+   "id": 178963,
+   "uf": "RS",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "210002537714": {
+   "casa": "camara",
+   "id": 220549,
+   "uf": "RS",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "210002537717": {
+   "casa": "camara",
+   "id": 204406,
+   "uf": "RS",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "210002537712": {
+   "casa": "camara",
+   "id": 136811,
+   "uf": "RS",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "210002537057": {
+   "casa": "camara",
+   "id": 178835,
+   "uf": "RS",
+   "partidoAtual": "PDT",
+   "confianca": "nome-urna"
+  },
+  "210002537066": {
+   "casa": "camara",
+   "id": 73486,
+   "uf": "RS",
+   "partidoAtual": "PDT",
+   "confianca": "nome-urna"
+  },
+  "210002534597": {
+   "casa": "camara",
+   "id": 220554,
+   "uf": "RS",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "210002534601": {
+   "casa": "camara",
+   "id": 160538,
+   "uf": "RS",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "210002534583": {
+   "casa": "camara",
+   "id": 220553,
+   "uf": "RS",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "210002534598": {
+   "casa": "camara",
+   "id": 160535,
+   "uf": "RS",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "210002534604": {
+   "casa": "camara",
+   "id": 74398,
+   "uf": "RS",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "210002541514": {
+   "casa": "camara",
+   "id": 160559,
+   "uf": "RS",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "210002534656": {
+   "casa": "camara",
+   "id": 204388,
+   "uf": "RS",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "210002534671": {
+   "casa": "camara",
+   "id": 133810,
+   "uf": "RS",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "210002534668": {
+   "casa": "camara",
+   "id": 73692,
+   "uf": "RS",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "210002534897": {
+   "casa": "camara",
+   "id": 160673,
+   "uf": "RS",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "210002534654": {
+   "casa": "camara",
+   "id": 220550,
+   "uf": "RS",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "210002533902": {
+   "casa": "camara",
+   "id": 204407,
+   "uf": "RS",
+   "partidoAtual": "PSOL",
+   "confianca": "nome-urna"
+  },
+  "210002538537": {
+   "casa": "camara",
+   "id": 160552,
+   "uf": "RS",
+   "partidoAtual": "PSD",
+   "confianca": "nome-civil"
+  },
+  "210002538541": {
+   "casa": "camara",
+   "id": 204404,
+   "uf": "RS",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "210002538556": {
+   "casa": "camara",
+   "id": 178964,
+   "uf": "RS",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "210002534588": {
+   "casa": "camara",
+   "id": 220555,
+   "uf": "RS",
+   "partidoAtual": "PCdoB",
+   "confianca": "nome-urna"
+  },
+  "210002547857": {
+   "casa": "camara",
+   "id": 220552,
+   "uf": "RS",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "210002547816": {
+   "casa": "camara",
+   "id": 204416,
+   "uf": "RS",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "210002547819": {
+   "casa": "camara",
+   "id": 156190,
+   "uf": "RS",
+   "partidoAtual": "NOVO",
+   "confianca": "nome-urna"
+  },
+  "240002537085": {
+   "casa": "camara",
+   "id": 214694,
+   "uf": "SC",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "240002537081": {
+   "casa": "camara",
+   "id": 178966,
+   "uf": "SC",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "240002533824": {
+   "casa": "camara",
+   "id": 220556,
+   "uf": "SC",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "240002541406": {
+   "casa": "camara",
+   "id": 161440,
+   "uf": "SC",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "240002539377": {
+   "casa": "camara",
+   "id": 204362,
+   "uf": "SC",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "240002539382": {
+   "casa": "camara",
+   "id": 220557,
+   "uf": "SC",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "240002539376": {
+   "casa": "camara",
+   "id": 204367,
+   "uf": "SC",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "240002539384": {
+   "casa": "camara",
+   "id": 220558,
+   "uf": "SC",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "240002539378": {
+   "casa": "camara",
+   "id": 220559,
+   "uf": "SC",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "240002535434": {
+   "casa": "camara",
+   "id": 204365,
+   "uf": "SC",
+   "partidoAtual": "NOVO",
+   "confianca": "nome-urna"
+  },
+  "240002541915": {
+   "casa": "camara",
+   "id": 204368,
+   "uf": "SC",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "240002548632": {
+   "casa": "senado",
+   "id": null,
+   "uf": "SC",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "260002533079": {
+   "casa": "camara",
+   "id": 220563,
+   "uf": "SE",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "260002533083": {
+   "casa": "camara",
+   "id": 220560,
+   "uf": "SE",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "260002547411": {
+   "casa": "camara",
+   "id": 204408,
+   "uf": "SE",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "260002547442": {
+   "casa": "camara",
+   "id": 178970,
+   "uf": "SE",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "260002547408": {
+   "casa": "camara",
+   "id": 220564,
+   "uf": "SE",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "260002542470": {
+   "casa": "camara",
+   "id": 220561,
+   "uf": "SE",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "260002542473": {
+   "casa": "camara",
+   "id": 171623,
+   "uf": "SE",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "260002547285": {
+   "casa": "senado",
+   "id": null,
+   "uf": "SE",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "260002533084": {
+   "casa": "senado",
+   "id": null,
+   "uf": "SE",
+   "partidoAtual": "MDB",
+   "confianca": "nome-civil"
+  },
+  "260002551362": {
+   "casa": "camara",
+   "id": 165470,
+   "uf": "SE",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "250002541171": {
+   "casa": "camara",
+   "id": 154178,
+   "uf": "SP",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-civil"
+  },
+  "250002533761": {
+   "casa": "camara",
+   "id": 160545,
+   "uf": "SP",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "250002539934": {
+   "casa": "camara",
+   "id": 74784,
+   "uf": "SP",
+   "partidoAtual": "PSOL",
+   "confianca": "nome-urna"
+  },
+  "250002540564": {
+   "casa": "senado",
+   "id": null,
+   "uf": "SP",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "250002537969": {
+   "casa": "camara",
+   "id": 73441,
+   "uf": "SP",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "250002537942": {
+   "casa": "camara",
+   "id": 204506,
+   "uf": "SP",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "250002537943": {
+   "casa": "camara",
+   "id": 204540,
+   "uf": "SP",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "250002537976": {
+   "casa": "camara",
+   "id": 154178,
+   "uf": "SP",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "250002532379": {
+   "casa": "camara",
+   "id": 220647,
+   "uf": "SP",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "250002536722": {
+   "casa": "camara",
+   "id": 162067,
+   "uf": "SP",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "250002536763": {
+   "casa": "camara",
+   "id": 73604,
+   "uf": "SP",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "250002536719": {
+   "casa": "camara",
+   "id": 73433,
+   "uf": "SP",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "250002536734": {
+   "casa": "camara",
+   "id": 220640,
+   "uf": "SP",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "250002536764": {
+   "casa": "camara",
+   "id": 178986,
+   "uf": "SP",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "250002536736": {
+   "casa": "camara",
+   "id": 204501,
+   "uf": "SP",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "250002536737": {
+   "casa": "camara",
+   "id": 141398,
+   "uf": "SP",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "250002536757": {
+   "casa": "camara",
+   "id": 141456,
+   "uf": "SP",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "250002536756": {
+   "casa": "camara",
+   "id": 221148,
+   "uf": "SP",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "250002536745": {
+   "casa": "camara",
+   "id": 141488,
+   "uf": "SP",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "250002546642": {
+   "casa": "camara",
+   "id": 204536,
+   "uf": "SP",
+   "partidoAtual": "MISSÃO",
+   "confianca": "nome-urna"
+  },
+  "250002533647": {
+   "casa": "camara",
+   "id": 178975,
+   "uf": "SP",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "250002533624": {
+   "casa": "camara",
+   "id": 230957,
+   "uf": "SP",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "250002533638": {
+   "casa": "camara",
+   "id": 220653,
+   "uf": "SP",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "250002544357": {
+   "casa": "camara",
+   "id": 220652,
+   "uf": "SP",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "250002544326": {
+   "casa": "camara",
+   "id": 220646,
+   "uf": "SP",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "250002544346": {
+   "casa": "camara",
+   "id": 220635,
+   "uf": "SP",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "250002544341": {
+   "casa": "camara",
+   "id": 220642,
+   "uf": "SP",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "250002544351": {
+   "casa": "camara",
+   "id": 154700,
+   "uf": "SP",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "250002544327": {
+   "casa": "camara",
+   "id": 175765,
+   "uf": "SP",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "250002544360": {
+   "casa": "camara",
+   "id": 74270,
+   "uf": "SP",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "250002544332": {
+   "casa": "camara",
+   "id": 220638,
+   "uf": "SP",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "250002544356": {
+   "casa": "camara",
+   "id": 220648,
+   "uf": "SP",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "250002544355": {
+   "casa": "camara",
+   "id": 220641,
+   "uf": "SP",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "250002535954": {
+   "casa": "camara",
+   "id": 178829,
+   "uf": "SP",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "250002535959": {
+   "casa": "camara",
+   "id": 220655,
+   "uf": "SP",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "250002535957": {
+   "casa": "camara",
+   "id": 204504,
+   "uf": "SP",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "250002535972": {
+   "casa": "camara",
+   "id": 204525,
+   "uf": "SP",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "250002535943": {
+   "casa": "camara",
+   "id": 160561,
+   "uf": "SP",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "250002535968": {
+   "casa": "camara",
+   "id": 204485,
+   "uf": "SP",
+   "partidoAtual": "PL",
+   "confianca": "nome-civil"
+  },
+  "250002535991": {
+   "casa": "camara",
+   "id": 220654,
+   "uf": "SP",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "250002535955": {
+   "casa": "camara",
+   "id": 74273,
+   "uf": "SP",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "250002535948": {
+   "casa": "camara",
+   "id": 178985,
+   "uf": "SP",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "250002535961": {
+   "casa": "camara",
+   "id": 141555,
+   "uf": "SP",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "250002535980": {
+   "casa": "camara",
+   "id": 178983,
+   "uf": "SP",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "250002550395": {
+   "casa": "camara",
+   "id": 178972,
+   "uf": "SP",
+   "partidoAtual": "CIDADANIA",
+   "confianca": "nome-urna"
+  },
+  "250002530167": {
+   "casa": "camara",
+   "id": 204528,
+   "uf": "SP",
+   "partidoAtual": "NOVO",
+   "confianca": "nome-urna"
+  },
+  "250002539399": {
+   "casa": "camara",
+   "id": 160548,
+   "uf": "SP",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "250002539435": {
+   "casa": "camara",
+   "id": 204534,
+   "uf": "SP",
+   "partidoAtual": "PSB",
+   "confianca": "nome-urna"
+  },
+  "250002532338": {
+   "casa": "camara",
+   "id": 66828,
+   "uf": "SP",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "250002532368": {
+   "casa": "camara",
+   "id": 220649,
+   "uf": "SP",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-urna"
+  },
+  "250002539604": {
+   "casa": "camara",
+   "id": 204535,
+   "uf": "SP",
+   "partidoAtual": "PSOL",
+   "confianca": "nome-urna"
+  },
+  "250002539612": {
+   "casa": "camara",
+   "id": 220645,
+   "uf": "SP",
+   "partidoAtual": "PSOL",
+   "confianca": "nome-urna"
+  },
+  "250002539593": {
+   "casa": "camara",
+   "id": 220643,
+   "uf": "SP",
+   "partidoAtual": "PSOL",
+   "confianca": "nome-urna"
+  },
+  "250002539622": {
+   "casa": "camara",
+   "id": 221338,
+   "uf": "SP",
+   "partidoAtual": "PSOL",
+   "confianca": "nome-urna"
+  },
+  "250002541145": {
+   "casa": "camara",
+   "id": 178992,
+   "uf": "SP",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "250002541149": {
+   "casa": "camara",
+   "id": 226837,
+   "uf": "SP",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "250002541120": {
+   "casa": "camara",
+   "id": 220650,
+   "uf": "SP",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "250002541114": {
+   "casa": "camara",
+   "id": 74262,
+   "uf": "SP",
+   "partidoAtual": "PSD",
+   "confianca": "nome-urna"
+  },
+  "250002536755": {
+   "casa": "camara",
+   "id": 178987,
+   "uf": "SP",
+   "partidoAtual": "PCdoB",
+   "confianca": "nome-urna"
+  },
+  "250002541312": {
+   "casa": "camara",
+   "id": 204531,
+   "uf": "SP",
+   "partidoAtual": "PP",
+   "confianca": "nome-urna"
+  },
+  "250002551501": {
+   "casa": "camara",
+   "id": 220637,
+   "uf": "SP",
+   "partidoAtual": "REDE",
+   "confianca": "nome-urna"
+  },
+  "270002548522": {
+   "casa": "camara",
+   "id": 220543,
+   "uf": "TO",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "270002548435": {
+   "casa": "camara",
+   "id": 143084,
+   "uf": "TO",
+   "partidoAtual": "PODE",
+   "confianca": "nome-urna"
+  },
+  "270002544470": {
+   "casa": "camara",
+   "id": 220545,
+   "uf": "TO",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  },
+  "270002544599": {
+   "casa": "senado",
+   "id": null,
+   "uf": "TO",
+   "partidoAtual": "UNIÃO",
+   "confianca": "nome-civil"
+  },
+  "270002544544": {
+   "casa": "camara",
+   "id": 137070,
+   "uf": "TO",
+   "partidoAtual": "PSDB",
+   "confianca": "nome-urna"
+  },
+  "270002548409": {
+   "casa": "camara",
+   "id": 204364,
+   "uf": "TO",
+   "partidoAtual": "REPUBLICANOS",
+   "confianca": "nome-urna"
+  },
+  "270002548344": {
+   "casa": "camara",
+   "id": 220542,
+   "uf": "TO",
+   "partidoAtual": "MDB",
+   "confianca": "nome-urna"
+  },
+  "270002546333": {
+   "casa": "senado",
+   "id": null,
+   "uf": "TO",
+   "partidoAtual": "PL",
+   "confianca": "nome-urna"
+  }
+ }
+}
