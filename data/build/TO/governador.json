@@ -1,0 +1,403 @@
+{
+ "uf": "TO",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.720Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 8,
+ "candidatos": [
+  {
+   "sq": "270002550458",
+   "uf": "TO",
+   "cargo": "governador",
+   "numero": "27",
+   "nomeUrna": "DU PEREIRA",
+   "nomeCompleto": "IVAILDO PEREIRA DA CRUZ",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "270001801082"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "270002550459",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SILVINO VITOR",
+     "nomeCompleto": "SILVINO VITOR PERES DE SANTANA",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "270002548412",
+   "uf": "TO",
+   "cargo": "governador",
+   "numero": "30",
+   "nomeUrna": "ATAIDES DE OLIVEIRA",
+   "nomeCompleto": "ATAIDES DE OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "270001800913"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "270002548413",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ROSILEIA DIAS CARNEIRO",
+     "nomeCompleto": "ROSILEIA DIAS CARNEIRO",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "270002554375",
+   "uf": "TO",
+   "cargo": "governador",
+   "numero": "35",
+   "nomeUrna": "SIQUEIRA CAMPOS JR",
+   "nomeCompleto": "JOSÉ WILSON SIQUEIRA CAMPOS JÚNIOR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DEMOCRATA",
+    "numero": "35",
+    "nome": "DEMOCRATA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DEMOCRATA",
+    "sq": "270001800814"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "270002554376",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CAPITÃO OSMAR",
+     "nomeCompleto": "OSMAR GOMES DE LIMA",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "270002546369",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JAIR MEDEIROS",
+     "nomeCompleto": "JAIR MEDEIRO DA CUNHA",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "270002546368",
+   "uf": "TO",
+   "cargo": "governador",
+   "numero": "35",
+   "nomeUrna": "SUBTENENTE LUIZ CARLOS",
+   "nomeCompleto": "LUIZ CARLOS FERREIRA DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DEMOCRATA",
+    "numero": "35",
+    "nome": "DEMOCRATA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DEMOCRATA",
+    "sq": "270001800814"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "270002554376",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CAPITÃO OSMAR",
+     "nomeCompleto": "OSMAR GOMES DE LIMA",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "270002546369",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JAIR MEDEIROS",
+     "nomeCompleto": "JAIR MEDEIRO DA CUNHA",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "270002544599",
+   "uf": "TO",
+   "cargo": "governador",
+   "numero": "44",
+   "nomeUrna": "PROFESSORA DORINHA",
+   "nomeCompleto": "MARIA AUXILIADORA SEABRA REZENDE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "UNIÃO PELO TOCANTINS",
+    "composicao": "REPUBLICANOS / PODE / AVANTE / PL / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "270001800733"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "270002544600",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ATOS GOMES",
+     "nomeCompleto": "ATOS GOMES DE ARAÚJO",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "270002544544",
+   "uf": "TO",
+   "cargo": "governador",
+   "numero": "45",
+   "nomeUrna": "VICENTINHO JÚNIOR",
+   "nomeCompleto": "VICENTE ALVES DE OLIVEIRA JÚNIOR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSDB",
+    "numero": "45",
+    "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "PRA CIMA TOCANTINS",
+    "composicao": "MDB / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "sq": "270001800725"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "270002544545",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "AMÉLIO CAYRES",
+     "nomeCompleto": "AMELIO CAYRES DE ALMEIDA",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "270002539187",
+   "uf": "TO",
+   "cargo": "governador",
+   "numero": "50",
+   "nomeUrna": "PROF WITER NAVES",
+   "nomeCompleto": "WITER FONSECA NAVES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "270001800451"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "270002539188",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "LÚCIA VIANA",
+     "nomeCompleto": "MARIA LUCIA SOARES VIANA",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "270002544494",
+   "uf": "TO",
+   "cargo": "governador",
+   "numero": "55",
+   "nomeUrna": "LAUREZ MOREIRA",
+   "nomeCompleto": "LAUREZ DA ROCHA MOREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PRA FRENTE TOCANTINS",
+    "composicao": "PDT / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "270001800720"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "270002544495",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CORONEL SILVA NETO",
+     "nomeCompleto": "JULIO MANOEL DA SILVA NETO",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

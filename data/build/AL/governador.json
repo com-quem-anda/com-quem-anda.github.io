@@ -1,0 +1,191 @@
+{
+ "uf": "AL",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.300Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 4,
+ "candidatos": [
+  {
+   "sq": "20002553745",
+   "uf": "AL",
+   "cargo": "governador",
+   "numero": "15",
+   "nomeUrna": "RENAN FILHO",
+   "nomeCompleto": "JOSÉ RENAN VASCONCELOS CALHEIROS FILHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PRA ALAGOAS FAZER HISTÓRIA DE NOVO",
+    "composicao": "MDB / PODE / AGIR / PSB / PSD / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "20001801444"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "20002553746",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "YALE BARBOSA",
+     "nomeCompleto": "YALE BARBOSA FERNANDES",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "20002552502",
+   "uf": "AL",
+   "cargo": "governador",
+   "numero": "35",
+   "nomeUrna": "MÁRCIO JAMBO",
+   "nomeCompleto": "MARCIO FERREIRA JAMBO SOBRINHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DEMOCRATA",
+    "numero": "35",
+    "nome": "DEMOCRATA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DEMOCRATA",
+    "sq": "20001801313"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "20002552503",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JAUDINETE PONTES",
+     "nomeCompleto": "JAUDINETE PONTES DA SILVA",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "20002553350",
+   "uf": "AL",
+   "cargo": "governador",
+   "numero": "45",
+   "nomeUrna": "JHC",
+   "nomeCompleto": "JOÃO HENRIQUE HOLANDA CALDAS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSDB",
+    "numero": "45",
+    "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "ALAGOAS GIGANTE",
+    "composicao": "PDT / PODE / PL / DC / AVANTE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "20001801408"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "20002553351",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CÉLIA ROCHA",
+     "nomeCompleto": "CELIA MARIA BARBOSA ROCHA",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "20002539642",
+   "uf": "AL",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "LENILDA LUNA",
+   "nomeCompleto": "LENILDA LUNA DE ALMEIDA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "20001800463"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "20002539643",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JARDEL QUEIROZ",
+     "nomeCompleto": "JARDEL WANDSON QUEIROZ DA CRUZ",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

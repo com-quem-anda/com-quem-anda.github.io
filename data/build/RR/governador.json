@@ -1,0 +1,254 @@
+{
+ "uf": "RR",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.606Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 5,
+ "candidatos": [
+  {
+   "sq": "230002551571",
+   "uf": "RR",
+   "cargo": "governador",
+   "numero": "10",
+   "nomeUrna": "SOLDADO SAMPAIO",
+   "nomeCompleto": "FRANCISCO DOS SANTOS SAMPAIO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REPUBLICANOS",
+    "numero": "10",
+    "nome": "REPUBLICANOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "RORAIMA SEGUE EM FRENTE",
+    "composicao": "REPUBLICANOS / PODE / AGIR / PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "230001801181"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "230002551572",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SHÉRIDAN",
+     "nomeCompleto": "SHÉRIDAN  ESTÉRFANY OLIVEIRA RAMOS",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "230002549223",
+   "uf": "RR",
+   "cargo": "governador",
+   "numero": "22",
+   "nomeUrna": "ARTHUR HENRIQUE",
+   "nomeCompleto": "ARTHUR HENRIQUE BRANDAO MACHADO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "UNIDOS POR RORAIMA",
+    "composicao": "PL / NOVO",
+    "sq": "230001800997"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "230002549222",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "HAROLDO CATHEDRAL",
+     "nomeCompleto": "HAROLDO ALVES CAMPOS",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "230002553857",
+   "uf": "RR",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "CLÉBIO GENUÍNO",
+   "nomeCompleto": "JOSE CLEBIO GENUINO DO NASCIMENTO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "230001801451"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "230002553858",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "GREGÓRIO PEREIRA",
+     "nomeCompleto": "JOSÉ GREGÓRIO RODRIGUES PEREIRA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "230002554442",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JOTA RODRIGUES",
+     "nomeCompleto": "JARILOM RODRIGUES SABAJO",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "230002552060",
+   "uf": "RR",
+   "cargo": "governador",
+   "numero": "50",
+   "nomeUrna": "ROSI AIRES",
+   "nomeCompleto": "ROSIMAYRE PATRICIA AIRES DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "RORAIMA DA ESPERANÇA",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "230001801234"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "230002552061",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "LÚCIA PATAMONA",
+     "nomeCompleto": "LUCIA ALBERTO",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "230002549294",
+   "uf": "RR",
+   "cargo": "governador",
+   "numero": "77",
+   "nomeUrna": "FARAH MESQUITA",
+   "nomeCompleto": "FARAH MESQUITA",
+   "nomeSocial": "FARAH MESQUITA",
+   "partido": {
+    "sigla": "SOLIDARIEDADE",
+    "numero": "77",
+    "nome": "SOLIDARIEDADE"
+   },
+   "federacao": {
+    "sigla": "PRD/SOLIDARIEDADE",
+    "nome": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA",
+    "composicao": "PRD/SOLIDARIEDADE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "230001801001"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "230002549295",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "NATÁLIA WAKIRI",
+     "nomeCompleto": "MARIA NATALIA SOUSA CIPRIANO",
+     "partido": {
+      "sigla": "SOLIDARIEDADE",
+      "numero": "77",
+      "nome": "SOLIDARIEDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

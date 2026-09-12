@@ -1,0 +1,500 @@
+{
+ "uf": "DF",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.369Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 11,
+ "candidatos": [
+  {
+   "sq": "70002553055",
+   "uf": "DF",
+   "cargo": "governador",
+   "numero": "11",
+   "nomeUrna": "CELINA LEÃO",
+   "nomeCompleto": "CELINA LEAO HIZIM FERREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "PROPÓSITO E AÇÃO",
+    "composicao": "REPUBLICANOS / MDB / PODE / PL / DC / MOBILIZA / DEMOCRATA / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "70001801367"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "70002553056",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "GUSTAVO ROCHA",
+     "nomeCompleto": "GUSTAVO DO VALE ROCHA",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "70002552496",
+   "uf": "DF",
+   "cargo": "governador",
+   "numero": "13",
+   "nomeUrna": "LEANDRO GRASS",
+   "nomeCompleto": "LEANDRO ANTÔNIO GRASS PEIXOTO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "DF DO POVO",
+    "composicao": "PDT / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "70001801311"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "70002552497",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DORA GOMES",
+     "nomeCompleto": "MARIA DAS DORES GOMES DA SILVA SANTOS",
+     "partido": {
+      "sigla": "PV",
+      "numero": "43",
+      "nome": "PARTIDO VERDE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "70002535930",
+   "uf": "DF",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "PROFESSOR ROBSON",
+   "nomeCompleto": "ROBSON RAYMUNDO DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "70001800218"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "70002535931",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "GUILLEN",
+     "nomeCompleto": "ANTONIO RICARDO MARTINS GUILLEN",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "70002553982",
+   "uf": "DF",
+   "cargo": "governador",
+   "numero": "28",
+   "nomeUrna": "RICO PINHEIRO",
+   "nomeCompleto": "ALDERICO DA SILVA PINHEIRO FILHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PRTB",
+    "numero": "28",
+    "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PRTB",
+    "sq": "70001801507"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "70002554083",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CRISTIANE BARROS",
+     "nomeCompleto": "CRISTIANE BARROS DA SILVA SANTOS",
+     "partido": {
+      "sigla": "PRTB",
+      "numero": "28",
+      "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "70002552341",
+   "uf": "DF",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "EXPEDITO MENDONÇA",
+   "nomeCompleto": "EXPEDITO CARNEIRO DE MENDONÇA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "70001801297"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "70002552340",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "VALMIR BARBOSA",
+     "nomeCompleto": "VALMIR BARBOSA DA SILVA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "70002547775",
+   "uf": "DF",
+   "cargo": "governador",
+   "numero": "30",
+   "nomeUrna": "KIKO CAPUTO",
+   "nomeCompleto": "FRANCISCO QUEIROZ CAPUTO NETO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "70001800901"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "70002547774",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DELEGADO RAFAEL SAMPAIO",
+     "nomeCompleto": "RAFAEL DE SA SAMPAIO",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "70002551298",
+   "uf": "DF",
+   "cargo": "governador",
+   "numero": "36",
+   "nomeUrna": "ELISSON",
+   "nomeCompleto": "ELISSON FERREIRA FREIRE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AGIR",
+    "numero": "36",
+    "nome": "AGIR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "AGIR",
+    "sq": "70001801188"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "70002551299",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SUBTENENTE SERGIO PRADO",
+     "nomeCompleto": "SERGIO PRADO TOMAZ",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "70002551557",
+   "uf": "DF",
+   "cargo": "governador",
+   "numero": "40",
+   "nomeUrna": "CAPPELLI",
+   "nomeCompleto": "RICARDO GARCIA CAPPELLI",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSB",
+    "numero": "40",
+    "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSB",
+    "sq": "70001801180"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "70002551558",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SOFIA CARVALHO",
+     "nomeCompleto": "SOFIA MARTINS CARVALHO",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "70002552965",
+   "uf": "DF",
+   "cargo": "governador",
+   "numero": "45",
+   "nomeUrna": "PAULA BELMONTE",
+   "nomeCompleto": "PAULA MORENO PARO BELMONTE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSDB",
+    "numero": "45",
+    "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "sq": "70001801387"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "70002552966",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JUIZ EVERARDO RIBEIRO",
+     "nomeCompleto": "EVERARDO ALVES RIBEIRO",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "70002552586",
+   "uf": "DF",
+   "cargo": "governador",
+   "numero": "55",
+   "nomeUrna": "ARRUDA",
+   "nomeCompleto": "JOSÉ ROBERTO ARRUDA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "RESGATAR BRASÍLIA",
+    "composicao": "PSD / AVANTE",
+    "sq": "70001801330"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "70002552587",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "LUIZ PITIMAN",
+     "nomeCompleto": "LUIZ CARLOS PIETSCHMANN",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "70002537111",
+   "uf": "DF",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "PROFESSORA SAMARA MINEIRO",
+   "nomeCompleto": "SAMARA MINEIRO OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "70001800354"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "70002537110",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "THAÍS OLIVEIRA",
+     "nomeCompleto": "THAIS OLIVEIRA SILVA",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

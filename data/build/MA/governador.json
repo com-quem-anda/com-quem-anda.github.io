@@ -1,0 +1,379 @@
+{
+ "uf": "MA",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.409Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 8,
+ "candidatos": [
+  {
+   "sq": "100002542556",
+   "uf": "MA",
+   "cargo": "governador",
+   "numero": "13",
+   "nomeUrna": "FELIPE CAMARÃO",
+   "nomeCompleto": "FELIPE COSTA CAMARAO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "BRASIL JUSTO, MARANHÃO GRANDE",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / PSB / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "100001800619"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "100002542555",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "RICARDO RODRIGUES",
+     "nomeCompleto": "RICARDO RODRIGUES DE MATOS",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002544076",
+   "uf": "MA",
+   "cargo": "governador",
+   "numero": "14",
+   "nomeUrna": "ANDRÉ LUIS",
+   "nomeCompleto": "ANDRÉ LUÍS CAETANO DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "100001800702"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "100002544075",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PROF. CADU",
+     "nomeCompleto": "CARLOS EDUARDO SOUSA AGUIAR",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002543869",
+   "uf": "MA",
+   "cargo": "governador",
+   "numero": "15",
+   "nomeUrna": "ORLEANS BRANDÃO",
+   "nomeCompleto": "CARLOS ORLEANS BRAIDE BRANDÃO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "AVANÇO POR TODO MARANHÃO",
+    "composicao": "MDB / PDT / REPUBLICANOS / PODE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "100001800678"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "100002543870",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "EDIVALDO HOLANDA JUNIOR",
+     "nomeCompleto": "EDIVALDO DE HOLANDA BRAGA JUNIOR",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002534190",
+   "uf": "MA",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "SAULO ARCANGELI",
+   "nomeCompleto": "SAULO COSTA ARCANGELI",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "100001800182"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "100002534191",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PRETA LU",
+     "nomeCompleto": "LUCIANA COSTA CORREA",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002544073",
+   "uf": "MA",
+   "cargo": "governador",
+   "numero": "21",
+   "nomeUrna": "REGINALDO LIMA",
+   "nomeCompleto": "REGINALDO LIMA BRAUNO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCB",
+    "numero": "21",
+    "nome": "PARTIDO COMUNISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCB",
+    "sq": "100001800701"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "100002554354",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "GATO FELIX",
+     "nomeCompleto": "FELIX LIMA E SILVA",
+     "partido": {
+      "sigla": "PCB",
+      "numero": "21",
+      "nome": "PARTIDO COMUNISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002544074",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "BARTOLOMEU",
+     "nomeCompleto": "BARTOLOMEU MOREIRA",
+     "partido": {
+      "sigla": "PCB",
+      "numero": "21",
+      "nome": "PARTIDO COMUNISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002551399",
+   "uf": "MA",
+   "cargo": "governador",
+   "numero": "28",
+   "nomeUrna": "ROBERTO ROCHA",
+   "nomeCompleto": "ROBERTO COELHO ROCHA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PRTB",
+    "numero": "28",
+    "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PRTB",
+    "sq": "100001801202"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "100002551398",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PASTOR JOSIAS",
+     "nomeCompleto": "JOSIAS CARDOSO SILVA",
+     "partido": {
+      "sigla": "PRTB",
+      "numero": "28",
+      "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002552700",
+   "uf": "MA",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "DIMAS CASSIMIRO",
+   "nomeCompleto": "DIMAS CASSIMIRO DO NASCIMENTO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "100001801263"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "100002552699",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CHARLIETH VIANA",
+     "nomeCompleto": "CHARLIETH MACIEL VIANA BARROS",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002545679",
+   "uf": "MA",
+   "cargo": "governador",
+   "numero": "55",
+   "nomeUrna": "EDUARDO BRAIDE",
+   "nomeCompleto": "EDUARDO SALIM BRAIDE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PRA TRANSFORMAR O MARANHÃO",
+    "composicao": "NOVO / PSD",
+    "sq": "100001800907"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "100002545680",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ELAINE CARNEIRO",
+     "nomeCompleto": "ELAINE CORTEZ CARNEIRO",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

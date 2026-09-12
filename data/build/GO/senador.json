@@ -1,0 +1,700 @@
+{
+ "uf": "GO",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.399Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 11,
+ "candidatos": [
+  {
+   "sq": "90002546974",
+   "uf": "GO",
+   "cargo": "senador",
+   "numero": "155",
+   "nomeUrna": "DR. ZACHARIAS CALIL",
+   "nomeCompleto": "ZACARIAS CALIL HAMU",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "90001800848"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "90002554305",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "LEONARDO REIS",
+     "nomeCompleto": "LEONARDO MARIANO REIS",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "90002546975",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "THALES JAYME",
+     "nomeCompleto": "THALES JOSÉ JAYME",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "90002546976",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CONCEIÇÃO DO ENTORNO",
+     "nomeCompleto": "MARIA DA CONCEIÇÃO ALVES",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002543556",
+   "uf": "GO",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "GUSTAVO GAYER",
+   "nomeCompleto": "GUSTAVO GAYER MACHADO DE ARAUJO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "GOIAS QUE CRESCE",
+    "composicao": "PL / NOVO",
+    "sq": "90001800646"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "90002543558",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "LEONARDO RIZZO",
+     "nomeCompleto": "LEONARDO CAIRO RIZZO",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "90002543555",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "EMERSON LIMA",
+     "nomeCompleto": "EMERSON ALVES DE LIMA",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002543560",
+   "uf": "GO",
+   "cargo": "senador",
+   "numero": "227",
+   "nomeUrna": "OSÉIAS VARÃO",
+   "nomeCompleto": "OSEIAS MENDES PEREIRA VARÃO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "GOIAS QUE CRESCE",
+    "composicao": "PL / NOVO",
+    "sq": "90001800646"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "90002543557",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "TELEMACO BRANDÃO",
+     "nomeCompleto": "TELEMACO BRANDAO",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "90002543559",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "TÉO GOMES",
+     "nomeCompleto": "TEOBALDO DE QUEIROZ GOMES",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002545244",
+   "uf": "GO",
+   "cargo": "senador",
+   "numero": "234",
+   "nomeUrna": "IURE CASTRO",
+   "nomeCompleto": "IURE DE CASTRO SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "CIDADANIA",
+    "numero": "23",
+    "nome": "CIDADANIA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "GOIÁS DE VERDADE",
+    "composicao": "DC / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "sq": "90001800661"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "90002545245",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "DARLENE AZEVEDO",
+     "nomeCompleto": "DARLENE COSTA AZEVEDO ARAÚJO",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "90002545246",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "LUIZ OTAVIO",
+     "nomeCompleto": "LUIZ OTAVIO DO NASCIMENTO",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002540998",
+   "uf": "GO",
+   "cargo": "senador",
+   "numero": "251",
+   "nomeUrna": "GUSTAVO MENDANHA",
+   "nomeCompleto": "GUSTAVO MENDANHA MELO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PRD",
+    "numero": "25",
+    "nome": "PARTIDO RENOVACAO DEMOCRATICA"
+   },
+   "federacao": {
+    "sigla": "PRD/SOLIDARIEDADE",
+    "nome": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA",
+    "composicao": "PRD/SOLIDARIEDADE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "90001800538"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "90002541000",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CARLOS FILHO",
+     "nomeCompleto": "CARLOS CARDOSO DE OLIVEIRA FILHO",
+     "partido": {
+      "sigla": "PRD",
+      "numero": "25",
+      "nome": "PARTIDO RENOVACAO DEMOCRATICA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "90002540999",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CORONEL CARDOSO",
+     "nomeCompleto": "ALLAN PEREIRA CARDOSO",
+     "partido": {
+      "sigla": "SOLIDARIEDADE",
+      "numero": "77",
+      "nome": "SOLIDARIEDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002541455",
+   "uf": "GO",
+   "cargo": "senador",
+   "numero": "400",
+   "nomeUrna": "ISAURA LEMOS",
+   "nomeCompleto": "MARIA ISAURA LEMOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSB",
+    "numero": "40",
+    "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "GOIÁS PODE MAIS",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "90001800484"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "90002541452",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "VICTOR DUTRA",
+     "nomeCompleto": "VICTOR HENRIQUE DUTRA SANTOS",
+     "partido": {
+      "sigla": "PV",
+      "numero": "43",
+      "nome": "PARTIDO VERDE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "90002541456",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PATRICK DE NORONHA",
+     "nomeCompleto": "PATRICK DE NORONHA",
+     "partido": {
+      "sigla": "REDE",
+      "numero": "18",
+      "nome": "REDE SUSTENTABILIDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002540997",
+   "uf": "GO",
+   "cargo": "senador",
+   "numero": "444",
+   "nomeUrna": "GRACINHA CAIADO",
+   "nomeCompleto": "MARIA DAS GRAÇAS LANDIM DE CARVALHO CAIADO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "90001800537"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "90002540996",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ALEXANDRE BALDY",
+     "nomeCompleto": "ALEXANDRE BALDY DE SANT ANNA BRAGA",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "90002540995",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FIÃO",
+     "nomeCompleto": "MANOEL CASTRO DE ARANTES",
+     "partido": {
+      "sigla": "UNIÃO",
+      "numero": "44",
+      "nome": "UNIÃO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002545243",
+   "uf": "GO",
+   "cargo": "senador",
+   "numero": "456",
+   "nomeUrna": "ERNESTO ROLLER",
+   "nomeCompleto": "ERNESTO GUIMARÃES ROLLER",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSDB",
+    "numero": "45",
+    "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "GOIÁS DE VERDADE",
+    "composicao": "DC / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "sq": "90001800661"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "90002545247",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MILTON MERCEZ",
+     "nomeCompleto": "MILTON JOSÉ DAS MERCEZ",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "90002545248",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "HERMES TRALDI",
+     "nomeCompleto": "HERMES TRALDI NETO",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002541454",
+   "uf": "GO",
+   "cargo": "senador",
+   "numero": "500",
+   "nomeUrna": "CINTIA DIAS",
+   "nomeCompleto": "CINTIA APARECIDA DIAS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "GOIÁS PODE MAIS",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "90001800484"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "90002541453",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "FERNANDO ISAAC",
+     "nomeCompleto": "FERNANDO ISAAC BORGES DE FARIA",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "90002541451",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PAULO ROCHIFILD",
+     "nomeCompleto": "PAULO HENRIQUE ROCHIFILD RODRIGUES PEREIRA",
+     "partido": {
+      "sigla": "PV",
+      "numero": "43",
+      "nome": "PARTIDO VERDE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002543215",
+   "uf": "GO",
+   "cargo": "senador",
+   "numero": "555",
+   "nomeUrna": "VANDERLAN CARDOSO",
+   "nomeCompleto": "VANDERLAN VIEIRA CARDOSO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSD",
+    "sq": "90001800668"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "90002543216",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PEDRO CHAVES",
+     "nomeCompleto": "PEDRO PINHEIRO CHAVES",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "90002543214",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "SAMIR HAJJAR",
+     "nomeCompleto": "SAMIR HAJJAR",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002551198",
+   "uf": "GO",
+   "cargo": "senador",
+   "numero": "800",
+   "nomeUrna": "GUILHERME DARQUES",
+   "nomeCompleto": "GUILHERME DARQUES ALVES DE PAULA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "90001801175"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "90002551199",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "AUGUSTO CARDOSO",
+     "nomeCompleto": "AUGUSTO CARDOSO DE OLIVEIRA",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "90002551197",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "VICTOR BARBO",
+     "nomeCompleto": "VICTOR BARBO DE SIQUEIRA",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

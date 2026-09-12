@@ -1,0 +1,281 @@
+{
+ "uf": "AC",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.292Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 6,
+ "candidatos": [
+  {
+   "sq": "10002532492",
+   "uf": "AC",
+   "cargo": "governador",
+   "numero": "10",
+   "nomeUrna": "ALAN RICK",
+   "nomeCompleto": "ALAN RICK MIRANDA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REPUBLICANOS",
+    "numero": "10",
+    "nome": "REPUBLICANOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "TRABALHO DA ESPERANÇA",
+    "composicao": "REPUBLICANOS / NOVO / PSD / AVANTE",
+    "sq": "10001800116"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "10002532493",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "RICARDO LEITE",
+     "nomeCompleto": "FABIO RICARDO LEITE",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "10002544107",
+   "uf": "AC",
+   "cargo": "governador",
+   "numero": "11",
+   "nomeUrna": "MAILZA ASSIS",
+   "nomeCompleto": "MAILZA ASSIS CAMELI",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "AVANÇA ACRE",
+    "composicao": "PDT / MDB / PL / DEMOCRATA / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "10001800654"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "10002544108",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JESSICA SALES",
+     "nomeCompleto": "JESSICA ROJAS SALES",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "10002549500",
+   "uf": "AC",
+   "cargo": "governador",
+   "numero": "21",
+   "nomeUrna": "EUDO RAFFAEL",
+   "nomeCompleto": "EUDO RAFFAEL LIMA DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCB",
+    "numero": "21",
+    "nome": "PARTIDO COMUNISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCB",
+    "sq": "10001801047"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "10002549501",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "POETA CESINHA",
+     "nomeCompleto": "CESAR AUGUSTO FELIX DA SILVA",
+     "partido": {
+      "sigla": "PCB",
+      "numero": "21",
+      "nome": "PARTIDO COMUNISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "10002533539",
+   "uf": "AC",
+   "cargo": "governador",
+   "numero": "36",
+   "nomeUrna": "DR.LUISINHO",
+   "nomeCompleto": "FRANCISCO DAS CHAGAS CONCEICAO DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AGIR",
+    "numero": "36",
+    "nome": "AGIR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "AGIR",
+    "sq": "10001800168"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "10002533538",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DANIELA PAIVA",
+     "nomeCompleto": "DANIELA PAIVA DE OLIVEIRA",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "10002550719",
+   "uf": "AC",
+   "cargo": "governador",
+   "numero": "40",
+   "nomeUrna": "THOR DANTAS",
+   "nomeCompleto": "THOR OLIVEIRA DANTAS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSB",
+    "numero": "40",
+    "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FRENTE AMPLA PELO ACRE",
+    "composicao": "PODE / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "10001801129"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "10002550720",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SOCORRO RODRIGUES",
+     "nomeCompleto": "MARIA DO PERPETUO SOCORRO RODRIGUES DE SOUZA",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "10002544015",
+   "uf": "AC",
+   "cargo": "governador",
+   "numero": "45",
+   "nomeUrna": "TIÃO BOCALOM",
+   "nomeCompleto": "SEBASTIAO BOCALOM RODRIGUES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSDB",
+    "numero": "45",
+    "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "PRODUZIR PARA EMPREGAR",
+    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "sq": "10001800730"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "10002544016",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SARGENTO ADONIS",
+     "nomeCompleto": "ADONIS FRANCISCO DE ALMEIDA SOUZA",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

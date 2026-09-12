@@ -1,0 +1,363 @@
+{
+ "uf": "SC",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.639Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 8,
+ "candidatos": [
+  {
+   "sq": "240002544118",
+   "uf": "SC",
+   "cargo": "governador",
+   "numero": "14",
+   "nomeUrna": "MARCELO BRIGADEIRO",
+   "nomeCompleto": "MARCELO MARCEL FRANCO JOSE DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "240001800708"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "240002544117",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CORONEL RODRIGUES",
+     "nomeCompleto": "MARCELO RODRIGUES",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "240002541913",
+   "uf": "SC",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "PROFESSOR MARCUS SODRÉ",
+   "nomeCompleto": "MARCUS ALEXANDRE SODRE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "240001800589"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "240002541914",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PROFESSORA TATY",
+     "nomeCompleto": "TATIANE PASDIORA",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "240002537073",
+   "uf": "SC",
+   "cargo": "governador",
+   "numero": "22",
+   "nomeUrna": "JORGINHO MELLO",
+   "nomeCompleto": "JORGINHO DOS SANTOS MELLO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FÉ NO TRABALHO E PÉ NA TÁBUA",
+    "composicao": "AVANTE / AGIR / DC / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / NOVO / REPUBLICANOS / PODE / PL",
+    "sq": "240001800349"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "240002537074",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ADRIANO SILVA",
+     "nomeCompleto": "ADRIANO BORNSCHEIN SILVA",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "240002552157",
+   "uf": "SC",
+   "cargo": "governador",
+   "numero": "25",
+   "nomeUrna": "RALF ZIMMER",
+   "nomeCompleto": "RALF GUIMARAES ZIMMER JUNIOR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PRD",
+    "numero": "25",
+    "nome": "PARTIDO RENOVACAO DEMOCRATICA"
+   },
+   "federacao": {
+    "sigla": "PRD/SOLIDARIEDADE",
+    "nome": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA",
+    "composicao": "PRD/SOLIDARIEDADE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "240001801244"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "240002552156",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CARLOS BORDIN",
+     "nomeCompleto": "CARLOS ALBERTO SOUZA BORDIN",
+     "partido": {
+      "sigla": "SOLIDARIEDADE",
+      "numero": "77",
+      "nome": "SOLIDARIEDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "240002553718",
+   "uf": "SC",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "BRUNO PEDREIRO DO PCO",
+   "nomeCompleto": "BRUNNO ANDRADE DIAS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "240001801438"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "240002553719",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "FLÁVIO AMARAL",
+     "nomeCompleto": "FLÁVIO FERREIRA AMARAL",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "240002548628",
+   "uf": "SC",
+   "cargo": "governador",
+   "numero": "40",
+   "nomeUrna": "GELSON MERÍSIO",
+   "nomeCompleto": "GELSON LUIZ MERISIO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSB",
+    "numero": "40",
+    "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "CORAGEM PARA MUDAR",
+    "composicao": "PDT / PSB / FEDERAÇÃO PSOL REDE (PSOL / REDE) / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "240001800990"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "240002548627",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ANGELA ALBINO",
+     "nomeCompleto": "ANGELA ALBINO",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "240002551001",
+   "uf": "SC",
+   "cargo": "governador",
+   "numero": "55",
+   "nomeUrna": "JOÃO RODRIGUES",
+   "nomeCompleto": "JOAO RODRIGUES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "SANTA CATARINA ACIMA DE TUDO",
+    "composicao": "MDB / PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "240001801145"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "240002551002",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CARLOS CHIODINI",
+     "nomeCompleto": "CARLOS ALBERTO CHIODINI",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "240002550544",
+   "uf": "SC",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "LAÍS CHAUD",
+   "nomeCompleto": "LAÍS PAGANELLI CHAUD",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "240001801062"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "240002550545",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "NATHÁLIA MELO",
+     "nomeCompleto": "NATHÁLIA TARSES GOMES DE MELO",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

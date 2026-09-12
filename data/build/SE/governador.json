@@ -1,0 +1,297 @@
+{
+ "uf": "SE",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.647Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 6,
+ "candidatos": [
+  {
+   "sq": "260002532010",
+   "uf": "SE",
+   "cargo": "governador",
+   "numero": "10",
+   "nomeUrna": "VALMIR DE FRANCISQUINHO",
+   "nomeCompleto": "VALMIR DOS SANTOS COSTA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REPUBLICANOS",
+    "numero": "10",
+    "nome": "REPUBLICANOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "MUDA SERGIPE COM A FORÇA DO POVO",
+    "composicao": "REPUBLICANOS / AVANTE",
+    "sq": "260001800085"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "260002532011",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PRISCILA FELIZOLA",
+     "nomeCompleto": "PRISCILA DIAS SILVA FELIZOLA",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002549466",
+   "uf": "SE",
+   "cargo": "governador",
+   "numero": "22",
+   "nomeUrna": "RICARDO MARQUES",
+   "nomeCompleto": "JOSE RICARDO MARQUES DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FÉ E CORAGEM PRA MUDAR",
+    "composicao": "PODE / PL / NOVO",
+    "sq": "260001800984"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "260002554132",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ERICO MENEZES",
+     "nomeCompleto": "JOSE ERICO DE ALMEIDA MELO",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002549467",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PASTORA SALETE",
+     "nomeCompleto": "SALETE FERNANDES DA SILVA",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002550683",
+   "uf": "SE",
+   "cargo": "governador",
+   "numero": "27",
+   "nomeUrna": "TATY  CRISTINA DE JESUS",
+   "nomeCompleto": "TATIANA CRISTINA SANTOS DE JESUS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "260001801155"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "260002550684",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SIMEÃO BARBOSA",
+     "nomeCompleto": "SIMEÃO BARBOSA DE SOUZA",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002551712",
+   "uf": "SE",
+   "cargo": "governador",
+   "numero": "45",
+   "nomeUrna": "EMANUEL CACHO",
+   "nomeCompleto": "EMANUEL MESSIAS OLIVEIRA CACHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSDB",
+    "numero": "45",
+    "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "sq": "260001801269"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "260002551711",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SUELY BARRETO",
+     "nomeCompleto": "SUELY CHAVES BARRETO",
+     "partido": {
+      "sigla": "CIDADANIA",
+      "numero": "23",
+      "nome": "CIDADANIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002547415",
+   "uf": "SE",
+   "cargo": "governador",
+   "numero": "50",
+   "nomeUrna": "DR. HELTON",
+   "nomeCompleto": "JOSE HELTON SILVA MONTEIRO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "260001800858"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "260002547414",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "IZALTINA QUILOMBOLA",
+     "nomeCompleto": "MARIA IZALTINA SILVA SANTOS",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002542491",
+   "uf": "SE",
+   "cargo": "governador",
+   "numero": "55",
+   "nomeUrna": "FÁBIO",
+   "nomeCompleto": "FABIO CRUZ MITIDIERI",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "SERGIPE CRESCE COM VOCÊ",
+    "composicao": "PSB / PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "260001800613"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "260002542492",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JEFERSON ANDRADE",
+     "nomeCompleto": "JEFERSON LUIZ DE ANDRADE",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

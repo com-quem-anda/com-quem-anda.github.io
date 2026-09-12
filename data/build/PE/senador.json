@@ -1,0 +1,735 @@
+{
+ "uf": "PE",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.510Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 12,
+ "candidatos": [
+  {
+   "sq": "170002552102",
+   "uf": "PE",
+   "cargo": "senador",
+   "numero": "111",
+   "nomeUrna": "EDUARDO DA FONTE",
+   "nomeCompleto": "EDUARDO HENRIQUE DA FONTE DE ALBUQUERQUE SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "PERNAMBUCO DE CORAÇÃO",
+    "composicao": "PODE / PSD / AVANTE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "170001801240"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "170002552098",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CARLOS ANDRADE DE LIMA",
+     "nomeCompleto": "CARLOS ANTONIO GOMES DE ANDRADE LIMA",
+     "partido": {
+      "sigla": "UNIÃO",
+      "numero": "44",
+      "nome": "UNIÃO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "170002552099",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JANE SANTOS",
+     "nomeCompleto": "JANE CLEIDE SILVA SANTOS",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002547771",
+   "uf": "PE",
+   "cargo": "senador",
+   "numero": "123",
+   "nomeUrna": "MARÍLIA ARRAES",
+   "nomeCompleto": "MARÍLIA VALENÇA ROCHA ARRAES DE ALENCAR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FRENTE POPULAR DE PERNAMBUCO",
+    "composicao": "REPUBLICANOS / PDT / MDB / DC / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "170001800900"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "170002547768",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ABEL NETO",
+     "nomeCompleto": "ABEL ANTONIO DOS SANTOS NETO",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "170002547769",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "EDJANE FIGUEIREDO",
+     "nomeCompleto": "FRANCISCA EDJANE RODRIGUES DE FIGUEIREDO",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002547773",
+   "uf": "PE",
+   "cargo": "senador",
+   "numero": "130",
+   "nomeUrna": "HUMBERTO COSTA",
+   "nomeCompleto": "HUMBERTO SERGIO COSTA LIMA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FRENTE POPULAR DE PERNAMBUCO",
+    "composicao": "REPUBLICANOS / PDT / MDB / DC / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "170001800900"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "170002547772",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "LUCIANO BIVAR",
+     "nomeCompleto": "LUCIANO CALDAS BIVAR",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "170002547770",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PROFESSOR MANOEL MORAES",
+     "nomeCompleto": "MANOEL SEVERINO MORAES DE ALMEIDA",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002537418",
+   "uf": "PE",
+   "cargo": "senador",
+   "numero": "161",
+   "nomeUrna": "MARIANO MACEDO",
+   "nomeCompleto": "JOSÉ MARIANO DE MACEDO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "170001800359"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "170002537420",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JONAS FERREIRA",
+     "nomeCompleto": "JONAS FERREIRA DA SILVA",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "170002537419",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARCELO",
+     "nomeCompleto": "MARCELO TEIXEIRA DA SILVA",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002549655",
+   "uf": "PE",
+   "cargo": "senador",
+   "numero": "180",
+   "nomeUrna": "PAULO RUBEM SANTIAGO",
+   "nomeCompleto": "PAULO RUBEM SANTIAGO FERREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REDE",
+    "numero": "18",
+    "nome": "REDE SUSTENTABILIDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FRENTE PERNAMBUCO DE LUTA",
+    "composicao": "PCB / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "170001801016"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "170002549653",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CRISTIANO ROMÃO",
+     "nomeCompleto": "JOSE CRISTIANO TEODOSIO ROMÃO",
+     "partido": {
+      "sigla": "PCB",
+      "numero": "21",
+      "nome": "PARTIDO COMUNISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "170002549654",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "RAFAELA RAMOS",
+     "nomeCompleto": "RAFAELA DO NASCIMENTO RAMOS",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002539456",
+   "uf": "PE",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "MENDONÇA FILHO",
+   "nomeCompleto": "JOSÉ MENDONÇA BEZERRA FILHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "170001800419"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "170002539457",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ADRIANA FERREIRA",
+     "nomeCompleto": "ADRIANA KARLA FERREIRA CARNEIRO DE LIMA",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "170002539458",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ALCIDES CARDOSO",
+     "nomeCompleto": "ALCIDES JOSÉ DE ALBUQUERQUE CARDOSO",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002552943",
+   "uf": "PE",
+   "cargo": "senador",
+   "numero": "290",
+   "nomeUrna": "MAILSON DA SILVA NETO",
+   "nomeCompleto": "MAILSON DA SILVA NETO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "170001801283"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "170002552944",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ESTELITA MEDEIROS",
+     "nomeCompleto": "ESTELITA MEDEIROS MOES E SILVA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "170002552942",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "GILBERTO SILVA",
+     "nomeCompleto": "GILBERTO FERREIRA DA SILVA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002530097",
+   "uf": "PE",
+   "cargo": "senador",
+   "numero": "300",
+   "nomeUrna": "CARLOS SANT ANNA",
+   "nomeCompleto": "CARLOS SOARES SANT ANNA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "170001799971"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "170002530098",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CARLA PINHEIRO",
+     "nomeCompleto": "CARLA DE OLIVEIRA PINHEIRO SILVA",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "170002530099",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "HERMES ALVES",
+     "nomeCompleto": "HERMES ALVES DIAS SOUZA",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002540420",
+   "uf": "PE",
+   "cargo": "senador",
+   "numero": "355",
+   "nomeUrna": "PASTOR GILVAN COSTA",
+   "nomeCompleto": "GILVAN OLIVEIRA COSTA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DEMOCRATA",
+    "numero": "35",
+    "nome": "DEMOCRATA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DEMOCRATA",
+    "sq": "170001800521"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "170002540419",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "LAELSON COSTA",
+     "nomeCompleto": "LAELSON OLIVEIRA COSTA",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "170002540421",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PASTORA SIMEA CARVALHO",
+     "nomeCompleto": "SIMEIA SILVA CARVALHO MORAES",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002552097",
+   "uf": "PE",
+   "cargo": "senador",
+   "numero": "555",
+   "nomeUrna": "TÚLIO GADÊLHA",
+   "nomeCompleto": "TULIO GADELHA SALES DE MELO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PERNAMBUCO DE CORAÇÃO",
+    "composicao": "PODE / PSD / AVANTE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "170001801240"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "170002552101",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "DULCI AMORIM",
+     "nomeCompleto": "MARIA DULCICLEIDE MACEDO COELHO AMORIM",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "170002552100",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARCELO PANKARARU",
+     "nomeCompleto": "MARCELO GOMES MONTEIRO LUZ",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002537334",
+   "uf": "PE",
+   "cargo": "senador",
+   "numero": "800",
+   "nomeUrna": "SAMUEL TIMOTEO",
+   "nomeCompleto": "SAMUEL TIMOTEO DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "170001800305"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "170002537331",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "DRA GAU",
+     "nomeCompleto": "MARIA DAS GRAÇAS OLIVEIRA SILVA",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "170002537333",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PROFESSOR BRUNO",
+     "nomeCompleto": "BRUNO ABREU DE MELO",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002537335",
+   "uf": "PE",
+   "cargo": "senador",
+   "numero": "801",
+   "nomeUrna": "GORETT BITU",
+   "nomeCompleto": "MARIA GORETT BITU",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "170001800305"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "170002537336",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PROFESSOR NATANAEL SARMENTO",
+     "nomeCompleto": "ANTONIO NATANAEL MARTINS SARMENTO",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "170002537332",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "SANDRA RAMOS",
+     "nomeCompleto": "SANDRA MARIA RAMOS FLORENTINO FRANÇA",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

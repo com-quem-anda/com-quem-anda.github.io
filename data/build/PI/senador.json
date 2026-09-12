@@ -1,0 +1,1339 @@
+{
+ "uf": "PI",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.516Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 20,
+ "candidatos": [
+  {
+   "sq": "180002540446",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "111",
+   "nomeUrna": "CIRO NOGUEIRA",
+   "nomeCompleto": "CIRO NOGUEIRA LIMA FILHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "JUNTOS PELO PIAUÍ",
+    "composicao": "PODE / PL / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "180001800523"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002540450",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "RAIMUNDO NETO",
+     "nomeCompleto": "RAIMUNDO NETO E SILVA NOGUEIRA LIMA",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002540447",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PASTOR RICARDO BRAZ",
+     "nomeCompleto": "RICARDO SARAIVA DE OLIVEIRA SOBRINHO BRAZ",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002533967",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "151",
+   "nomeUrna": "MARCELO CASTRO",
+   "nomeCompleto": "MARCELO COSTA E CASTRO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "A FORÇA DO POVO",
+    "composicao": "REPUBLICANOS / PDT / MDB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "180001800161"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002533965",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "DR. FELIPE SAMPAIO",
+     "nomeCompleto": "FELIPE DE SOUZA REZENDE SAMPAIO",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002533966",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "DÁRIO CASTRO",
+     "nomeCompleto": "DÁRIO DE PAULO CASTRO",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002537340",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "166",
+   "nomeUrna": "DANNIEL ROCHA",
+   "nomeCompleto": "DANNIEL ROCHA DO NASCIMENTO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "180001800367"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002537341",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JÚNIOR SOARES",
+     "nomeCompleto": "FRANCISCO DE ASSIS SOARES JUNIOR",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002537342",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ROSA MEIRELES",
+     "nomeCompleto": "ROSA MARIA MEIRELES NASCIMENTO",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002540449",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "TIAGO JUNQUEIRA",
+   "nomeCompleto": "TIAGO MAXIMIANO JUNQUEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "JUNTOS PELO PIAUÍ",
+    "composicao": "PODE / PL / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "180001800523"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002540451",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JHAMYA JUNQUEIRA",
+     "nomeCompleto": "JHAMYA WELINE VASCONCELOS JUNQUEIRA",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002540448",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CARLOS AUGUSTO",
+     "nomeCompleto": "CARLOS AUGUSTO TEIXEIRA NUNES",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002554391",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "KAUÃ LACERDA",
+     "nomeCompleto": "KAUÃ LACERDA REGO",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002547863",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "277",
+   "nomeUrna": "DIONISIO CARVALHO",
+   "nomeCompleto": "DIONISIO CARVALHO NETO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "180001800954"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002547864",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "DILCON AFONSO",
+     "nomeCompleto": "DILCON AFONSO SANTOS CARVALHO",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002547859",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FRANCISCO DAS CHAGAS",
+     "nomeCompleto": "FRANCISCO DAS CHAGAS DA SILVA",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002547860",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "278",
+   "nomeUrna": "IRMÃO EVANDRO MARQUES",
+   "nomeCompleto": "EVANDRO MARQUES CUNHA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "180001800954"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002547861",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "AFONSO VIEIRA",
+     "nomeCompleto": "JOSÉ AFONSO VIEIRA",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002547862",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MIKAHIL MENDES",
+     "nomeCompleto": "MIKAHIL FERNANDO SANTOS MENDES",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002553753",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "291",
+   "nomeUrna": "CLOVES JOSÉ",
+   "nomeCompleto": "CLOVES JOSÉ DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "180001801447"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002553752",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "GEORGIA KARYNNE",
+     "nomeCompleto": "GEORGIA KARYNNE ARAGAO DE ANDRADE",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002553754",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "GRAZIELLE ALVES",
+     "nomeCompleto": "GRAZIELLE ALVES DA SILVA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002554378",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARBRI VENCESLAU",
+     "nomeCompleto": "MARBRI WENCESLAU DE ARAUJO",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002549933",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "300",
+   "nomeUrna": "ANTÔNIO BARROS",
+   "nomeCompleto": "ANTONIO DE BARROS ARAUJO FILHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "A FORÇA DA FÉ",
+    "composicao": "NOVO / AVANTE",
+    "sq": "180001801044"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002549934",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MARÍLIA MENDES",
+     "nomeCompleto": "MARÍLIA MENDES DE CARVALHO BOMFIM",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002549932",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "BETIM",
+     "nomeCompleto": "FRANCISCO ERIVALDO LEITE DE ARAUJO",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002544457",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "333",
+   "nomeUrna": "MAJOR PAULO ROBERTO",
+   "nomeCompleto": "PAULO ROBERTO BEZERRA DE OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MOBILIZA",
+    "numero": "33",
+    "nome": "MOBILIZAÇÃO NACIONAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MOBILIZA",
+    "sq": "180001800716"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002544456",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CARLOS ALBERTO",
+     "nomeCompleto": "CARLOS ALBERTO CARDOSO AZEVEDO",
+     "partido": {
+      "sigla": "MOBILIZA",
+      "numero": "33",
+      "nome": "MOBILIZAÇÃO NACIONAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002544460",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "DYEGO SOARES",
+     "nomeCompleto": "DYEGO SOARES ESTEVÃO",
+     "partido": {
+      "sigla": "MOBILIZA",
+      "numero": "33",
+      "nome": "MOBILIZAÇÃO NACIONAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002544459",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "338",
+   "nomeUrna": "TOINHO DUFRANGO",
+   "nomeCompleto": "ANTONIO ALMEIDA DE SOUSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MOBILIZA",
+    "numero": "33",
+    "nome": "MOBILIZAÇÃO NACIONAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MOBILIZA",
+    "sq": "180001800716"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002544458",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "GERSILDA TEIXEIRA",
+     "nomeCompleto": "GERSILDA TEIXEIRA DE ARAUJO",
+     "partido": {
+      "sigla": "MOBILIZA",
+      "numero": "33",
+      "nome": "MOBILIZAÇÃO NACIONAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002544455",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ANGÉLICA VERÍSSIMO",
+     "nomeCompleto": "ANGELICA MARIA ARAUJO ALMEIDA DE SOUSA",
+     "partido": {
+      "sigla": "MOBILIZA",
+      "numero": "33",
+      "nome": "MOBILIZAÇÃO NACIONAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002548157",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "350",
+   "nomeUrna": "MISSIONÁRIO EVANDRO CRAVEIRO",
+   "nomeCompleto": "EVANDRO CRAVEIRO DA ROCHA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DEMOCRATA",
+    "numero": "35",
+    "nome": "DEMOCRATA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DEMOCRATA",
+    "sq": "180001800976"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002548159",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "TIANA ROCHA",
+     "nomeCompleto": "SEBASTIANA MARIA CRAVEIRO DA ROCHA",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002548158",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ALEX PINTO",
+     "nomeCompleto": "ALEXSANDRO DE OLIVEIRA PINTO",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002548155",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "355",
+   "nomeUrna": "JARDENYA BEZERRA",
+   "nomeCompleto": "JARDENYA EYLANE BEZERRA TELES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DEMOCRATA",
+    "numero": "35",
+    "nome": "DEMOCRATA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DEMOCRATA",
+    "sq": "180001800976"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002548156",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "GEOVANNI NASCIMENTO",
+     "nomeCompleto": "GEOVANNI SANTOS DO NASCIMENTO",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002548160",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ANTONIO JOSÉ DOS METALÚRGICOS",
+     "nomeCompleto": "ANTONIO JOSÉ VISGUEIRA DE SOUZA",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002548568",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "456",
+   "nomeUrna": "JORGE LOPES",
+   "nomeCompleto": "FRANCISCO JORGE LOPES SOUSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSDB",
+    "numero": "45",
+    "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "sq": "180001800924"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002548569",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "DIEGO MENDES",
+     "nomeCompleto": "DIEGO MENDES SOUSA",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002548567",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MILTINHO",
+     "nomeCompleto": "MILTON NONATO DA SILVA FILHO",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002550979",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "500",
+   "nomeUrna": "FRANCINALDO LEÃO",
+   "nomeCompleto": "FRANCINALDO SILVA LEÃO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "180001801163"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002550975",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "LAUDECI SILVA SOUZA",
+     "nomeCompleto": "LAUDECI SILVA SOUZA",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002550980",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JUCILEIDE LEÃO",
+     "nomeCompleto": "JUCILEIDE HONORATO DA SILVA LEAO",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002550977",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "505",
+   "nomeUrna": "MARIA MADALENA NUNES",
+   "nomeCompleto": "MARIA MADALENA NUNES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "180001801163"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002550978",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "TINA RIBEIRO",
+     "nomeCompleto": "DEUSANTINA MARIA RIBEIRO DE SOUSA",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002550976",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARIA AIRES",
+     "nomeCompleto": "MARIA AIRES CHAVES",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002533964",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "555",
+   "nomeUrna": "JULIO CESAR",
+   "nomeCompleto": "JULIO CESAR DE CARVALHO LIMA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "A FORÇA DO POVO",
+    "composicao": "REPUBLICANOS / PDT / MDB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "180001800161"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002533969",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ROSARIO BEZERRA",
+     "nomeCompleto": "MARIA DO ROSÁRIO DE FATIMA BISERRA RODRIGUES",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002533968",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PEDRO ROCHA",
+     "nomeCompleto": "PEDRO ALVES DE CARVALHO ROCHA FILHO",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002552962",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "700",
+   "nomeUrna": "ALEXANDRE MARIANO",
+   "nomeCompleto": "ALEXANDRE MARIANO LUSTOSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AVANTE",
+    "numero": "70",
+    "nome": "AVANTE"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "AVANTE",
+    "sq": "180001801286"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002552960",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "GUILHERME ROCHA",
+     "nomeCompleto": "GUILHERME FERREIRA DA CUNHA ROCHA",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002554318",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PAULO LIMEIRA",
+     "nomeCompleto": "PAULO ROBERTO LIMEIRA DOS SANTOS",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002549937",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MICHEL SALDANHA",
+     "nomeCompleto": "GLAYDSTON MICHEL SALDANHA MOURA LIRA",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002552963",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "J C DO DIRCEU",
+     "nomeCompleto": "JOSÉ CARLOS LIMA DA SILVA",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002549935",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ANA CÂMPELO",
+     "nomeCompleto": "ANA ALICE BARBOSA ALENCAR CAMPELO MENDES",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002549936",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "700",
+   "nomeUrna": "ANTÔNIO JOSÉ LIRA",
+   "nomeCompleto": "ANTÔNIO JOSÉ DE FREITAS LIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AVANTE",
+    "numero": "70",
+    "nome": "AVANTE"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "A FORÇA DA FÉ",
+    "composicao": "NOVO / AVANTE",
+    "sq": "180001801044"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002552960",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "GUILHERME ROCHA",
+     "nomeCompleto": "GUILHERME FERREIRA DA CUNHA ROCHA",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002554318",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PAULO LIMEIRA",
+     "nomeCompleto": "PAULO ROBERTO LIMEIRA DOS SANTOS",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002549937",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MICHEL SALDANHA",
+     "nomeCompleto": "GLAYDSTON MICHEL SALDANHA MOURA LIRA",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002552963",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "J C DO DIRCEU",
+     "nomeCompleto": "JOSÉ CARLOS LIMA DA SILVA",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002549935",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ANA CÂMPELO",
+     "nomeCompleto": "ANA ALICE BARBOSA ALENCAR CAMPELO MENDES",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002552964",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "707",
+   "nomeUrna": "PASTOR SENA",
+   "nomeCompleto": "FRANCISCO DE SENA SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AVANTE",
+    "numero": "70",
+    "nome": "AVANTE"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "AVANTE",
+    "sq": "180001801286"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002552959",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "STANLEY MEIRELES",
+     "nomeCompleto": "STANLEY PEREIRA MEIRELES",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002552961",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "IVANILDO LOPES",
+     "nomeCompleto": "IVANILDO MESQUITA LOPES",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002541938",
+   "uf": "PI",
+   "cargo": "senador",
+   "numero": "800",
+   "nomeUrna": "PEDRO LAURENTINO",
+   "nomeCompleto": "PEDRO LAURENTINO REIS PEREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "180001800592"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "180002541937",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "RAIMUNDA BELIZÁRIO",
+     "nomeCompleto": "RAIMUNDA NONATA BELIZÁRIO",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002541936",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "SAMUEL LIMA",
+     "nomeCompleto": "FRANCISCO SAMUEL LIMA DOS SANTOS",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

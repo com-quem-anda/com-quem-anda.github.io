@@ -1,0 +1,708 @@
+{
+ "uf": "MA",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.409Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 11,
+ "candidatos": [
+  {
+   "sq": "100002542867",
+   "uf": "MA",
+   "cargo": "senador",
+   "numero": "111",
+   "nomeUrna": "FUFUCA",
+   "nomeCompleto": "ANDRE LUIZ CARVALHO RIBEIRO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "MARANHÃO DE CARA NOVA",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "100001800630"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "100002542865",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "FERNANDO FIALHO",
+     "nomeCompleto": "FERNANDO ANTONIO BRITO FIALHO",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002542866",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "SARGENTO BARBOSA",
+     "nomeCompleto": "DENISKLEY ABREU BARBOSA",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002537338",
+   "uf": "MA",
+   "cargo": "senador",
+   "numero": "123",
+   "nomeUrna": "WEVERTON ROCHA",
+   "nomeCompleto": "WEVERTON ROCHA MARQUES DE SOUSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "AVANÇO POR TODO MARANHÃO",
+    "composicao": "REPUBLICANOS / PDT / MDB / PODE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "100001800306"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "100002537337",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ALDERICO CAMPOS",
+     "nomeCompleto": "ALDERICO JEFFERSON ABREU DA SILVA CAMPOS",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002537339",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "RENAN WAYNNE",
+     "nomeCompleto": "RENAN WAYNNE REGO REIS",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002541459",
+   "uf": "MA",
+   "cargo": "senador",
+   "numero": "133",
+   "nomeUrna": "ELIZIANE GAMA",
+   "nomeCompleto": "ELIZIANE PEREIRA GAMA MELO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "BRASIL JUSTO, MARANHÃO GRANDE",
+    "composicao": "PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "100001800486"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "100002541460",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "LENE RODRIGUES",
+     "nomeCompleto": "JOSLENE SILVA RODRIGUES",
+     "partido": {
+      "sigla": "PCDOB",
+      "numero": "65",
+      "nome": "PARTIDO COMUNISTA DO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002541461",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PATRÍCIA CARLOS",
+     "nomeCompleto": "PATRICIA CARLOS DE SOUSA MACIEIRA",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002549583",
+   "uf": "MA",
+   "cargo": "senador",
+   "numero": "151",
+   "nomeUrna": "ROSEANA SARNEY",
+   "nomeCompleto": "ROSEANA SARNEY MURAD",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "AVANÇO POR TODO MARANHÃO",
+    "composicao": "REPUBLICANOS / PDT / MDB / PODE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "100001800306"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "100002549585",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "VALBERLENE LOPES",
+     "nomeCompleto": "VALBERLENE LOPES DIAS SANTOS",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002549584",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CAROL PEREIRA",
+     "nomeCompleto": "MARIA CAROLINA DUAILIBE BARROS GOMES",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002536212",
+   "uf": "MA",
+   "cargo": "senador",
+   "numero": "160",
+   "nomeUrna": "WILSON LEITE",
+   "nomeCompleto": "FRANCISCO WILSON LEITE DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "100001800285"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "100002536213",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "BETO BELO",
+     "nomeCompleto": "ANTONIO ROBERTO DOS SANTOS",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002536211",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "OSMAR FILHO",
+     "nomeCompleto": "OSMAR WALCACER DE OLIVEIRA FILHO",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002549014",
+   "uf": "MA",
+   "cargo": "senador",
+   "numero": "212",
+   "nomeUrna": "RAIMUNDO MOREIRA",
+   "nomeCompleto": "RAIMUNDO MOREIRA CORREA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCB",
+    "numero": "21",
+    "nome": "PARTIDO COMUNISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCB",
+    "sq": "100001800944"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "100002549015",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JOSÉ JK",
+     "nomeCompleto": "JOSE PEREIRA BARBOSA",
+     "partido": {
+      "sigla": "PCB",
+      "numero": "21",
+      "nome": "PARTIDO COMUNISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002549013",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "HIVINA BRITO",
+     "nomeCompleto": "HIVINA CARVALHO BRITO",
+     "partido": {
+      "sigla": "PCB",
+      "numero": "21",
+      "nome": "PARTIDO COMUNISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002537364",
+   "uf": "MA",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "CIDÔNIO GONÇALVES",
+   "nomeCompleto": "CIDONIO GONCALVES DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "100001800357"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "100002537365",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CORONEL DALADIER",
+     "nomeCompleto": "MIGUEL DALADIER BARROS",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002537366",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ZÉ GABRIEL",
+     "nomeCompleto": "JOSE CARLOS GABRIEL",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002553336",
+   "uf": "MA",
+   "cargo": "senador",
+   "numero": "277",
+   "nomeUrna": "SIMPLÍCIO ARAÚJO",
+   "nomeCompleto": "JOSÉ SIMPLÍCIO ALVES DE ARAÚJO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "100001801346"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "100002553337",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "FERNANDO IPIRANGA",
+     "nomeCompleto": "FERNANDO ANTONIO VICENTE DOS SANTOS",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002553338",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CÉLIO REI DO CAVALO",
+     "nomeCompleto": "CÍCERO CÉLIO DA SILVA",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002548011",
+   "uf": "MA",
+   "cargo": "senador",
+   "numero": "300",
+   "nomeUrna": "LAHESIO BONFIM",
+   "nomeCompleto": "LAHESIO RODRIGUES DO BONFIM",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PRA TRANSFORMAR O MARANHÃO",
+    "composicao": "NOVO / PSD",
+    "sq": "100001800882"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "100002548013",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MAURÍCIO RIZZI",
+     "nomeCompleto": "MAURÍCIO BAGGIO RIZZI",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002548012",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FRANCISCANO SOARES",
+     "nomeCompleto": "FRANCISCO SANTOS SOARES",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002550418",
+   "uf": "MA",
+   "cargo": "senador",
+   "numero": "333",
+   "nomeUrna": "DR.HILTON GONÇALO",
+   "nomeCompleto": "HILTON GONCALO DE SOUSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MOBILIZA",
+    "numero": "33",
+    "nome": "MOBILIZAÇÃO NACIONAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "TEMPO DE RENOVAÇÃO",
+    "composicao": "MOBILIZA / AGIR / AVANTE",
+    "sq": "100001801078"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "100002554367",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PASTOR PORTO",
+     "nomeCompleto": "LUIZ CARLOS PORTO",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002550419",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ESTER ALVES",
+     "nomeCompleto": "ESTER ALVES SOARES",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002550420",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FERNANDA GONCALO",
+     "nomeCompleto": "CARLA FERNANDA DO REGO GONÇALO",
+     "partido": {
+      "sigla": "MOBILIZA",
+      "numero": "33",
+      "nome": "MOBILIZAÇÃO NACIONAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "100002548853",
+   "uf": "MA",
+   "cargo": "senador",
+   "numero": "500",
+   "nomeUrna": "ENILTON RODRIGUES",
+   "nomeCompleto": "ENILTON SILVA RODRIGUES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "BRASIL JUSTO, MARANHÃO GRANDE",
+    "composicao": "PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "100001800486"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "100002548851",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "VALDENY BARROS",
+     "nomeCompleto": "VALDENY BARROS",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002554412",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ELIZABETH SOUSA",
+     "nomeCompleto": "ELIZABETH CORREA SOUSA",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002548852",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "KELLY SANTOS",
+     "nomeCompleto": "KELLY CRISTINA SANTOS SILVA",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

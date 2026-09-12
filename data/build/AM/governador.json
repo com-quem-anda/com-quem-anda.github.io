@@ -1,0 +1,324 @@
+{
+ "uf": "AM",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.309Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 7,
+ "candidatos": [
+  {
+   "sq": "40002535267",
+   "uf": "AM",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "GILBERTO VASCONCELOS",
+   "nomeCompleto": "GILBERTO VASCONCELOS DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "40001800269"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "40002535266",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JULIANA FROTA",
+     "nomeCompleto": "JULIANA FROTA REBOUÇAS",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002550776",
+   "uf": "AM",
+   "cargo": "governador",
+   "numero": "18",
+   "nomeUrna": "ISAEL MUNDURUKU",
+   "nomeCompleto": "ISAEL FRANKLIN GONÇALVES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REDE",
+    "numero": "18",
+    "nome": "REDE SUSTENTABILIDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "40001801115"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "40002550775",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "LEO BALBI",
+     "nomeCompleto": "LEONARDO BALBI DA SILVA",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002541626",
+   "uf": "AM",
+   "cargo": "governador",
+   "numero": "22",
+   "nomeUrna": "PROFESSORA MARIA DO CARMO",
+   "nomeCompleto": "MARIA DO CARMO SEFFAIR LINS DE ALBUQUERQUE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "MUDAR É URGENTE",
+    "composicao": "PL / NOVO",
+    "sq": "40001800574"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "40002541627",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CORONEL ANIBAL",
+     "nomeCompleto": "MARIO ANIBAL GOMES DA COSTA JUNIOR",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002551740",
+   "uf": "AM",
+   "cargo": "governador",
+   "numero": "33",
+   "nomeUrna": "CABO DACIOLO",
+   "nomeCompleto": "BENEVENUTO DACIOLO FONSECA DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MOBILIZA",
+    "numero": "33",
+    "nome": "MOBILIZAÇÃO NACIONAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MOBILIZA",
+    "sq": "40001801272"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "40002551739",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PROFESSOR IGOR OLIVEIRA",
+     "nomeCompleto": "IGOR FELIPE OLIVEIRA BEZERRA",
+     "partido": {
+      "sigla": "MOBILIZA",
+      "numero": "33",
+      "nome": "MOBILIZAÇÃO NACIONAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002541741",
+   "uf": "AM",
+   "cargo": "governador",
+   "numero": "44",
+   "nomeUrna": "ROBERTO CIDADE",
+   "nomeCompleto": "ROBERTO MAIA CIDADE FILHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "UNIÃO PELO AMAZONAS",
+    "composicao": "PSB / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / PODE",
+    "sq": "40001800579"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "40002541740",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SERAFIM",
+     "nomeCompleto": "SERAFIM FERNANDES CORREA",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002532272",
+   "uf": "AM",
+   "cargo": "governador",
+   "numero": "55",
+   "nomeUrna": "OMAR AZIZ",
+   "nomeCompleto": "OMAR JOSE ABDELAZIZ",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FORÇA AMAZONAS",
+    "composicao": "REPUBLICANOS / MDB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "40001799964"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "40002532271",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ALESSANDRA CAMPELO",
+     "nomeCompleto": "ALESSANDRA CAMPELO DA SILVA",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002536086",
+   "uf": "AM",
+   "cargo": "governador",
+   "numero": "70",
+   "nomeUrna": "DAVID ALMEIDA",
+   "nomeCompleto": "DAVID ANTÔNIO ABISAI PEREIRA DE ALMEIDA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AVANTE",
+    "numero": "70",
+    "nome": "AVANTE"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PRA CIMA AMAZONAS",
+    "composicao": "PDT / DC / AGIR / AVANTE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "40001800278"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "40002536087",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DRA. SHÁDIA",
+     "nomeCompleto": "SHADIA HUSSAMI HAUACHE FRAXE",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

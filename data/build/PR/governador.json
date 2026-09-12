@@ -1,5 +1,5 @@
 {
- "uf": "SP",
+ "uf": "PR",
  "cargo": "governador",
  "eleicao": {
   "ano": 2026,
@@ -7,28 +7,28 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.711Z",
+ "geradoEm": "2026-09-12T11:48:27.535Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
- "total": 7,
+ "total": 8,
  "candidatos": [
   {
-   "sq": "250002541303",
-   "uf": "SP",
+   "sq": "160002547666",
+   "uf": "PR",
    "cargo": "governador",
-   "numero": "10",
-   "nomeUrna": "TARCÍSIO",
-   "nomeCompleto": "TARCISIO GOMES DE FREITAS",
+   "numero": "12",
+   "nomeUrna": "REQUIÃO FILHO",
+   "nomeCompleto": "MAURICIO THADEU DE MELLO E SILVA",
    "nomeSocial": null,
    "partido": {
-    "sigla": "REPUBLICANOS",
-    "numero": "10",
-    "nome": "REPUBLICANOS"
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
    },
    "federacao": null,
    "coligacao": {
-    "nome": "CORAGEM PARA SEGUIR AVANÇANDO",
-    "composicao": "REPUBLICANOS / PL / MDB / DEMOCRATA / AVANTE / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
-    "sq": "250001800554"
+    "nome": "PARANÁ PARA TODOS",
+    "composicao": "PDT / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "160001800896"
    },
    "situacao": {
     "disponivel": false,
@@ -37,14 +37,14 @@
    },
    "vice": [
     {
-     "sq": "250002541302",
+     "sq": "160002547665",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "FELICIO RAMUTH",
-     "nomeCompleto": "FELICIO RAMUTH",
+     "nomeUrna": "MICHELE CAPUTO",
+     "nomeCompleto": "MICHELE CAPUTO NETO",
      "partido": {
-      "sigla": "MDB",
-      "numero": "15",
-      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+      "sigla": "SOLIDARIEDADE",
+      "numero": "77",
+      "nome": "SOLIDARIEDADE"
      },
      "situacao": {
       "disponivel": false,
@@ -55,27 +55,23 @@
    ]
   },
   {
-   "sq": "250002549705",
-   "uf": "SP",
+   "sq": "160002551353",
+   "uf": "PR",
    "cargo": "governador",
-   "numero": "13",
-   "nomeUrna": "FERNANDO HADDAD",
-   "nomeCompleto": "FERNANDO HADDAD",
+   "numero": "14",
+   "nomeUrna": "LUIZ FRANÇA",
+   "nomeCompleto": "LUIZ FELIPE MARTINS FRANCA",
    "nomeSocial": null,
    "partido": {
-    "sigla": "PT",
-    "numero": "13",
-    "nome": "PARTIDO DOS TRABALHADORES"
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
    },
-   "federacao": {
-    "sigla": "PT/PC do B/PV",
-    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
-   },
+   "federacao": null,
    "coligacao": {
-    "nome": "DESPERTA SÃO PAULO",
-    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
-    "sq": "250001801022"
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "160001801193"
    },
    "situacao": {
     "disponivel": false,
@@ -84,14 +80,14 @@
    },
    "vice": [
     {
-     "sq": "250002549704",
+     "sq": "160002551354",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "MÁRCIO FRANÇA",
-     "nomeCompleto": "MARCIO LUIZ FRANÇA GOMES",
+     "nomeUrna": "JOÃO ADOLFO",
+     "nomeCompleto": "JOÃO ADOLFO PADILHA YAMANE WENDPAP",
      "partido": {
-      "sigla": "PSB",
-      "numero": "40",
-      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
      },
      "situacao": {
       "disponivel": false,
@@ -102,12 +98,12 @@
    ]
   },
   {
-   "sq": "250002536915",
-   "uf": "SP",
+   "sq": "160002548010",
+   "uf": "PR",
    "cargo": "governador",
    "numero": "16",
-   "nomeUrna": "VERA LÚCIA",
-   "nomeCompleto": "VERA LÚCIA PEREIRA DA SILVA SALGADO",
+   "nomeUrna": "SAMUEL DE MATTOS",
+   "nomeCompleto": "SAMUEL DE MATTOS FIGUEIREDO",
    "nomeSocial": null,
    "partido": {
     "sigla": "PSTU",
@@ -118,7 +114,7 @@
    "coligacao": {
     "nome": "PARTIDO ISOLADO",
     "composicao": "PSTU",
-    "sq": "250001800332"
+    "sq": "160001800881"
    },
    "situacao": {
     "disponivel": false,
@@ -127,10 +123,10 @@
    },
    "vice": [
     {
-     "sq": "250002536916",
+     "sq": "160002548009",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "RENATA FRANÇA",
-     "nomeCompleto": "RENATA LONGATTI FRANÇA",
+     "nomeUrna": "HELENA FIGUEIREDO",
+     "nomeCompleto": "HELENA FIGUEIREDO DA COSTA",
      "partido": {
       "sigla": "PSTU",
       "numero": "16",
@@ -145,23 +141,23 @@
    ]
   },
   {
-   "sq": "250002550913",
-   "uf": "SP",
+   "sq": "160002540833",
+   "uf": "PR",
    "cargo": "governador",
-   "numero": "21",
-   "nomeUrna": "CARLOS MACHADO",
-   "nomeCompleto": "CARLOS ALBERTO MACHADO",
+   "numero": "22",
+   "nomeUrna": "SERGIO MORO",
+   "nomeCompleto": "SERGIO FERNANDO MORO",
    "nomeSocial": null,
    "partido": {
-    "sigla": "PCB",
-    "numero": "21",
-    "nome": "PARTIDO COMUNISTA BRASILEIRO"
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
    },
    "federacao": null,
    "coligacao": {
-    "nome": "PARTIDO ISOLADO",
-    "composicao": "PCB",
-    "sq": "250001801160"
+    "nome": "FORTALEZA PARANÁ",
+    "composicao": "PODE / PL / NOVO",
+    "sq": "160001800506"
    },
    "situacao": {
     "disponivel": false,
@@ -170,14 +166,14 @@
    },
    "vice": [
     {
-     "sq": "250002550912",
+     "sq": "160002540834",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "FELIPE QUEIROZ",
-     "nomeCompleto": "FELIPE DE OLIVEIRA QUEIROZ",
+     "nomeUrna": "EDSON VASCONCELOS",
+     "nomeCompleto": "EDSON JOSE DE VASCONCELOS",
      "partido": {
-      "sigla": "PCB",
-      "numero": "21",
-      "nome": "PARTIDO COMUNISTA BRASILEIRO"
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
      },
      "situacao": {
       "disponivel": false,
@@ -188,12 +184,12 @@
    ]
   },
   {
-   "sq": "250002553062",
-   "uf": "SP",
+   "sq": "160002552560",
+   "uf": "PR",
    "cargo": "governador",
    "numero": "29",
-   "nomeUrna": "IZADORA DIAS",
-   "nomeCompleto": "IZADORA CRISTINA DIAS DA SILVA",
+   "nomeUrna": "ADRIANO FUNILEIRO",
+   "nomeCompleto": "ADRIANO TEIXEIRA",
    "nomeSocial": null,
    "partido": {
     "sigla": "PCO",
@@ -204,7 +200,7 @@
    "coligacao": {
     "nome": "PARTIDO ISOLADO",
     "composicao": "PCO",
-    "sq": "250001801369"
+    "sq": "160001801324"
    },
    "situacao": {
     "disponivel": false,
@@ -213,10 +209,10 @@
    },
    "vice": [
     {
-     "sq": "250002553061",
+     "sq": "160002552561",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "NIVALDO ORLANDI",
-     "nomeCompleto": "NIVALDO ORLANDI",
+     "nomeUrna": "ZÉ CARLOS",
+     "nomeCompleto": "JOSE CARLOS TELLES",
      "partido": {
       "sigla": "PCO",
       "numero": "29",
@@ -231,23 +227,23 @@
    ]
   },
   {
-   "sq": "250002548080",
-   "uf": "SP",
+   "sq": "160002547594",
+   "uf": "PR",
    "cargo": "governador",
-   "numero": "36",
-   "nomeUrna": "POLICIAL EDJANE",
-   "nomeCompleto": "EDJANE LIMA DE SOUSA",
+   "numero": "33",
+   "nomeUrna": "DOUTOR ALEXANDRE SALOMÃO",
+   "nomeCompleto": "ALEXANDRE SALOMAO",
    "nomeSocial": null,
    "partido": {
-    "sigla": "AGIR",
-    "numero": "36",
-    "nome": "AGIR"
+    "sigla": "MOBILIZA",
+    "numero": "33",
+    "nome": "MOBILIZAÇÃO NACIONAL"
    },
    "federacao": null,
    "coligacao": {
     "nome": "PARTIDO ISOLADO",
-    "composicao": "AGIR",
-    "sq": "250001800968"
+    "composicao": "MOBILIZA",
+    "sq": "160001800891"
    },
    "situacao": {
     "disponivel": false,
@@ -256,30 +252,14 @@
    },
    "vice": [
     {
-     "sq": "250002554211",
+     "sq": "160002547595",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "PROFESSORA NAYR DUARTE",
-     "nomeCompleto": "NAIR ALVES DUARTE PAIS",
+     "nomeUrna": "DAIANA CRIMINACIO",
+     "nomeCompleto": "DAIANA DA SILVA CRIMINACIO",
      "partido": {
-      "sigla": "AGIR",
-      "numero": "36",
-      "nome": "AGIR"
-     },
-     "situacao": {
-      "disponivel": false,
-      "registro": null,
-      "codigo": null
-     }
-    },
-    {
-     "sq": "250002548079",
-     "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "RENATA BOLSONARO",
-     "nomeCompleto": "RENATA CRISTINA TEDESQUE BOLSONARO",
-     "partido": {
-      "sigla": "AGIR",
-      "numero": "36",
-      "nome": "AGIR"
+      "sigla": "MOBILIZA",
+      "numero": "33",
+      "nome": "MOBILIZAÇÃO NACIONAL"
      },
      "situacao": {
       "disponivel": false,
@@ -290,12 +270,55 @@
    ]
   },
   {
-   "sq": "250002544912",
-   "uf": "SP",
+   "sq": "160002549553",
+   "uf": "PR",
+   "cargo": "governador",
+   "numero": "55",
+   "nomeUrna": "SANDRO ALEX",
+   "nomeCompleto": "SANDRO ALEX CRUZ DE OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "COLIGAÇÃO A MUDANÇA CONTINUA",
+    "composicao": "REPUBLICANOS / MDB / DEMOCRATA / PSD / AVANTE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "160001801051"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "160002549552",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "RAFAEL GRECA",
+     "nomeCompleto": "RAFAEL VALDOMIRO GRECA DE MACEDO",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002550997",
+   "uf": "PR",
    "cargo": "governador",
    "numero": "80",
-   "nomeUrna": "VIVIAN MENDES",
-   "nomeCompleto": "VIVIAN MENDES DA SILVA",
+   "nomeUrna": "TAYNÁ MIESSA",
+   "nomeCompleto": "TAYNA MIESSA TSUSHIDA",
    "nomeSocial": null,
    "partido": {
     "sigla": "UP",
@@ -306,7 +329,7 @@
    "coligacao": {
     "nome": "PARTIDO ISOLADO",
     "composicao": "UP",
-    "sq": "250001800766"
+    "sq": "160001801143"
    },
    "situacao": {
     "disponivel": false,
@@ -315,26 +338,10 @@
    },
    "vice": [
     {
-     "sq": "250002552372",
+     "sq": "160002550998",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "CRIS DAMASIO",
-     "nomeCompleto": "MARIA CRISTINA DAMASIO DE ALMEIDA",
-     "partido": {
-      "sigla": "UP",
-      "numero": "80",
-      "nome": "UNIDADE POPULAR"
-     },
-     "situacao": {
-      "disponivel": false,
-      "registro": null,
-      "codigo": null
-     }
-    },
-    {
-     "sq": "250002544911",
-     "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "MARCELO PEREIRA",
-     "nomeCompleto": "MARCELO PEREIRA DE AZEVEDO",
+     "nomeUrna": "WILLIAN ARAKI",
+     "nomeCompleto": "WILLIAN YUKIO ARAKI",
      "partido": {
       "sigla": "UP",
       "numero": "80",

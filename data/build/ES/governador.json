@@ -1,0 +1,234 @@
+{
+ "uf": "ES",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.380Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 5,
+ "candidatos": [
+  {
+   "sq": "80002552682",
+   "uf": "ES",
+   "cargo": "governador",
+   "numero": "10",
+   "nomeUrna": "LORENZO PAZOLINI",
+   "nomeCompleto": "LORENZO SILVA DE PAZOLINI",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REPUBLICANOS",
+    "numero": "10",
+    "nome": "REPUBLICANOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PAZ PRA VIVER UM NOVO TEMPO",
+    "composicao": "REPUBLICANOS / PL / DEMOCRATA",
+    "sq": "80001801338"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "80002553263",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ELIANE LEAL",
+     "nomeCompleto": "ELIANE LEAL VIEIRA",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "80002551833",
+   "uf": "ES",
+   "cargo": "governador",
+   "numero": "13",
+   "nomeUrna": "HELDER SALOMÃO",
+   "nomeCompleto": "HELDER IGNACIO SALOMAO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "80001801211"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "80002551834",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PROFESSORA VALDIRENE",
+     "nomeCompleto": "VALDIRENE BERNADINO PIRES",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "80002541012",
+   "uf": "ES",
+   "cargo": "governador",
+   "numero": "14",
+   "nomeUrna": "BRENO BARCELOS",
+   "nomeCompleto": "BRENO AUGUSTO FAGUNDES BARCELOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "80001800540"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "80002541013",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "VICTOR OLIVEIRA",
+     "nomeCompleto": "VICTOR RICARDO DE OLIVEIRA",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "80002552172",
+   "uf": "ES",
+   "cargo": "governador",
+   "numero": "15",
+   "nomeUrna": "RICARDO FERRAÇO",
+   "nomeCompleto": "RICARDO DE REZENDE FERRAÇO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "AGORA É O FUTURO",
+    "composicao": "PODE / MDB / AGIR / PSB / PDT / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "80001801251"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "80002552171",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CAMILLO NEVES",
+     "nomeCompleto": "CAMILLO AUGUSTO MARCHEZI DE OLIVEIRA NEVES",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "80002550832",
+   "uf": "ES",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "RAFAEL DEMUNER",
+   "nomeCompleto": "RAFAEL KETLEY DEMUNER",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "80001801138"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "80002550833",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DIONARY SARMENTO",
+     "nomeCompleto": "DIONARY SARMENTO REGIS",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

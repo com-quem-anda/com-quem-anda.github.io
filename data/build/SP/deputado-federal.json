@@ -7,9 +7,9 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-10T04:51:20.171Z",
+ "geradoEm": "2026-09-12T11:48:27.712Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
- "total": 1130,
+ "total": 1131,
  "candidatos": [
   {
    "sq": "250002537969",
@@ -5923,7 +5923,7 @@
    "uf": "SP",
    "cargo": "deputado-federal",
    "numero": "1441",
-   "nomeUrna": "LUDYMILLA DIAS",
+   "nomeUrna": "LUDY DIAS",
    "nomeCompleto": "LUDYMILLA DIAS DE OLIVEIRA",
    "nomeSocial": null,
    "partido": {
@@ -9663,7 +9663,7 @@
    "uf": "SP",
    "cargo": "deputado-federal",
    "numero": "2068",
-   "nomeUrna": "SARGENTO PAULO DO PROERD",
+   "nomeUrna": "SARGENTO PAULO",
    "nomeCompleto": "PAULO SERGIO OLIVEIRA",
    "nomeSocial": null,
    "partido": {
@@ -12525,7 +12525,7 @@
    "uf": "SP",
    "cargo": "deputado-federal",
    "numero": "2545",
-   "nomeUrna": "ANGELICA SOARES",
+   "nomeUrna": "DRA. ANGÉLICA SOARES",
    "nomeCompleto": "ANGELICA SOARES",
    "nomeSocial": null,
    "partido": {
@@ -13127,7 +13127,7 @@
    "uf": "SP",
    "cargo": "deputado-federal",
    "numero": "2709",
-   "nomeUrna": "SERGIO BONFIN",
+   "nomeUrna": "SERGIO BOMFIM",
    "nomeCompleto": "SERGIO PINTO BOMFIM",
    "nomeSocial": null,
    "partido": {
@@ -16548,6 +16548,31 @@
    }
   },
   {
+   "sq": "250002554445",
+   "uf": "SP",
+   "cargo": "deputado-federal",
+   "numero": "3083",
+   "nomeUrna": "ANNA CASTELLA",
+   "nomeCompleto": "ANNA ROSA CASTELLA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "250001799988"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
    "sq": "250002530163",
    "uf": "SP",
    "cargo": "deputado-federal",
@@ -17627,7 +17652,7 @@
    "uf": "SP",
    "cargo": "deputado-federal",
    "numero": "3607",
-   "nomeUrna": "KENJI JAPONES DA FEDERAL",
+   "nomeUrna": "FRANK KENJI AOYAGUE",
    "nomeCompleto": "FRANK KENJI AOYAGUE",
    "nomeSocial": null,
    "partido": {

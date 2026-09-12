@@ -1,0 +1,2353 @@
+{
+ "uf": "AP",
+ "cargo": "deputado-federal",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.316Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 90,
+ "candidatos": [
+  {
+   "sq": "30002536307",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1111",
+   "nomeUrna": "ANDRE ABDON",
+   "nomeCompleto": "ANDRE DOS SANTOS ABDON",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "30001800256"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002536308",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1112",
+   "nomeUrna": "BENA ROCHA",
+   "nomeCompleto": "BENEDITA ROCHA BARBOSA COLARES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "30001800256"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532847",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1200",
+   "nomeUrna": "KLEBER KARIPUNA",
+   "nomeCompleto": "KLEBER LUIZ SANTOS DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PDT",
+    "sq": "30001800132"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532845",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1210",
+   "nomeUrna": "WELTON BARREIROS",
+   "nomeCompleto": "WELTON BARREIROS ALVINO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PDT",
+    "sq": "30001800132"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532841",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1212",
+   "nomeUrna": "JOSENILDO",
+   "nomeCompleto": "JOSENILDO SANTOS ABRANTES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PDT",
+    "sq": "30001800132"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532840",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1213",
+   "nomeUrna": "ISABEL NOGUEIRA",
+   "nomeCompleto": "MARIA ISABEL NOGUEIRA DE SOUSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PDT",
+    "sq": "30001800132"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532848",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1215",
+   "nomeUrna": "LAU CAUSA ANIMAL",
+   "nomeCompleto": "LAUDENICE FERREIRA MONTEIRO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PDT",
+    "sq": "30001800132"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532846",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1220",
+   "nomeUrna": "PROFESSORA KATIA PAULINO",
+   "nomeCompleto": "KÁTIA PAULINO DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PDT",
+    "sq": "30001800132"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532842",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1222",
+   "nomeUrna": "DORINALDO MALAFAIA",
+   "nomeCompleto": "DORINALDO BARBOSA MALAFAIA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PDT",
+    "sq": "30001800132"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532843",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1233",
+   "nomeUrna": "PASTOR SOLANGELO",
+   "nomeCompleto": "SOLANGELO FONSECA DA COSTA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PDT",
+    "sq": "30001800132"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532844",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1234",
+   "nomeUrna": "JESUS PONTES",
+   "nomeCompleto": "RUZIELY DE JESUS PONTES DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PDT",
+    "sq": "30001800132"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002533097",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1313",
+   "nomeUrna": "PROFESSORA IVANÉIA",
+   "nomeCompleto": "IVANEIA DE SOUZA ALVES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "30001800150"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002533104",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1340",
+   "nomeUrna": "CAMILO CAPIBERIBE",
+   "nomeCompleto": "CARLOS CAMILO GOES CAPIBERIBE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "30001800150"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002533100",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1350",
+   "nomeUrna": "PAULO LEMOS",
+   "nomeCompleto": "PAULO CESAR LEMOS DE OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "30001800150"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549914",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1400",
+   "nomeUrna": "ISRAEL DOS SANTOS",
+   "nomeCompleto": "ISRAEL DOS SANTOS GOMES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "30001801039"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549916",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1401",
+   "nomeUrna": "MEIRE SALVIANO",
+   "nomeCompleto": "ROSEMEIRE SALVIANO PEREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "30001801039"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549917",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1414",
+   "nomeUrna": "LUY RICARDO",
+   "nomeCompleto": "LUI RICARDO DE SOUSA BARBOSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "30001801039"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549913",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1415",
+   "nomeUrna": "BRUNO BORGES",
+   "nomeCompleto": "BRUNO BORGES LIMA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "30001801039"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549915",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1420",
+   "nomeUrna": "MARCIA NERY",
+   "nomeCompleto": "MARCIA LUIZA SOUZA NERY",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "30001801039"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549850",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1511",
+   "nomeUrna": "HELDER",
+   "nomeCompleto": "HELDER JOSE CARNEIRO DE SOUZA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "30001801032"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549848",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1515",
+   "nomeUrna": "FRANCISCA FAVACHO",
+   "nomeCompleto": "FRANCISCA FERREIRA FAVACHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "30001801032"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549852",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1516",
+   "nomeUrna": "LUCAS DA GAZETA",
+   "nomeCompleto": "LUCAS CHAVES MALAQUIAS DE ASSIS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "30001801032"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002554423",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1522",
+   "nomeUrna": "ALINNE MADEIREIRO",
+   "nomeCompleto": "ALINNE CRIS NASCIMENTO DA SILVA PEREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "30001801032"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549853",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1522",
+   "nomeUrna": "GUARACY",
+   "nomeCompleto": "GUARACY BATISTA DA SILVEIRA JUNIOR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "30001801032"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549849",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1526",
+   "nomeUrna": "DALDEIA",
+   "nomeCompleto": "KAURI WAIÃPI",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "30001801032"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549847",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1545",
+   "nomeUrna": "MARIA ORLANDA",
+   "nomeCompleto": "MARIA ORLANDA MARQUES GARCIA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "30001801032"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549854",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1555",
+   "nomeUrna": "ELIZAURA DA ANÁPOLIS",
+   "nomeCompleto": "MARIA ELIZAURA NUNES VIANA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "30001801032"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549851",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1580",
+   "nomeUrna": "RÔMULO MONTEIRO",
+   "nomeCompleto": "ROMULO FERREIRA MONTEIRO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "30001801032"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002549846",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1599",
+   "nomeUrna": "IRMÃ MARIA",
+   "nomeCompleto": "MARIENE RODRIGUES DE SOUSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "30001801032"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532429",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1818",
+   "nomeUrna": "CRIS NUNES",
+   "nomeCompleto": "CRISTIANE NUNES DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REDE",
+    "numero": "18",
+    "nome": "REDE SUSTENTABILIDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "30001800110"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532425",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "1834",
+   "nomeUrna": "JAWARUWA WAJÃPI",
+   "nomeCompleto": "JAWARUWA WAIÃPI",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REDE",
+    "numero": "18",
+    "nome": "REDE SUSTENTABILIDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "30001800110"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530514",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2000",
+   "nomeUrna": "DRA. ERICA",
+   "nomeCompleto": "ERICA ARANHA DE SOUSA AYMORÉ",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PODE",
+    "numero": "20",
+    "nome": "PODEMOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PODE",
+    "sq": "30001799982"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530512",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2010",
+   "nomeUrna": "MAYLA CARVALHO",
+   "nomeCompleto": "MAYLA KALIME MATOS CARVALHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PODE",
+    "numero": "20",
+    "nome": "PODEMOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PODE",
+    "sq": "30001799982"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530516",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2020",
+   "nomeUrna": "SANDRA LACERDA",
+   "nomeCompleto": "SANDRA DOS SANTOS LACERDA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PODE",
+    "numero": "20",
+    "nome": "PODEMOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PODE",
+    "sq": "30001799982"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530511",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2022",
+   "nomeUrna": "JOEL CAVALCANTE",
+   "nomeCompleto": "JOEL VITOR DA COSTA CAVALCANTE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PODE",
+    "numero": "20",
+    "nome": "PODEMOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PODE",
+    "sq": "30001799982"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530513",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2023",
+   "nomeUrna": "DR. VINICIUS REIS",
+   "nomeCompleto": "VINICIUS ARAUJO DE SOUSA REIS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PODE",
+    "numero": "20",
+    "nome": "PODEMOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PODE",
+    "sq": "30001799982"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530515",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2026",
+   "nomeUrna": "KASSYO RAMOS",
+   "nomeCompleto": "KASSYO SANTOS RAMOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PODE",
+    "numero": "20",
+    "nome": "PODEMOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PODE",
+    "sq": "30001799982"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530508",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2027",
+   "nomeUrna": "PROFESSORA GORETH",
+   "nomeCompleto": "MARIA GORETH DA SILVA E SOUSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PODE",
+    "numero": "20",
+    "nome": "PODEMOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PODE",
+    "sq": "30001799982"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530509",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2030",
+   "nomeUrna": "KAMILLE ALMEIDA",
+   "nomeCompleto": "DIENY KAMILLE LIMA DE ALMEIDA COIMBRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PODE",
+    "numero": "20",
+    "nome": "PODEMOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PODE",
+    "sq": "30001799982"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530510",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2055",
+   "nomeUrna": "ALEXANDRE AZEVEDO",
+   "nomeCompleto": "ALEXANDRE RAMOS DA COSTA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PODE",
+    "numero": "20",
+    "nome": "PODEMOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PODE",
+    "sq": "30001799982"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002538083",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2211",
+   "nomeUrna": "CONSELHEIRA HUELMA MEDEIROS",
+   "nomeCompleto": "HUELMA MEDEIROS NOGUEIRA LIMA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "30001800320"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002538082",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2212",
+   "nomeUrna": "JORGE SOUZA",
+   "nomeCompleto": "JORGE ELSON SILVA DE SOUZA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "30001800320"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002538087",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2220",
+   "nomeUrna": "CORONEL PALMIRA",
+   "nomeCompleto": "PALMIRA DAS NEVES BITTENCOURT",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "30001800320"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002538084",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2222",
+   "nomeUrna": "VINICIUS GURGEL",
+   "nomeCompleto": "VINICIUS DE AZEVEDO GURGEL",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "30001800320"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002538089",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2223",
+   "nomeUrna": "ELIAS REAL DO MENINO JESUS",
+   "nomeCompleto": "ELIAS REAL DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "30001800320"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002538088",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2225",
+   "nomeUrna": "TENENTE CORONEL MARQUES",
+   "nomeCompleto": "RONDINELE MARQUES DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "30001800320"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002538086",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2255",
+   "nomeUrna": "BIA DA ZILMA",
+   "nomeCompleto": "ANA BEATRIZ CORREA DA COSTA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "30001800320"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002538081",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2277",
+   "nomeUrna": "GESIEL OLIVEIRA",
+   "nomeCompleto": "GESIEL DE SOUZA OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "30001800320"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002538085",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2280",
+   "nomeUrna": "CAETANO BENTES",
+   "nomeCompleto": "MANOEL CAETANO BENTES MONTEIRO NETO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "30001800320"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002552029",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2700",
+   "nomeUrna": "WILGUER CARVALHO",
+   "nomeCompleto": "WILGUER CARVALHO DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "30001801231"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002552021",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2707",
+   "nomeUrna": "SIULAN BACELAR",
+   "nomeCompleto": "SIULAN FERNANDES BACELAR MARQUES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "30001801231"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002552022",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2719",
+   "nomeUrna": "SHIRLEY AMARAL",
+   "nomeCompleto": "SHIRLEI GOMES AMARAL",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "30001801231"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002552025",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2722",
+   "nomeUrna": "CARMINA RODRIGUES",
+   "nomeCompleto": "CARMINA DE OLIVEIRA RODRIGUES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "30001801231"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002552027",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2727",
+   "nomeUrna": "ROBSON GUALBERTO",
+   "nomeCompleto": "ROBSON MARCOS GUALBERTO DO CARMO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "30001801231"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002552028",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2770",
+   "nomeUrna": "ELIADA SANTOS",
+   "nomeCompleto": "ELIADA DOS SANTOS FORO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "30001801231"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002552024",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2772",
+   "nomeUrna": "JEOVÁ SÁ",
+   "nomeCompleto": "FRANCISCO JEOVA SA DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "30001801231"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002552023",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2777",
+   "nomeUrna": "PIMPOLHO",
+   "nomeCompleto": "WESLEN FIGUEIREDO DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "30001801231"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002552026",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2788",
+   "nomeUrna": "VICO NEGRÃO",
+   "nomeCompleto": "ROSINALDO NEGRAO MOREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "30001801231"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002553599",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2929",
+   "nomeUrna": "ELIELTON SILVA",
+   "nomeCompleto": "ELIELTON MONTEIRO SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "30001801354"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002553598",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "2999",
+   "nomeUrna": "VASTI BARBOSA",
+   "nomeCompleto": "VASTI BARBOSA RODRIGUES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "30001801354"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530021",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "3012",
+   "nomeUrna": "GEORGE",
+   "nomeCompleto": "GEORGE CARLOS BARBOSA SANTANA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "30001799948"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530020",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "3026",
+   "nomeUrna": "PROFESSORA RILANY SILVA",
+   "nomeCompleto": "RILANY RAFAELA MIRANDA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "30001799948"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530019",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "3030",
+   "nomeUrna": "IRANEI LOPES",
+   "nomeCompleto": "IRANEI LOPES OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "30001799948"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530016",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "3065",
+   "nomeUrna": "BETH GARCIA",
+   "nomeCompleto": "MARIA BERNADETH SILVA GARCIA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "30001799948"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530018",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "3088",
+   "nomeUrna": "LUISÃO",
+   "nomeCompleto": "LUÍS GUILHERME ARAÚJO MOREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "30001799948"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002530017",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "3099",
+   "nomeUrna": "EDILEUZA RODRIGUES",
+   "nomeCompleto": "EDILEUZA RODRIGUES PEREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "30001799948"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002533103",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "4321",
+   "nomeUrna": "LUCAS ABRAHAO",
+   "nomeCompleto": "LUCAS ABRAHAO ROSA CEZARIO DE ALMEIDA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PV",
+    "numero": "43",
+    "nome": "PARTIDO VERDE"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "30001800150"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002533101",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "4343",
+   "nomeUrna": "IVONE CHAGAS",
+   "nomeCompleto": "MARIA IVONEIDE OLIVEIRA CHAGAS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PV",
+    "numero": "43",
+    "nome": "PARTIDO VERDE"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "30001800150"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002533099",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "4390",
+   "nomeUrna": "CAPITÃO N MIRANDA",
+   "nomeCompleto": "NATANAEL DA SILVA MIRANDA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PV",
+    "numero": "43",
+    "nome": "PARTIDO VERDE"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "30001800150"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002536309",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "4400",
+   "nomeUrna": "CRISTIANO FURLAN",
+   "nomeCompleto": "CRISTIANO BEVILACQUA FURLAN",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "30001800256"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002536304",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "4410",
+   "nomeUrna": "ALINE GURGEL",
+   "nomeCompleto": "ALINE PARANHOS VARONIL GURGEL",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "30001800256"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002536305",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "4444",
+   "nomeUrna": "MARCIO SERRÃO",
+   "nomeCompleto": "MARCIO CLAY DA COSTA SERRAO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "30001800256"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002536303",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "4456",
+   "nomeUrna": "LUIZ CARLOS",
+   "nomeCompleto": "LUIZ CARLOS GOMES DOS SANTOS JUNIOR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "30001800256"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002536302",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "4478",
+   "nomeUrna": "FÁTIMA PELAES",
+   "nomeCompleto": "FATIMA LUCIA PELAES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "30001800256"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002536306",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "4480",
+   "nomeUrna": "FELIPE SHOW",
+   "nomeCompleto": "FELIPE EDSON PINTO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "30001800256"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532427",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "5013",
+   "nomeUrna": "RAMONA MATARAZZO",
+   "nomeCompleto": "RAMONA TAYNÁ PANTOJA FERREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "30001800110"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532428",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "5050",
+   "nomeUrna": "ANDREW COSTA",
+   "nomeCompleto": "ANDREW AURÉLIO PINTO DE ALMEIDA COSTA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "30001800110"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532426",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "5080",
+   "nomeUrna": "PROF. GIL BARBOSA",
+   "nomeCompleto": "GILDOVAL FARIAS BARBOSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "30001800110"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532254",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "5500",
+   "nomeUrna": "NANDA",
+   "nomeCompleto": "FERNANDA DOS SANTOS COSTA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSD",
+    "sq": "30001799960"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532253",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "5510",
+   "nomeUrna": "AUGUSTO AGUIAR",
+   "nomeCompleto": "ANTONIO AUGUSTO DE AGUIAR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSD",
+    "sq": "30001799960"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532252",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "5512",
+   "nomeUrna": "TIA LU",
+   "nomeCompleto": "LUZIA BRITO GRUNHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSD",
+    "sq": "30001799960"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532247",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "5515",
+   "nomeUrna": "DILSON BORGES",
+   "nomeCompleto": "GIODILSON PINHEIRO BORGES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSD",
+    "sq": "30001799960"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532251",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "5522",
+   "nomeUrna": "PR. DIDIO",
+   "nomeCompleto": "ARISTIDES DA SILVA LOPES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSD",
+    "sq": "30001799960"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532255",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "5533",
+   "nomeUrna": "RELSON CARDOSO",
+   "nomeCompleto": "RELSON DE ALMEIDA CARDOSO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSD",
+    "sq": "30001799960"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532248",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "5544",
+   "nomeUrna": "LUIZ ALEX",
+   "nomeCompleto": "LUIZ ALEX MONTEIRO DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSD",
+    "sq": "30001799960"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532249",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "5555",
+   "nomeUrna": "DR. BRASIL",
+   "nomeCompleto": "MANOEL BRASIL DE PAULA FILHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSD",
+    "sq": "30001799960"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002532250",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "5577",
+   "nomeUrna": "LEDA SADALA",
+   "nomeCompleto": "LEDA MARIA SADALA BRITO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSD",
+    "sq": "30001799960"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002533098",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "6522",
+   "nomeUrna": "DUDÃO COSTA",
+   "nomeCompleto": "JOAO DA SILVA COSTA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCDOB",
+    "numero": "65",
+    "nome": "PARTIDO COMUNISTA DO BRASIL"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "30001800150"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002533102",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "6556",
+   "nomeUrna": "PROFESSORA VIVIAN",
+   "nomeCompleto": "VIVIAN REGIA BANDEIRA DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCDOB",
+    "numero": "65",
+    "nome": "PARTIDO COMUNISTA DO BRASIL"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "30001800150"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "30002533096",
+   "uf": "AP",
+   "cargo": "deputado-federal",
+   "numero": "6565",
+   "nomeUrna": "PROFESSORA MARCIVÂNIA",
+   "nomeCompleto": "MARCIVANIA DO SOCORRO DA ROCHA FLEXA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCDOB",
+    "numero": "65",
+    "nome": "PARTIDO COMUNISTA DO BRASIL"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "30001800150"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  }
+ ]
+}

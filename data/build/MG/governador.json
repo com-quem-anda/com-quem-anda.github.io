@@ -1,0 +1,492 @@
+{
+ "uf": "MG",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.448Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 11,
+ "candidatos": [
+  {
+   "sq": "130002552296",
+   "uf": "MG",
+   "cargo": "governador",
+   "numero": "10",
+   "nomeUrna": "CLEITINHO AZEVEDO",
+   "nomeCompleto": "CLEITON GONTIJO DE AZEVEDO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REPUBLICANOS",
+    "numero": "10",
+    "nome": "REPUBLICANOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "MINAS É DO POVO",
+    "composicao": "REPUBLICANOS / PODE",
+    "sq": "130001801289"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "130002552295",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "FALCÃO",
+     "nomeCompleto": "LUIS EDUARDO FALCAO FERREIRA",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "130002539775",
+   "uf": "MG",
+   "cargo": "governador",
+   "numero": "12",
+   "nomeUrna": "ALEXANDRE KALIL",
+   "nomeCompleto": "ALEXANDRE KALIL",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "CUIDAR DE MINAS",
+    "composicao": "PDT / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "sq": "130001800385"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "130002539774",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CARLOS MOSCONI",
+     "nomeCompleto": "CARLOS EDUARDO VENTURELLI MOSCONI",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "130002550464",
+   "uf": "MG",
+   "cargo": "governador",
+   "numero": "13",
+   "nomeUrna": "PATRUS ANANIAS",
+   "nomeCompleto": "PATRUS ANANIAS DE SOUSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "PRA MINAS GERAIS VOLTAR A SONHAR",
+    "composicao": "PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "130001801084"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "130002550465",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JARBAS SOARES",
+     "nomeCompleto": "JARBAS SOARES JUNIOR",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "130002544411",
+   "uf": "MG",
+   "cargo": "governador",
+   "numero": "14",
+   "nomeUrna": "BEN MENDES",
+   "nomeCompleto": "BENONI BENJAMIN CARDOSO MENDES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "130001800712"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "130002544410",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CABO DAVID SOUZA",
+     "nomeCompleto": "DEIVID FERNANDES DE SOUZA",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "130002549557",
+   "uf": "MG",
+   "cargo": "governador",
+   "numero": "15",
+   "nomeUrna": "GABRIEL",
+   "nomeCompleto": "GABRIEL SOUSA MARQUES DE AZEVEDO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "130001801053"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "130002549558",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "MARIA HELENA",
+     "nomeCompleto": "MARIA HELENA DE QUADROS LOPES",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "130002546802",
+   "uf": "MG",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "RAFAEL DUDA",
+   "nomeCompleto": "RAFAEL RIBEIRO DE ÁVILA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "130001800843"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "130002546803",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PROF. DIANA DE CÁSSIA",
+     "nomeCompleto": "DIANA DE CASSIA SILVA",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "130002544122",
+   "uf": "MG",
+   "cargo": "governador",
+   "numero": "21",
+   "nomeUrna": "PROFESSOR TÚLIO LOPES",
+   "nomeCompleto": "TULIO CESAR DIAS LOPES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCB",
+    "numero": "21",
+    "nome": "PARTIDO COMUNISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCB",
+    "sq": "130001800710"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "130002544121",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "WARLEN NUNES",
+     "nomeCompleto": "WARLEN NUNES DOS SANTOS",
+     "partido": {
+      "sigla": "PCB",
+      "numero": "21",
+      "nome": "PARTIDO COMUNISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "130002550834",
+   "uf": "MG",
+   "cargo": "governador",
+   "numero": "22",
+   "nomeUrna": "FLÁVIO ROSCOE",
+   "nomeCompleto": "FLAVIO ROSCOE NOGUEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "130001801139"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "130002550835",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ELLEN MIZIARA",
+     "nomeCompleto": "ELLEN MIZIARA SOUSA FERREIRA",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "130002552308",
+   "uf": "MG",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "HENRIQUE ÁREAS",
+   "nomeCompleto": "HENRIQUE AREAS DE ARAUJO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "130001801292"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "130002552309",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ESTEVÃO GOMES",
+     "nomeCompleto": "ESTEVÃO FRANCISCO GOMES DA SILVA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "130002541911",
+   "uf": "MG",
+   "cargo": "governador",
+   "numero": "55",
+   "nomeUrna": "MATEUS SIMÕES",
+   "nomeCompleto": "MATEUS SIMÕES DE ALMEIDA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "MINAS NO CAMINHO CERTO",
+    "composicao": "PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / NOVO / AVANTE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / MOBILIZA / DC / AGIR",
+    "sq": "130001800588"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "130002541912",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DANILO DE CASTRO",
+     "nomeCompleto": "DANILO DE CASTRO",
+     "partido": {
+      "sigla": "UNIÃO",
+      "numero": "44",
+      "nome": "UNIÃO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "130002547874",
+   "uf": "MG",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "INDIRA XAVIER",
+   "nomeCompleto": "INDIRA IVANISE XAVIER",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "130001800956"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "130002547875",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "RENATO CAMPOS",
+     "nomeCompleto": "RENATO CAMPOS AMARAL",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

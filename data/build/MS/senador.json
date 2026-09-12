@@ -1,0 +1,633 @@
+{
+ "uf": "MS",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.459Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 10,
+ "candidatos": [
+  {
+   "sq": "120002547435",
+   "uf": "MS",
+   "cargo": "senador",
+   "numero": "133",
+   "nomeUrna": "VANDER LOUBET",
+   "nomeCompleto": "VANDER LUIZ DOS SANTOS LOUBET",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "POR UM MS DO POVO",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "120001800861"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "120002547436",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PROFESSORA MARIA DIOGO",
+     "nomeCompleto": "MARIA APARECIDA DIOGO",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "120002547438",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PROFESSORA MAJU",
+     "nomeCompleto": "MARIA JOSÉ DE JESUS ALVES CORDEIRO",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002535769",
+   "uf": "MS",
+   "cargo": "senador",
+   "numero": "221",
+   "nomeUrna": "CAPITÃO CONTAR",
+   "nomeCompleto": "RENAN BARBOSA CONTAR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FAZENDO O FUTURO ACONTECER",
+    "composicao": "PL / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / REPUBLICANOS / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / PSD / MDB / PODE / AVANTE",
+    "sq": "120001800239"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "120002535768",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CLAUDIO MENDONÇA",
+     "nomeCompleto": "CLAUDIO GEORGE MENDONCA",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "120002535767",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "LUCIANO BARBOSA RODRIGUES",
+     "nomeCompleto": "LUCIANO MEDEIROS BARBOSA RODRIGUES",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002535764",
+   "uf": "MS",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "REINALDO AZAMBUJA",
+   "nomeCompleto": "REINALDO AZAMBUJA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FAZENDO O FUTURO ACONTECER",
+    "composicao": "PL / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / REPUBLICANOS / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / PSD / MDB / PODE / AVANTE",
+    "sq": "120001800239"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "120002535765",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "NELSINHO TRAD",
+     "nomeCompleto": "NELSON TRAD FILHO",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "120002535766",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FELIPE MATTOS",
+     "nomeCompleto": "FELIPE MATTOS DE LIMA RIBEIRO",
+     "partido": {
+      "sigla": "UNIÃO",
+      "numero": "44",
+      "nome": "UNIÃO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002552183",
+   "uf": "MS",
+   "cargo": "senador",
+   "numero": "258",
+   "nomeUrna": "VALTER DA COMAGRAN",
+   "nomeCompleto": "VALTER JUVENAL DE OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PRD",
+    "numero": "25",
+    "nome": "PARTIDO RENOVACAO DEMOCRATICA"
+   },
+   "federacao": {
+    "sigla": "PRD/SOLIDARIEDADE",
+    "nome": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA",
+    "composicao": "PRD/SOLIDARIEDADE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "120001801253"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "120002552184",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PERRONI",
+     "nomeCompleto": "VALDEVINO PERRONI",
+     "partido": {
+      "sigla": "PRD",
+      "numero": "25",
+      "nome": "PARTIDO RENOVACAO DEMOCRATICA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "120002552182",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ENG ADAMARIO DE LANA",
+     "nomeCompleto": "ADAMÁRIO DE LANA GERLING JÚNIOR",
+     "partido": {
+      "sigla": "PRD",
+      "numero": "25",
+      "nome": "PARTIDO RENOVACAO DEMOCRATICA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002551909",
+   "uf": "MS",
+   "cargo": "senador",
+   "numero": "277",
+   "nomeUrna": "LUIZ LEMES",
+   "nomeCompleto": "LUIZ ANTONIO LEMES DE OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "120001801219"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "120002554135",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "INSTRUTOR ANDRÉ MACIEL",
+     "nomeCompleto": "ANDRE DA COSTA MACIEL",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "120002551908",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ROBERTO PATZLAFF",
+     "nomeCompleto": "ROBERTO OSCAR PATZLAFF",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "120002551907",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ALDECI TEIXEIRA",
+     "nomeCompleto": "ALDECI TEIXEIRA DOS SANTOS",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002552196",
+   "uf": "MS",
+   "cargo": "senador",
+   "numero": "290",
+   "nomeUrna": "VALDERI GARCIA",
+   "nomeCompleto": "VALDERI GARCIA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "120001801256"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "120002552194",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "LUCIANO LEMES",
+     "nomeCompleto": "LUCIANO LEMES",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "120002552195",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "THIAGO ASSAD",
+     "nomeCompleto": "THIAGO DE CARVALHO ASSAD",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002552115",
+   "uf": "MS",
+   "cargo": "senador",
+   "numero": "300",
+   "nomeUrna": "ROBERTO OSHIRO",
+   "nomeCompleto": "ROBERTO TARASHIGUE OSHIRO JUNIOR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "120001801248"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "120002552117",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "AUGUSTO DA SOLDAMAQ",
+     "nomeCompleto": "AUGUSTO RAIMUNDO ALESSIO",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "120002552116",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ITALIVIO NETO",
+     "nomeCompleto": "ITALIVIO COELHO NETO",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002534952",
+   "uf": "MS",
+   "cargo": "senador",
+   "numero": "365",
+   "nomeUrna": "DANIEL JUNIOR",
+   "nomeCompleto": "DANIEL RODRIGUES JUNIOR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AGIR",
+    "numero": "36",
+    "nome": "AGIR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "AGIR",
+    "sq": "120001800227"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "120002534953",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ALESSANDRO GARCIA",
+     "nomeCompleto": "ALESSANDRO GARCIA",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "120002534954",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "LUCIENE RAMOS DA SILVA",
+     "nomeCompleto": "LUCIENE RAMOS DA SILVA",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002547434",
+   "uf": "MS",
+   "cargo": "senador",
+   "numero": "400",
+   "nomeUrna": "SORAYA",
+   "nomeCompleto": "SORAYA VIEIRA THRONICKE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSB",
+    "numero": "40",
+    "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "POR UM MS DO POVO",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "120001800861"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "120002547433",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "BRUNO MIGUEIS",
+     "nomeCompleto": "BRUNO NASCIMENTO MIGUEIS",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "120002547437",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "GEANA MESQUITA",
+     "nomeCompleto": "GEANA FERNANDA DE MESQUITA DA ROSA",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002532721",
+   "uf": "MS",
+   "cargo": "senador",
+   "numero": "500",
+   "nomeUrna": "BETO DO MOVIMENTO",
+   "nomeCompleto": "JONAS CARLOS DA CONCEICAO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "120001800100"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "120002532719",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ELIZANGELA TIAGO",
+     "nomeCompleto": "ELIZANGELA TIAGO DA MAIA",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "120002532720",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "KÁTIA BASTOS",
+     "nomeCompleto": "FRANCISCA KATIA BASTOS PEREIRA",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}
