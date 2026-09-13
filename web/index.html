@@ -22,6 +22,7 @@
     <div class="abas" role="tablist">
       <button class="aba" role="tab" id="tab-cedula" aria-selected="true" aria-controls="pane-cedula">Cédula</button>
       <button class="aba" role="tab" id="tab-mapa" aria-selected="false" aria-controls="pane-mapa">Mapa</button>
+      <button class="aba" role="tab" id="tab-pautas" aria-selected="false" aria-controls="pane-pautas">Pautas</button>
       <button class="aba" role="tab" id="tab-metodo" aria-selected="false" aria-controls="pane-metodo">Método</button>
     </div>
   </header>
@@ -110,6 +111,65 @@
         </div>
         <p class="nota" id="mapaExterior"></p>
       </div>
+    </div>
+  </div>
+
+  <!-- ============ PAUTAS ============ -->
+  <div id="pane-pautas" role="tabpanel" aria-labelledby="tab-pautas" hidden>
+    <div class="metodo">
+      <section>
+        <h2>O que o Brasil diz que é prioridade</h2>
+        <p>
+          Duas pesquisas nacionais recentes, com metodologias próprias. Elas <strong>discordam</strong>,
+          e a divergência é informação: perguntar "principal problema do país" e "principal preocupação"
+          não produz o mesmo ranking. Quem apresentar só uma delas está escolhendo um retrato.
+        </p>
+        <div id="pesquisas"></div>
+        <p class="nota" id="fontesPesquisas"></p>
+      </section>
+
+      <section>
+        <h2>E o que o Congresso de fato dividiu</h2>
+        <p>
+          A pauta do eleitor e a pauta do plenário não coincidem. Estas são as doze votações
+          selecionadas para virar perguntas — reais, nominais, divididas, e com a direção do voto
+          declarável sem ambiguidade.
+        </p>
+        <div id="itensPauta"></div>
+      </section>
+
+      <section>
+        <h2>Como cada partido votou nessas doze</h2>
+        <p>Percentual de votos "Sim" da bancada. Célula vazia: menos de três votos da legenda naquela votação.</p>
+        <div class="rolo"><table class="tabela cruz" id="cruzamento"></table></div>
+      </section>
+
+      <section>
+        <h2>Posição e coesão: o cruzamento que importa</h2>
+        <p>
+          Cada partido tem duas medidas independentes. <strong>Onde ele vota</strong> — o eixo horizontal —
+          e <strong>o quanto seus deputados concordam entre si</strong>, no eixo vertical. Quanto mais
+          alto no gráfico, menos o rótulo partidário diz sobre o candidato individual.
+        </p>
+        <figure>
+          <svg id="scatter" viewBox="0 0 620 420" role="img" aria-labelledby="scatterCap"></svg>
+          <figcaption id="scatterCap">
+            Mediana da bancada no eixo de votação contra o desvio-padrão interno. Tamanho do círculo
+            proporcional ao tamanho da bancada.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>O corte de três deputados, e quem ficou de fora</h2>
+        <p id="corteTexto"></p>
+        <div id="excluidos"></div>
+      </section>
+
+      <section>
+        <h2>Quem escreveu as perguntas</h2>
+        <div class="achado" id="autoria"></div>
+      </section>
     </div>
   </div>
 

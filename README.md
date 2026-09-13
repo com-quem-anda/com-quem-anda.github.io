@@ -71,6 +71,25 @@ estatística agregada de como as pessoas montam suas cédulas: coletar isso, mes
 com consentimento, exigiria um servidor para receber — e servidor é exatamente o que este projeto
 não tem. A promessa vale mais que o dado.
 
+## Pautas: o único arquivo com autor
+
+`scripts/pautas/itens.json` é a exceção declarada à regra do projeto. Tudo o mais aqui é
+derivado mecanicamente da fonte; o texto das doze perguntas foi **escrito**, e escrever é
+escolher. Ele fica em arquivo próprio, versionado e apartado, justamente para que a escolha
+seja visível e contestável por pull request — não diluída dentro do código.
+
+Cada pergunta aponta para uma votação nominal real, diz o que "Sim" significou naquela
+votação e leva à ficha na Câmara. Seis são votos de mérito e seis de urgência; a diferença
+está marcada na tela, porque urgência mede disposição de priorizar e não concordância com
+o conteúdo.
+
+`build-pautas.ts` calcula o que é medido: o eixo de votação da 57ª legislatura (462 deputados
+× 964 votações divididas, primeiro componente principal) e como cada bancada votou nas doze.
+Duas escolhas metodológicas ficam gravadas no arquivo de saída porque mudam o resultado:
+**o corte de três deputados** por legenda — abaixo disso não se mede coesão de bancada — e
+**a filiação atual** do deputado, sabendo que 121 dos 462 trocaram de partido durante a
+legislatura e carregam para a legenda de hoje um histórico anterior à troca.
+
 ## Desempenho: o encaixe existe, a nota não
 
 Cruzar coerência com desempenho parlamentar depende de duas coisas separadas, e só uma
@@ -144,6 +163,8 @@ scripts/
   normalize.ts        casca de I/O
   build-alianca.ts    grafo de proximidade entre partidos
   build-parlamentares.ts quem tem mandato hoje — Câmara e Senado
+  build-pautas.ts     eixo de votação da Câmara + cruzamento por pauta
+  pautas/itens.json   as 12 perguntas — AUTORAL, não derivado do dado
   build-eleitorado.ts eleitores por UF — sob demanda, fora do cron
   build-malha.ts      malha dos estados, do IBGE — idem
   build-web.ts        forma compacta que o site consome

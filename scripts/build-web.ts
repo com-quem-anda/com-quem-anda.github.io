@@ -42,6 +42,13 @@ async function main(): Promise<void> {
   const grafo = await ler("alianca.json");
   const eleitorado = await ler("eleitorado.json");
   const malha = await ler("malha-uf.json");
+  let pautas: unknown = null;
+  try { pautas = await ler("pautas-posicoes.json"); }
+  catch { console.log("AVISO pautas-posicoes.json ausente — rode `npm run pautas`"); }
+  let itensPautas: unknown = null;
+  try { itensPautas = JSON.parse(await readFile(new URL("pautas/itens.json", import.meta.url), "utf8")); }
+  catch { /* opcional */ }
+
   let parlamentares: { vinculos: Mandatos; comMandato: number; fontes: unknown[]; metodo: string } | null = null;
   try { parlamentares = await ler("parlamentares.json"); }
   catch { console.log("AVISO parlamentares.json ausente — rode `npm run parlamentares`"); }
@@ -85,6 +92,8 @@ async function main(): Promise<void> {
     mandatos: parlamentares
       ? { comMandato: parlamentares.comMandato, fontes: parlamentares.fontes, metodo: parlamentares.metodo }
       : null,
+    pautas,
+    itensPautas,
     anomalias: meta.anomalias.length,
     ufsDisponiveis: ufs,
   };

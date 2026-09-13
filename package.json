@@ -21,7 +21,8 @@
     "web": "node scripts/build-web.ts",
     "artifact": "node scripts/build-artifact.ts",
     "build:site": "npm run web && npm run artifact",
-    "parlamentares": "node scripts/build-parlamentares.ts"
+    "parlamentares": "node scripts/build-parlamentares.ts",
+    "pautas": "node --max-old-space-size=8192 scripts/build-pautas.ts"
   },
   "devDependencies": {
     "@types/node": "^22.20.2",

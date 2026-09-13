@@ -1,0 +1,1049 @@
+{
+ "geradoEm": "2026-09-13T11:20:23.611Z",
+ "metodo": {
+  "fonte": "Câmara dos Deputados — votações nominais da 57ª legislatura, dados abertos",
+  "matriz": "462 deputados x 964 votações divididas",
+  "dividida": "ao menos 100 votos Sim/Não e minoria de ao menos 5%",
+  "participacao": "deputado presente em ao menos metade das votações divididas",
+  "decomposicao": "primeiro componente principal, matriz centrada por votação, iteração de potência determinística",
+  "corte": "partido com menos de 3 deputados no recorte não recebe posição — média de uma ou duas pessoas não descreve uma legenda",
+  "rotulo": "Isto é um eixo de VOTAÇÃO, não de ideologia. O primeiro componente numa legislatura capta alinhamento com o Executivo.",
+  "filiacao": "Cada deputado é contado no partido em que está hoje, não no de 2023."
+ },
+ "migrantes": 121,
+ "deputados": 462,
+ "votacoesDivididas": 964,
+ "posicoes": [
+  {
+   "sigla": "PCdoB",
+   "mediana": -1.3261702627393621,
+   "q1": -1.3896759817200157,
+   "q3": -1.2081208854508625,
+   "min": -1.4016529805340798,
+   "max": -1.037451431595943,
+   "desvio": 0.13420829552095617,
+   "n": 8
+  },
+  {
+   "sigla": "PT",
+   "mediana": -1.1786335090189881,
+   "q1": -1.2796516442459795,
+   "q3": -1.1009862561270958,
+   "min": -1.4436509945339846,
+   "max": -0.7917887550167843,
+   "desvio": 0.1391656788918319,
+   "n": 64
+  },
+  {
+   "sigla": "PV",
+   "mediana": -1.1581096289710267,
+   "q1": -1.2144805645616756,
+   "q3": -1.1135707349345987,
+   "min": -1.2874506582351979,
+   "max": -0.5120557940624577,
+   "desvio": 0.2786736936716061,
+   "n": 5
+  },
+  {
+   "sigla": "PSB",
+   "mediana": -0.9203400104977876,
+   "q1": -1.0910913041914896,
+   "q3": -0.6510372925521629,
+   "min": -1.136789484886421,
+   "max": -0.4464785901850866,
+   "desvio": 0.2358965926930441,
+   "n": 14
+  },
+  {
+   "sigla": "PSOL",
+   "mediana": -0.9048851798855013,
+   "q1": -0.9523425580438518,
+   "q3": -0.7419167596774956,
+   "min": -1.068505962424561,
+   "max": -0.5812703537100192,
+   "desvio": 0.1549413292293391,
+   "n": 14
+  },
+  {
+   "sigla": "PDT",
+   "mediana": -0.7339346324709177,
+   "q1": -0.8904989218381415,
+   "q3": -0.6957035102320915,
+   "min": -1.078792798011141,
+   "max": -0.6429190733227769,
+   "desvio": 0.13741772565532756,
+   "n": 9
+  },
+  {
+   "sigla": "AVANTE",
+   "mediana": -0.6746326440528463,
+   "q1": -0.722583683498161,
+   "q3": -0.5935062918570465,
+   "min": -0.9525586884739864,
+   "max": 0.7379406701368048,
+   "desvio": 0.6014524294546547,
+   "n": 5
+  },
+  {
+   "sigla": "SOLIDARIEDADE",
+   "mediana": -0.32535432753125093,
+   "q1": -0.5149619377499822,
+   "q3": -0.32535432753125093,
+   "min": -0.5149619377499822,
+   "max": 0.9137302811985435,
+   "desvio": 0.6335476102365497,
+   "n": 3
+  },
+  {
+   "sigla": "PP",
+   "mediana": -0.30497599811959386,
+   "q1": -0.40469774687010757,
+   "q3": 0.28738228564918816,
+   "min": -1.056573273898133,
+   "max": 1.6955438368015965,
+   "desvio": 0.6766411005205208,
+   "n": 42
+  },
+  {
+   "sigla": "PSD",
+   "mediana": -0.2978867963325713,
+   "q1": -0.4624267483444714,
+   "q3": -0.10410130505899003,
+   "min": -0.9081374477765655,
+   "max": 1.2823079480327597,
+   "desvio": 0.5039914540457531,
+   "n": 43
+  },
+  {
+   "sigla": "MDB",
+   "mediana": -0.2619315266229079,
+   "q1": -0.4932553593176265,
+   "q3": -0.09342061048945345,
+   "min": -0.6687457942075283,
+   "max": 1.8973409353113158,
+   "desvio": 0.5401050205492537,
+   "n": 33
+  },
+  {
+   "sigla": "REPUBLICANOS",
+   "mediana": -0.25055048451598944,
+   "q1": -0.38146797897151646,
+   "q3": -0.07756188738434704,
+   "min": -0.869507789990333,
+   "max": 1.8415050350906252,
+   "desvio": 0.537919172452384,
+   "n": 38
+  },
+  {
+   "sigla": "PODE",
+   "mediana": -0.25042742817241553,
+   "q1": -0.5071969709267456,
+   "q3": -0.006746607040512332,
+   "min": -0.8037534632516761,
+   "max": 1.9358311004032702,
+   "desvio": 0.6706482208380024,
+   "n": 20
+  },
+  {
+   "sigla": "UNIÃO",
+   "mediana": -0.1914711716580482,
+   "q1": -0.42119967651559737,
+   "q3": 0.39386622390425435,
+   "min": -1.0139105745996009,
+   "max": 1.7806390746861094,
+   "desvio": 0.6568890982737426,
+   "n": 48
+  },
+  {
+   "sigla": "PSDB",
+   "mediana": -0.18304987535115563,
+   "q1": -0.33206147744381287,
+   "q3": 0.022298495848715443,
+   "min": -0.5267360892847058,
+   "max": 1.56378313256385,
+   "desvio": 0.5984618965105358,
+   "n": 17
+  },
+  {
+   "sigla": "PL",
+   "mediana": 1.6291699243496165,
+   "q1": 1.3903650116532988,
+   "q3": 1.762194921482415,
+   "min": -0.42288118950778636,
+   "max": 2.132750843023063,
+   "desvio": 0.4973819633088669,
+   "n": 87
+  },
+  {
+   "sigla": "NOVO",
+   "mediana": 1.85398607315251,
+   "q1": 1.7070887688423377,
+   "q3": 1.8598399649623296,
+   "min": 1.449646880509138,
+   "max": 1.8607575395947922,
+   "desvio": 0.15945452629607998,
+   "n": 5
+  }
+ ],
+ "abaixoDoCorte": [
+  {
+   "sigla": "REDE",
+   "n": 2
+  },
+  {
+   "sigla": "CIDADANIA",
+   "n": 2
+  },
+  {
+   "sigla": "PRD",
+   "n": 2
+  },
+  {
+   "sigla": "MISSÃO",
+   "n": 1
+  }
+ ],
+ "votosPorItem": {
+  "PL 2630/2020": {
+   "PL": {
+    "sim": 0,
+    "nao": 85
+   },
+   "MDB": {
+    "sim": 28,
+    "nao": 7
+   },
+   "PSDB": {
+    "sim": 9,
+    "nao": 3
+   },
+   "NOVO": {
+    "sim": 0,
+    "nao": 5
+   },
+   "PP": {
+    "sim": 16,
+    "nao": 22
+   },
+   "PDT": {
+    "sim": 8,
+    "nao": 1
+   },
+   "PT": {
+    "sim": 63,
+    "nao": 0
+   },
+   "REPUBLICANOS": {
+    "sim": 26,
+    "nao": 9
+   },
+   "UNIÃO": {
+    "sim": 22,
+    "nao": 23
+   },
+   "PCdoB": {
+    "sim": 7,
+    "nao": 0
+   },
+   "PV": {
+    "sim": 5,
+    "nao": 0
+   },
+   "PSD": {
+    "sim": 17,
+    "nao": 16
+   },
+   "PODE": {
+    "sim": 5,
+    "nao": 13
+   },
+   "SOLIDARIEDADE": {
+    "sim": 1,
+    "nao": 2
+   },
+   "PSOL": {
+    "sim": 11,
+    "nao": 0
+   },
+   "PSB": {
+    "sim": 13,
+    "nao": 1
+   },
+   "AVANTE": {
+    "sim": 4,
+    "nao": 1
+   }
+  },
+  "PL 747/2023": {
+   "PL": {
+    "sim": 12,
+    "nao": 71
+   },
+   "MDB": {
+    "sim": 25,
+    "nao": 3
+   },
+   "PSDB": {
+    "sim": 7,
+    "nao": 8
+   },
+   "NOVO": {
+    "sim": 0,
+    "nao": 4
+   },
+   "PP": {
+    "sim": 11,
+    "nao": 29
+   },
+   "PDT": {
+    "sim": 10,
+    "nao": 0
+   },
+   "PT": {
+    "sim": 59,
+    "nao": 0
+   },
+   "REPUBLICANOS": {
+    "sim": 26,
+    "nao": 6
+   },
+   "PCdoB": {
+    "sim": 5,
+    "nao": 0
+   },
+   "PV": {
+    "sim": 6,
+    "nao": 0
+   },
+   "PSB": {
+    "sim": 8,
+    "nao": 2
+   },
+   "PSD": {
+    "sim": 30,
+    "nao": 7
+   },
+   "PODE": {
+    "sim": 13,
+    "nao": 4
+   },
+   "SOLIDARIEDADE": {
+    "sim": 2,
+    "nao": 1
+   },
+   "UNIÃO": {
+    "sim": 34,
+    "nao": 6
+   },
+   "PSOL": {
+    "sim": 9,
+    "nao": 0
+   },
+   "AVANTE": {
+    "sim": 3,
+    "nao": 0
+   }
+  },
+  "PDL 3/2023": {
+   "PL": {
+    "sim": 89,
+    "nao": 2
+   },
+   "MDB": {
+    "sim": 14,
+    "nao": 17
+   },
+   "NOVO": {
+    "sim": 5,
+    "nao": 0
+   },
+   "PP": {
+    "sim": 34,
+    "nao": 2
+   },
+   "PT": {
+    "sim": 0,
+    "nao": 58
+   },
+   "PDT": {
+    "sim": 1,
+    "nao": 5
+   },
+   "REPUBLICANOS": {
+    "sim": 26,
+    "nao": 6
+   },
+   "UNIÃO": {
+    "sim": 29,
+    "nao": 11
+   },
+   "PCdoB": {
+    "sim": 0,
+    "nao": 8
+   },
+   "PSB": {
+    "sim": 3,
+    "nao": 12
+   },
+   "PSDB": {
+    "sim": 11,
+    "nao": 1
+   },
+   "PODE": {
+    "sim": 10,
+    "nao": 6
+   },
+   "PSD": {
+    "sim": 25,
+    "nao": 8
+   },
+   "SOLIDARIEDADE": {
+    "sim": 2,
+    "nao": 1
+   },
+   "PSOL": {
+    "sim": 0,
+    "nao": 11
+   },
+   "AVANTE": {
+    "sim": 2,
+    "nao": 4
+   },
+   "PV": {
+    "sim": 0,
+    "nao": 2
+   }
+  },
+  "PL 490/2007": {
+   "PL": {
+    "sim": 84,
+    "nao": 0
+   },
+   "MDB": {
+    "sim": 21,
+    "nao": 9
+   },
+   "PSDB": {
+    "sim": 14,
+    "nao": 2
+   },
+   "NOVO": {
+    "sim": 5,
+    "nao": 0
+   },
+   "PP": {
+    "sim": 35,
+    "nao": 5
+   },
+   "PT": {
+    "sim": 0,
+    "nao": 64
+   },
+   "REPUBLICANOS": {
+    "sim": 28,
+    "nao": 5
+   },
+   "UNIÃO": {
+    "sim": 41,
+    "nao": 4
+   },
+   "PCdoB": {
+    "sim": 0,
+    "nao": 7
+   },
+   "PV": {
+    "sim": 0,
+    "nao": 6
+   },
+   "PDT": {
+    "sim": 2,
+    "nao": 7
+   },
+   "PODE": {
+    "sim": 13,
+    "nao": 5
+   },
+   "PSD": {
+    "sim": 28,
+    "nao": 11
+   },
+   "PSOL": {
+    "sim": 0,
+    "nao": 13
+   },
+   "AVANTE": {
+    "sim": 3,
+    "nao": 3
+   },
+   "SOLIDARIEDADE": {
+    "sim": 1,
+    "nao": 0
+   },
+   "PSB": {
+    "sim": 4,
+    "nao": 10
+   }
+  },
+  "PL 3874/2023": {
+   "PL": {
+    "sim": 12,
+    "nao": 60
+   },
+   "MDB": {
+    "sim": 22,
+    "nao": 1
+   },
+   "PSDB": {
+    "sim": 12,
+    "nao": 1
+   },
+   "PP": {
+    "sim": 26,
+    "nao": 7
+   },
+   "PDT": {
+    "sim": 9,
+    "nao": 0
+   },
+   "REPUBLICANOS": {
+    "sim": 32,
+    "nao": 3
+   },
+   "PT": {
+    "sim": 55,
+    "nao": 0
+   },
+   "UNIÃO": {
+    "sim": 41,
+    "nao": 5
+   },
+   "PCdoB": {
+    "sim": 6,
+    "nao": 0
+   },
+   "PSB": {
+    "sim": 11,
+    "nao": 0
+   },
+   "PSD": {
+    "sim": 39,
+    "nao": 0
+   },
+   "PODE": {
+    "sim": 11,
+    "nao": 2
+   },
+   "PV": {
+    "sim": 5,
+    "nao": 0
+   },
+   "PSOL": {
+    "sim": 8,
+    "nao": 0
+   },
+   "AVANTE": {
+    "sim": 6,
+    "nao": 0
+   },
+   "NOVO": {
+    "sim": 0,
+    "nao": 3
+   },
+   "SOLIDARIEDADE": {
+    "sim": 3,
+    "nao": 0
+   }
+  },
+  "PL 1958/2021": {
+   "MDB": {
+    "sim": 25,
+    "nao": 7
+   },
+   "PSDB": {
+    "sim": 6,
+    "nao": 4
+   },
+   "NOVO": {
+    "sim": 0,
+    "nao": 4
+   },
+   "PP": {
+    "sim": 29,
+    "nao": 10
+   },
+   "PDT": {
+    "sim": 8,
+    "nao": 0
+   },
+   "PL": {
+    "sim": 6,
+    "nao": 78
+   },
+   "REPUBLICANOS": {
+    "sim": 31,
+    "nao": 4
+   },
+   "PT": {
+    "sim": 58,
+    "nao": 0
+   },
+   "UNIÃO": {
+    "sim": 31,
+    "nao": 10
+   },
+   "PCdoB": {
+    "sim": 8,
+    "nao": 0
+   },
+   "PSB": {
+    "sim": 12,
+    "nao": 0
+   },
+   "PSD": {
+    "sim": 24,
+    "nao": 14
+   },
+   "PODE": {
+    "sim": 10,
+    "nao": 5
+   },
+   "SOLIDARIEDADE": {
+    "sim": 2,
+    "nao": 1
+   },
+   "PV": {
+    "sim": 4,
+    "nao": 0
+   },
+   "PSOL": {
+    "sim": 12,
+    "nao": 0
+   },
+   "AVANTE": {
+    "sim": 3,
+    "nao": 1
+   }
+  },
+  "PL 2162/2023": {
+   "MDB": {
+    "sim": 20,
+    "nao": 7
+   },
+   "NOVO": {
+    "sim": 5,
+    "nao": 0
+   },
+   "PP": {
+    "sim": 28,
+    "nao": 1
+   },
+   "PSDB": {
+    "sim": 10,
+    "nao": 1
+   },
+   "PT": {
+    "sim": 1,
+    "nao": 49
+   },
+   "PL": {
+    "sim": 73,
+    "nao": 2
+   },
+   "PCdoB": {
+    "sim": 0,
+    "nao": 9
+   },
+   "PV": {
+    "sim": 0,
+    "nao": 3
+   },
+   "REPUBLICANOS": {
+    "sim": 18,
+    "nao": 5
+   },
+   "PDT": {
+    "sim": 0,
+    "nao": 8
+   },
+   "PSB": {
+    "sim": 1,
+    "nao": 10
+   },
+   "PODE": {
+    "sim": 12,
+    "nao": 4
+   },
+   "UNIÃO": {
+    "sim": 27,
+    "nao": 8
+   },
+   "PSD": {
+    "sim": 17,
+    "nao": 13
+   },
+   "PSOL": {
+    "sim": 0,
+    "nao": 10
+   },
+   "AVANTE": {
+    "sim": 2,
+    "nao": 1
+   },
+   "SOLIDARIEDADE": {
+    "sim": 2,
+    "nao": 0
+   }
+  },
+  "PL 2809/2024": {
+   "MDB": {
+    "sim": 24,
+    "nao": 8
+   },
+   "PL": {
+    "sim": 6,
+    "nao": 69
+   },
+   "PSDB": {
+    "sim": 15,
+    "nao": 1
+   },
+   "NOVO": {
+    "sim": 0,
+    "nao": 4
+   },
+   "PP": {
+    "sim": 25,
+    "nao": 10
+   },
+   "PDT": {
+    "sim": 8,
+    "nao": 0
+   },
+   "PT": {
+    "sim": 55,
+    "nao": 0
+   },
+   "REPUBLICANOS": {
+    "sim": 30,
+    "nao": 5
+   },
+   "PCdoB": {
+    "sim": 10,
+    "nao": 0
+   },
+   "PSB": {
+    "sim": 15,
+    "nao": 0
+   },
+   "PODE": {
+    "sim": 17,
+    "nao": 4
+   },
+   "PSD": {
+    "sim": 29,
+    "nao": 4
+   },
+   "SOLIDARIEDADE": {
+    "sim": 2,
+    "nao": 1
+   },
+   "PV": {
+    "sim": 4,
+    "nao": 0
+   },
+   "UNIÃO": {
+    "sim": 32,
+    "nao": 10
+   },
+   "PSOL": {
+    "sim": 11,
+    "nao": 0
+   },
+   "AVANTE": {
+    "sim": 4,
+    "nao": 0
+   }
+  },
+  "PEC 66/2023": {
+   "MDB": {
+    "sim": 34,
+    "nao": 5
+   },
+   "PL": {
+    "sim": 6,
+    "nao": 83
+   },
+   "PSDB": {
+    "sim": 9,
+    "nao": 10
+   },
+   "NOVO": {
+    "sim": 0,
+    "nao": 4
+   },
+   "PP": {
+    "sim": 34,
+    "nao": 12
+   },
+   "PDT": {
+    "sim": 9,
+    "nao": 0
+   },
+   "PT": {
+    "sim": 64,
+    "nao": 0
+   },
+   "REPUBLICANOS": {
+    "sim": 31,
+    "nao": 3
+   },
+   "PCdoB": {
+    "sim": 8,
+    "nao": 0
+   },
+   "PV": {
+    "sim": 5,
+    "nao": 0
+   },
+   "PSB": {
+    "sim": 13,
+    "nao": 0
+   },
+   "PODE": {
+    "sim": 17,
+    "nao": 4
+   },
+   "UNIÃO": {
+    "sim": 35,
+    "nao": 11
+   },
+   "SOLIDARIEDADE": {
+    "sim": 3,
+    "nao": 1
+   },
+   "PSD": {
+    "sim": 31,
+    "nao": 7
+   },
+   "PSOL": {
+    "sim": 13,
+    "nao": 0
+   },
+   "AVANTE": {
+    "sim": 4,
+    "nao": 1
+   }
+  },
+  "PLP 128/2025": {
+   "MDB": {
+    "sim": 18,
+    "nao": 9
+   },
+   "PL": {
+    "sim": 10,
+    "nao": 58
+   },
+   "PSDB": {
+    "sim": 11,
+    "nao": 4
+   },
+   "NOVO": {
+    "sim": 0,
+    "nao": 4
+   },
+   "PP": {
+    "sim": 27,
+    "nao": 9
+   },
+   "PDT": {
+    "sim": 8,
+    "nao": 0
+   },
+   "PT": {
+    "sim": 58,
+    "nao": 1
+   },
+   "REPUBLICANOS": {
+    "sim": 28,
+    "nao": 7
+   },
+   "PCdoB": {
+    "sim": 10,
+    "nao": 0
+   },
+   "PV": {
+    "sim": 5,
+    "nao": 0
+   },
+   "PSD": {
+    "sim": 30,
+    "nao": 5
+   },
+   "PODE": {
+    "sim": 15,
+    "nao": 3
+   },
+   "UNIÃO": {
+    "sim": 34,
+    "nao": 10
+   },
+   "PSOL": {
+    "sim": 9,
+    "nao": 0
+   },
+   "PSB": {
+    "sim": 13,
+    "nao": 0
+   },
+   "SOLIDARIEDADE": {
+    "sim": 1,
+    "nao": 1
+   },
+   "AVANTE": {
+    "sim": 4,
+    "nao": 1
+   }
+  },
+  "PL 3880/2024": {
+   "MDB": {
+    "sim": 22,
+    "nao": 6
+   },
+   "PL": {
+    "sim": 3,
+    "nao": 74
+   },
+   "PSDB": {
+    "sim": 11,
+    "nao": 4
+   },
+   "NOVO": {
+    "sim": 0,
+    "nao": 5
+   },
+   "PP": {
+    "sim": 29,
+    "nao": 8
+   },
+   "PDT": {
+    "sim": 4,
+    "nao": 1
+   },
+   "PT": {
+    "sim": 56,
+    "nao": 0
+   },
+   "REPUBLICANOS": {
+    "sim": 5,
+    "nao": 23
+   },
+   "UNIÃO": {
+    "sim": 19,
+    "nao": 17
+   },
+   "PCdoB": {
+    "sim": 8,
+    "nao": 0
+   },
+   "PODE": {
+    "sim": 14,
+    "nao": 5
+   },
+   "PSD": {
+    "sim": 24,
+    "nao": 5
+   },
+   "SOLIDARIEDADE": {
+    "sim": 2,
+    "nao": 1
+   },
+   "PV": {
+    "sim": 4,
+    "nao": 0
+   },
+   "PSOL": {
+    "sim": 10,
+    "nao": 0
+   },
+   "PSB": {
+    "sim": 12,
+    "nao": 0
+   },
+   "AVANTE": {
+    "sim": 2,
+    "nao": 0
+   }
+  },
+  "PL 849/2025": {
+   "MDB": {
+    "sim": 25,
+    "nao": 6
+   },
+   "PL": {
+    "sim": 84,
+    "nao": 1
+   },
+   "PSDB": {
+    "sim": 17,
+    "nao": 3
+   },
+   "NOVO": {
+    "sim": 5,
+    "nao": 0
+   },
+   "PP": {
+    "sim": 34,
+    "nao": 4
+   },
+   "PT": {
+    "sim": 0,
+    "nao": 61
+   },
+   "PDT": {
+    "sim": 0,
+    "nao": 9
+   },
+   "UNIÃO": {
+    "sim": 34,
+    "nao": 10
+   },
+   "PCdoB": {
+    "sim": 1,
+    "nao": 10
+   },
+   "REPUBLICANOS": {
+    "sim": 29,
+    "nao": 2
+   },
+   "PODE": {
+    "sim": 8,
+    "nao": 12
+   },
+   "PSD": {
+    "sim": 29,
+    "nao": 8
+   },
+   "SOLIDARIEDADE": {
+    "sim": 3,
+    "nao": 0
+   },
+   "PV": {
+    "sim": 0,
+    "nao": 5
+   },
+   "PSOL": {
+    "sim": 0,
+    "nao": 12
+   },
+   "PSB": {
+    "sim": 1,
+    "nao": 12
+   },
+   "AVANTE": {
+    "sim": 5,
+    "nao": 1
+   }
+  }
+ },
+ "autoria": "PERGUNTAS DE AUTORIA. Este arquivo é o único do projeto cujo conteúdo não é derivado mecanicamente do dado — o texto das perguntas foi escrito, e escrever é escolher. Redigido por Claude (Anthropic) a pedido do mantenedor, em 13/09/2026. Cada item traz a votação real que lhe dá origem, o que 'Sim' significou naquela votação e o link para conferir na Câmara. Discordou da redação? Abra um pull request: é para isso que ela está aqui e não escondida no código."
+}

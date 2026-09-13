@@ -407,6 +407,119 @@
     if (td) { const d = dadosUf(); td.textContent = mil(d.gov.length + d.sen.length + d.df.length + d.de.length); }
   }
 
+
+  /* =================== pautas =================== */
+
+  // Pesquisas citadas: números publicados, não medidos aqui.
+  const PESQUISAS = [
+    { nome: "Genial/Quaest", quando: "janeiro de 2026", pergunta: "principal preocupação do eleitor",
+      meta: "2.004 entrevistas · margem de 2 pontos · 95% de confiança",
+      linhas: [["Violência",38],["Questões sociais",18],["Corrupção",17],["Economia",12],["Saúde",11],["Educação",6]] },
+    { nome: "Datafolha", quando: "março de 2026", pergunta: "principal problema do país",
+      meta: "levantamento nacional",
+      linhas: [["Saúde",21],["Violência e segurança",19],["Economia",11],["Educação",9],["Corrupção",9],["Desemprego",4]] },
+  ];
+
+  function renderPautas() {
+    const P = D.pautas, IT = D.itensPautas;
+    if (!P || !IT) { el("pane-pautas").innerHTML = `<p class="carregando">Dados de pautas não gerados. Rode <code>npm run pautas</code>.</p>`; return; }
+
+    el("pesquisas").innerHTML = `<div class="barras-pesq">` + PESQUISAS.map((p) => {
+      const max = Math.max(...p.linhas.map((l) => l[1]));
+      return `<div class="pesq">
+        <h3>${esc(p.nome)} — ${esc(p.pergunta)}</h3>
+        <span class="meta">${esc(p.quando)} · ${esc(p.meta)}</span>
+        <ul>${p.linhas.map(([t, v]) => `<li><span>${esc(t)}</span>
+          <span class="trilho"><i style="width:${(100 * v / max).toFixed(0)}%"></i></span>
+          <span class="v">${v}%</span></li>`).join("")}</ul>
+      </div>`;
+    }).join("") + `</div>`;
+
+    el("fontesPesquisas").innerHTML =
+      `Quaest: pesquisa Genial/Quaest divulgada em janeiro de 2026. Datafolha: levantamento divulgado em março de 2026. ` +
+      `Para o recorte de segurança pública, o Anuário Brasileiro de Segurança Pública de 2026, do Fórum Brasileiro de Segurança Pública, ` +
+      `é a referência de série histórica. Os números acima são <strong>citados</strong>, não apurados por esta ferramenta.`;
+
+    el("itensPauta").innerHTML = `<div class="lista-pautas">` + IT.itens.map((i) => `
+      <div class="item-pauta">
+        <span class="perg">${esc(i.pergunta)}</span>
+        <span class="dir">Quem votou <b>Sim</b>: ${esc(i.sim)}. Quem votou <b>Não</b>: ${esc(i.nao)}.</span>
+        <span class="proc">
+          <span class="tag">${esc(i.tema)}</span>
+          <span class="tag${i.tipoVoto === "urgencia" ? " urg" : ""}">${i.tipoVoto === "urgencia" ? "voto de urgência" : "voto de mérito"}</span>
+          ${esc(i.sigla)} · ${esc(i.data)} · ${i.sim_votos} Sim x ${i.nao_votos} Não ·
+          <a href="${esc(i.url)}" target="_blank" rel="noopener">ficha na Câmara</a>
+        </span>
+        <span class="proc">ementa oficial: ${esc(String(i.ementa).slice(0, 260))}${String(i.ementa).length > 260 ? "…" : ""}</span>
+      </div>`).join("") + `</div>`;
+
+    // cruzamento partido x item
+    const partidos = P.posicoes.map((x) => x.sigla);
+    const cab = `<thead><tr><th>Votação</th>${partidos.map((p) => `<th>${esc(p)}</th>`).join("")}</tr></thead>`;
+    const corpo = IT.itens.map((i) => {
+      const v = P.votosPorItem[i.sigla] ?? {};
+      return `<tr><td title="${esc(i.pergunta)}">${esc(i.sigla)}</td>` + partidos.map((p) => {
+        const x = v[p];
+        if (!x || x.sim + x.nao < 3) return `<td style="color:var(--muted)">—</td>`;
+        const pc = Math.round(100 * x.sim / (x.sim + x.nao));
+        const forte = pc >= 80 || pc <= 20;
+        return `<td style="color:${forte ? "var(--ink)" : "var(--muted)"}">${pc}%</td>`;
+      }).join("") + `</tr>`;
+    }).join("");
+    el("cruzamento").innerHTML = cab + `<tbody>${corpo}</tbody>`;
+
+    desenharScatter(P.posicoes);
+
+    const fora = P.abaixoDoCorte ?? [];
+    const semBancada = D.grafo.partidos.filter((p) => !P.posicoes.some((x) => x.sigla.toUpperCase().replace(/\s/g, "") === p.toUpperCase().replace(/\s/g, "")) && !fora.some((x) => x.sigla.toUpperCase().replace(/\s/g, "") === p.toUpperCase().replace(/\s/g, "")));
+    el("corteTexto").innerHTML =
+      `Um partido só recebe posição com <strong>ao menos três deputados</strong> no recorte. Abaixo disso a "posição do partido" ` +
+      `seria a média de uma ou duas pessoas, e a dispersão interna não teria sentido nenhum — não se mede coesão de uma bancada de um. ` +
+      `O corte é arbitrário como todo corte, e por isso está declarado aqui em vez de escondido: <strong>${fora.length} legendas</strong> ` +
+      `ficaram de fora por ele, e outras <strong>${semBancada.length}</strong> não têm bancada federal nenhuma para medir.`;
+    el("excluidos").innerHTML = `<div class="excl">
+      <div class="excl-bloco">
+        <h4>Ficaram de fora pelo corte de três (têm bancada, pequena demais)</h4>
+        <p>Votam na Câmara, mas com um ou dois deputados. Existe registro; não existe base para falar da legenda.</p>
+        <p class="siglas">${fora.map((x) => `${esc(x.sigla)} (${x.n})`).join(" · ") || "nenhuma"}</p>
+      </div>
+      <div class="excl-bloco">
+        <h4>Sem posição por não terem bancada federal</h4>
+        <p>Disputam a eleição de 2026 mas não elegeram deputado federal em 2022, ou o elegeram sob outra legenda. Para os candidatos delas, a camada de posição simplesmente não existe — e a tela deve dizer isso, não estimar.</p>
+        <p class="siglas">${semBancada.map(esc).join(" · ") || "nenhuma"}</p>
+      </div></div>`;
+
+    el("autoria").innerHTML = `<h3>As perguntas têm autor, e o autor está declarado</h3>
+      <p>${esc(IT._leia)}</p>
+      <p>${esc(IT._direcao)}</p>
+      <p>Tudo o mais nesta aba é medido ou citado: as posições saem de ${P.deputados} deputados em ${P.votacoesDivididas} votações divididas, e os percentuais de pesquisa vêm com instituto e data. Só o texto das doze perguntas foi escrito por alguém.</p>`;
+  }
+
+  function desenharScatter(pos) {
+    const W = 620, H = 420, ml = 46, mr = 16, mt = 18, mb = 42;
+    const xs = pos.map((p) => p.mediana), ys = pos.map((p) => p.desvio);
+    const x0 = Math.min(...xs) - 0.2, x1 = Math.max(...xs) + 0.25;
+    const y1 = Math.max(...ys) * 1.12;
+    const X = (v) => ml + (v - x0) / (x1 - x0) * (W - ml - mr);
+    const Y = (v) => H - mb - (v / y1) * (H - mt - mb);
+    const rMax = Math.max(...pos.map((p) => p.n));
+    let g = "";
+    for (const t of [-1, 0, 1, 2]) { if (t < x0 || t > x1) continue;
+      g += `<line x1="${X(t).toFixed(1)}" y1="${mt}" x2="${X(t).toFixed(1)}" y2="${H - mb}" stroke="${t === 0 ? "var(--line-strong)" : "var(--line)"}" stroke-width="1"></line>`;
+      g += `<text x="${X(t).toFixed(1)}" y="${H - mb + 15}" fill="var(--muted)" font-size="10" font-family="IBM Plex Mono,monospace" text-anchor="middle">${t > 0 ? "+" : ""}${t}</text>`; }
+    for (const v of [0.2, 0.4, 0.6, 0.8]) { if (v > y1) continue;
+      g += `<line x1="${ml}" y1="${Y(v).toFixed(1)}" x2="${W - mr}" y2="${Y(v).toFixed(1)}" stroke="var(--line)" stroke-width="1" stroke-dasharray="2 3"></line>`;
+      g += `<text x="${ml - 8}" y="${(Y(v) + 3).toFixed(1)}" fill="var(--muted)" font-size="10" font-family="IBM Plex Mono,monospace" text-anchor="end">${String(v).replace(".", ",")}</text>`; }
+    for (const p of pos) {
+      const r = 4 + 9 * Math.sqrt(p.n / rMax);
+      g += `<circle cx="${X(p.mediana).toFixed(1)}" cy="${Y(p.desvio).toFixed(1)}" r="${r.toFixed(1)}" fill="var(--barra)" fill-opacity="0.42" stroke="var(--barra)" stroke-width="1.5"><title>${esc(p.sigla)} — posição ${num(p.mediana, 2)}, desvio ${num(p.desvio, 2)}, ${p.n} deputados</title></circle>`;
+      g += `<text x="${X(p.mediana).toFixed(1)}" y="${(Y(p.desvio) - r - 4).toFixed(1)}" fill="var(--ink)" font-size="9.5" font-family="IBM Plex Mono,monospace" text-anchor="middle">${esc(p.sigla)}</text>`;
+    }
+    g += `<text x="${(W / 2).toFixed(0)}" y="${H - 6}" fill="var(--muted)" font-size="10.5" text-anchor="middle">posição no eixo de votação →</text>`;
+    g += `<text x="12" y="${(H / 2).toFixed(0)}" fill="var(--muted)" font-size="10.5" text-anchor="middle" transform="rotate(-90 12 ${(H / 2).toFixed(0)})">↑ menos coeso</text>`;
+    el("scatter").innerHTML = g;
+  }
+
   /* =================== dica flutuante =================== */
 
   const dica = el("dica");
@@ -578,6 +691,7 @@
       el("uf").innerHTML = D.ufsDisponiveis.map((u) => `<option value="${u}"${u === uf ? " selected" : ""}>${u}</option>`).join("");
       renderMetodoEstatico();
       renderMapa();
+      renderPautas();
       marcarUfNoMapa();
       sortear(SEMENTE);   // abre com uma cédula sorteada: mostra o que faz sem sugerir voto em ninguém
     } catch (err) {
