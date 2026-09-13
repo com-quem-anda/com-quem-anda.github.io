@@ -142,6 +142,16 @@
     ["deputado-federal", "Deputado federal", "df", 1],
     ["deputado-estadual", "Deputado estadual", "de", 1],
   ];
+  /**
+   * Painéis de aba, lidos do próprio DOM.
+   *
+   * Já foi uma lista escrita à mão, e uma aba nova ficou de fora dela duas
+   * vezes seguidas: o clique escondia as outras e nunca revelava a nova, então
+   * a tela ficava em branco sem erro nenhum no console. Derivar do DOM elimina
+   * a classe inteira de erro.
+   */
+  const PAINEIS = [...document.querySelectorAll('[role="tabpanel"]')].map((p) => p.id.replace(/^pane-/, ""));
+
   const cargoBase = (k) => (k === "senador2" ? "senador" : k);
   const meta = (slot) => CARGOS.find((c) => c[0] === slot);
 
@@ -728,13 +738,22 @@
     const aba = e.target.closest(".aba");
     if (aba) {
       for (const t of document.querySelectorAll(".aba")) t.setAttribute("aria-selected", String(t === aba));
-      for (const id of ["cedula", "mapa", "metodo"]) el("pane-" + id).hidden = aba.id !== "tab-" + id;
+      for (const id of PAINEIS) el("pane-" + id).hidden = aba.id !== "tab-" + id;
       return;
     }
     const bp = e.target.closest(".peso");
     if (bp) { pesos[bp.dataset.tema] = Number(bp.dataset.peso); renderPrioridades(); renderVsBrasil(); renderMatch(); return; }
     const bq = e.target.closest(".opt");
-    if (bq) { respostas[bq.dataset.q] = Number(bq.dataset.v); renderQuestionario(); renderMatch(); return; }
+    if (bq) {
+      respostas[bq.dataset.q] = Number(bq.dataset.v);
+      // Só os botões daquela pergunta mudam de estado: repintar as doze
+      // destruiria o nó clicado e jogaria o foco fora da lista.
+      for (const b of bq.parentElement.querySelectorAll(".opt")) {
+        b.setAttribute("aria-pressed", String(Number(b.dataset.v) === respostas[bq.dataset.q]));
+      }
+      renderMatch();
+      return;
+    }
 
     const noMapa = e.target.closest("#mapa path, .tab-ufs tr[data-uf]");
     if (noMapa) { await trocarUf(noMapa.dataset.uf); return; }
