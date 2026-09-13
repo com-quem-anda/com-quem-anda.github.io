@@ -346,7 +346,10 @@
       + (fundo.length ? `<li style="grid-column:1/-1;color:var(--muted);font-size:.75rem;font-family:var(--mono);padding-top:4px">e no outro extremo</li>` + fundo.map(linha).join("") : "");
   }
 
-  function render() { renderCedula(); renderChapa(); renderSugestao(); renderResultado(calcular()); }
+  function render() {
+    renderCedula(); renderChapa(); renderSugestao(); renderResultado(calcular());
+    if (D.itensPautas) renderMatch();   // o cruzamento com a cédula depende dos votos
+  }
 
   /* =================== mapa =================== */
 
@@ -520,6 +523,154 @@
     el("scatter").innerHTML = g;
   }
 
+
+  /* =================== você: prioridades, respostas e match =================== */
+
+  const TEMAS_ORD = ["segurança", "saúde", "economia", "educação", "instituições", "sociais", "meio ambiente"];
+  /** Onde cada tema aparece no ranking de cada pesquisa (1 = mais citado). */
+  const RANK_BRASIL = {
+    "segurança":     { quaest: 1, datafolha: 2 },
+    "saúde":         { quaest: 5, datafolha: 1 },
+    "economia":      { quaest: 4, datafolha: 3 },
+    "educação":      { quaest: 6, datafolha: 4 },
+    "instituições":  { quaest: 3, datafolha: 5 },
+    "sociais":       { quaest: 2, datafolha: 6 },
+    "meio ambiente": { quaest: null, datafolha: null },
+  };
+
+  let pesos = {};       // tema -> 0 | 1 | 2  (padrão 1)
+  let respostas = {};   // sigla da proposição -> 1 (Sim) | -1 (Não) | 0 (pulou)
+
+  const itensVoce = () => (D.itensPautas?.itens ?? []);
+
+  function renderPrioridades() {
+    const rotulos = ["não é prioridade", "importa", "é decisivo"];
+    el("prioridades").innerHTML = `<div class="prior">` + TEMAS_ORD.map((t) => `
+      <div class="prior-linha">
+        <span>${esc(t[0].toUpperCase() + t.slice(1))}</span>
+        <span class="pesos">${[0, 1, 2].map((v) => `
+          <button class="peso" type="button" data-tema="${esc(t)}" data-peso="${v}"
+            aria-pressed="${(pesos[t] ?? 1) === v}">${esc(rotulos[v])}</button>`).join("")}</span>
+      </div>`).join("") + `</div>`;
+  }
+
+  function renderVsBrasil() {
+    // Ordem do usuário: peso desc, depois a ordem fixa dos temas para desempate estável.
+    const meus = [...TEMAS_ORD].sort((a, b) => (pesos[b] ?? 1) - (pesos[a] ?? 1) || TEMAS_ORD.indexOf(a) - TEMAS_ORD.indexOf(b));
+    const posMeu = new Map(meus.map((t, i) => [t, i + 1]));
+    el("vsBrasil").innerHTML = `<div class="vs">
+      <div class="vs-linha"><span class="vs-cab">tema</span><span class="vs-cab" style="text-align:center">você</span><span class="vs-cab" style="text-align:center">Quaest</span><span class="vs-cab" style="text-align:center">Datafolha</span></div>` +
+      meus.map((t) => {
+        const r = RANK_BRASIL[t] ?? {};
+        const cel = (v, destaque) => `<span class="vs-pos${destaque ? " destaque" : ""}">${v ?? "—"}º</span>`
+          .replace("—º", "—");
+        return `<div class="vs-linha">
+          <span>${esc(t[0].toUpperCase() + t.slice(1))}</span>
+          ${cel(posMeu.get(t), true)}${cel(r.quaest)}${cel(r.datafolha)}</div>`;
+      }).join("") + `</div>`;
+  }
+
+  function renderQuestionario() {
+    el("questionario").innerHTML = itensVoce().map((i) => {
+      const r = respostas[i.sigla];
+      return `<div class="q">
+        <span class="perg">${esc(i.pergunta)}</span>
+        <span class="opts">
+          <button class="opt" type="button" data-q="${esc(i.sigla)}" data-v="1" aria-pressed="${r === 1}">Sim — ${esc(i.sim)}</button>
+          <button class="opt" type="button" data-q="${esc(i.sigla)}" data-v="-1" aria-pressed="${r === -1}">Não — ${esc(i.nao)}</button>
+          <button class="opt pular" type="button" data-q="${esc(i.sigla)}" data-v="0" aria-pressed="${r === 0}">Pular</button>
+        </span>
+        <span class="proc"><span class="tag">${esc(i.tema)}</span>
+          ${esc(i.sigla)} · ${esc(i.data)} · <a href="${esc(i.url)}" target="_blank" rel="noopener">ficha na Câmara</a></span>
+      </div>`;
+    }).join("");
+  }
+
+  /**
+   * Match por partido.
+   *
+   * Para cada votação respondida, a concordância com um partido é a fração de
+   * deputados daquela bancada que votaram do mesmo lado que o eleitor. Não há
+   * modelo nem estimação: é contagem direta de voto registrado. O peso do tema
+   * é o que o próprio eleitor declarou.
+   */
+  function calcularMatch() {
+    const P = D.pautas;
+    if (!P) return null;
+    const respondidas = itensVoce().filter((i) => respostas[i.sigla] === 1 || respostas[i.sigla] === -1);
+    if (respondidas.length < 4) return { respondidas: respondidas.length, insuficiente: true };
+
+    const linhas = P.posicoes.map((pos) => {
+      let soma = 0, pesoTotal = 0, itens = 0;
+      for (const i of respondidas) {
+        const v = P.votosPorItem[i.sigla]?.[pos.sigla];
+        if (!v || v.sim + v.nao < 3) continue;
+        const fracSim = v.sim / (v.sim + v.nao);
+        const concord = respostas[i.sigla] === 1 ? fracSim : 1 - fracSim;
+        const w = pesos[i.tema] ?? 1;
+        if (w === 0) continue;
+        soma += w * concord; pesoTotal += w; itens++;
+      }
+      return pesoTotal > 0 ? { sigla: pos.sigla, match: soma / pesoTotal, itens, n: pos.n, desvio: pos.desvio } : null;
+    }).filter(Boolean).sort((a, b) => b.match - a.match);
+
+    return { respondidas: respondidas.length, linhas };
+  }
+
+  function renderMatch() {
+    const r = calcularMatch();
+    const total = itensVoce().length;
+    if (!r) { el("matchFrase").textContent = "Dados de pautas não carregados."; return; }
+    el("matchCobertura").textContent = `${r.respondidas} de ${total}`;
+
+    if (r.insuficiente || !r.linhas?.length) {
+      el("matchFrase").textContent = "Responda ao menos quatro votações para o match existir.";
+      el("matchPartidos").innerHTML = "";
+      el("matchCedula").innerHTML = `<p class="nota">Responda o questionário para ver o cruzamento.</p>`;
+      return;
+    }
+    const topo = r.linhas[0];
+    el("matchFrase").innerHTML =
+      `A bancada que mais votou como você é a do <strong>${esc(topo.sigla)}</strong>: ` +
+      `${Math.round(100 * topo.match)}% de concordância em ${topo.itens} votações. ` +
+      (r.respondidas < 8 ? `Com poucas respostas a ordem é instável — responda mais para firmar.` : "");
+
+    el("matchPartidos").innerHTML = r.linhas.map((l) => `
+      <li class="match-linha">
+        <span class="p">${esc(l.sigla)}</span>
+        <span class="trilho"><i style="width:${(100 * l.match).toFixed(1)}%"></i></span>
+        <span class="v">${Math.round(100 * l.match)}%</span>
+      </li>`).join("");
+
+    // cruzamento com a cédula declarada
+    const mapa = new Map(r.linhas.map((l) => [l.sigla.toUpperCase().replace(/\s/g, ""), l]));
+    const votos = CARGOS.filter(([s]) => escolhas[s] !== undefined).map(([s]) => ({ slot: s, c: cand(s) }));
+    if (!votos.length) {
+      el("matchCedula").innerHTML = `<p class="nota">Você ainda não montou uma cédula na aba Cédula.</p>`;
+      return;
+    }
+    const melhor = r.linhas[0];
+    el("matchCedula").innerHTML = `<div class="cedula-cruz">` + votos.map(({ slot, c }) => {
+      const l = mapa.get(c[2].toUpperCase().replace(/\s/g, ""));
+      const federal = ["presidente", "senador", "senador2", "deputado-federal"].includes(slot);
+      let val, cor;
+      if (!l) { val = "sem bancada federal"; cor = "background:var(--sunk);color:var(--muted)"; }
+      else { val = `${Math.round(100 * l.match)}% como você`;
+        cor = l.match >= 0.6 ? "background:var(--sunk);color:var(--positivo)"
+            : l.match <= 0.4 ? "background:var(--aviso-soft);color:var(--aviso)"
+            : "background:var(--sunk);color:var(--muted)"; }
+      return `<div class="cruz-item">
+        <span>${esc(c[1])}<small>${esc(rotulo(slot))} · ${esc(c[2])}${federal ? "" : " · cargo estadual, sem registro de votação"}</small></span>
+        <span class="cruz-val" style="${cor}">${esc(val)}</span></div>`;
+    }).join("") + `</div>` +
+    `<p class="nota" style="margin-top:9px">Suas respostas ficaram mais perto da bancada do <strong>${esc(melhor.sigla)}</strong>. Isso descreve concordância em doze votações — não é recomendação de voto, e não diz nada sobre os candidatos individualmente.</p>`;
+  }
+
+  function renderVoce() {
+    if (!D.itensPautas) { el("pane-voce").innerHTML = `<p class="carregando">Perguntas não geradas. Rode <code>npm run pautas</code>.</p>`; return; }
+    renderPrioridades(); renderVsBrasil(); renderQuestionario(); renderMatch();
+  }
+
   /* =================== dica flutuante =================== */
 
   const dica = el("dica");
@@ -580,6 +731,11 @@
       for (const id of ["cedula", "mapa", "metodo"]) el("pane-" + id).hidden = aba.id !== "tab-" + id;
       return;
     }
+    const bp = e.target.closest(".peso");
+    if (bp) { pesos[bp.dataset.tema] = Number(bp.dataset.peso); renderPrioridades(); renderVsBrasil(); renderMatch(); return; }
+    const bq = e.target.closest(".opt");
+    if (bq) { respostas[bq.dataset.q] = Number(bq.dataset.v); renderQuestionario(); renderMatch(); return; }
+
     const noMapa = e.target.closest("#mapa path, .tab-ufs tr[data-uf]");
     if (noMapa) { await trocarUf(noMapa.dataset.uf); return; }
 
@@ -692,6 +848,7 @@
       renderMetodoEstatico();
       renderMapa();
       renderPautas();
+      renderVoce();
       marcarUfNoMapa();
       sortear(SEMENTE);   // abre com uma cédula sorteada: mostra o que faz sem sugerir voto em ninguém
     } catch (err) {

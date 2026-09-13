@@ -23,6 +23,7 @@
       <button class="aba" role="tab" id="tab-cedula" aria-selected="true" aria-controls="pane-cedula">Cédula</button>
       <button class="aba" role="tab" id="tab-mapa" aria-selected="false" aria-controls="pane-mapa">Mapa</button>
       <button class="aba" role="tab" id="tab-pautas" aria-selected="false" aria-controls="pane-pautas">Pautas</button>
+      <button class="aba" role="tab" id="tab-voce" aria-selected="false" aria-controls="pane-voce">Você</button>
       <button class="aba" role="tab" id="tab-metodo" aria-selected="false" aria-controls="pane-metodo">Método</button>
     </div>
   </header>
@@ -170,6 +171,59 @@
         <h2>Quem escreveu as perguntas</h2>
         <div class="achado" id="autoria"></div>
       </section>
+    </div>
+  </div>
+
+  <!-- ============ VOCÊ ============ -->
+  <div id="pane-voce" role="tabpanel" aria-labelledby="tab-voce" hidden>
+    <div class="painel voce-grade">
+      <div class="coluna">
+        <h2>1 · O que importa para você</h2>
+        <div class="cartao"><div class="cartao-corpo">
+          <p class="nota">Marque o peso de cada tema. Isso pondera o match — discordar num assunto que você não liga não deveria pesar como discordar no que é decisivo.</p>
+          <div id="prioridades"></div>
+        </div></div>
+
+        <div class="cartao"><div class="cartao-corpo">
+          <h3>Você e o Brasil</h3>
+          <p class="nota">Sua ordem de prioridade ao lado do que as pesquisas nacionais encontraram. Escalas diferentes — você distribui peso, a pesquisa mede quantos citam aquilo como o principal problema — então compare a ordem, não os números.</p>
+          <div id="vsBrasil"></div>
+        </div></div>
+
+        <h2>2 · Como você teria votado</h2>
+        <p class="nota" style="margin-top:-6px">Doze votações reais da Câmara. Responda como se estivesse no plenário; pule o que não souber.</p>
+        <div id="questionario"></div>
+      </div>
+
+      <div class="coluna">
+        <h2>3 · O resultado</h2>
+        <div class="cartao"><div class="cartao-corpo">
+          <div class="nivel">
+            <span class="eyebrow">Cobertura</span>
+            <span class="nivel-nome" id="matchCobertura">0 de 12</span>
+            <p class="nivel-frase" id="matchFrase">Responda ao menos quatro votações para o match existir.</p>
+          </div>
+        </div></div>
+
+        <div class="cartao"><div class="cartao-corpo">
+          <h3>Quanto cada bancada votou como você</h3>
+          <p class="nota">Percentual dos deputados do partido que votaram do mesmo lado que você, ponderado pelos pesos que você deu aos temas.</p>
+          <ul class="sug" id="matchPartidos"></ul>
+        </div></div>
+
+        <div class="cartao"><div class="cartao-corpo">
+          <h3>E os seus votos na cédula</h3>
+          <p class="nota">Cruzamento entre o que você respondeu aqui e em quem você votou na aba Cédula.</p>
+          <div id="matchCedula"></div>
+        </div></div>
+
+        <p class="ressalva">
+          <b>Doze votações não são uma pessoa.</b> Isto mede concordância com o comportamento da
+          bancada federal de cada partido em doze momentos específicos, escolhidos e redigidos por
+          quem construiu a ferramenta. Não mede caráter, competência nem o que o candidato fará.
+          E cobre só quem tem bancada na Câmara: para governador e deputado estadual, não há esse dado.
+        </p>
+      </div>
     </div>
   </div>
 

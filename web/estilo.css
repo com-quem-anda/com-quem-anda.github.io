@@ -247,3 +247,32 @@ table.cruz tbody tr:hover td { background: var(--sunk); }
 .excl-bloco h4 { font-size: .88rem; margin: 0 0 4px; }
 .excl-bloco p { font-size: .85rem; color: var(--ink-soft); }
 .excl-bloco .siglas { font-family: var(--mono); font-size: .8rem; color: var(--muted); margin-top: 5px; }
+
+/* você */
+.voce-grade { padding-top: 22px; }
+.prior { display: grid; gap: 6px; }
+.prior-linha { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 10px; align-items: center; font-size: .88rem; }
+.pesos { display: flex; gap: 2px; }
+.peso { font-family: var(--mono); font-size: .68rem; padding: 4px 9px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--muted); border-radius: 2px; }
+.peso[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); font-weight: 600; }
+.q { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 13px 15px; display: grid; gap: 9px; margin-bottom: 9px; }
+.q .perg { font-size: .94rem; font-weight: 500; color: var(--ink); }
+.q .opts { display: flex; flex-wrap: wrap; gap: 6px; }
+.q .opt { font-size: .82rem; padding: 6px 13px; border: 1px solid var(--line-strong); background: var(--ground); border-radius: var(--r); color: var(--ink-soft); text-align: left; }
+.q .opt[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.q .opt.pular[aria-pressed="true"] { background: var(--sunk); border-color: var(--line-strong); color: var(--muted); }
+.q .proc { font-family: var(--mono); font-size: .69rem; color: var(--muted); }
+.q .proc a { color: var(--accent); }
+.vs { display: grid; gap: 7px; }
+.vs-linha { display: grid; grid-template-columns: 8.5rem repeat(3, minmax(0,1fr)); gap: 8px; align-items: center; font-size: .8rem; }
+.vs-cab { font-family: var(--mono); font-size: .62rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.vs-pos { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: center; padding: 3px; border-radius: 2px; background: var(--sunk); color: var(--muted); }
+.vs-pos.destaque { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.match-linha { display: grid; grid-template-columns: 6rem minmax(0,1fr) 3.4rem; gap: 10px; align-items: center; font-size: .85rem; }
+.match-linha .p { font-family: var(--mono); font-weight: 500; }
+.match-linha .p.seu { color: var(--marca); }
+.cedula-cruz { display: grid; gap: 7px; }
+.cruz-item { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 10px; align-items: center; font-size: .85rem; padding: 7px 0; border-bottom: 1px solid var(--line); }
+.cruz-item:last-child { border-bottom: 0; }
+.cruz-item small { display: block; color: var(--muted); font-family: var(--mono); font-size: .72em; }
+.cruz-val { font-family: var(--mono); font-size: .78rem; padding: 2px 8px; border-radius: 2px; white-space: nowrap; }

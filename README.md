@@ -71,6 +71,21 @@ estatística agregada de como as pessoas montam suas cédulas: coletar isso, mes
 com consentimento, exigiria um servidor para receber — e servidor é exatamente o que este projeto
 não tem. A promessa vale mais que o dado.
 
+## A aba Você: o match
+
+O eleitor responde as mesmas doze votações que os deputados enfrentaram e recebe, para cada
+bancada, **a fração de deputados daquele partido que votou do mesmo lado que ele**. Não há
+modelo nem estimação — é contagem direta de voto registrado, ponderada pelo peso que o próprio
+eleitor deu a cada tema.
+
+A escala é comum por construção: eleitor e deputado respondem ao mesmo item. Testado com dois
+perfis espelhados, o resultado espelha — PT/PSOL/PV no topo de um, NOVO/PL no topo do outro.
+
+O cruzamento final confronta as respostas com a cédula declarada na primeira aba: quanto cada
+candidato escolhido tem de bancada votando como o eleitor. Para governador e deputado estadual
+a resposta é "sem registro de votação", porque não existe — ver a nota de viabilidade da camada
+horizontal.
+
 ## Pautas: o único arquivo com autor
 
 `scripts/pautas/itens.json` é a exceção declarada à regra do projeto. Tudo o mais aqui é
