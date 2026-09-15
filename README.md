@@ -9,6 +9,28 @@ como artifact, a partir dos mesmos JSONs de `data/build`.
 
 Especificação completa: [`CEDULA-ABERTA-SPEC.md`](CEDULA-ABERTA-SPEC.md).
 
+## Métricas de acesso
+
+Desligadas no repositório. Para ligar, preencha o bloco no topo de `web/index.html`:
+
+```js
+window.VC_ANALYTICS = { provedor: "cloudflare", token: "<token>" };
+// ou { provedor: "goatcounter", token: "<subdominio>" }
+```
+
+Os dois provedores suportados são **sem cookie e sem impressão digital**: contam
+visita, origem e país em agregado. Qualquer outro é barrado pelo teste, porque o
+texto de privacidade da página **nomeia** o medidor — e nomear o errado seria pior
+que não ter medidor.
+
+**O que nunca é enviado:** a cédula, as respostas do questionário e os pesos de tema.
+`tests/privacidade.test.ts` confere isso no código publicado — que o front só busca
+`dados/`, que não existe `sendBeacon` nem `XMLHttpRequest`, e que a função de métricas
+não toca em `escolhas`, `respostas` ou `pesos`.
+
+O texto de privacidade das abas Método e Avisos é **gerado a partir dessa configuração**,
+então não tem como a página dizer que não mede enquanto mede.
+
 ## Tirar do ar
 
 Duas formas, as duas imediatas e reversíveis:

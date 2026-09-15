@@ -698,6 +698,27 @@
   /* =================== avisos e limites =================== */
 
   /** Os limites saem do próprio dado carregado, para não descolarem da realidade. */
+  function renderPrivacidade() {
+    const ligado = analyticsLigado();
+    el("privacidadeAviso").innerHTML = textoPrivacidade();
+    el("privacidadeConsequencia").innerHTML = ligado
+      ? `O que se mede é <strong>acesso</strong>, não conteúdo. Quantas pessoas abriram a página e de
+         onde vieram — nunca em quem elas pensam votar. Essa parte continua sem existir em lugar
+         nenhum, e continuará: receber a cédula de alguém exigiria um servidor, e o projeto não tem.`
+      : `A consequência é assumida: <strong>não existe estatística de uso desta ferramenta</strong>,
+         e nunca se saberá por aqui como os eleitores brasileiros montam suas cédulas. Receber isso
+         exigiria um servidor, e a promessa vale mais que o dado.`;
+    el("metodoUso").innerHTML = ligado
+      ? `<strong>Estatísticas de uso.</strong> A página conta visitas com um medidor sem cookie, que
+         registra acesso, origem e país em números agregados. <strong>O que ela não conta é o que
+         você escolhe:</strong> cédula, respostas e pesos nunca saem do seu aparelho, então não existe
+         e nunca existirá um número agregado de como os brasileiros montam suas cédulas.`
+      : `<strong>Estatísticas de uso.</strong> Não há nenhuma. A página não tem analytics, cookie,
+         identificador ou chamada a terceiros — e por isso não existe um número agregado de como os
+         eleitores brasileiros montam suas cédulas. Coletar isso exigiria um servidor para receber,
+         e servidor é justamente o que este projeto não tem.`;
+  }
+
   function renderAvisos() {
     const P = D.pautas, dt = (x) => x ? new Date(x).toLocaleDateString("pt-BR") : "—";
     const semPosicao = P
@@ -859,6 +880,54 @@
   }
 
 
+
+
+  /* =================== métricas de acesso =================== */
+
+  const ANALYTICS = window.VC_ANALYTICS ?? { provedor: "", token: "" };
+  const analyticsLigado = () => Boolean(ANALYTICS.provedor && ANALYTICS.token);
+
+  /**
+   * Injeta o contador escolhido, se houver. Os dois provedores suportados são
+   * sem cookie e sem impressão digital de navegador: contam visita, referência
+   * e país, e não seguem ninguém entre sites.
+   *
+   * Nada daqui recebe estado da página. A cédula e as respostas ficam onde
+   * sempre estiveram — na memória do navegador, e só.
+   */
+  function ligarAnalytics() {
+    if (!analyticsLigado()) return;
+    const t = document.createElement("script");
+    t.defer = true;
+    if (ANALYTICS.provedor === "cloudflare") {
+      t.src = "https://static.cloudflareinsights.com/beacon.min.js";
+      t.setAttribute("data-cf-beacon", JSON.stringify({ token: ANALYTICS.token }));
+    } else if (ANALYTICS.provedor === "goatcounter") {
+      t.src = "https://gc.zgo.at/count.js";
+      t.setAttribute("data-goatcounter", `https://${ANALYTICS.token}.goatcounter.com/count`);
+    } else {
+      return;
+    }
+    document.head.appendChild(t);
+  }
+
+  /** O texto de privacidade sai da configuração, para não poder divergir dela. */
+  function textoPrivacidade() {
+    if (!analyticsLigado()) {
+      return `Não há analytics, cookie, identificador, login, formulário, banco de dados nem
+        chamada a servidor de terceiros. A página baixa os arquivos de dados e mais nada.
+        Como não há coleta nem tratamento de dado pessoal, não há titular, finalidade ou base
+        legal a declarar.`;
+    }
+    const nome = ANALYTICS.provedor === "cloudflare" ? "Cloudflare Web Analytics" : "GoatCounter";
+    return `A página usa <strong>${nome}</strong> para contar visitas. É um contador
+      <strong>sem cookie e sem impressão digital de navegador</strong>: registra que houve um
+      acesso, de que página você veio e de que país, em números agregados. Não cria identificador,
+      não reconhece você entre visitas e não segue você por outros sites.
+      <strong>Nada sobre suas escolhas é enviado</strong> — nem os candidatos da sua cédula, nem
+      as respostas do questionário, nem os pesos que você deu aos temas. Isso continua só no seu
+      aparelho. Base legal: legítimo interesse em medir audiência, com dado agregado e sem perfil.`;
+  }
 
   /* =================== tour guiado =================== */
 
@@ -1077,6 +1146,8 @@
       renderPautas();
       renderVoce();
       renderAvisos();
+      renderPrivacidade();
+      ligarAnalytics();
       marcarUfNoMapa();
       // Abre vazia, de propósito. Antes abria sorteada, para demonstrar a
       // ferramenta — mas sortear dá exposição a nomes que ninguém pediu para

@@ -10,6 +10,19 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="estilo.css">
+<script>
+  /**
+   * Métricas de acesso — desligadas até alguém preencher isto.
+   *
+   * Regra que não se negocia: aqui só passa CONTAGEM DE VISITA. Nada sobre a
+   * cédula, as respostas do questionário ou os pesos de tema sai do navegador,
+   * em nenhuma hipótese. O texto de privacidade da página é gerado a partir
+   * deste bloco, então ele nunca pode mentir sobre o que está ligado.
+   *
+   * provedor: "" (nenhum) | "cloudflare" | "goatcounter"
+   */
+  window.VC_ANALYTICS = { provedor: "", token: "" };
+</script>
 </head>
 <body>
 <div class="wrap">
@@ -399,13 +412,7 @@
           estão registradas no pipeline, mas ainda não aparecem ao lado do candidato. As arestas frágeis
           do grafo também ainda não são marcadas na tela.
         </p>
-        <p>
-          <strong>Estatísticas de uso.</strong> Não há nenhuma. A página não tem analytics, cookie,
-          identificador ou chamada a terceiros — e por isso não existe um número agregado de como os
-          eleitores brasileiros montam suas cédulas. Coletar isso, mesmo com consentimento e mesmo só
-          em agregado, exigiria um servidor para receber, e servidor é justamente o que este projeto
-          não tem. A escolha foi manter a promessa.
-        </p>
+        <p id="metodoUso"></p>
       </section>
     </div>
   </div>
@@ -493,16 +500,8 @@
             <strong>Nada que você faz aqui sai do seu navegador.</strong> Seus votos, suas respostas
             e seus pesos de tema são processados na própria página e desaparecem quando você a fecha.
           </p>
-          <p>
-            Não há analytics, cookie, identificador, login, formulário, banco de dados nem chamada a
-            servidor de terceiros. A página baixa os arquivos de dados e mais nada. Como não há coleta
-            nem tratamento de dado pessoal, não há titular, finalidade ou base legal a declarar.
-          </p>
-          <p>
-            A consequência é assumida: <strong>não existe estatística de uso desta ferramenta</strong>,
-            e nunca se saberá por aqui como os eleitores brasileiros montam suas cédulas. Receber isso
-            exigiria um servidor, e a promessa vale mais que o dado.
-          </p>
+          <p id="privacidadeAviso"></p>
+          <p id="privacidadeConsequencia"></p>
         </div>
       </section>
 
