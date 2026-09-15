@@ -6,7 +6,7 @@
       "sigla": "PL 2162/2023",
       "tema": "instituições",
       "tipoVoto": "merito",
-      "pergunta": "Conceder anistia a quem participou das manifestações políticas ocorridas a partir de 30 de outubro de 2022.",
+      "pergunta": "Conceder anistia a quem participou das manifestações políticas ocorridas entre 30 de outubro de 2022 e a entrada em vigor da lei.",
       "sim": "a favor da anistia",
       "nao": "contra a anistia",
       "idVotacao": "2358548-81",
@@ -16,15 +16,16 @@
       "nao_votos": 136,
       "descricaoVotacao": "Mantido o texto. Sim: 218; Não: 136; Abstenção: 1; Total: 355.",
       "ementa": "Concede anistia aos participantes das manifestações reivindicatórias de motivação política ocorridas entre o dia 30 de outubro de 2022 e o dia de entrada em vigor desta Lei, e dá outras providências.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2358548"
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2358548",
+      "auditoria": "Ajustado: a ementa delimita o período (30/10/2022 até a vigência da lei) e a redação anterior dizia apenas 'a partir de', deixando em aberto."
     },
     {
       "sigla": "PDL 3/2023",
       "tema": "segurança",
       "tipoVoto": "urgencia",
-      "pergunta": "Derrubar o decreto do governo federal que restringiu o registro e a compra de armas de fogo.",
-      "sim": "derrubar a restrição às armas",
-      "nao": "manter a restrição",
+      "pergunta": "Acelerar a votação do projeto que derruba o decreto federal de 2023 que restringiu o registro e a compra de armas de fogo.",
+      "sim": "acelerar a votação para derrubar a restrição",
+      "nao": "não acelerar",
       "idVotacao": "2357898-11",
       "ano": 2023,
       "data": "2023-12-06",
@@ -32,7 +33,8 @@
       "nao_votos": 156,
       "descricaoVotacao": "Rejeitado o Requerimento de Urgência (Art. 155 do RICD). Sim: 254; não: 156; abstenção: 5; total: 415.",
       "ementa": "Susta o Decreto nº 11.366, de 1º de janeiro 2023, que limita o registro e a aquisição de armas de fogos.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2345680"
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2345680",
+      "auditoria": "Corrigido: esta votação decidiu apenas a URGÊNCIA (e a urgência foi rejeitada). A redação anterior dizia 'derrubar o decreto', o que o voto não decidia."
     },
     {
       "sigla": "PL 3880/2024",
@@ -48,7 +50,8 @@
       "nao_votos": 151,
       "descricaoVotacao": "Mantido o texto. Sim: 232; Não: 151; Abstenção: 1; Total: 384.",
       "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para incluir a violência vicária dentre as definições de violência doméstica e familiar contra a mulher de que trata o respectivo art. 7º.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2462009"
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2462009",
+      "auditoria": "Conferido contra a ementa oficial: a pergunta não afirma nada além do que a ementa diz."
     },
     {
       "sigla": "PL 3874/2023",
@@ -64,15 +67,16 @@
       "nao_votos": 82,
       "descricaoVotacao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 302; não: 82; abstenção: 1; total: 385.",
       "ementa": "Dispõe sobre a proibição de aquisição de posse e porte de armas de fogo e munições por indivíduo que tenha registro de agressão contra mulher em inquérito e processo judicial.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2377564"
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2377564",
+      "auditoria": "Conferido contra a ementa oficial: a pergunta não afirma nada além do que a ementa diz."
     },
     {
       "sigla": "PL 2630/2020",
       "tema": "instituições",
       "tipoVoto": "urgencia",
-      "pergunta": "Criar regras de responsabilidade e transparência para as plataformas de internet sobre o conteúdo que circula nelas.",
-      "sim": "criar as regras para as plataformas",
-      "nao": "não criar",
+      "pergunta": "Instituir a Lei Brasileira de Liberdade, Responsabilidade e Transparência na Internet, que cria obrigações para as plataformas digitais.",
+      "sim": "instituir a lei",
+      "nao": "não instituir",
       "idVotacao": "2310837-8",
       "ano": 2023,
       "data": "2023-04-25",
@@ -80,15 +84,16 @@
       "nao_votos": 192,
       "descricaoVotacao": "Aprovado o Requerimento de Urgência (Art. 154 do RICD). Sim: 238; não: 192; total: 430.",
       "ementa": "Institui a Lei Brasileira de Liberdade, Responsabilidade e Transparência na Internet.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2256735"
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2256735",
+      "auditoria": "Ajustado: a ementa não menciona 'o conteúdo que circula' nas plataformas — isso era interpretação minha sobre o teor do projeto, não o que a ementa afirma."
     },
     {
       "sigla": "PL 490/2007",
       "tema": "meio ambiente",
       "tipoVoto": "merito",
-      "pergunta": "Regulamentar a demarcação de terras indígenas pelo critério do marco temporal, que só reconhece as terras ocupadas em 5 de outubro de 1988.",
-      "sim": "aprovar o marco temporal",
-      "nao": "rejeitar o marco temporal",
+      "pergunta": "Aprovar o texto do relator que regulamenta o reconhecimento, a demarcação e o uso das terras indígenas.",
+      "sim": "aprovar o texto do relator",
+      "nao": "rejeitar o texto do relator",
       "idVotacao": "345311-270",
       "ano": 2023,
       "data": "2023-05-30",
@@ -96,7 +101,8 @@
       "nao_votos": 155,
       "descricaoVotacao": "Aprovada a Subemenda Substitutiva Global ao Projeto de Lei nº 490, de 2007, adotada pelo relator da Comissão de Constitu",
       "ementa": "Altera a Lei n° 6.001, de 19 de dezembro de 1973, que dispõe sobre o Estatuto do Índio. NOVA EMENTA: Regulamenta o art. 231 da Constituição Federal, para dispor sobre o reconhecimento, a demarcação, o uso e a gestão de terras indígenas; e altera as Leis nºs 11.460, de 21 de março de 2007, 4.132, de 10 de setembro de 1962, e 6.001, de 19 de dezembro de 1973.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=345311"
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=345311",
+      "auditoria": "Corrigido, e era o desvio mais grave: a ementa fala em regulamentar a demarcação, sem citar marco temporal. A redação anterior afirmava o critério do marco temporal como se estivesse na ementa. O critério está no texto aprovado e é público, mas atribuí-lo à ementa era impreciso."
     },
     {
       "sigla": "PL 849/2025",
@@ -112,7 +118,8 @@
       "nao_votos": 162,
       "descricaoVotacao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 279; Não: 162; Abstenção: 1; Total: 442.",
       "ementa": "Reduz a Área de Proteção Ambiental da Baleia Franca, no Estado de Santa Catarina.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2486315"
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2486315",
+      "auditoria": "Conferido contra a ementa oficial: a pergunta não afirma nada além do que a ementa diz."
     },
     {
       "sigla": "PLP 128/2025",
@@ -128,7 +135,8 @@
       "nao_votos": 116,
       "descricaoVotacao": "Mantido o texto. Sim: 286; Não: 116; Total: 402.",
       "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para reduzir os benefícios federais de natureza tributária, financeira e creditícia em, no mínimo, 10% (dez por cento).",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2520670"
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2520670",
+      "auditoria": "Conferido contra a ementa oficial: a pergunta não afirma nada além do que a ementa diz."
     },
     {
       "sigla": "PEC 66/2023",
@@ -144,7 +152,8 @@
       "nao_votos": 144,
       "descricaoVotacao": "Mantido o texto. Sim: 318; Não: 144; Abstenção: 2; Total: 464.",
       "ementa": "Institui limite para o pagamento de precatórios pelos Municípios, abre novo prazo de parcelamento especial de débitos dos Municípios com seus regimes próprios de previdência social e com o Regime Geral de Previdência Social e dá outras providências.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454495"
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454495",
+      "auditoria": "Conferido contra a ementa oficial: a pergunta não afirma nada além do que a ementa diz."
     },
     {
       "sigla": "PL 1958/2021",
@@ -160,13 +169,14 @@
       "nao_votos": 140,
       "descricaoVotacao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 272; Não: 140; Abstenção: 3; Total: 415.",
       "ementa": "Reserva às pessoas pretas e pardas, indígenas e quilombolas o percentual de 30% (trinta por cento) das vagas oferecidas nos concursos públicos para provimento de cargos efetivos e empregos públicos no âmbito da administração pública federal direta, das autarquias, das fundações públicas, das empresas públicas e das sociedades de economia mista controladas pela União e nos processos seletivos simplificados para o recrutamento de pessoal nas hipóteses de contratação por tempo determinado para atender a necessidade temporária de excepcional interesse público para os órgãos da administração pública federal direta, as autarquias e as fundações públicas.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2439779"
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2439779",
+      "auditoria": "Conferido contra a ementa oficial: a pergunta não afirma nada além do que a ementa diz."
     },
     {
       "sigla": "PL 747/2023",
       "tema": "saúde",
       "tipoVoto": "urgencia",
-      "pergunta": "Permitir a recontratação de médicos que já atuaram no programa Mais Médicos.",
+      "pergunta": "Autorizar a recontratação de médicos que já atuaram no Mais Médicos, para os Distritos Sanitários Especiais Indígenas.",
       "sim": "permitir a recontratação",
       "nao": "não permitir",
       "idVotacao": "2352500-11",
@@ -176,14 +186,15 @@
       "nao_votos": 144,
       "descricaoVotacao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 264; não: 144; total: 408.",
       "ementa": "Altera a Lei nº 12.871, de 22 de outubro de 2013, que “Institui o Programa Mais Médicos”, para autorizar a recontratação ou renovação de contrato dos profissionais médicos em atuação ou que já atuaram no Programa Mais Médicos, para Distritos Sanitários Especiais Indígenas (Dsei).",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349642"
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2349642",
+      "auditoria": "Ajustado: a ementa restringe a autorização aos Distritos Sanitários Especiais Indígenas, e a redação anterior generalizava para todo o programa."
     },
     {
       "sigla": "PL 2809/2024",
       "tema": "educação",
       "tipoVoto": "merito",
       "pergunta": "Incluir educação para reação a desastres climáticos na política nacional de educação ambiental.",
-      "sim": "incluir nos currículos",
+      "sim": "incluir a previsão em lei",
       "nao": "não incluir",
       "idVotacao": "2448069-50",
       "ano": 2025,
@@ -192,7 +203,9 @@
       "nao_votos": 118,
       "descricaoVotacao": "Mantido o texto. Sim: 295; Não: 118; Total: 413.",
       "ementa": "Altera a Lei nº 7.797, de 10 de julho de 1989, a Lei nº 9.795, de 27 de abril de 1999, e a Lei nº 12.187, de 29 de dezembro de 2009, para incluir a previsão de educação para reação a desastres climáticos.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448069"
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2448069",
+      "auditoria": "Ajustado: a ementa fala em incluir a previsão nas leis de educação ambiental e de mudança do clima; 'nos currículos' era acréscimo meu."
     }
-  ]
+  ],
+  "_auditoria": "Cada pergunta foi conferida contra a ementa oficial da proposição em 15/09/2026. O campo 'auditoria' de cada item registra o resultado — inclusive onde a redação anterior afirmava mais do que a ementa sustentava, e o que mudou. Seis das doze foram corrigidas."
 }

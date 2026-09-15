@@ -347,15 +347,16 @@
     const r = sugerirPartidos(fixos, pool(sugCargo).map((c) => c[2]));
 
     if (!r.length) {
-      el("sugNota").textContent = "Escolha um voto em outro cargo primeiro — sem isso não há com o que comparar.";
+      el("sugNota").textContent = "Sem voto em outro cargo não há par para calcular a proximidade média.";
       el("sug").innerHTML = "";
       return;
     }
     const escolhido = cand(sugCargo)?.[2] ?? null;
     const posicao = escolhido ? r.findIndex((x) => x.partido === escolhido) + 1 : 0;
     el("sugNota").innerHTML =
-      `A resposta é por partido, não por pessoa: dois candidatos da mesma sigla dão exatamente o mesmo resultado aqui.` +
-      (escolhido ? ` Seu voto atual é <strong>${esc(escolhido)}</strong>, ${posicao}º de ${r.length}.` : "");
+      `Cálculo, não conselho: para cada legenda, a proximidade média (π) que a chapa teria se este cargo` +
+      ` fosse preenchido por ela. Dois candidatos da mesma sigla produzem exatamente o mesmo valor.` +
+      (escolhido ? ` Sua escolha atual, <strong>${esc(escolhido)}</strong>, ocupa a ${posicao}ª posição de ${r.length}.` : "");
 
     const topo = r.slice(0, 5), fundo = r.slice(-2).filter((x) => !topo.includes(x));
     const linha = (x) => `<li>
@@ -596,15 +597,28 @@
   function renderQuestionario() {
     el("questionario").innerHTML = itensVoce().map((i) => {
       const r = respostas[i.sigla];
+      const urgencia = i.tipoVoto === "urgencia";
       return `<div class="q">
+        <span class="selo-ia" title="O texto desta pergunta foi redigido por inteligência artificial a partir da ementa oficial. A ementa está abaixo, na íntegra.">texto redigido por IA</span>
         <span class="perg">${esc(i.pergunta)}</span>
         <span class="opts">
           <button class="opt" type="button" data-q="${esc(i.sigla)}" data-v="1" aria-pressed="${r === 1}">Sim — ${esc(i.sim)}</button>
           <button class="opt" type="button" data-q="${esc(i.sigla)}" data-v="-1" aria-pressed="${r === -1}">Não — ${esc(i.nao)}</button>
           <button class="opt pular" type="button" data-q="${esc(i.sigla)}" data-v="0" aria-pressed="${r === 0}">Pular</button>
         </span>
-        <span class="proc"><span class="tag">${esc(i.tema)}</span>
-          ${esc(i.sigla)} · ${esc(i.data)} · <a href="${esc(i.url)}" target="_blank" rel="noopener">ficha na Câmara</a></span>
+        <span class="proc">
+          <span class="tag">${esc(i.tema)}</span>
+          <span class="tag${urgencia ? " urg" : ""}">${urgencia ? "voto de urgência" : "voto de mérito"}</span>
+          ${esc(i.sigla)} · ${esc(i.data)} · ${i.sim_votos} Sim x ${i.nao_votos} Não
+        </span>
+        <details class="conferir">
+          <summary>Conferir com o texto oficial</summary>
+          <p class="ementa-of"><b>Ementa oficial:</b> ${esc(i.ementa)}</p>
+          <p class="ementa-of"><b>O que foi votado:</b> ${esc(i.descricaoVotacao)}${
+            urgencia ? " — esta votação decidiu apenas se a matéria entraria em pauta com urgência, não o mérito dela." : ""}</p>
+          <p class="ementa-of"><b>Conferência da redação:</b> ${esc(i.auditoria ?? "—")}</p>
+          <p class="ementa-of"><a href="${esc(i.url)}" target="_blank" rel="noopener">Ver a proposição na Câmara dos Deputados</a></p>
+        </details>
       </div>`;
     }).join("");
   }
@@ -913,11 +927,16 @@
 
   /** O texto de privacidade sai da configuração, para não poder divergir dela. */
   function textoPrivacidade() {
+    const terceiros = `A página contata servidores de terceiros em dois momentos, e vale
+      dizer quais: as <strong>fontes de texto</strong> vêm do Google Fonts ao abrir, e o
+      <strong>gerador de PDF</strong> vem do cdnjs, só se você clicar em exportar. Como
+      qualquer arquivo baixado da internet, essas requisições revelam seu endereço de IP a
+      quem as serve — e nada além disso. <strong>Nenhuma delas recebe o que você escolheu.</strong>`;
+
     if (!analyticsLigado()) {
-      return `Não há analytics, cookie, identificador, login, formulário, banco de dados nem
-        chamada a servidor de terceiros. A página baixa os arquivos de dados e mais nada.
-        Como não há coleta nem tratamento de dado pessoal, não há titular, finalidade ou base
-        legal a declarar.`;
+      return `Não há analytics, cookie, identificador, login, formulário nem banco de dados.
+        Como não há coleta nem tratamento de dado pessoal pela ferramenta, não há titular,
+        finalidade ou base legal a declarar. ${terceiros}`;
     }
     const nome = ANALYTICS.provedor === "cloudflare" ? "Cloudflare Web Analytics" : "GoatCounter";
     return `A página usa <strong>${nome}</strong> para contar visitas. É um contador
@@ -926,7 +945,8 @@
       não reconhece você entre visitas e não segue você por outros sites.
       <strong>Nada sobre suas escolhas é enviado</strong> — nem os candidatos da sua cédula, nem
       as respostas do questionário, nem os pesos que você deu aos temas. Isso continua só no seu
-      aparelho. Base legal: legítimo interesse em medir audiência, com dado agregado e sem perfil.`;
+      aparelho. Base legal: legítimo interesse em medir audiência, com dado agregado e sem perfil.
+      ${terceiros}`;
   }
 
   /* =================== tour guiado =================== */
@@ -1052,37 +1072,138 @@
    * uma biblioteca de PDF de algumas centenas de KB — custo que recairia sobre
    * todo mundo, inclusive quem nunca vai exportar.
    */
-  function montarImpressao() {
-    const votos = CARGOS.filter(([sl]) => escolhas[sl] !== undefined);
-    const hoje = new Date().toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit", year: "numeric" });
-
-    const linhas = votos.map(([sl]) => {
+  /** Linhas da cédula, na forma que tanto o PDF quanto a impressão usam. */
+  function linhasDaCedula() {
+    return CARGOS.filter(([sl]) => escolhas[sl] !== undefined).map(([sl]) => {
       const c = cand(sl);
-      const vinc = (c[4] ?? []).map(([papel, nome, part]) =>
-        `<div class="junto">${esc(papel.toLowerCase())}: ${esc(nome)} — ${esc(part)}</div>`).join("");
-      return `<tr>
-        <td class="cargo">${esc(rotulo(sl))}</td>
-        <td class="num">${esc(c[0])}</td>
-        <td class="nome">${esc(c[1])}<div class="part">${esc(c[2])}</div>${vinc}</td>
-      </tr>`;
-    }).join("");
-
-    // Só a cédula. Sem marca, sem índice, sem leitura, sem endereço: é uma
-    // lista de votos para levar na urna, e nada nela identifica a ferramenta.
-    el("impressao").innerHTML = `
-      <h1>Minha cédula</h1>
-      <div class="sub">${esc(uf)} · ${esc(hoje)}</div>
-      <table><tbody>${linhas || `<tr><td colspan="3">Nenhum voto escolhido.</td></tr>`}</tbody></table>
-      <div class="rodape">Nomes e números conforme o registro de candidaturas do Tribunal Superior Eleitoral.</div>`;
+      return {
+        cargo: rotulo(sl), numero: c[0], nome: c[1], partido: c[2],
+        juntos: (c[4] ?? []).map(([papel, nome, part]) => `${papel.toLowerCase()}: ${nome} — ${part}`),
+      };
+    });
   }
 
-  el("exportar").addEventListener("click", () => {
+  const RODAPE_CEDULA =
+    "Nomes e números conforme o registro de candidaturas do Tribunal Superior Eleitoral.";
+
+  /**
+   * Gera o PDF de verdade, sem passar pelo diálogo de impressão.
+   *
+   * O motivo é específico: Chrome e Safari carimbam cabeçalho com o título da
+   * página e rodapé com o endereço do site, e nenhum CSS remove isso — só o
+   * usuário, desmarcando uma caixa que quase ninguém acha. Montando o PDF aqui,
+   * a folha sai exatamente como se quer: a cédula e nada mais.
+   *
+   * A biblioteca (356 KB) só é buscada quando alguém clica em exportar. Quem
+   * nunca exportar não paga por ela.
+   */
+  let jsPdfCarregando = null;
+  function carregarJsPdf() {
+    if (window.jspdf?.jsPDF) return Promise.resolve(window.jspdf.jsPDF);
+    if (jsPdfCarregando) return jsPdfCarregando;
+    jsPdfCarregando = new Promise((ok, falha) => {
+      const t = document.createElement("script");
+      t.src = "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js";
+      t.onload = () => window.jspdf?.jsPDF ? ok(window.jspdf.jsPDF) : falha(new Error("jsPDF não expôs a classe"));
+      t.onerror = () => falha(new Error("não foi possível baixar o gerador de PDF"));
+      document.head.appendChild(t);
+    });
+    return jsPdfCarregando;
+  }
+
+  async function gerarPdf() {
+    const jsPDF = await carregarJsPdf();
+    const doc = new jsPDF({ unit: "mm", format: "a4" });
+    const L = 18, DIR = 192;                 // margens em mm
+    let y = 24;
+
+    doc.setFont("helvetica", "bold").setFontSize(17).setTextColor(0);
+    doc.text("Minha cédula", L, y);
+    y += 6.5;
+    doc.setFont("helvetica", "normal").setFontSize(10).setTextColor(110);
+    doc.text(`${uf} · ${new Date().toLocaleDateString("pt-BR")}`, L, y);
+    y += 9;
+
+    for (const item of linhasDaCedula()) {
+      const altura = 15 + item.juntos.length * 4.4;
+      if (y + altura > 275) { doc.addPage(); y = 24; }
+
+      doc.setDrawColor(205).setLineWidth(0.2).line(L, y - 4.5, DIR, y - 4.5);
+
+      doc.setFont("helvetica", "normal").setFontSize(7.6).setTextColor(120);
+      doc.text(item.cargo.toUpperCase(), L, y);
+
+      doc.setFont("courier", "bold").setFontSize(16).setTextColor(0);
+      doc.text(item.numero, L, y + 7.5);
+
+      doc.setFont("helvetica", "bold").setFontSize(12).setTextColor(0);
+      doc.text(doc.splitTextToSize(item.nome, 120)[0], L + 26, y + 6);
+      doc.setFont("helvetica", "normal").setFontSize(9).setTextColor(90);
+      doc.text(item.partido, L + 26, y + 10.6);
+
+      let yj = y + 15;
+      doc.setFontSize(8).setTextColor(130);
+      for (const j of item.juntos) { doc.text(j, L + 29, yj); yj += 4.4; }
+      y = yj + 5;
+    }
+
+    if (!linhasDaCedula().length) {
+      doc.setFont("helvetica", "normal").setFontSize(11).setTextColor(90);
+      doc.text("Nenhum voto escolhido.", L, y);
+      y += 8;
+    }
+
+    doc.setDrawColor(205).line(L, y - 3, DIR, y - 3);
+    doc.setFont("helvetica", "normal").setFontSize(7.4).setTextColor(140);
+    doc.text(RODAPE_CEDULA, L, y + 2);
+
+    doc.save(`minha-cedula-${uf}.pdf`);
+  }
+
+  /**
+   * Plano B, se a biblioteca não carregar: a folha de impressão de sempre.
+   * O título do documento é trocado antes de imprimir para que o carimbo do
+   * navegador não leve o nome do site — o endereço no rodapé, só o usuário
+   * consegue tirar, desmarcando "Cabeçalhos e rodapés" no diálogo.
+   */
+  function montarImpressao() {
+    const linhas = linhasDaCedula().map((i) => `<tr>
+        <td class="cargo">${esc(i.cargo)}</td>
+        <td class="num">${esc(i.numero)}</td>
+        <td class="nome">${esc(i.nome)}<div class="part">${esc(i.partido)}</div>${
+          i.juntos.map((j) => `<div class="junto">${esc(j)}</div>`).join("")}</td>
+      </tr>`).join("");
+    el("impressao").innerHTML = `
+      <h1>Minha cédula</h1>
+      <div class="sub">${esc(uf)} · ${esc(new Date().toLocaleDateString("pt-BR"))}</div>
+      <table><tbody>${linhas || `<tr><td colspan="3">Nenhum voto escolhido.</td></tr>`}</tbody></table>
+      <div class="rodape">${esc(RODAPE_CEDULA)}</div>`;
+  }
+
+  function imprimirComoPlanoB() {
+    const titulo = document.title;
+    document.title = "Minha cédula";
+    montarImpressao();
+    window.print();
+    setTimeout(() => { document.title = titulo; }, 600);
+  }
+
+  el("exportar").addEventListener("click", async () => {
     if (!CARGOS.some(([sl]) => escolhas[sl] !== undefined)) {
       alert("Escolha ao menos um voto antes de exportar.");
       return;
     }
-    montarImpressao();
-    window.print();
+    const b = el("exportar");
+    const rotuloOriginal = b.textContent;
+    b.disabled = true; b.textContent = "Gerando…";
+    try {
+      await gerarPdf();
+    } catch (e) {
+      console.error(e);
+      imprimirComoPlanoB();
+    } finally {
+      b.disabled = false; b.textContent = rotuloOriginal;
+    }
   });
 
   el("sortear").addEventListener("click", () => sortear(Date.now() >>> 0));

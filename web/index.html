@@ -21,7 +21,7 @@
    *
    * provedor: "" (nenhum) | "cloudflare" | "goatcounter"
    */
-  window.VC_ANALYTICS = { provedor: "", token: "" };
+  window.VC_ANALYTICS = { provedor: "goatcounter", token: "rikodalge" };
 </script>
 </head>
 <body>
@@ -69,7 +69,7 @@
 
         <div class="cartao"><div class="cartao-corpo">
           <div class="sug-cabeca">
-            <h3>Que partido combinaria mais</h3>
+            <h3>Proximidade média (π) por partido</h3>
             <select id="sugCargo" aria-label="Cargo a analisar"></select>
           </div>
           <p class="nota" id="sugNota"></p>
@@ -217,6 +217,7 @@
 
         <h2>2 · Como você teria votado</h2>
         <p class="nota" style="margin-top:-6px">Doze decisões que a Câmara realmente tomou nos últimos anos. Responda como você teria votado se estivesse lá — e pule sem medo o que não conhecer.</p>
+        <p class="aviso-ia">O enunciado de cada pergunta foi <strong>redigido por inteligência artificial</strong> a partir da ementa oficial da proposição. Em cada uma, "Conferir com o texto oficial" abre a ementa na íntegra, o que de fato foi votado e o registro da conferência de redação — inclusive onde o enunciado foi corrigido por dizer mais do que a ementa sustentava.</p>
         <div id="questionario"></div>
       </div>
 

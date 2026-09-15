@@ -14,7 +14,7 @@ Especificação completa: [`CEDULA-ABERTA-SPEC.md`](CEDULA-ABERTA-SPEC.md).
 Desligadas no repositório. Para ligar, preencha o bloco no topo de `web/index.html`:
 
 ```js
-window.VC_ANALYTICS = { provedor: "cloudflare", token: "<token>" };
+window.VC_ANALYTICS = { provedor: "goatcounter", token: "<subdominio>" };
 // ou { provedor: "goatcounter", token: "<subdominio>" }
 ```
 
@@ -37,13 +37,13 @@ Duas formas, as duas imediatas e reversíveis:
 
 ```bash
 # 1) desliga só o site, repositório segue público
-gh api -X DELETE repos/RikoDalge/voto-consciente/pages
+gh api -X DELETE repos/voto-consciente/voto-consciente.github.io/pages
 
 # 2) tira site e código do ar de uma vez
-gh repo edit RikoDalge/voto-consciente --visibility private --accept-visibility-change-consequences
+gh repo edit voto-consciente/voto-consciente.github.io --visibility private --accept-visibility-change-consequences
 ```
 
-Para religar: `gh api -X POST repos/RikoDalge/voto-consciente/pages -f build_type=workflow`
+Para religar: `gh api -X POST repos/voto-consciente/voto-consciente.github.io/pages -f build_type=workflow`
 e um push na `main`.
 
 O que **não** volta atrás: quem já baixou, arquivos em cache de CDN por algumas horas,
@@ -51,7 +51,7 @@ e cópias em serviços de arquivo como o Internet Archive.
 
 ## No ar
 
-**https://rikodalge.github.io/voto-consciente/**
+**https://voto-consciente.github.io/**
 
 Site estático, publicado pelo workflow `publicar.yml` a cada push na `main`.
 Abrir em São Paulo custa 94 KB comprimidos.

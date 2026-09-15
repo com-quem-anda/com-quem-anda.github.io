@@ -80,3 +80,25 @@ test("se houver medidor configurado, é um dos dois sem cookie", () => {
   assert.ok(token!.length > 4, "provedor configurado sem token válido");
   assert.ok(!/TOKEN|EXEMPLO|SEU_/i.test(token!), "token de exemplo não pode ir ao ar");
 });
+
+test("todo host de terceiro no front está na lista declarada", () => {
+  // A página nomeia quem ela contata. Um host novo que entre sem passar por
+  // aqui tornaria esse texto falso — foi assim que "nem chamada a servidor de
+  // terceiros" ficou desatualizado enquanto as fontes já vinham do Google.
+  const DECLARADOS = [
+    "fonts.googleapis.com",        // fontes, no carregamento
+    "fonts.gstatic.com",           // arquivos das fontes
+    "cdnjs.cloudflare.com",        // gerador de PDF, só ao exportar
+    "static.cloudflareinsights.com", // medidor de acesso, se ligado
+    "gc.zgo.at",                   // idem, alternativa
+  ];
+  for (const fonte of [app, html]) {
+    for (const m of fonte.matchAll(/https:\/\/([a-z0-9.-]+\.[a-z]{2,})/g)) {
+      const host = m[1]!;
+      if (host.endsWith("camara.leg.br") || host.endsWith("tse.jus.br")
+          || host.endsWith("ibge.gov.br") || host.endsWith("senado.leg.br")
+          || host === "ranking.org.br" || host === "github.com") continue;  // só citados em texto
+      assert.ok(DECLARADOS.includes(host), `host não declarado no texto de privacidade: ${host}`);
+    }
+  }
+});

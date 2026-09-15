@@ -609,3 +609,16 @@ ul.lista-limites code { font-family: var(--mono); font-size: .85em; background: 
   #tourCartao .botao { min-height: 40px; }
 }
 @media (prefers-reduced-motion: reduce) { .tour-alvo { transition: none; } }
+
+/* Autoria da pergunta fica colada nela, não numa seção 'sobre' que ninguém abre. */
+.selo-ia { font-family: var(--mono); font-size: .6rem; letter-spacing: .07em; text-transform: uppercase;
+  color: var(--aviso); background: var(--aviso-soft); border: 1px solid var(--aviso); border-radius: 2px;
+  padding: 1px 6px; justify-self: start; cursor: help; }
+.aviso-ia { font-size: .85rem; color: var(--ink-soft); background: var(--aviso-soft);
+  border-left: 3px solid var(--aviso); padding: 10px 13px; border-radius: 0 var(--r) var(--r) 0; max-width: 66ch; margin-top: 8px; }
+.conferir { border-top: 1px dashed var(--line); padding-top: 7px; }
+.conferir summary { font-family: var(--mono); font-size: .72rem; color: var(--accent); cursor: pointer; }
+.conferir summary:hover { text-decoration: underline; }
+.ementa-of { font-size: .8rem; color: var(--ink-soft); margin-top: 6px; line-height: 1.5; overflow-wrap: anywhere; }
+.ementa-of b { color: var(--ink); font-weight: 600; }
+.ementa-of a { color: var(--accent); }
