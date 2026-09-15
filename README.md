@@ -9,6 +9,11 @@ como artifact, a partir dos mesmos JSONs de `data/build`.
 
 Especificação completa: [`CEDULA-ABERTA-SPEC.md`](CEDULA-ABERTA-SPEC.md).
 
+## Licença
+
+Código sob **MIT**. Os dados não: TSE e IBGE têm termos próprios, e a atribuição
+do TSE é obrigatória em qualquer publicação derivada — ver `LICENSE`.
+
 ## Como rodar
 
 ```bash
