@@ -165,6 +165,10 @@
   const selo = (c) => c && c[3]
     ? `<span class="mandato" title="${c[3] === "SF" ? "Senador" : "Deputado federal"} em exercício hoje, segundo a API oficial da casa">mandato</span>` : "";
 
+  /** c[5]: quantos registros o TSE tem para esta mesma candidatura. */
+  const seloDuplicado = (c) => c && c[5] > 1
+    ? `<span class="duplicado" title="Esta candidatura aparece ${c[5]} vezes no pacote do TSE, com o mesmo número, nome e partido. A lista mostra uma vez só. A ferramenta não escolhe qual registro é o válido — quem decide isso é a Justiça Eleitoral.">${c[5]} registros no TSE</span>` : "";
+
   const el = (id) => document.getElementById(id);
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const num = (x, d = 3) => x.toFixed(d).replace(".", ",");
@@ -197,7 +201,7 @@
       return `<div class="slot${primeiroVazio ? " proximo" : ""}">
         <button class="slot-topo" type="button" data-slot="${slot}" aria-expanded="${aberto === slot}">
           <span class="slot-cargo">${esc(rotulo(slot))}</span>
-          <span class="slot-nome${c ? "" : " vazio"}">${corpo} ${selo(c)}</span>
+          <span class="slot-nome${c ? "" : " vazio"}">${corpo} ${selo(c)}${seloDuplicado(c)}</span>
           <span class="slot-acao">${c ? `<span class="sigla">${esc(c[2])}</span>` : "escolher"}</span>
         </button>${aberto === slot ? `<div class="picker">
           <input type="search" id="busca" placeholder="Nome, número ou partido — ${pool(slot).length} candidatos" value="${esc(busca)}" autocomplete="off" aria-label="Buscar candidato">
@@ -218,7 +222,7 @@
     }
     if (!achados.length) return `<div class="vazio-msg">Nenhum candidato com esse nome, número ou partido.</div>`;
     return achados.map(([i, c]) => `<button class="opcao" type="button" data-slot="${slot}" data-i="${i}" aria-current="${escolhas[slot] === i}">
-      <span class="n">${esc(c[0])}</span><span>${esc(c[1])} ${selo(c)}</span><span class="p">${esc(c[2])}</span></button>`).join("");
+      <span class="n">${esc(c[0])}</span><span>${esc(c[1])} ${selo(c)}${seloDuplicado(c)}</span><span class="p">${esc(c[2])}</span></button>`).join("");
   }
 
   function calcular() {

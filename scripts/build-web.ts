@@ -51,9 +51,34 @@ const vinculados = (c: Candidato) => {
 const mandato = (c: Candidato, m: Mandatos) =>
   m[c.sq] ? (m[c.sq]!.casa === "senado" ? "SF" : "CD") : 0;
 const majoritario = (c: Candidato, m: Mandatos) => [c.numero, c.nomeUrna, c.partido.sigla, mandato(c, m), vinculados(c)];
-const proporcional = (c: Candidato, m: Mandatos) => [c.numero, c.nomeUrna, c.partido.sigla, mandato(c, m)];
+const proporcional = (c: Candidato, m: Mandatos) => [c.numero, c.nomeUrna, c.partido.sigla, mandato(c, m), 0];
+
+/**
+ * A mesma candidatura aparece mais de uma vez no pacote do TSE.
+ *
+ * São 16 pessoas no país com dois registros de mesmo número, nome e partido —
+ * anomalia que o pipeline declara desde o M1. Na lista de escolha isso virava
+ * duas linhas idênticas e indistinguíveis, que é confusão e não transparência.
+ *
+ * Aqui a lista mostra a pessoa uma vez e carrega quantos registros existem, no
+ * índice 5. A tela usa isso para AVISAR o eleitor — a duplicidade é informação
+ * que interessa a quem vai votar, não sujeira a varrer para baixo do tapete.
+ * O dado bruto em data/build continua com as duas linhas, e meta.json continua
+ * declarando a anomalia.
+ */
+function colapsarDuplicatas(linhas: (string | number | string[][])[][]): (string | number | string[][])[][] {
+  const porChave = new Map<string, (string | number | string[][])[]>();
+  for (const l of linhas) {
+    const chave = `${l[0]}|${l[1]}|${l[2]}`;
+    const ja = porChave.get(chave);
+    if (ja) { ja[5] = ((ja[5] as number) ?? 1) + 1; duplicadasColapsadas++; continue; }
+    porChave.set(chave, l);
+  }
+  return [...porChave.values()];
+}
 
 let duplicadosColapsados = 0;
+let duplicadasColapsadas = 0;
 
 async function main(): Promise<void> {
   await mkdir(new URL("uf/", DIR_WEB), { recursive: true });
@@ -108,7 +133,7 @@ async function main(): Promise<void> {
     },
     eleitorado: { ufs: eleitorado.ufs, total: eleitorado.total, exterior: eleitorado.exterior },
     malha: { type: malha.type, features: malha.features },
-    presidentes: presidentes.candidatos.map((c) => majoritario(c, mand)),
+    presidentes: colapsarDuplicatas(presidentes.candidatos.map((c) => majoritario(c, mand))),
     mandatos: parlamentares
       ? { comMandato: parlamentares.comMandato, fontes: parlamentares.fontes, metodo: parlamentares.metodo }
       : null,
@@ -135,10 +160,10 @@ async function main(): Promise<void> {
     const dados = {
       uf,
       distrital: de?.cargo === "deputado-distrital",
-      gov: (gov?.candidatos ?? []).map((c) => majoritario(c, mand)),
-      sen: (sen?.candidatos ?? []).map((c) => majoritario(c, mand)),
-      df: (df?.candidatos ?? []).map((c) => proporcional(c, mand)),
-      de: (de?.candidatos ?? []).map((c) => proporcional(c, mand)),
+      gov: colapsarDuplicatas((gov?.candidatos ?? []).map((c) => majoritario(c, mand))),
+      sen: colapsarDuplicatas((sen?.candidatos ?? []).map((c) => majoritario(c, mand))),
+      df: colapsarDuplicatas((df?.candidatos ?? []).map((c) => proporcional(c, mand))),
+      de: colapsarDuplicatas((de?.candidatos ?? []).map((c) => proporcional(c, mand))),
     };
     const txt = JSON.stringify(dados);
     maior = Math.max(maior, txt.length);
@@ -146,6 +171,9 @@ async function main(): Promise<void> {
   }
 
   const baseKb = JSON.stringify(base).length / 1024;
+  if (duplicadasColapsadas > 0) {
+    console.log(`AVISO  ${duplicadasColapsadas} candidaturas repetidas colapsadas na lista, marcadas com o número de registros — anomalia segue declarada em meta.json`);
+  }
   if (duplicadosColapsados > 0) {
     console.log(`AVISO  ${duplicadosColapsados} vinculados repetidos colapsados na exibição — reflexo de candidatura duplicada no pacote do TSE, que segue declarada em meta.json`);
   }
