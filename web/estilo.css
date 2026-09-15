@@ -97,11 +97,13 @@ p.nota { font-size: 0.85rem; color: var(--muted); max-width: 58ch; }
 /* Orientação de primeira visita. Curta o bastante para quem já conhece não
    precisar pular, explícita o bastante para quem nunca viu saber onde tocar. */
 ol.passos-uso {
-  list-style: none; margin: 18px 0 0; padding: 12px 15px; display: grid; gap: 6px;
+  list-style: none; margin: 18px 0 0; padding: 11px 14px; display: grid; gap: 5px; max-width: 62rem;
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--r);
   counter-reset: passo; font-size: .87rem; color: var(--ink-soft);
 }
 ol.passos-uso li { display: grid; grid-template-columns: 1.35rem minmax(0,1fr); gap: 9px; align-items: baseline; }
+ol.passos-uso li > * { grid-column: 2; }
+ol.passos-uso li::before { grid-column: 1; }
 ol.passos-uso li::before {
   counter-increment: passo; content: counter(passo);
   font-family: var(--mono); font-size: .7rem; font-weight: 600; color: var(--accent);
@@ -380,3 +382,38 @@ ul.lista-limites code { font-family: var(--mono); font-size: .85em; background: 
 .nota-legal { font-size: .93rem; color: var(--ink-soft); background: var(--sunk); border-left: 2px solid var(--line-strong); padding: 13px 16px; border-radius: 0 var(--r) var(--r) 0; max-width: 70ch; }
 .aviso-doc .tabela td:first-child { width: 14rem; }
 @media (max-width: 620px) { .aviso-doc .tabela td:first-child { width: auto; } .aviso-doc .tabela tr { display: grid; gap: 2px; padding-block: 6px; } .aviso-doc .tabela td { border: 0; padding: 2px 0; } .aviso-doc .tabela tbody tr { border-bottom: 1px solid var(--line); } }
+
+/* ---------- tour guiado ---------- */
+/* Sem biblioteca: um recorte de luz feito com box-shadow gigante e um cartão
+   que se posiciona sozinho. O conteúdo por baixo continua legível, o que ajuda
+   quem está aprendendo a associar a explicação ao que está vendo. */
+.botao-tour { margin-top: 14px; border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+
+#tour { position: fixed; inset: 0; z-index: 60; }
+#tourFundo { position: absolute; inset: 0; background: rgba(18, 18, 17, .62); }
+/* O elemento em foco sobe acima do escurecimento e ganha anel. */
+.tour-alvo {
+  position: relative; z-index: 61; border-radius: 4px;
+  box-shadow: 0 0 0 3px var(--accent), 0 0 0 7px rgba(61, 80, 104, .25);
+  background: var(--surface);
+}
+#tourCartao {
+  position: absolute; width: min(330px, calc(100vw - 28px)); background: var(--surface);
+  border: 1px solid var(--line-strong); border-radius: var(--r); padding: 15px 17px;
+  display: grid; gap: 8px; box-shadow: 0 10px 34px rgba(0,0,0,.28);
+}
+.tour-passo { font-family: var(--mono); font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+#tourTitulo { font-size: 1.05rem; font-weight: 600; }
+#tourTexto { font-size: .91rem; color: var(--ink-soft); line-height: 1.55; }
+#tourTexto strong { color: var(--ink); }
+.tour-botoes { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 3px; flex-wrap: wrap; }
+.tour-nav { display: flex; gap: 6px; }
+.tour-principal { background: var(--accent); color: var(--ground); border-color: var(--accent); font-weight: 600; }
+.tour-principal:hover { opacity: .9; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tour-principal { color: #121211; } }
+:root[data-theme="dark"] .tour-principal { color: #121211; }
+@media (max-width: 560px) {
+  #tourCartao { left: 12px !important; right: 12px; width: auto; top: auto !important; bottom: 14px; }
+  #tourCartao .botao { min-height: 40px; }
+}
+@media (prefers-reduced-motion: reduce) { .tour-alvo { transition: none; } }

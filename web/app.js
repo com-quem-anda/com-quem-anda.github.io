@@ -124,11 +124,11 @@
   }
 
   const NIVEIS = [
-    { min: 0, nome: "Dispersa", frase: "Seus votos vão para partidos que quase nunca aparecem juntos em coligação." },
-    { min: 20, nome: "Mista", frase: "Há afinidade entre parte dos seus votos e nenhuma entre os outros." },
-    { min: 50, nome: "Inclinada", frase: "A maior parte dos seus votos está em partidos que costumam se aliar, com exceções." },
-    { min: 80, nome: "Alinhada", frase: "Quase todos os seus votos estão no mesmo campo de alianças." },
-    { min: 97, nome: "Bloco único", frase: "Seus votos estão praticamente todos no mesmo bloco de alianças." },
+    { min: 0, nome: "Bem dividida", frase: "Você votou em partidos que quase nunca se aliam entre si. Sua cédula espalha o voto por campos diferentes." },
+    { min: 20, nome: "Mista", frase: "Parte dos seus votos vai para partidos que andam juntos; outra parte, não." },
+    { min: 50, nome: "Inclinada", frase: "A maioria dos seus votos está em partidos que costumam se aliar, com uma ou outra exceção." },
+    { min: 80, nome: "Alinhada", frase: "Quase todos os seus votos vão para partidos do mesmo campo político." },
+    { min: 97, nome: "Um campo só", frase: "Seus votos vão praticamente todos para partidos que se aliam entre si." },
   ];
   const nivelDe = (pct) => { let i = 0; for (let k = 0; k < NIVEIS.length; k++) if (pct >= NIVEIS[k].min) i = k; return i; };
 
@@ -250,29 +250,35 @@
   function renderResultado(r) {
     if (r.C === null) {
       const quantos = CARGOS.filter(([sl]) => escolhas[sl] !== undefined).length;
-      el("nivelNome").textContent = quantos === 0 ? "Comece pela cédula" : "Falta um voto";
+      el("nivelNome").textContent = quantos === 0 ? "Comece pela cédula" : "Quase lá";
       el("nivelFrase").textContent = quantos === 0
-        ? "Escolha seus candidatos ao lado. Com dois votos o índice já aparece aqui — e você pode preencher só os cargos que quiser."
-        : "Com mais um voto dá para comparar. O índice mede a relação entre as suas escolhas, então precisa de pelo menos duas.";
+        ? "Escolha seus candidatos ao lado. Com dois votos a leitura já aparece aqui — e você pode preencher só os cargos que quiser."
+        : "Falta um voto para comparar. A página olha a relação entre as suas escolhas, então precisa de pelo menos duas.";
       el("nivelPct").textContent = "";
       el("degraus").innerHTML = NIVEIS.map(() => `<span class="degrau"></span>`).join("");
       el("metricas").innerHTML = ""; el("hist").innerHTML = ""; el("alavancagem").innerHTML = "";
+      // Sem leitura não há gráfico nem diagnóstico: esconder evita dois blocos
+      // vazios ocupando a tela justamente na primeira visita.
+      el("figHist").hidden = true;
+      el("cartaoAlav").hidden = true;
       return;
     }
+    el("figHist").hidden = false;
+    el("cartaoAlav").hidden = r.alav.length === 0;
     const i = nivelDe(r.pct), saturado = r.pct >= 99.95;
     el("nivelNome").textContent = NIVEIS[i].nome;
     el("nivelFrase").textContent = NIVEIS[i].frase;
     el("degraus").innerHTML = NIVEIS.map((_, k) => `<span class="degrau${k <= i ? " on" : ""}"></span>`).join("");
     el("nivelPct").innerHTML = saturado
-      ? `mais coesa que <b>praticamente todas</b> as cédulas possíveis em ${uf}`
-      : `mais coesa que <b>${num(r.pct, 1)}%</b> das cédulas possíveis em ${uf}`;
+      ? `andam mais juntos que em <b>praticamente todas</b> as cédulas possíveis em ${uf}`
+      : `andam mais juntos que em <b>${num(r.pct, 1)}%</b> das cédulas possíveis em ${uf}`;
 
     const mediana = r.nula.valores[Math.floor(r.nula.valores.length / 2)];
     el("metricas").innerHTML = `
-      <span>coerência bruta <b>${num(r.C)}</b> <button class="info" type="button" data-info="Proximidade média entre todos os pares de votos da sua cédula, de 0 a 1. Sozinho este número não tem escala — por isso o que vale é a posição dele na distribuição.">?</button></span>
-      <span>mediana ao acaso <b>${num(mediana)}</b> <button class="info" type="button" data-info="A coerência de uma cédula típica montada ao acaso neste estado. É o ponto de comparação.">?</button></span>
-      ${mediana > 0 ? `<span>acima da mediana <b>${num(r.C / mediana, 1)}×</b> <button class="info" type="button" data-info="Quantas vezes sua coerência supera a de uma cédula típica ao acaso. Serve onde o percentil satura: duas cédulas podem estar as duas no topo e mesmo assim ser muito diferentes uma da outra.">?</button></span>` : ""}
-      <span>referência <b>${r.nula.exata ? mil(r.nula.combinacoes) + " cédulas" : "20.000 sorteios"}</b> <button class="info" type="button" data-info="${r.nula.exata ? "Universo pequeno o bastante para ser percorrido inteiro: nenhuma cédula possível ficou de fora, não há sorteio." : "São " + r.nula.combinacoes.toExponential(2).replace(".", ",") + " cédulas possíveis — demais para contar uma a uma. Sorteamos 20.000 com semente fixa, então o resultado é sempre o mesmo. Isto é Monte Carlo."}">?</button></span>`;
+      <span>proximidade <b>${num(r.C)}</b> <button class="info" type="button" data-info="De 0 a 1: o quanto os partidos que você escolheu costumam aparecer juntos nas mesmas alianças. Sozinho este número não diz muito — o que vale é como ele se compara às outras cédulas possíveis.">?</button></span>
+      <span>cédula qualquer <b>${num(mediana)}</b> <button class="info" type="button" data-info="A proximidade de uma cédula montada ao acaso no seu estado. É o ponto de comparação: acima disso, seus votos andam mais juntos que o acaso.">?</button></span>
+      ${mediana > 0 ? `<span>quantas vezes mais <b>${num(r.C / mediana, 1)}×</b> <button class="info" type="button" data-info="Quantas vezes sua cédula é mais próxima que uma montada ao acaso. Serve quando a posição satura no topo: duas cédulas podem estar as duas lá em cima e ainda ser bem diferentes.">?</button></span>` : ""}
+      <span>comparada com <b>${r.nula.exata ? mil(r.nula.combinacoes) + " cédulas" : "20.000 sorteios"}</b> <button class="info" type="button" data-info="${r.nula.exata ? "Universo pequeno o bastante para ser percorrido inteiro: nenhuma cédula possível ficou de fora, não há sorteio." : "São " + r.nula.combinacoes.toExponential(2).replace(".", ",") + " cédulas possíveis — demais para contar uma a uma. Sorteamos 20.000 com semente fixa, então o resultado é sempre o mesmo. Isto é Monte Carlo."}">?</button></span>`;
 
     desenharHistograma(r, mediana);
 
@@ -341,14 +347,14 @@
     const r = sugerirPartidos(fixos, pool(sugCargo).map((c) => c[2]));
 
     if (!r.length) {
-      el("sugNota").textContent = "Escolha ao menos um voto em outro cargo para haver com o que ser coerente.";
+      el("sugNota").textContent = "Escolha um voto em outro cargo primeiro — sem isso não há com o que comparar.";
       el("sug").innerHTML = "";
       return;
     }
     const escolhido = cand(sugCargo)?.[2] ?? null;
     const posicao = escolhido ? r.findIndex((x) => x.partido === escolhido) + 1 : 0;
     el("sugNota").innerHTML =
-      `Partidos, não pessoas: candidatos do mesmo partido empatam exatamente neste cálculo.` +
+      `A resposta é por partido, não por pessoa: dois candidatos da mesma sigla dão exatamente o mesmo resultado aqui.` +
       (escolhido ? ` Seu voto atual é <strong>${esc(escolhido)}</strong>, ${posicao}º de ${r.length}.` : "");
 
     const topo = r.slice(0, 5), fundo = r.slice(-2).filter((x) => !topo.includes(x));
@@ -641,16 +647,16 @@
     el("matchCobertura").textContent = `${r.respondidas} de ${total}`;
 
     if (r.insuficiente || !r.linhas?.length) {
-      el("matchFrase").textContent = "Responda ao menos quatro votações para o match existir.";
+      el("matchFrase").textContent = "Responda ao menos quatro votações para o resultado aparecer.";
       el("matchPartidos").innerHTML = "";
       el("matchCedula").innerHTML = `<p class="nota">Responda o questionário para ver o cruzamento.</p>`;
       return;
     }
     const topo = r.linhas[0];
     el("matchFrase").innerHTML =
-      `A bancada que mais votou como você é a do <strong>${esc(topo.sigla)}</strong>: ` +
-      `${Math.round(100 * topo.match)}% de concordância em ${topo.itens} votações. ` +
-      (r.respondidas < 8 ? `Com poucas respostas a ordem é instável — responda mais para firmar.` : "");
+      `Quem mais votou como você foi a bancada do <strong>${esc(topo.sigla)}</strong>: ` +
+      `${Math.round(100 * topo.match)} de cada 100 deputados, em ${topo.itens} votações. ` +
+      (r.respondidas < 8 ? `Com poucas respostas isso ainda muda bastante — responda mais para firmar.` : "");
 
     el("matchPartidos").innerHTML = r.linhas.map((l) => `
       <li class="match-linha">
@@ -680,7 +686,7 @@
         <span>${esc(c[1])}<small>${esc(rotulo(slot))} · ${esc(c[2])}${federal ? "" : " · cargo estadual, sem registro de votação"}</small></span>
         <span class="cruz-val" style="${cor}">${esc(val)}</span></div>`;
     }).join("") + `</div>` +
-    `<p class="nota" style="margin-top:9px">Suas respostas ficaram mais perto da bancada do <strong>${esc(melhor.sigla)}</strong>. Isso descreve concordância em doze votações — não é recomendação de voto, e não diz nada sobre os candidatos individualmente.</p>`;
+    `<p class="nota" style="margin-top:9px">Suas respostas ficaram mais perto da bancada do <strong>${esc(melhor.sigla)}</strong>. Isso é concordância em doze votações — não é indicação de voto, e não diz nada sobre esses candidatos como pessoas.</p>`;
   }
 
   function renderVoce() {
@@ -853,6 +859,122 @@
   }
 
 
+
+  /* =================== tour guiado =================== */
+
+  /**
+   * Doze paradas, em linguagem de quem nunca ouviu falar de coligação.
+   * Cada uma aponta para um elemento real da tela; quando o elemento está em
+   * outra aba, o tour troca de aba sozinho.
+   */
+  const TOUR = [
+    { aba: "cedula", alvo: null, titulo: "Bem-vindo",
+      texto: "Esta página faz uma pergunta simples: <strong>os partidos em que você pretende votar costumam andar juntos?</strong> Em dois minutos você monta sua cédula e descobre. Nada do que você fizer aqui sai do seu celular ou computador." },
+    { aba: "cedula", alvo: "#uf", titulo: "Comece pelo seu estado",
+      texto: "Cada estado tem candidatos diferentes. Escolhendo o seu, a página passa a mostrar só quem aparece na <strong>sua</strong> urna — e compara sua cédula só com as combinações possíveis aí." },
+    { aba: "cedula", alvo: "#cedula .slot:first-child", titulo: "Escolha um candidato",
+      texto: "Toque num cargo e busque por nome, número ou partido. <strong>Você não precisa preencher tudo</strong> — dois votos já bastam para a página ter o que comparar." },
+    { aba: "cedula", alvo: "#cartaoLeitura", titulo: "Aqui aparece a leitura",
+      texto: "Assim que houver dois votos, esta área diz o quanto os partidos que você escolheu <strong>costumam se aliar entre si</strong> nas eleições pelo país. É um retrato das suas escolhas juntas, não uma nota para você." },
+    { aba: "cedula", alvo: "#cartaoAlav", titulo: "Qual voto destoa",
+      texto: "Se um dos seus votos for para um partido que não anda com os outros, a página aponta qual é. <strong>Isso não quer dizer que o voto está errado</strong> — muita gente divide o voto de propósito, para não dar tudo a um grupo só." },
+    { aba: "cedula", alvo: "#chapaBloco", titulo: "Quem entra junto no seu voto",
+      texto: "Ao votar em governador ou senador você elege também o vice e os suplentes, que quase ninguém conhece. Aqui eles aparecem com o partido de cada um." },
+    { aba: "cedula", alvo: "#exportar", titulo: "Leve sua cédula",
+      texto: "Este botão salva sua cédula em PDF, com tudo que a página calculou. Serve para levar na hora de votar ou para conversar com alguém sobre as escolhas." },
+    { aba: "voce", alvo: "#questionario .q:first-child", titulo: "Teste sua visão",
+      texto: "Aqui estão <strong>doze votações que aconteceram de verdade</strong> na Câmara. Você responde como teria votado, e a página mostra quais bancadas votaram como você. É opinião contra opinião, sem intermediário." },
+    { aba: "voce", alvo: "#prioridades", titulo: "Diga o que te importa",
+      texto: "Marcando o peso de cada tema, o resultado passa a considerar o que <strong>você</strong> acha decisivo. Discordar num assunto que você não liga não deveria pesar como discordar no que importa." },
+    { aba: "pautas", alvo: "#itensPauta .item-pauta:first-child", titulo: "De onde vêm as perguntas",
+      texto: "Cada pergunta vem de uma votação real, com data, placar e link para a ficha na Câmara. Esta aba também mostra o que as pesquisas dizem ser prioridade do país — e como cada partido votou." },
+    { aba: "mapa", alvo: "#mapa", titulo: "O mapa do eleitorado",
+      texto: "Quantos eleitores há em cada estado, segundo o TSE. Tocar num estado já monta a cédula dele, se você quiser espiar outra urna." },
+    { aba: "aviso", alvo: null, titulo: "O que esta página não faz",
+      texto: "Ela <strong>não</strong> diz em quem votar, não avalia caráter nem competência de ninguém, e não é pesquisa eleitoral. Tudo o que ela não alcança está listado nesta aba, com números. Vale a leitura antes de tirar conclusão." },
+  ];
+
+  const TOUR_CHAVE = "cedula-aberta:tour-visto";
+  let tourPasso = 0;
+
+  function irParaAba(nome) {
+    const b = el("tab-" + nome);
+    if (b && el("pane-" + nome).hidden) b.click();
+  }
+
+  function desenharTour() {
+    const p = TOUR[tourPasso];
+    irParaAba(p.aba);
+
+    el("tourContador").textContent = `passo ${tourPasso + 1} de ${TOUR.length}`;
+    el("tourTitulo").textContent = p.titulo;
+    el("tourTexto").innerHTML = p.texto;
+    el("tourAnterior").disabled = tourPasso === 0;
+    el("tourProximo").textContent = tourPasso === TOUR.length - 1 ? "Concluir" : "Próximo";
+
+    const cartao = el("tourCartao");
+    let alvo = p.alvo ? document.querySelector(p.alvo) : null;
+
+    // Alvo escondido não pode ser destacado: alguns cartões só existem depois
+    // que há votos na cédula. Nesse caso a explicação continua, centralizada.
+    if (alvo && alvo.getBoundingClientRect().height < 4) alvo = null;
+
+    // O destaque vai no PRÓPRIO elemento, não num retângulo flutuante por cima.
+    // A versão com retângulo separado não funcionou — o div posicionado ficava
+    // com largura computada zero mesmo com !important — e o destaque direto tem
+    // menos peças, acompanha o elemento ao rolar e não pode sair de lugar.
+    for (const e of document.querySelectorAll(".tour-alvo")) e.classList.remove("tour-alvo");
+
+    if (!alvo) {
+      cartao.style.left = `calc(50% - ${Math.min(165, (innerWidth - 28) / 2)}px)`;
+      cartao.style.top = `${Math.max(20, innerHeight / 2 - 120)}px`;
+      return;
+    }
+
+    alvo.classList.add("tour-alvo");
+
+    const posicionar = () => {
+      const r = alvo.getBoundingClientRect();
+      if (innerWidth > 560) {
+        const alturaCartao = cartao.offsetHeight || 190;
+        const abaixo = r.bottom + 14;
+        const cabeAbaixo = abaixo + alturaCartao < innerHeight - 10;
+        cartao.style.top = `${cabeAbaixo ? abaixo : Math.max(12, r.top - alturaCartao - 14)}px`;
+        cartao.style.left = `${Math.max(12, Math.min(r.left, innerWidth - 350))}px`;
+      }
+    };
+    posicionar();                                   // imediato, para não piscar vazio
+    alvo.scrollIntoView({ block: "center", behavior: "smooth" });
+    setTimeout(posicionar, 280);                    // de novo, já com o scroll assentado
+  }
+
+  function iniciarTour(passo = 0) {
+    tourPasso = passo;
+    el("tour").hidden = false;
+    desenharTour();
+  }
+
+  function fecharTour() {
+    for (const e of document.querySelectorAll(".tour-alvo")) e.classList.remove("tour-alvo");
+    el("tour").hidden = true;
+    try { localStorage.setItem(TOUR_CHAVE, "1"); } catch { /* navegador sem storage: só não lembra */ }
+  }
+
+  el("abrirTour").addEventListener("click", () => iniciarTour(0));
+  el("tourPular").addEventListener("click", fecharTour);
+  el("tourAnterior").addEventListener("click", () => { if (tourPasso > 0) { tourPasso--; desenharTour(); } });
+  el("tourProximo").addEventListener("click", () => {
+    if (tourPasso < TOUR.length - 1) { tourPasso++; desenharTour(); } else fecharTour();
+  });
+  el("tourFundo").addEventListener("click", fecharTour);
+  document.addEventListener("keydown", (e) => {
+    if (el("tour").hidden) return;
+    if (e.key === "Escape") fecharTour();
+    if (e.key === "ArrowRight") el("tourProximo").click();
+    if (e.key === "ArrowLeft") el("tourAnterior").click();
+  });
+  addEventListener("resize", () => { if (!el("tour").hidden) desenharTour(); });
+
   /* =================== exportar a cédula =================== */
 
   /**
@@ -1009,6 +1131,11 @@
       // ver, e numa ferramenta eleitoral isso é viés, não demonstração. Quem
       // quiser ver funcionando clica em "Sortear cédula".
       render();
+
+      // Primeira visita abre o tour. Quem já viu não é importunado de novo.
+      let viu = "1";
+      try { viu = localStorage.getItem(TOUR_CHAVE); } catch { /* sem storage: não abre */ }
+      if (!viu) setTimeout(() => iniciarTour(0), 700);
     } catch (err) {
       el("cedula").innerHTML = `<div class="vazio-msg">Não foi possível carregar os dados: ${esc(err.message)}. Recarregue a página.</div>`;
       console.error(err);

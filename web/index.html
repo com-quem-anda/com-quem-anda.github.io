@@ -17,9 +17,11 @@
     <span class="eyebrow">Cédula Aberta · camada vertical</span>
     <h1>Coerência da chapa</h1>
     <p class="lede">
-      Monte sua cédula. O índice mede se os partidos em que você votou costumam se aliar entre si —
-      com quem eles andam, não o que defendem. Roda no seu navegador e não envia nada para lugar nenhum.
+      Monte a cédula que você pretende votar e veja uma coisa que ninguém costuma te contar:
+      <strong>se os partidos que você escolheu costumam andar juntos</strong> — ou se andam em campos
+      opostos. Tudo acontece no seu aparelho. Nada é enviado, salvo ou compartilhado com ninguém.
     </p>
+    <button class="botao botao-tour" id="abrirTour" type="button">Como usar esta página</button>
     <div class="abas" role="tablist">
       <button class="aba" role="tab" id="tab-cedula" aria-selected="true" aria-controls="pane-cedula">Cédula</button>
       <button class="aba" role="tab" id="tab-voce" aria-selected="false" aria-controls="pane-voce">Teste sua Visão</button>
@@ -33,9 +35,9 @@
   <!-- ============ CÉDULA ============ -->
   <div id="pane-cedula" role="tabpanel" aria-labelledby="tab-cedula">
     <ol class="passos-uso">
-      <li><b>Escolha seu estado</b> — a comparação é sempre com quem está na urna de lá.</li>
-      <li><b>Toque em cada cargo e escolha o candidato</b> — pode preencher só os que quiser.</li>
-      <li><b>A leitura aparece sozinha</b> a partir do segundo voto, aqui do lado.</li>
+      <li><span><b>Escolha seu estado.</b> A comparação é sempre com quem está na urna de lá.</span></li>
+      <li><span><b>Toque em cada cargo e escolha o candidato.</b> Pode preencher só os que quiser.</span></li>
+      <li><span><b>A leitura aparece sozinha</b> a partir do segundo voto, ao lado.</span></li>
     </ol>
 
     <div class="controles">
@@ -54,23 +56,23 @@
 
         <div class="cartao"><div class="cartao-corpo">
           <div class="sug-cabeca">
-            <h3>Quem deixaria a chapa mais coesa</h3>
+            <h3>Que partido combinaria mais</h3>
             <select id="sugCargo" aria-label="Cargo a analisar"></select>
           </div>
           <p class="nota" id="sugNota"></p>
           <ul class="sug" id="sug"></ul>
         </div></div>
 
-        <div class="cartao"><div class="cartao-corpo">
+        <div class="cartao" id="chapaBloco"><div class="cartao-corpo">
           <h3>Quem você elege junto</h3>
-          <p class="nota">Vice e suplentes entram com o titular e quase nunca são olhados. A relação mostrada é com o partido do titular.</p>
+          <p class="nota">Votando em governador ou senador você elege junto o vice e os suplentes — gente que quase ninguém conhece e que assume se o titular sair. Aqui eles aparecem, com o partido de cada um.</p>
           <div class="chapa" id="chapa"></div>
         </div></div>
       </div>
 
       <div class="coluna">
-        <h2>Leitura</h2>
-        <div class="cartao"><div class="cartao-corpo">
+        <h2>O que suas escolhas dizem</h2>
+        <div class="cartao" id="cartaoLeitura"><div class="cartao-corpo">
           <div class="nivel">
             <span class="eyebrow">Nível</span>
             <span class="nivel-nome" id="nivelNome">—</span>
@@ -78,23 +80,23 @@
             <p class="nivel-frase" id="nivelFrase">Escolha pelo menos dois cargos.</p>
             <span class="nivel-pct" id="nivelPct"></span>
           </div>
-          <figure>
+          <figure id="figHist" hidden>
             <svg id="hist" viewBox="0 0 560 164" role="img" aria-labelledby="histCap"></svg>
-            <figcaption id="histCap">Cada barra é um grupo de cédulas possíveis no estado. A linha marca a sua.</figcaption>
+            <figcaption id="histCap">Cada barra conta quantas cédulas possíveis no seu estado teriam cada grau de proximidade. A linha laranja marca onde a sua caiu.</figcaption>
           </figure>
           <div class="metricas" id="metricas"></div>
         </div></div>
 
-        <div class="cartao"><div class="cartao-corpo">
-          <h3>Qual voto puxa para fora</h3>
-          <p class="nota">Quanto a coerência sobe se aquele voto sair da conta.</p>
+        <div class="cartao" id="cartaoAlav" hidden><div class="cartao-corpo">
+          <h3>Qual voto destoa dos outros</h3>
+          <p class="nota">Se um dos seus votos for para um partido que não anda com os demais, ele aparece aqui. Destoar não é errar: dividir o voto de propósito é escolha legítima.</p>
           <ul class="votos" id="alavancagem"></ul>
         </div></div>
 
         <p class="ressalva">
-          <b>Chapa dispersa não é erro.</b> Quem quer freio e contrapeso monta assim de propósito, e
-          quem julga candidato por competência e não por partido também. Isto descreve suas escolhas,
-          não as corrige.
+          <b>Votar em campos diferentes não é erro.</b> Muita gente faz isso de propósito — para não
+          entregar tudo a um grupo só, ou porque julga cada candidato pelo que ele é, não pela sigla.
+          Esta página descreve suas escolhas. Ela não corrige ninguém.
         </p>
       </div>
     </div>
@@ -190,7 +192,7 @@
       <div class="coluna">
         <h2>1 · O que importa para você</h2>
         <div class="cartao"><div class="cartao-corpo">
-          <p class="nota">Marque o peso de cada tema. Isso pondera o match — discordar num assunto que você não liga não deveria pesar como discordar no que é decisivo.</p>
+          <p class="nota">Marque quanto cada assunto pesa para você. Discordar de um político num tema que você acha irrelevante não deveria contar igual a discordar no que você considera decisivo.</p>
           <div id="prioridades"></div>
         </div></div>
 
@@ -201,13 +203,13 @@
         </div></div>
 
         <h2>2 · Como você teria votado</h2>
-        <p class="nota" style="margin-top:-6px">Doze votações reais da Câmara. Responda como se estivesse no plenário; pule o que não souber.</p>
+        <p class="nota" style="margin-top:-6px">Doze decisões que a Câmara realmente tomou nos últimos anos. Responda como você teria votado se estivesse lá — e pule sem medo o que não conhecer.</p>
         <div id="questionario"></div>
       </div>
 
       <div class="coluna">
         <h2>3 · O resultado</h2>
-        <div class="cartao"><div class="cartao-corpo">
+        <div class="cartao" id="cartaoLeitura"><div class="cartao-corpo">
           <div class="nivel">
             <span class="eyebrow">Cobertura</span>
             <span class="nivel-nome" id="matchCobertura">0 de 12</span>
@@ -216,22 +218,22 @@
         </div></div>
 
         <div class="cartao"><div class="cartao-corpo">
-          <h3>Quanto cada bancada votou como você</h3>
-          <p class="nota">Percentual dos deputados do partido que votaram do mesmo lado que você, ponderado pelos pesos que você deu aos temas.</p>
+          <h3>Quem votou como você</h3>
+          <p class="nota">De cada 100 deputados do partido, quantos votaram do mesmo lado que você nessas decisões — já considerando o peso que você deu a cada assunto.</p>
           <ul class="sug" id="matchPartidos"></ul>
         </div></div>
 
         <div class="cartao"><div class="cartao-corpo">
-          <h3>E os seus votos na cédula</h3>
-          <p class="nota">Cruzamento entre o que você respondeu aqui e em quem você votou na aba Cédula.</p>
+          <h3>E os candidatos que você escolheu</h3>
+          <p class="nota">Compara o que você respondeu aqui com a cédula que você montou na primeira aba.</p>
           <div id="matchCedula"></div>
         </div></div>
 
         <p class="ressalva">
-          <b>Doze votações não são uma pessoa.</b> Isto mede concordância com o comportamento da
-          bancada federal de cada partido em doze momentos específicos, escolhidos e redigidos por
-          quem construiu a ferramenta. Não mede caráter, competência nem o que o candidato fará.
-          E cobre só quem tem bancada na Câmara: para governador e deputado estadual, não há esse dado.
+          <b>Doze votações não descrevem uma pessoa.</b> Isto compara suas respostas com o que os
+          deputados de cada partido fizeram em doze momentos — escolhidos e redigidos por quem
+          construiu esta página. Não mede caráter, competência nem o que alguém fará no mandato.
+          E só existe para cargos federais: governador e deputado estadual não têm esse registro.
         </p>
       </div>
     </div>
@@ -558,6 +560,22 @@
     <p>Dados do TSE sob licença Creative Commons Atribuição (CC-BY); malha territorial do IBGE. Detalhe e somas de verificação na aba Método.</p>
     <p class="ia">Ferramenta construída com auxílio de inteligência artificial (Claude). O método está aberto na aba Método e o código é conferível — não confie nela por confiar em quem a escreveu. Limites, licenças e isenção de responsabilidade na aba <strong>Avisos e limites</strong>.</p>
   </footer>
+</div>
+
+<div id="tour" hidden>
+  <div id="tourFundo"></div>
+  <div id="tourCartao" role="dialog" aria-modal="true" aria-labelledby="tourTitulo">
+    <span class="tour-passo" id="tourContador"></span>
+    <h3 id="tourTitulo"></h3>
+    <p id="tourTexto"></p>
+    <div class="tour-botoes">
+      <button class="botao" id="tourPular" type="button">Fechar</button>
+      <span class="tour-nav">
+        <button class="botao" id="tourAnterior" type="button">Anterior</button>
+        <button class="botao tour-principal" id="tourProximo" type="button">Próximo</button>
+      </span>
+    </div>
+  </div>
 </div>
 
 <div id="impressao" aria-hidden="true"></div>
