@@ -102,3 +102,16 @@ test("todo host de terceiro no front está na lista declarada", () => {
     }
   }
 });
+
+test("a posição dos vinculados é lida por um só caminho", () => {
+  // Mudar a forma do payload já quebrou a exportação em PDF uma vez: o índice
+  // 4 passou de ausente para 0 nos cargos proporcionais e um `?? []` deixou
+  // passar o zero. Com uma função única, uma mudança de formato conserta tudo
+  // de uma vez em vez de quebrar um consumidor esquecido.
+  assert.ok(app.includes("const vinculadosDe ="), "helper de leitura não encontrado");
+  const semComentarios = app
+    .replace(/\/\*[\s\S]*?\*\//g, "")
+    .split("\n").filter((l) => !l.trim().startsWith("//")).join("\n");
+  const leiturasCruas = [...semComentarios.matchAll(/c\[4\]/g)].length;
+  assert.equal(leiturasCruas, 1, "c[4] só deve ser lido dentro de vinculadosDe()");
+});

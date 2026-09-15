@@ -165,6 +165,13 @@
   const selo = (c) => c && c[3]
     ? `<span class="mandato" title="${c[3] === "SF" ? "Senador" : "Deputado federal"} em exercício hoje, segundo a API oficial da casa">mandato</span>` : "";
 
+  /**
+   * c[4]: vice e suplentes nos cargos majoritários; 0 nos proporcionais.
+   * Um único lugar interpreta essa posição — foi ter duas leituras dela que
+   * quebrou a exportação quando o formato mudou.
+   */
+  const vinculadosDe = (c) => (Array.isArray(c?.[4]) ? c[4] : []);
+
   /** c[5]: quantos registros o TSE tem para esta mesma candidatura. */
   const seloDuplicado = (c) => c && c[5] > 1
     ? `<span class="duplicado" title="Esta candidatura aparece ${c[5]} vezes no pacote do TSE, com o mesmo número, nome e partido. A lista mostra uma vez só. A ferramenta não escolhe qual registro é o válido — quem decide isso é a Justiça Eleitoral.">${c[5]} registros no TSE</span>` : "";
@@ -328,10 +335,10 @@
     const itens = [];
     for (const slot of ["governador", "senador", "senador2"]) {
       const c = cand(slot);
-      if (!c || !c[4] || !c[4].length) continue;
+      if (!c || !vinculadosDe(c).length) continue;
       itens.push(`<div class="chapa-item">
         <span class="titulo">${esc(c[1])} <span class="sigla">${esc(c[2])}</span> ${selo(c)} <span class="cargo">${esc(rotulo(slot))}</span></span>
-        ${c[4].map(([papel, nome, part]) => {
+        ${vinculadosDe(c).map(([papel, nome, part]) => {
           const rel = relacaoChapa(c[2], part);
           const txt = { "mesmo-partido": "mesmo partido", "mesma-federacao": "mesma federação", "aliado": "partido aliado", "sem-alianca": "sem aliança com o titular" }[rel];
           return `<span class="vinc">${esc(papel.toLowerCase())}: ${esc(nome)} <span class="rel ${rel}">${esc(part)} · ${txt}</span></span>`;
@@ -1082,7 +1089,7 @@
       const c = cand(sl);
       return {
         cargo: rotulo(sl), numero: c[0], nome: c[1], partido: c[2],
-        juntos: (c[4] ?? []).map(([papel, nome, part]) => `${papel.toLowerCase()}: ${nome} — ${part}`),
+        juntos: vinculadosDe(c).map(([papel, nome, part]) => `${papel.toLowerCase()}: ${nome} — ${part}`),
       };
     });
   }
