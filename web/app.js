@@ -1181,12 +1181,29 @@
   }
 
   function imprimirComoPlanoB() {
-    const titulo = document.title;
+    window.print();             // beforeprint monta a folha e troca o título
+  }
+
+  /**
+   * Ctrl+P não passa pelo botão. Sem isto a folha sairia em branco, porque o
+   * CSS de impressão esconde o resto da página e #impressao só é preenchido na
+   * exportação — foi exatamente o que aconteceu antes de eu recolocar isto.
+   *
+   * O título também é trocado: o navegador carimba o título da página no
+   * cabeçalho da impressão, e "Voto Consciente" não tem por que ir junto numa
+   * cédula. Já o endereço que ele põe no rodapé, página nenhuma remove — só o
+   * usuário, desmarcando "Cabeçalhos e rodapés" no diálogo. É por isso que o
+   * botão gera o PDF por conta própria em vez de abrir o diálogo.
+   */
+  let tituloAntesDaImpressao = "";
+  addEventListener("beforeprint", () => {
+    tituloAntesDaImpressao = document.title;
     document.title = "Minha cédula";
     montarImpressao();
-    window.print();
-    setTimeout(() => { document.title = titulo; }, 600);
-  }
+  });
+  addEventListener("afterprint", () => {
+    if (tituloAntesDaImpressao) document.title = tituloAntesDaImpressao;
+  });
 
   el("exportar").addEventListener("click", async () => {
     if (!CARGOS.some(([sl]) => escolhas[sl] !== undefined)) {

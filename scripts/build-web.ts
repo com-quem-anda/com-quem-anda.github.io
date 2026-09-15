@@ -28,12 +28,32 @@ const ler = async (p: string) => JSON.parse(await readFile(new URL(p, DIR_BUILD)
  * mandato: 0 sem mandato, "CD" deputado federal, "SF" senador.
  */
 type Mandatos = Record<string, { casa: string }>;
-const vinculados = (c: Candidato) =>
-  [...(c.vice ?? []), ...(c.suplentes ?? [])].map((v) => [v.cargo, v.nomeUrna, v.partido.sigla]);
+/**
+ * Vice e suplentes, sem repetir a mesma pessoa.
+ *
+ * Candidatura duplicada no pacote do TSE faz o mesmo suplente aparecer duas
+ * vezes — apareceu na cédula impressa de um usuário, com "1º suplente: MEDON"
+ * listado em duplicata. O dado bruto continua intacto em data/build e a
+ * anomalia segue declarada em meta.json; o que se colapsa aqui é só a
+ * exibição, e apenas quando papel, nome e partido são idênticos.
+ */
+const vinculados = (c: Candidato) => {
+  const vistos = new Set<string>();
+  const saida: string[][] = [];
+  for (const v of [...(c.vice ?? []), ...(c.suplentes ?? [])]) {
+    const chave = `${v.cargo}|${v.nomeUrna}|${v.partido.sigla}`;
+    if (vistos.has(chave)) { duplicadosColapsados++; continue; }
+    vistos.add(chave);
+    saida.push([v.cargo, v.nomeUrna, v.partido.sigla]);
+  }
+  return saida;
+};
 const mandato = (c: Candidato, m: Mandatos) =>
   m[c.sq] ? (m[c.sq]!.casa === "senado" ? "SF" : "CD") : 0;
 const majoritario = (c: Candidato, m: Mandatos) => [c.numero, c.nomeUrna, c.partido.sigla, mandato(c, m), vinculados(c)];
 const proporcional = (c: Candidato, m: Mandatos) => [c.numero, c.nomeUrna, c.partido.sigla, mandato(c, m)];
+
+let duplicadosColapsados = 0;
 
 async function main(): Promise<void> {
   await mkdir(new URL("uf/", DIR_WEB), { recursive: true });
@@ -126,6 +146,9 @@ async function main(): Promise<void> {
   }
 
   const baseKb = JSON.stringify(base).length / 1024;
+  if (duplicadosColapsados > 0) {
+    console.log(`AVISO  ${duplicadosColapsados} vinculados repetidos colapsados na exibição — reflexo de candidatura duplicada no pacote do TSE, que segue declarada em meta.json`);
+  }
   console.log(`base.json ${baseKb.toFixed(0)} KB | ${ufs.length} arquivos de UF, maior ${(maior / 1024).toFixed(0)} KB`);
   console.log(`abrir o site em SP custa ~${(baseKb + maior / 1024).toFixed(0)} KB sem compressão`);
 }
