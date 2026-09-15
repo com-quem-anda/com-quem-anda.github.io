@@ -1,4 +1,4 @@
-/** Modelo de dados da Cédula Aberta (§4 da spec, ajustado ao layout real de 2026). */
+/** Modelo de dados da Voto Consciente (§4 da spec, ajustado ao layout real de 2026). */
 
 export type Cargo =
   | "presidente"

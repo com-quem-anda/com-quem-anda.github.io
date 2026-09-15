@@ -1,9 +1,9 @@
 {
-  "name": "cedula-aberta",
+  "name": "voto-consciente",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Ferramenta pública para o eleitor registrar seus votos e consultar dados oficiais do TSE. M1: pipeline de dados.",
+  "description": "Ferramenta pública para o eleitor montar sua cédula e conferir dados oficiais do TSE.",
   "engines": {
     "node": ">=22.18"
   },

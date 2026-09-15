@@ -1,5 +1,5 @@
 /**
- * Cédula Aberta — camada vertical.
+ * Voto Consciente — camada vertical.
  *
  * Sem framework e sem dependência: é uma página estática de utilidade pública,
  * e cada KB aqui é tempo de carregamento de quem vai abrir no celular. A
@@ -894,7 +894,7 @@
       texto: "Ela <strong>não</strong> diz em quem votar, não avalia caráter nem competência de ninguém, e não é pesquisa eleitoral. Tudo o que ela não alcança está listado nesta aba, com números. Vale a leitura antes de tirar conclusão." },
   ];
 
-  const TOUR_CHAVE = "cedula-aberta:tour-visto";
+  const TOUR_CHAVE = "voto-consciente:tour-visto";
   let tourPasso = 0;
 
   function irParaAba(nome) {
@@ -984,76 +984,28 @@
    * todo mundo, inclusive quem nunca vai exportar.
    */
   function montarImpressao() {
-    const r = calcular();
-    const agora = new Date().toLocaleString("pt-BR", { dateStyle: "long", timeStyle: "short" });
     const votos = CARGOS.filter(([sl]) => escolhas[sl] !== undefined);
+    const hoje = new Date().toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit", year: "numeric" });
 
     const linhas = votos.map(([sl]) => {
       const c = cand(sl);
       const vinc = (c[4] ?? []).map(([papel, nome, part]) =>
-        `<div class="chapa-p">${esc(papel.toLowerCase())}: ${esc(nome)} (${esc(part)})</div>`).join("");
+        `<div class="junto">${esc(papel.toLowerCase())}: ${esc(nome)} — ${esc(part)}</div>`).join("");
       return `<tr>
-        <td>${esc(rotulo(sl))}</td>
+        <td class="cargo">${esc(rotulo(sl))}</td>
         <td class="num">${esc(c[0])}</td>
-        <td class="nome">${esc(c[1])}${vinc}</td>
-        <td class="num">${esc(c[2])}${c[3] ? " · com mandato" : ""}</td>
+        <td class="nome">${esc(c[1])}<div class="part">${esc(c[2])}</div>${vinc}</td>
       </tr>`;
     }).join("");
 
-    let leitura = "";
-    if (r.C !== null) {
-      const i = nivelDe(r.pct), sat = r.pct >= 99.95;
-      const mediana = r.nula.valores[Math.floor(r.nula.valores.length / 2)];
-      leitura = `<h2>Leitura da chapa</h2>
-        <div class="leitura">
-          <span><b>Nível</b><span class="destaque">${esc(NIVEIS[i].nome)}</span></span>
-          <span><b>Posição</b>${sat ? "acima de 99,9%" : "percentil " + num(r.pct, 1)}</span>
-          <span><b>Coerência bruta</b>${num(r.C)}</span>
-          <span><b>Mediana ao acaso</b>${num(mediana)}</span>
-          <span><b>Referência</b>${r.nula.exata ? mil(r.nula.combinacoes) + " cédulas, todas" : "20.000 sorteios"}</span>
-        </div>
-        <p>${esc(NIVEIS[i].frase)}</p>` +
-        (r.alav.length && r.alav[0].delta > 0.001
-          ? `<p><strong>Voto que mais destoa:</strong> ${esc(r.alav[0].cand[1])} (${esc(r.alav[0].cand[2])}, ${esc(rotulo(r.alav[0].slot))}).</p>`
-          : "");
-    }
-
-    // O resultado do questionário só entra se a pessoa tiver respondido.
-    let visao = "";
-    const m = D.itensPautas ? calcularMatch() : null;
-    if (m && !m.insuficiente && m.linhas?.length) {
-      visao = `<h2>Teste sua visão</h2>
-        <p>Respondeu ${m.respondidas} de ${itensVoce().length} votações. Bancadas que mais votaram como você:</p>
-        <div class="leitura">${m.linhas.slice(0, 4).map((l) =>
-          `<span><b>${esc(l.sigla)}</b>${Math.round(100 * l.match)}%</span>`).join("")}</div>`;
-    }
-
-    const f = D.fonte;
+    // Só a cédula. Sem marca, sem índice, sem leitura, sem endereço: é uma
+    // lista de votos para levar na urna, e nada nela identifica a ferramenta.
     el("impressao").innerHTML = `
-      <h1>Minha cédula — ${esc(uf)}</h1>
-      <div class="sub">Cédula Aberta · gerado em ${esc(agora)}</div>
-      <h2>Votos</h2>
-      <table><thead><tr><th>Cargo</th><th>Número</th><th>Candidato</th><th>Partido</th></tr></thead>
-      <tbody>${linhas || `<tr><td colspan="4">Nenhum voto escolhido.</td></tr>`}</tbody></table>
-      ${leitura}${visao}
-      <div class="aviso-p">
-        Coerência mede se os partidos escolhidos costumam se aliar entre si — não mede ideologia,
-        qualidade de voto nem o que o candidato fará. Chapa dispersa não é erro: quem quer freio e
-        contrapeso monta assim de propósito. O TSE ainda não julgou os registros de 2026, então
-        nenhuma candidatura aqui está confirmada como deferida.
-      </div>
-      <div class="rodape">
-        Dados do TSE, Portal de Dados Abertos, dataset candidatos-2026, licença Creative Commons
-        Atribuição (CC-BY). Pacote <code>${esc(String(f.tse.sha256).slice(0, 32))}…</code>.
-        Malha territorial do IBGE. Votações nominais da Câmara dos Deputados.<br>
-        Método e fontes em rikodalge.github.io/cedula-aberta — aba Método.
-        Ferramenta construída com auxílio de inteligência artificial.
-      </div>`;
+      <h1>Minha cédula</h1>
+      <div class="sub">${esc(uf)} · ${esc(hoje)}</div>
+      <table><tbody>${linhas || `<tr><td colspan="3">Nenhum voto escolhido.</td></tr>`}</tbody></table>
+      <div class="rodape">Nomes e números conforme o registro de candidaturas do Tribunal Superior Eleitoral.</div>`;
   }
-
-  // Ctrl+P sem passar pelo botão imprimiria a folha vazia, porque o CSS de
-  // impressão esconde o resto da página. Montar aqui cobre os dois caminhos.
-  window.addEventListener("beforeprint", montarImpressao);
 
   el("exportar").addEventListener("click", () => {
     if (!CARGOS.some(([sl]) => escolhas[sl] !== undefined)) {
