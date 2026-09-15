@@ -1,0 +1,73 @@
+name: publicar o site
+
+# Publica web/ no GitHub Pages. Separado do workflow de dados de propósito:
+# aquele abre PR com mudança de candidatura para revisão humana, este só
+# publica o que já foi revisado e está na branch principal.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "web/**"
+      - "data/build/**"
+      - "scripts/build-web.ts"
+      - ".github/workflows/publicar.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Uma publicação por vez, sem cancelar a que já começou: derrubar um deploy
+# no meio deixaria o site incoerente com o dado.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.18"
+
+      - run: npm ci --no-audit --no-fund
+
+      # O site não vai ao ar se os tipos ou os testes quebrarem. As invariantes
+      # de dado (npm run validate) ficam no workflow de dados, porque exigem o
+      # pacote do TSE baixado e aqui só se publica o que já passou por lá.
+      - name: Tipos
+        run: npm run typecheck
+
+      - name: Testes
+        run: npm test
+
+      # Regenera a forma compacta a partir de data/build versionado, para o que
+      # vai ao ar ser sempre derivado do dado no repositório — e não de um
+      # web/dados que alguém possa ter editado à mão.
+      - name: Gerar dados do site
+        run: npm run web
+
+      - name: Conferir que o site está completo
+        run: |
+          set -e
+          test -f web/index.html
+          test -f web/dados/base.json
+          n=$(ls web/dados/uf/*.json | wc -l)
+          echo "UFs publicadas: $n"
+          test "$n" -ge 27
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
