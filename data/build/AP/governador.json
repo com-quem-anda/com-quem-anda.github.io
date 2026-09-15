@@ -1,0 +1,234 @@
+{
+ "uf": "AP",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.316Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 5,
+ "candidatos": [
+  {
+   "sq": "30002536313",
+   "uf": "AP",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "CARLOS CLEY",
+   "nomeCompleto": "CARLOS CLEY RAMOS PAIVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "30001800258"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "30002536312",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ANA PAULA PINHEIRO",
+     "nomeCompleto": "ANA PAULA PINHEIRO DE ARAUJO",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "30002552017",
+   "uf": "AP",
+   "cargo": "governador",
+   "numero": "27",
+   "nomeUrna": "DELEGADO MARCOS",
+   "nomeCompleto": "MARCOS JOSE REATEGUI DE SOUZA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "30001801230"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "30002552016",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CRISTINA ARAÚJO",
+     "nomeCompleto": "CRISTINA DE SOUSA ARAÚJO",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "30002551388",
+   "uf": "AP",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "JAIRO PALHETA",
+   "nomeCompleto": "JAIRO PALHETA DA SILVA MARQUES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "30001801199"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "30002551387",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "IRACIELY",
+     "nomeCompleto": "IRACELIA BARBOSA RODRIGUES",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "30002536311",
+   "uf": "AP",
+   "cargo": "governador",
+   "numero": "44",
+   "nomeUrna": "CLÉCIO",
+   "nomeCompleto": "CLÉCIO LUÍS VILHENA VIEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "JUNTOS POR TODO O AMAPÁ",
+    "composicao": "REPUBLICANOS / PDT / AGIR / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "30001800257"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "30002536310",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "TELES JR.",
+     "nomeCompleto": "ANTONIO PINHEIRO TELES JUNIOR",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "30002530014",
+   "uf": "AP",
+   "cargo": "governador",
+   "numero": "55",
+   "nomeUrna": "DR. FURLAN",
+   "nomeCompleto": "ANTONIO PAULO DE OLIVEIRA FURLAN",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "TRABALHAR PARA TRANSFORMAR O AMAPÁ",
+    "composicao": "NOVO / PSD / PODE / PL",
+    "sq": "30001799947"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "30002530015",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "LUCIANA GURGEL",
+     "nomeCompleto": "LUCIANA ARAUJO GOES GURGEL",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

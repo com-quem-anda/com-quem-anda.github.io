@@ -1,0 +1,281 @@
+{
+ "uf": "RO",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.599Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 6,
+ "candidatos": [
+  {
+   "sq": "220002542185",
+   "uf": "RO",
+   "cargo": "governador",
+   "numero": "13",
+   "nomeUrna": "EXPEDITO NETTO",
+   "nomeCompleto": "EXPEDITO GONCALVES FERREIRA NETTO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FÉ RONDÔNIA",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "220001800564"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "220002542186",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DR, LUIZ TEODORO",
+     "nomeCompleto": "LUIZ CARLOS TEODORO",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002551251",
+   "uf": "RO",
+   "cargo": "governador",
+   "numero": "15",
+   "nomeUrna": "PEDRO ABIB",
+   "nomeCompleto": "PEDRO ABIB HECKTHEUER",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "EXPERIÊNCIA FÉ E AUTORIDADE RONDÔNIA FORTE DE VERDADE [PDT/MDB] - RONDÔNIA",
+    "composicao": "PDT / MDB",
+    "sq": "220001801101"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "220002551252",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "MAURO SANTOS",
+     "nomeCompleto": "MAURO PEREIRA DOS SANTOS",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002541939",
+   "uf": "RO",
+   "cargo": "governador",
+   "numero": "22",
+   "nomeUrna": "MARCOS ROGÉRIO",
+   "nomeCompleto": "MARCOS ROGERIO DA SILVA BRITO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "JUNTOS POR RONDONIA",
+    "composicao": "PODE / PL / DC / NOVO / MOBILIZA",
+    "sq": "220001800593"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "220002541940",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DELEGADO CAMARGO",
+     "nomeCompleto": "RODRIGO CAMARGO RIBEIRO PINHO",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002550927",
+   "uf": "RO",
+   "cargo": "governador",
+   "numero": "40",
+   "nomeUrna": "SAMUEL COSTA",
+   "nomeCompleto": "SAMUEL COSTA MENEZES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSB",
+    "numero": "40",
+    "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSB",
+    "sq": "220001801118"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "220002550926",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SARGENTO MACHADO",
+     "nomeCompleto": "ANDERSON SOUZA MACHADO",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002542916",
+   "uf": "RO",
+   "cargo": "governador",
+   "numero": "44",
+   "nomeUrna": "HILDON CHAVES",
+   "nomeCompleto": "HILDON DE LIMA CHAVES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "RONDONIA COM A FORÇA DO TRABALHO E DA UNIÃO",
+    "composicao": "REPUBLICANOS / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "220001800687"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "220002542915",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CIRONE DEIRÓ",
+     "nomeCompleto": "ELCIRONE MOREIRA DEIRO",
+     "partido": {
+      "sigla": "UNIÃO",
+      "numero": "44",
+      "nome": "UNIÃO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002536806",
+   "uf": "RO",
+   "cargo": "governador",
+   "numero": "55",
+   "nomeUrna": "ADAILTON FURIA",
+   "nomeCompleto": "ADAILTON ANTUNES FERREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "GENTE QUE GOSTA DE GENTE",
+    "composicao": "PSD / AVANTE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "220001800312"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "220002536807",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "EVERTON LEONI",
+     "nomeCompleto": "EVERTON LEONI",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

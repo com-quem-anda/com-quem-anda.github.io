@@ -1,0 +1,653 @@
+{
+ "uf": "BA",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.342Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 10,
+ "candidatos": [
+  {
+   "sq": "50002533124",
+   "uf": "BA",
+   "cargo": "senador",
+   "numero": "100",
+   "nomeUrna": "ANGELO CORONEL",
+   "nomeCompleto": "ANGELO MARIO CORONEL DE AZEVEDO MARTINS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REPUBLICANOS",
+    "numero": "10",
+    "nome": "REPUBLICANOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "UNIDOS PARA MUDAR A BAHIA",
+    "composicao": "REPUBLICANOS / PODE / PL / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / NOVO",
+    "sq": "50001800152"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "50002533126",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MARCELO GUIMARÃES FILHO",
+     "nomeCompleto": "MARCELO DE OLIVEIRA GUIMARÃES FILHO",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002533122",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "EDYLENE FERREIRA",
+     "nomeCompleto": "EDYLENE LOPES FERREIRA",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002536317",
+   "uf": "BA",
+   "cargo": "senador",
+   "numero": "130",
+   "nomeUrna": "JAQUES WAGNER",
+   "nomeCompleto": "JAQUES WAGNER",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "MAIS BAHIA MAIS BRASIL",
+    "composicao": "PDT / MDB / PSB / PSD / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "50001800260"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "50002536318",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "EDVALDO BRITO",
+     "nomeCompleto": "EDVALDO PEREIRA DE BRITO",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002536319",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ALADILCE",
+     "nomeCompleto": "MARIA ALADILCE DE SOUZA",
+     "partido": {
+      "sigla": "PCDOB",
+      "numero": "65",
+      "nome": "PARTIDO COMUNISTA DO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002536321",
+   "uf": "BA",
+   "cargo": "senador",
+   "numero": "133",
+   "nomeUrna": "RUI COSTA",
+   "nomeCompleto": "RUI COSTA DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "MAIS BAHIA MAIS BRASIL",
+    "composicao": "PDT / MDB / PSB / PSD / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "50001800260"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "50002536316",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "RONALDO CARLETTO",
+     "nomeCompleto": "RONALDO CARLETTO",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002536320",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JAILMA",
+     "nomeCompleto": "JAILMA DANTAS GAMA ALVES",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002534774",
+   "uf": "BA",
+   "cargo": "senador",
+   "numero": "180",
+   "nomeUrna": "MARCELO CARVALHO",
+   "nomeCompleto": "MARCELO CARVALHO LAVIGNE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REDE",
+    "numero": "18",
+    "nome": "REDE SUSTENTABILIDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "50001800207"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "50002534773",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ZEM COSTA",
+     "nomeCompleto": "HERZEM COSTA RODRIGUES",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002534770",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CRIS MARQUES",
+     "nomeCompleto": "CRISTINA MARQUES DA SILVA",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002533123",
+   "uf": "BA",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "JOÃO ROMA",
+   "nomeCompleto": "JOÃO INÁCIO RIBEIRO ROMA NETO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "UNIDOS PARA MUDAR A BAHIA",
+    "composicao": "REPUBLICANOS / PODE / PL / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / NOVO",
+    "sq": "50001800152"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "50002533125",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "SUZANA RAMOS",
+     "nomeCompleto": "SUZANA ALEXANDRE DE CARVALHO RAMOS",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002533127",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "RODRIGO HAGGE",
+     "nomeCompleto": "RODRIGO HAGGE COSTA",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002536577",
+   "uf": "BA",
+   "cargo": "senador",
+   "numero": "277",
+   "nomeUrna": "MARCELO SANTTANA",
+   "nomeCompleto": "MARCELINO JOSE GUIMARAES SANTANA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "50001800244"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "50002536578",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CINDE FATIMA",
+     "nomeCompleto": "CINDE FATIMA DE MORAIS SANTOS",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002552958",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "LAZARO LEITE",
+     "nomeCompleto": "LÁZARO SOUZA LEITE",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002536576",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MAURO LEME",
+     "nomeCompleto": "MAURO LEME",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002553643",
+   "uf": "BA",
+   "cargo": "senador",
+   "numero": "290",
+   "nomeUrna": "MARCELO MILLET",
+   "nomeCompleto": "MARCELO MILLET OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "50001801427"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "50002554411",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ROBSON JOSÉ LEAL LYRA",
+     "nomeCompleto": "ROBSON JOSE LEAL LYRA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002553645",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "SILVANO DE SOUZA",
+     "nomeCompleto": "SILVANO ALVES DE SOUZA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002553644",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARIA DO CARMO",
+     "nomeCompleto": "MARIA DO CARMO OLIVEIRA REIS",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002536625",
+   "uf": "BA",
+   "cargo": "senador",
+   "numero": "333",
+   "nomeUrna": "CARLOS SODRÉ",
+   "nomeCompleto": "CARLOS EDUARDO SODRÉ",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MOBILIZA",
+    "numero": "33",
+    "nome": "MOBILIZAÇÃO NACIONAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MOBILIZA",
+    "sq": "50001800225"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "50002536624",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MARCOS ESPINHEIRA",
+     "nomeCompleto": "MARCOS LEONELI ESPINHEIRA",
+     "partido": {
+      "sigla": "MOBILIZA",
+      "numero": "33",
+      "nome": "MOBILIZAÇÃO NACIONAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002536626",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "LILIAN CARDOSO",
+     "nomeCompleto": "LILIAN CONCEIÇÃO CARDOSO",
+     "partido": {
+      "sigla": "MOBILIZA",
+      "numero": "33",
+      "nome": "MOBILIZAÇÃO NACIONAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002534769",
+   "uf": "BA",
+   "cargo": "senador",
+   "numero": "500",
+   "nomeUrna": "PROFESSORA DELLIANA",
+   "nomeCompleto": "DELLIANA RICELLI RIBEIRO DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "50001800207"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "50002534771",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PROF. NILO ROSA",
+     "nomeCompleto": "NILO ROSA DOS SANTOS",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002534772",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JEOVANE MARÚSIA",
+     "nomeCompleto": "JEOVANE MARUSIA RIBEIRO FERNANDES",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002550314",
+   "uf": "BA",
+   "cargo": "senador",
+   "numero": "800",
+   "nomeUrna": "GREGORIO GOULD",
+   "nomeCompleto": "GREGORIO MOTTA GOULD",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "50001801073"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "50002550313",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ELIENE ALMEIDA SILVA",
+     "nomeCompleto": "ELIENE ALMEIDA SILVA",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002550312",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ARLANIA GONÇALVES",
+     "nomeCompleto": "ARLANIA SAMPAIO GONCALVES",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

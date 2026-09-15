@@ -1,0 +1,281 @@
+{
+ "uf": "GO",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.399Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 6,
+ "candidatos": [
+  {
+   "sq": "90002545476",
+   "uf": "GO",
+   "cargo": "governador",
+   "numero": "13",
+   "nomeUrna": "LUIS CESAR BUENO",
+   "nomeCompleto": "LUIS CESAR BUENO E FREITAS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "GOIÁS PODE MAIS",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "90001800791"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "90002545477",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CARLOS MUNDIM",
+     "nomeCompleto": "CARLOS GOMES CAVALCANTE MUNDIM",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002540993",
+   "uf": "GO",
+   "cargo": "governador",
+   "numero": "15",
+   "nomeUrna": "DANIEL VILELA",
+   "nomeCompleto": "DANIEL ELIAS CARVALHO VILELA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PRA GOIÁS SEGUIR EM FRENTE",
+    "composicao": "REPUBLICANOS / MDB / PODE / MOBILIZA / DEMOCRATA / AGIR / PSD / AVANTE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "90001800536"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "90002540994",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "LUIZ DO CARMO",
+     "nomeCompleto": "LUIZ CARLOS DO CARMO",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002551791",
+   "uf": "GO",
+   "cargo": "governador",
+   "numero": "22",
+   "nomeUrna": "WILDER MORAIS",
+   "nomeCompleto": "WILDER PEDRO DE MORAIS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "GOIÁS QUE CRESCE",
+    "composicao": "PL / NOVO",
+    "sq": "90001801208"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "90002551790",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ANA PAULA REZENDE",
+     "nomeCompleto": "ANA PAULA DE ARAUJO REZENDE MACHADO CRAVEIRO",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002553733",
+   "uf": "GO",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "DANILO DA SILVA",
+   "nomeCompleto": "DANILO PINHEIRO EVANGELISTA DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "90001801442"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "90002553732",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "MARIA JOANA",
+     "nomeCompleto": "MARIA JOANA RIBEIRO DA SILVA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002543463",
+   "uf": "GO",
+   "cargo": "governador",
+   "numero": "45",
+   "nomeUrna": "MARCONI PERILLO",
+   "nomeCompleto": "MARCONI FERREIRA PERILLO JUNIOR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSDB",
+    "numero": "45",
+    "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "GOIÁS PODE MUITO MAIS",
+    "composicao": "DC / PRTB / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "sq": "90001800640"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "90002543464",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JACQUELINE ZAIDEN",
+     "nomeCompleto": "JACQUELINE FREITAS NASCIMENTO ZAIDEN",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "90002550707",
+   "uf": "GO",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "LUCIANA AMORIM",
+   "nomeCompleto": "LUCIANA DE DEUS AMORIM",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "90001801127"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "90002550708",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CAYMMI HENRIQUE",
+     "nomeCompleto": "CAYMMI HENRIQUE CARDOSO",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

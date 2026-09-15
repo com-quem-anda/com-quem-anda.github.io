@@ -1,0 +1,504 @@
+{
+ "uf": "PI",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.516Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 11,
+ "candidatos": [
+  {
+   "sq": "180002538530",
+   "uf": "PI",
+   "cargo": "governador",
+   "numero": "11",
+   "nomeUrna": "JOEL RODRIGUES",
+   "nomeCompleto": "JOEL RODRIGUES DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "JUNTOS PELO PIAUÍ",
+    "composicao": "PODE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / PL",
+    "sq": "180001800399"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "180002538529",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JEOVÁ ALENCAR",
+     "nomeCompleto": "JEOVA BARBOSA DE CARVALHO ALENCAR",
+     "partido": {
+      "sigla": "UNIÃO",
+      "numero": "44",
+      "nome": "UNIÃO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002532987",
+   "uf": "PI",
+   "cargo": "governador",
+   "numero": "13",
+   "nomeUrna": "RAFAEL FONTELES",
+   "nomeCompleto": "RAFAEL TAJRA FONTELES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "A FORÇA DO POVO",
+    "composicao": "REPUBLICANOS / PDT / MDB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "180001800103"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "180002532986",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "WASHINGTON BANDEIRA",
+     "nomeCompleto": "FRANCISCO WASHINGTON BANDEIRA SANTOS FILHO",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002537422",
+   "uf": "PI",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "GERALDO CARVALHO",
+   "nomeCompleto": "GERALDO DO NASCIMENTO CARVALHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "180001800360"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "180002537421",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "GERVÁSIO SANTOS",
+     "nomeCompleto": "JOÃO GERVÁSIO DOS SANTOS NETO",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002548565",
+   "uf": "PI",
+   "cargo": "governador",
+   "numero": "27",
+   "nomeUrna": "PROFESSOR JURITY",
+   "nomeCompleto": "FRANCISCO JOSÉ MARTINS JURITY",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "180001800923"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "180002548566",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PEDRO PEREIRA",
+     "nomeCompleto": "PEDRO PEREIRA DOS SANTOS FILHO",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002553722",
+   "uf": "PI",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "LOURDES MELO",
+   "nomeCompleto": "MARIA DE LOURDES SOARES MELO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "180001801440"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "180002553723",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ZEFERINO DA SILVA BRASIL",
+     "nomeCompleto": "ZEFERINO DA SILVA BRASIL",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002549920",
+   "uf": "PI",
+   "cargo": "governador",
+   "numero": "30",
+   "nomeUrna": "ELIZEU AGUIAR",
+   "nomeCompleto": "ELIZEU MORAIS DE AGUIAR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "A FORÇA DA FÉ",
+    "composicao": "NOVO / AVANTE",
+    "sq": "180001801041"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "180002549919",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ISMAR MARQUES",
+     "nomeCompleto": "ISMAR AGUIAR MARQUES",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002548388",
+   "uf": "PI",
+   "cargo": "governador",
+   "numero": "35",
+   "nomeUrna": "RAVENNA DA INCLUSÃO",
+   "nomeCompleto": "RAVENNA DE CASTRO LIMA AZEVEDO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DEMOCRATA",
+    "numero": "35",
+    "nome": "DEMOCRATA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DEMOCRATA",
+    "sq": "180001800937"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "180002548389",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JOÃO RICARDO",
+     "nomeCompleto": "JOÃO RICARDO SOARES DA SILVA",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002544216",
+   "uf": "PI",
+   "cargo": "governador",
+   "numero": "45",
+   "nomeUrna": "DRA. LÚCIA SANTOS",
+   "nomeCompleto": "LÚCIA MARIA DE SOUSA AGUIAR DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSDB",
+    "numero": "45",
+    "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "sq": "180001800751"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "180002544215",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DR. PAULO EUDES",
+     "nomeCompleto": "PAULO EUDES CARNEIRO",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002549970",
+   "uf": "PI",
+   "cargo": "governador",
+   "numero": "50",
+   "nomeUrna": "PROFESSOR GISVALDO",
+   "nomeCompleto": "GISVALDO OLIVEIRA DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "180001801067"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "180002549969",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "EDILENE PINHO",
+     "nomeCompleto": "FRANCISCA EDILENE PINHO GOMES BARBOSA",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002550421",
+   "uf": "PI",
+   "cargo": "governador",
+   "numero": "70",
+   "nomeUrna": "GUSTAVO PELO PIAUÍ OU GUSTAVO",
+   "nomeCompleto": "GUSTAVO HENRIQUE LEITE FEIJÓ",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AVANTE",
+    "numero": "70",
+    "nome": "AVANTE"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "AVANTE",
+    "sq": "180001801079"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "180002550422",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "LUCAS VERAS DE MORAES",
+     "nomeCompleto": "LUCAS VERAS DE MORAES",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "180002549995",
+   "uf": "PI",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "SANTIAGO BELIZÁRIO",
+   "nomeCompleto": "JOSÉ SANTIAGO BELIZÁRIO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "180001801070"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "180002549996",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "THAYS DIAS",
+     "nomeCompleto": "THAYS DIAS DE MORAIS",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,633 @@
+{
+ "uf": "RO",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.599Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 10,
+ "candidatos": [
+  {
+   "sq": "220002547310",
+   "uf": "RO",
+   "cargo": "senador",
+   "numero": "100",
+   "nomeUrna": "MARIANA CARVALHO",
+   "nomeCompleto": "MARIANA FONSECA RIBEIRO CARVALHO DE MORAES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REPUBLICANOS",
+    "numero": "10",
+    "nome": "REPUBLICANOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "RONDONIA COM A FORÇA DO TRABALHO E DA UNIÃO",
+    "composicao": "REPUBLICANOS / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "220001800872"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "220002547312",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "FRANCISCO RAPOSO JR",
+     "nomeCompleto": "FRANCISCO CARLOS LONDE RAPOSO JUNIOR",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "220002547311",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PASTOR MARCELO RODRIGUES",
+     "nomeCompleto": "MARCELO RODRIGUES CORREIA",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "220002553878",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "RICARDO LIRA MAIA",
+     "nomeCompleto": "RICARDO LIRA MAIA",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002547309",
+   "uf": "RO",
+   "cargo": "senador",
+   "numero": "111",
+   "nomeUrna": "SÍLVIA CRISTINA",
+   "nomeCompleto": "SILVIA CRISTINA AMANCIO CHAGAS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "RONDONIA COM A FORÇA DO TRABALHO E DA UNIÃO",
+    "composicao": "REPUBLICANOS / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "220001800872"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "220002547313",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MARCELO LUCAS",
+     "nomeCompleto": "MARCELO LUCAS DA SILVA",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "220002547314",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "RODRIGO MARINHO",
+     "nomeCompleto": "RODRIGO AUGUSTO MACEDO MARINHO",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002541490",
+   "uf": "RO",
+   "cargo": "senador",
+   "numero": "123",
+   "nomeUrna": "ACIR GURGACZ",
+   "nomeCompleto": "ACIR MARCOS GURGACZ",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "EXPERIÊNCIA, FÉ E AUTORIDADE: RONDÔNIA FORTE DE VERDADE",
+    "composicao": "PDT / MDB",
+    "sq": "220001800649"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "220002541492",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PAULO ANDRADE",
+     "nomeCompleto": "PAULO CESAR PIRES ANDRADE",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "220002541491",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PROFESSOR MÁRIO JORGE",
+     "nomeCompleto": "MARIO JORGE SOUZA DE OLIVEIRA",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002551948",
+   "uf": "RO",
+   "cargo": "senador",
+   "numero": "133",
+   "nomeUrna": "LUCIANA OLIVEIRA",
+   "nomeCompleto": "LUCIANA DE OLIVEIRA E SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "220001801225"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "220002551949",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "TONINHO MASIOLI",
+     "nomeCompleto": "ANTONIO MASIOLI",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "220002551945",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "DR. PAULO NUNES",
+     "nomeCompleto": "PAULO NUNES RIBEIRO",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002541944",
+   "uf": "RO",
+   "cargo": "senador",
+   "numero": "144",
+   "nomeUrna": "ENGENHEIRO THULIO",
+   "nomeCompleto": "THULIO SANTIAGO CASTRO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "220001800595"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "220002541945",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CLEIDSON MOURA DA SILVA",
+     "nomeCompleto": "CLEIDSON MOURA DA SILVA",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "220002541946",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MIGUEL CONSTANCE MARTINS",
+     "nomeCompleto": "MIGUEL CONSTANCE MARTINS",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002539996",
+   "uf": "RO",
+   "cargo": "senador",
+   "numero": "221",
+   "nomeUrna": "DR. FERNANDO MÁXIMO",
+   "nomeCompleto": "FERNANDO RODRIGUES MÁXIMO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "JUNTOS POR RONDONIA",
+    "composicao": "PODE / PL / DC / NOVO / MOBILIZA",
+    "sq": "220001800468"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "220002539992",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "SANDRA MORAES",
+     "nomeCompleto": "SANDRA MARIA BARRETO DE MORAES",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "220002539994",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CAICO",
+     "nomeCompleto": "EDINALDO GONÇALVES CARDOSO",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002539995",
+   "uf": "RO",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "BRUNO SCHEID",
+   "nomeCompleto": "BRUNO SCHEID",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "JUNTOS POR RONDONIA",
+    "composicao": "PODE / PL / DC / NOVO / MOBILIZA",
+    "sq": "220001800468"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "220002539997",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "GUILHERME TEODORO",
+     "nomeCompleto": "GUILHERME AUGUSTO DE FREITAS TEODORO",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "220002539993",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "DILCEU FERNANDES",
+     "nomeCompleto": "DILCEU FERNANDES MACHADO",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002550928",
+   "uf": "RO",
+   "cargo": "senador",
+   "numero": "400",
+   "nomeUrna": "NEIDINHA",
+   "nomeCompleto": "IVANEIDE BANDEIRA CARDOZO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSB",
+    "numero": "40",
+    "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSB",
+    "sq": "220001801119"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "220002550930",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JULIO OLIVAR",
+     "nomeCompleto": "JULIO OLIVAR BENEDITO",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "220002550929",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "BERENICE",
+     "nomeCompleto": "MARIA BERENICE ALVES DE AZEVEDO DA SILVA",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002551946",
+   "uf": "RO",
+   "cargo": "senador",
+   "numero": "432",
+   "nomeUrna": "AIRES MOTA",
+   "nomeCompleto": "AIRES MOTA DE ALMEIDA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PV",
+    "numero": "43",
+    "nome": "PARTIDO VERDE"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "220001801225"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "220002551947",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "TOCO DO STICCERO",
+     "nomeCompleto": "RAIMUNDO SOARES DA COSTA",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "220002551944",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "LAZARO DA SAÚDE",
+     "nomeCompleto": "LAZARO ELIAS PEREIRA",
+     "partido": {
+      "sigla": "PV",
+      "numero": "43",
+      "nome": "PARTIDO VERDE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "220002539771",
+   "uf": "RO",
+   "cargo": "senador",
+   "numero": "555",
+   "nomeUrna": "LUIS FERNANDO",
+   "nomeCompleto": "LUIS FERNANDO PEREIRA DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "GENTE QUE GOSTA DE GENTE",
+    "composicao": "PSD / AVANTE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "220001800384"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "220002539772",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ANDERSON BRITO",
+     "nomeCompleto": "ANDERSON DE SOUSA BRITO",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "220002539773",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JONATAS SALES",
+     "nomeCompleto": "JONATAS LUIZ DA SILVA SALES",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,578 @@
+{
+ "uf": "AP",
+ "cargo": "presidente",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.317Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 13,
+ "candidatos": [
+  {
+   "sq": "280002542548",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "13",
+   "nomeUrna": "LULA",
+   "nomeCompleto": "LUIZ INÁCIO LULA DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "BRASIL PRONTO PRA MAIS",
+    "composicao": "PSB / PDT / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "280001800617"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002542549",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "GERALDO ALCKMIN",
+     "nomeCompleto": "GERALDO JOSE RODRIGUES ALCKMIN FILHO",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "280002540694",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "14",
+   "nomeUrna": "RENAN SANTOS",
+   "nomeCompleto": "RENAN ANTONIO FERREIRA DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "280001800499"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002540693",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "CORONEL MEDINA",
+     "nomeCompleto": "AROLDO MEDINA",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "280002541457",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "16",
+   "nomeUrna": "HERTZ DIAS",
+   "nomeCompleto": "HERTZ DA CONCEICAO DIAS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "280001800485"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002541458",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "VANESSA PORTUGAL",
+     "nomeCompleto": "VANESSA PORTUGAL BARBOSA",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "280002551975",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "21",
+   "nomeUrna": "EDMILSON COSTA",
+   "nomeCompleto": "EDMILSON SILVA COSTA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCB",
+    "numero": "21",
+    "nome": "PARTIDO COMUNISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCB",
+    "sq": "280001801228"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002551976",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "CLEUSA SANTOS",
+     "nomeCompleto": "CLEUSA DOS SANTOS",
+     "partido": {
+      "sigla": "PCB",
+      "numero": "21",
+      "nome": "PARTIDO COMUNISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "280002551544",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "22",
+   "nomeUrna": "FLAVIO BOLSONARO",
+   "nomeCompleto": "FLAVIO NANTES BOLSONARO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "280001801177"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002551543",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "ALFREDO GASPAR",
+     "nomeCompleto": "ALFREDO GASPAR DE MENDONÇA NETO",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "280002552484",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "27",
+   "nomeUrna": "CLARIANA BARAO",
+   "nomeCompleto": "CLARIANA ZACARKIM BARAO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "280001801307"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002552485",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "FABIANA TORQUATO",
+     "nomeCompleto": "FABIANA CRISTINA TAVARES TORQUATO",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "280002553884",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "28",
+   "nomeUrna": "PABLO MARÇAL",
+   "nomeCompleto": "PABLO HENRIQUE COSTA MARCAL",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PRTB",
+    "numero": "28",
+    "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PRTB",
+    "sq": "280001801455"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002553883",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "LEONARDO AVALANCHE",
+     "nomeCompleto": "LEONARDO ALVES DE ARAUJO",
+     "partido": {
+      "sigla": "PRTB",
+      "numero": "28",
+      "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "280002552487",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "29",
+   "nomeUrna": "RUI COSTA PIMENTA",
+   "nomeCompleto": "RUI COSTA PIMENTA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "280001801308"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002552486",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "ANTÔNIO CARLOS",
+     "nomeCompleto": "ANTONIO CARLOS SILVA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "280002539826",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "30",
+   "nomeUrna": "ZEMA",
+   "nomeCompleto": "ROMEU ZEMA NETO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "280001800487"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002539825",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "EDUARDO GIRÃO",
+     "nomeCompleto": "LUIS EDUARDO GRANGEIRO GIRÃO",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "280002548139",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "35",
+   "nomeUrna": "VETERINÁRIO WILSON GRASSI",
+   "nomeCompleto": "WILSON GRASSI JUNIOR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DEMOCRATA",
+    "numero": "35",
+    "nome": "DEMOCRATA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DEMOCRATA",
+    "sq": "280001800972"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002548140",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "SUÊD HAIDAR",
+     "nomeCompleto": "SUÊD HAIDAR NOGUEIRA",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "280002551932",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "55",
+   "nomeUrna": "RONALDO CAIADO",
+   "nomeCompleto": "RONALDO RAMOS CAIADO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSD",
+    "sq": "280001801222"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002551933",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "GILBERTO KASSAB",
+     "nomeCompleto": "GILBERTO KASSAB",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "280002551547",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "70",
+   "nomeUrna": "ESCRITOR AUGUSTO CURY",
+   "nomeCompleto": "AUGUSTO JORGE CURY",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AVANTE",
+    "numero": "70",
+    "nome": "AVANTE"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "BRASIL DOS NOSSOS SONHOS",
+    "composicao": "AGIR / AVANTE",
+    "sq": "280001801587"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002551546",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "JÚLIO DELGADO",
+     "nomeCompleto": "JULIO CESAR DELGADO",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "280002538811",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "80",
+   "nomeUrna": "SAMARA",
+   "nomeCompleto": "SAMARA MARTINS DA SILVA FEITOSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "280001800442"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002538812",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "RAQUEL BRÍCIO",
+     "nomeCompleto": "RAQUEL NONATO DE BRICIO",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

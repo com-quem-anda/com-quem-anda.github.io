@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-10T04:51:20.172Z",
+ "geradoEm": "2026-09-12T11:48:27.714Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 1430,
  "candidatos": [
@@ -10084,7 +10084,7 @@
    "uf": "SP",
    "cargo": "deputado-estadual",
    "numero": "16016",
-   "nomeUrna": "WILIAM FELIPPE",
+   "nomeUrna": "WILIAM ANTICANDIDATO DO GOI",
    "nomeCompleto": "WILIAM DONIZETI FELIPPE",
    "nomeSocial": null,
    "partido": {

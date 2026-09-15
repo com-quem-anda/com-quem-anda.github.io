@@ -1,0 +1,586 @@
+{
+ "uf": "PR",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.536Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 9,
+ "candidatos": [
+  {
+   "sq": "160002547963",
+   "uf": "PR",
+   "cargo": "senador",
+   "numero": "100",
+   "nomeUrna": "ALEXANDRE CURI",
+   "nomeCompleto": "ALEXANDRE MARANHAO KHURY",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REPUBLICANOS",
+    "numero": "10",
+    "nome": "REPUBLICANOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "COLIGAÇÃO A MUDANÇA CONTINUA",
+    "composicao": "REPUBLICANOS / MDB / DEMOCRATA / PSD / AVANTE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "160001800879"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "160002547962",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "DUDU POTENCIAL",
+     "nomeCompleto": "CARLOS EDUARDO HAMMERSCHMIDT",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "160002547964",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "NELSON PADOVANI",
+     "nomeCompleto": "NELSON FERNANDO PADOVANI",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002547656",
+   "uf": "PR",
+   "cargo": "senador",
+   "numero": "131",
+   "nomeUrna": "GLEISI",
+   "nomeCompleto": "GLEISI HELENA HOFFMANN",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "PARANÁ PARA TODOS",
+    "composicao": "PDT / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "160001800894"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "160002547655",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ASSIS GURGACZ NETO",
+     "nomeCompleto": "ASSIS GURGACZ NETO",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "160002547657",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PROF ALDAIR RIZZI",
+     "nomeCompleto": "ALDAIR TARCISIO RIZZI",
+     "partido": {
+      "sigla": "REDE",
+      "numero": "18",
+      "nome": "REDE SUSTENTABILIDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002547658",
+   "uf": "PR",
+   "cargo": "senador",
+   "numero": "132",
+   "nomeUrna": "DR ROSINHA",
+   "nomeCompleto": "FLORISVALDO FIER",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "PARANÁ PARA TODOS",
+    "composicao": "PDT / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "160001800894"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "160002547654",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CRIS WAINER",
+     "nomeCompleto": "CRISTIANE APARECIDA WAINER",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "160002547653",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "TIA CELINA",
+     "nomeCompleto": "CELINA DO CARMO DA SILVA WOTCOSKI",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002551121",
+   "uf": "PR",
+   "cargo": "senador",
+   "numero": "144",
+   "nomeUrna": "KAREN GUERREIRO",
+   "nomeCompleto": "KAREN CORREIA GUERREIRO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "160001801171"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "160002551119",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "SONNI REZINI",
+     "nomeCompleto": "SONNI JAIR RICARDO COLOMBO REZINI",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "160002551120",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "RENATO SCARANTE",
+     "nomeCompleto": "RENATO SCARANTE",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002547660",
+   "uf": "PR",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "FILIPE BARROS",
+   "nomeCompleto": "FILIPE BARROS BAPTISTA DE TOLEDO RIBEIRO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FORTALEZA DO PARANÁ",
+    "composicao": "PODE / PL / NOVO",
+    "sq": "160001800895"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "160002547663",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PAULO BASE",
+     "nomeCompleto": "PAULO HENRIQUE CARRANO SANTOS",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "160002547662",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "SERGIO DOMINGUES",
+     "nomeCompleto": "SERGIO ROBERTO DOMINGUES",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002552563",
+   "uf": "PR",
+   "cargo": "senador",
+   "numero": "290",
+   "nomeUrna": "MARCELO MARCELINO",
+   "nomeCompleto": "MARCELO GONCALVES MARCELINO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "160001801325"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "160002552564",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JOÃO PAULO",
+     "nomeCompleto": "JOAO PAULO HOSTIN",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "160002552562",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ALEXANDRE RADDE KRANEN",
+     "nomeCompleto": "ALEXANDRE RADDE KRANEN",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002547661",
+   "uf": "PR",
+   "cargo": "senador",
+   "numero": "300",
+   "nomeUrna": "DELTAN DALLAGNOL",
+   "nomeCompleto": "DELTAN MARTINAZZO DALLAGNOL",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FORTALEZA DO PARANÁ",
+    "composicao": "PODE / PL / NOVO",
+    "sq": "160001800895"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "160002547659",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PROFESSOR PICLER",
+     "nomeCompleto": "WILSON PICLER",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "160002547664",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARKENSON MARQUES DOS SANTOS",
+     "nomeCompleto": "MARKENSON MARQUES DOS SANTOS",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002549555",
+   "uf": "PR",
+   "cargo": "senador",
+   "numero": "555",
+   "nomeUrna": "CRISTINA GRAEML",
+   "nomeCompleto": "CRISTINA REIS GRAEML",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "COLIGAÇÃO A MUDANÇA CONTINUA",
+    "composicao": "REPUBLICANOS / MDB / DEMOCRATA / PSD / AVANTE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "160001800879"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "160002549554",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MARCOS BAUMGART",
+     "nomeCompleto": "MARCOS RENATO BAUMGART",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "160002554215",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JACKSON ANDRÉ",
+     "nomeCompleto": "JACKSON ANDRE DOS SANTOS",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "160002549556",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JACKSON ANDRÉ DOS SANTOS",
+     "nomeCompleto": "JACKSON ANDRE DOS SANTOS",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "160002554216",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARCOS BAUMGART",
+     "nomeCompleto": "MARCOS RENATO BAUMGART",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002551043",
+   "uf": "PR",
+   "cargo": "senador",
+   "numero": "800",
+   "nomeUrna": "JOAQUIM DO MLB",
+   "nomeCompleto": "JOAQUIM SILVA MACIEL",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "160001801168"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "160002551044",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PATY COTA",
+     "nomeCompleto": "PATRICIA COTA",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "160002551045",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FERNANDO DORNELLAS",
+     "nomeCompleto": "JOÃO FERNANDO DORNELLAS DE OLIVEIRA",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

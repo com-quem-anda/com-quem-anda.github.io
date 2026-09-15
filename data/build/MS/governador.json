@@ -1,0 +1,391 @@
+{
+ "uf": "MS",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.459Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 8,
+ "candidatos": [
+  {
+   "sq": "120002536582",
+   "uf": "MS",
+   "cargo": "governador",
+   "numero": "11",
+   "nomeUrna": "EDUARDO RIEDEL",
+   "nomeCompleto": "EDUARDO CORREA RIEDEL",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "FAZENDO O FUTURO ACONTECER",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / PL / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / PODE / AVANTE / REPUBLICANOS / PSD / MDB",
+    "sq": "120001800246"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "120002536581",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "BARBOSINHA",
+     "nomeCompleto": "JOSE CARLOS BARBOSA",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002539834",
+   "uf": "MS",
+   "cargo": "governador",
+   "numero": "13",
+   "nomeUrna": "FÁBIO TRAD",
+   "nomeCompleto": "FABIO RICARDO TRAD",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "POR UM MS DO POVO",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "120001800491"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "120002539835",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DONA GILDA",
+     "nomeCompleto": "GILDA MARIA GOMES DOS SANTOS",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002552155",
+   "uf": "MS",
+   "cargo": "governador",
+   "numero": "25",
+   "nomeUrna": "DELCIDIO AMARAL",
+   "nomeCompleto": "DELCIDIO DO AMARAL GOMEZ",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PRD",
+    "numero": "25",
+    "nome": "PARTIDO RENOVACAO DEMOCRATICA"
+   },
+   "federacao": {
+    "sigla": "PRD/SOLIDARIEDADE",
+    "nome": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA",
+    "composicao": "PRD/SOLIDARIEDADE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "120001801243"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "120002552154",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "MARILIANA SANTOS",
+     "nomeCompleto": "MARILIANA SANTOS DA SILVA",
+     "partido": {
+      "sigla": "SOLIDARIEDADE",
+      "numero": "77",
+      "nome": "SOLIDARIEDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002549681",
+   "uf": "MS",
+   "cargo": "governador",
+   "numero": "27",
+   "nomeUrna": "ECONOMISTA RENATO GOMES",
+   "nomeCompleto": "RENATO WANDERLEY GOMES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "120001801019"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "120002549682",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "THIAGO MARTINS",
+     "nomeCompleto": "THIAGO MARTINS DOS SANTOS",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "120002554133",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ROBERTO PATZLAFF",
+     "nomeCompleto": "ROBERTO OSCAR PATZLAFF",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002552201",
+   "uf": "MS",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "DANIEL LEMES",
+   "nomeCompleto": "DANIEL LEMES VASQUES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "120001801258"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "120002552202",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SILVIA BENITES",
+     "nomeCompleto": "SILVIA BENITES",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002552191",
+   "uf": "MS",
+   "cargo": "governador",
+   "numero": "30",
+   "nomeUrna": "JOÃO HENRIQUE CATAN",
+   "nomeCompleto": "JOÃO HENRIQUE MIRANDA SOARES CATAN",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "120001801255"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "120002552190",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ANTÔNIO JOÃO JACINTO",
+     "nomeCompleto": "ANTONIO JOÃO COIMBRA JACINTHO",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002550198",
+   "uf": "MS",
+   "cargo": "governador",
+   "numero": "36",
+   "nomeUrna": "JEFERSON BEZERRA",
+   "nomeCompleto": "JEFERSON JOSE BEZERRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AGIR",
+    "numero": "36",
+    "nome": "AGIR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "AGIR",
+    "sq": "120001801095"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "120002550199",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "VALDENIR DUARTE",
+     "nomeCompleto": "VALDENIR APARECIDO DUARTE",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "120002532257",
+   "uf": "MS",
+   "cargo": "governador",
+   "numero": "50",
+   "nomeUrna": "LUCIEN REZENDE",
+   "nomeCompleto": "LUCIEN ROBERTO GARCIA DE REZENDE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "120001799961"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "120002532256",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PROF. ENFERMEIRA KAELLY",
+     "nomeCompleto": "KAELLY VIRGINIA DE OLIVEIRA SARAIVA",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

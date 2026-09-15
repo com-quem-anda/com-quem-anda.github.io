@@ -1,0 +1,427 @@
+{
+ "uf": "PA",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.480Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 8,
+ "candidatos": [
+  {
+   "sq": "140002551598",
+   "uf": "PA",
+   "cargo": "governador",
+   "numero": "15",
+   "nomeUrna": "HANA GHASSAN",
+   "nomeCompleto": "HANA GHASSAN TUMA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "O PARÁ TÁ JUNTO",
+    "composicao": "REPUBLICANOS / MDB / PSB / PSD / AVANTE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "140001801183"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "140002551599",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DIRCEU TEN CATEN",
+     "nomeCompleto": "DIRCEU TEN CATEN PIES",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "140002538631",
+   "uf": "PA",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "CLEBER RABELO",
+   "nomeCompleto": "JOSE CLEBER BARROS RABELO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "140001800402"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "140002538632",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "WELL MACEDO",
+     "nomeCompleto": "WELLINGTA JOSYANE SIQUEIRA MACEDO",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "140002554109",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SEU ALEX",
+     "nomeCompleto": "SEU ALEX",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "140002554108",
+   "uf": "PA",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "WELL MACEDO",
+   "nomeCompleto": "WELLINGTA JOSYANE SIQUEIRA MACEDO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "140001800402"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "140002538632",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "WELL MACEDO",
+     "nomeCompleto": "WELLINGTA JOSYANE SIQUEIRA MACEDO",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "140002554109",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SEU ALEX",
+     "nomeCompleto": "SEU ALEX",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "140002549930",
+   "uf": "PA",
+   "cargo": "governador",
+   "numero": "20",
+   "nomeUrna": "DR. DANIEL",
+   "nomeCompleto": "DANIEL BARBOSA SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PODE",
+    "numero": "20",
+    "nome": "PODEMOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "O PARÁ É DO POVO!",
+    "composicao": "PODE / PL / DC / NOVO / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "140001801043"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "140002549931",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ELLAYNE D ALMEIDA",
+     "nomeCompleto": "ELLAYNE CRISTINA GURGEL DE ALMEIDA",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "140002551357",
+   "uf": "PA",
+   "cargo": "governador",
+   "numero": "35",
+   "nomeUrna": "JOSÉ MOITA",
+   "nomeCompleto": "JOSÉ LUCIVALDO MOITA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DEMOCRATA",
+    "numero": "35",
+    "nome": "DEMOCRATA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DEMOCRATA",
+    "sq": "140001801194"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "140002554426",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "MARCIA CARVALHO",
+     "nomeCompleto": "MARCIA DO SOCORRO CARDOSO CARVALHO ALVES",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "140002551358",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "RUTH REIS",
+     "nomeCompleto": "RUTH HELENA FERREIRA REIS",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "140002554434",
+   "uf": "PA",
+   "cargo": "governador",
+   "numero": "35",
+   "nomeUrna": "RUTH REIS",
+   "nomeCompleto": "RUTH HELENA FERREIRA REIS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DEMOCRATA",
+    "numero": "35",
+    "nome": "DEMOCRATA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DEMOCRATA",
+    "sq": "140001801194"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "140002554426",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "MARCIA CARVALHO",
+     "nomeCompleto": "MARCIA DO SOCORRO CARDOSO CARVALHO ALVES",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "140002551358",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "RUTH REIS",
+     "nomeCompleto": "RUTH HELENA FERREIRA REIS",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "140002542386",
+   "uf": "PA",
+   "cargo": "governador",
+   "numero": "50",
+   "nomeUrna": "ARACELI",
+   "nomeCompleto": "ARACELI MARIA PEREIRA LEMOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "140001800602"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "140002542387",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "FATIMA SANTANA",
+     "nomeCompleto": "MARIA DE FATIMA SANTANA DA SILVA",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "140002551943",
+   "uf": "PA",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "GAL LEITE",
+   "nomeCompleto": "GUALDINA MARIA MENEZES LEITE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "140001801224"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "140002551942",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "KAREN SUELLEN",
+     "nomeCompleto": "KAREN SUELLEN LOBATO DE SOUSA",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

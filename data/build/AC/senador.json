@@ -1,0 +1,551 @@
+{
+ "uf": "AC",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.293Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 8,
+ "candidatos": [
+  {
+   "sq": "10002533895",
+   "uf": "AC",
+   "cargo": "senador",
+   "numero": "100",
+   "nomeUrna": "MARA ROCHA",
+   "nomeCompleto": "CYLMARA FERNANDES DA ROCHA GRIPP",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REPUBLICANOS",
+    "numero": "10",
+    "nome": "REPUBLICANOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "TRABALHO DA ESPERANÇA",
+    "composicao": "REPUBLICANOS / PSD / AVANTE / NOVO",
+    "sq": "10001800117"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "10002533896",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PR MOREIRA",
+     "nomeCompleto": "RAIMUNDO NONATO MOREIRA DA SILVA",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "10002533894",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MOREIRA",
+     "nomeCompleto": "FRANCISCO JOSE MOREIRA NETO",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "10002548046",
+   "uf": "AC",
+   "cargo": "senador",
+   "numero": "111",
+   "nomeUrna": "GLADSON CAMELÍ",
+   "nomeCompleto": "GLADSON DE LIMA CAMELÍ",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "AVANÇA ACRE",
+    "composicao": "PDT / MDB / PL / DEMOCRATA / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "10001800886"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "10002548048",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "BEATRIZ CAMELI",
+     "nomeCompleto": "BEATRIZ BARROSO PARDO DE CAMELI",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "10002548045",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "DEBORA NUNES",
+     "nomeCompleto": "DEBORA NUNES DA SILVA",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "10002536441",
+   "uf": "AC",
+   "cargo": "senador",
+   "numero": "131",
+   "nomeUrna": "JORGE VIANA",
+   "nomeCompleto": "JORGE NEY VIANA MACEDO NEVES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "FRENTE AMPLA PELO ACRE",
+    "composicao": "PODE / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "10001800264"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "10002536442",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "BINHO MARQUES",
+     "nomeCompleto": "ARNOBIO MARQUES DE ALMEIDA JUNIOR",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "10002552609",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "BIRA VASCONCELOS",
+     "nomeCompleto": "FRANCISCO UBIRACY MACHADO DE VASCONCELOS",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "10002536443",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "DELEGADA CARLA BRITTO",
+     "nomeCompleto": "CARLA IVANE DE BRITTO",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "10002548050",
+   "uf": "AC",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "MARCIO BITTAR",
+   "nomeCompleto": "MARCIO MIGUEL BITTAR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "AVANÇA ACRE",
+    "composicao": "PDT / MDB / PL / DEMOCRATA / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "10001800886"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "10002548049",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JEBERT NASCIMENTO",
+     "nomeCompleto": "JEBERT WILLYANS CAVALCANTE NASCIMENTO",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "10002548047",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "LIVIO VERAS",
+     "nomeCompleto": "LIVIO VERAS",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "10002536710",
+   "uf": "AC",
+   "cargo": "senador",
+   "numero": "277",
+   "nomeUrna": "DR. JUNIOR FEITOSA",
+   "nomeCompleto": "RIBAMAR DE SOUSA FEITOZA JÚNIOR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "10001800309"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "10002536712",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "WALTER DAMASCENO",
+     "nomeCompleto": "BENEDITO WALTER DAMASCENO",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "10002536711",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "RAIMUNDO MOREIRA",
+     "nomeCompleto": "RAIMUNDO MOREIRA NOLETO",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "10002544110",
+   "uf": "AC",
+   "cargo": "senador",
+   "numero": "500",
+   "nomeUrna": "PROFESSOR INACIO MOREIRA",
+   "nomeCompleto": "INACIO ALVES MOREIRA NETTO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "10001800655"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "10002544111",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "SOLEANE MANCHINERI",
+     "nomeCompleto": "SOLEANE DE SOUZA BRASIL MANCHINERI",
+     "partido": {
+      "sigla": "REDE",
+      "numero": "18",
+      "nome": "REDE SUSTENTABILIDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "10002544109",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JANAINA QUEIROZ",
+     "nomeCompleto": "JANAINA SILVA DE ALMEIDA QUEIROZ",
+     "partido": {
+      "sigla": "REDE",
+      "numero": "18",
+      "nome": "REDE SUSTENTABILIDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "10002535804",
+   "uf": "AC",
+   "cargo": "senador",
+   "numero": "555",
+   "nomeUrna": "PETECÃO",
+   "nomeCompleto": "SERGIO DE OLIVEIRA CUNHA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "TRABALHO DA ESPERANÇA",
+    "composicao": "REPUBLICANOS / PSD / AVANTE / NOVO",
+    "sq": "10001800117"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "10002537387",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MARFISA GALVÃO",
+     "nomeCompleto": "MARFIZA DE LIMA GALVÃO",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "10002537388",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "SOLINO MATOS",
+     "nomeCompleto": "SOLINO DE MATOS FILHO",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "10002544274",
+   "uf": "AC",
+   "cargo": "senador",
+   "numero": "777",
+   "nomeUrna": "EDUARDO VELLOSO",
+   "nomeCompleto": "EDUARDO OVIDIO BORGES DE VELLOSO VIANNA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "SOLIDARIEDADE",
+    "numero": "77",
+    "nome": "SOLIDARIEDADE"
+   },
+   "federacao": {
+    "sigla": "PRD/SOLIDARIEDADE",
+    "nome": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA",
+    "composicao": "PRD/SOLIDARIEDADE"
+   },
+   "coligacao": {
+    "nome": "PRODUZIR PARA EMPREGAR",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "10001800754"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "10002544275",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "REJANE VELLOSO",
+     "nomeCompleto": "REJANE HOLANDA DE VELLOSO VIANNA",
+     "partido": {
+      "sigla": "SOLIDARIEDADE",
+      "numero": "77",
+      "nome": "SOLIDARIEDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "10002544276",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "VANDO TORQUATO",
+     "nomeCompleto": "ERISVANDO TORQUATO DO NASCIMENTO",
+     "partido": {
+      "sigla": "SOLIDARIEDADE",
+      "numero": "77",
+      "nome": "SOLIDARIEDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "10002554295",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FÁBIO BARBOSA",
+     "nomeCompleto": "FÁBIO DE CASTRO BARBOSA",
+     "partido": {
+      "sigla": "SOLIDARIEDADE",
+      "numero": "77",
+      "nome": "SOLIDARIEDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "10002554069",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARCOS VITORINO",
+     "nomeCompleto": "MARCOS ANTONIO CAVALCANTE VITORINO",
+     "partido": {
+      "sigla": "SOLIDARIEDADE",
+      "numero": "77",
+      "nome": "SOLIDARIEDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

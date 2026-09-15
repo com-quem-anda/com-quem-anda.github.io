@@ -1,0 +1,42 @@
+{
+ "geradoEm": "2026-09-12T12:39:17.156Z",
+ "fonte": {
+  "nome": "TSE — Portal de Dados Abertos, dataset eleitorado-2026, perfil do eleitorado",
+  "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2026.zip",
+  "licenca": "Creative Commons Atribuição (CC-BY)",
+  "sha256": "0952e9d9577be19380b444bfcc6a9a99397005e8dc839de9d5ec49914d75648b"
+ },
+ "observacao": "Soma de QT_ELEITORES nos arquivos por UF. O consolidado BRASIL.csv não foi usado: o ZIP declara tamanho estourado de 32 bits para ele.",
+ "ufs": {
+  "AC": 614375,
+  "AL": 2441794,
+  "AM": 2801182,
+  "AP": 577534,
+  "BA": 11321005,
+  "CE": 6998494,
+  "DF": 2253132,
+  "ES": 2990490,
+  "GO": 5080755,
+  "MA": 5186562,
+  "MG": 16377659,
+  "MS": 2024884,
+  "MT": 2638230,
+  "PA": 6265355,
+  "PB": 3247397,
+  "PE": 7225744,
+  "PI": 2708160,
+  "PR": 8609026,
+  "RJ": 12857000,
+  "RN": 2660565,
+  "RO": 1267105,
+  "RR": 401496,
+  "RS": 8526233,
+  "SC": 5725753,
+  "SE": 1740124,
+  "SP": 34104226,
+  "TO": 1182307
+ },
+ "totalUf": 157826587,
+ "exterior": 918876,
+ "total": 158745463
+}

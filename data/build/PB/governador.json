@@ -1,0 +1,277 @@
+{
+ "uf": "PB",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.488Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 6,
+ "candidatos": [
+  {
+   "sq": "150002551789",
+   "uf": "PB",
+   "cargo": "governador",
+   "numero": "11",
+   "nomeUrna": "LUCAS RIBEIRO",
+   "nomeCompleto": "LUCAS RIBEIRO NOVAIS DE ARAUJO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "DAQUI PRA MELHOR",
+    "composicao": "PODE / MOBILIZA / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / AGIR / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / REPUBLICANOS / PSB",
+    "sq": "150001801207"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "150002551788",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "LIGIA FELICIANO",
+     "nomeCompleto": "ANA LIGIA COSTA FELICIANO",
+     "partido": {
+      "sigla": "UNIÃO",
+      "numero": "44",
+      "nome": "UNIÃO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "150002544133",
+   "uf": "PB",
+   "cargo": "governador",
+   "numero": "15",
+   "nomeUrna": "CÍCERO LUCENA",
+   "nomeCompleto": "CICERO DE LUCENA FILHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "JUNTOS PARA A PARAÍBA DAR O PRÓXIMO PASSO",
+    "composicao": "MDB / DEMOCRATA / PSD / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / PDT",
+    "sq": "150001800704"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "150002544134",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DIOGO CUNHA LIMA",
+     "nomeCompleto": "DIOGO OLIVEIRA CUNHA LIMA",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "150002538692",
+   "uf": "PB",
+   "cargo": "governador",
+   "numero": "22",
+   "nomeUrna": "EFRAIM FILHO",
+   "nomeCompleto": "EFRAIM DE ARAUJO MORAIS FILHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PL",
+    "sq": "150001800409"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "150002538691",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "NAYANA PONTES",
+     "nomeCompleto": "NAYANA PONTES PEREIRA GOMES",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "150002551911",
+   "uf": "PB",
+   "cargo": "governador",
+   "numero": "27",
+   "nomeUrna": "PEDRO COUTINHO",
+   "nomeCompleto": "PEDRO JORGE COUTINHO GUERRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "150001801220"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "150002551910",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "LENILDA PEREIRA",
+     "nomeCompleto": "LENILDA PEREIRA DA SILVA",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "150002552603",
+   "uf": "PB",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "CAMILO DUARTE",
+   "nomeCompleto": "CAMILO SOBREIRA DUARTE FILHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "150001801333"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "150002552602",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "MARCOS LIMA",
+     "nomeCompleto": "MARCOS JOSÉ DA SILVA LIMA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "150002540204",
+   "uf": "PB",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "YURI EZEQUIEL",
+   "nomeCompleto": "YURI EZEQUIEL DE LIMA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "150001800507"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "150002540203",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CARMINHA LOURENÇO",
+     "nomeCompleto": "MARIA DO CARMO LOURENÇO",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

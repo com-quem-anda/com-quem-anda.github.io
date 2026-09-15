@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-10T04:51:20.165Z",
+ "geradoEm": "2026-09-12T11:48:27.711Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 7,
  "candidatos": [
@@ -315,10 +315,10 @@
    },
    "vice": [
     {
-     "sq": "250002544911",
+     "sq": "250002552372",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "MARCELO PEREIRA",
-     "nomeCompleto": "MARCELO PEREIRA DE AZEVEDO",
+     "nomeUrna": "CRIS DAMASIO",
+     "nomeCompleto": "MARIA CRISTINA DAMASIO DE ALMEIDA",
      "partido": {
       "sigla": "UP",
       "numero": "80",
@@ -331,10 +331,10 @@
      }
     },
     {
-     "sq": "250002552372",
+     "sq": "250002544911",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "CRIS DAMASIO",
-     "nomeCompleto": "MARIA CRISTINA DAMASIO DE ALMEIDA",
+     "nomeUrna": "MARCELO PEREIRA",
+     "nomeCompleto": "MARCELO PEREIRA DE AZEVEDO",
      "partido": {
       "sigla": "UP",
       "numero": "80",

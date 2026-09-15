@@ -1,0 +1,578 @@
+{
+ "uf": "AM",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.309Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 9,
+ "candidatos": [
+  {
+   "sq": "40002531447",
+   "uf": "AM",
+   "cargo": "senador",
+   "numero": "155",
+   "nomeUrna": "EDUARDO BRAGA",
+   "nomeCompleto": "CARLOS EDUARDO DE SOUZA BRAGA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FORÇA AMAZONAS",
+    "composicao": "REPUBLICANOS / MDB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "40001800091"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "40002531448",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "SANDRA BRAGA",
+     "nomeCompleto": "SANDRA BACKSMANN BRAGA",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "40002531446",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MIGUEL BIANGO",
+     "nomeCompleto": "MIGUEL CAPOBIANGO NETO",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002535270",
+   "uf": "AM",
+   "cargo": "senador",
+   "numero": "161",
+   "nomeUrna": "EVANDRO DE OLIVEIRA",
+   "nomeCompleto": "JOSÉ EVANDRO DE OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "40001800271"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "40002535271",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ANTONIO NETO",
+     "nomeCompleto": "ANTONIO PEREIRA DE OLIVEIRA",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "40002535272",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JOÃO REBOUÇAS",
+     "nomeCompleto": "JOAO QUEIROZ REBOUÇAS",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002551283",
+   "uf": "AM",
+   "cargo": "senador",
+   "numero": "181",
+   "nomeUrna": "ISMAEL MUNDURUKU",
+   "nomeCompleto": "ISMAEL FRANKLIN GONCALVES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REDE",
+    "numero": "18",
+    "nome": "REDE SUSTENTABILIDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "40001801106"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "40002551280",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "LAYNARA PRESTES",
+     "nomeCompleto": "LAYNARA CRISTINA LEITE PRESTES",
+     "partido": {
+      "sigla": "REDE",
+      "numero": "18",
+      "nome": "REDE SUSTENTABILIDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "40002554392",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "DAILA PRESTES",
+     "nomeCompleto": "DAILA LEITE PRESTES",
+     "partido": {
+      "sigla": "REDE",
+      "numero": "18",
+      "nome": "REDE SUSTENTABILIDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "40002551282",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ANDRÉ MONTEIRO",
+     "nomeCompleto": "ANDRE MONTEIRO DA SILVA",
+     "partido": {
+      "sigla": "REDE",
+      "numero": "18",
+      "nome": "REDE SUSTENTABILIDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002542686",
+   "uf": "AM",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "CAPITÃO ALBERTO NETO",
+   "nomeCompleto": "ALBERTO BARROS CAVALCANTE NETO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "MUDAR É URGENTE",
+    "composicao": "PL / NOVO",
+    "sq": "40001800584"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "40002542688",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ALESSANDRO TONIZA",
+     "nomeCompleto": "ALESSANDRO BRONZE TONIZA",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "40002542687",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MÁRIO BASTOS",
+     "nomeCompleto": "MARIO BASTOS DOS SANTOS",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002535391",
+   "uf": "AM",
+   "cargo": "senador",
+   "numero": "277",
+   "nomeUrna": "DAILSON CORRÊA",
+   "nomeCompleto": "DAILSON DE QUEIROZ CORRÊA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "40001800275"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "40002535389",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ISAÍAS AMAZONAS",
+     "nomeCompleto": "ISAÍAS AMAZONAS DA SILVA",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "40002535390",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CAPELÃO ROBERTO DA SILVA",
+     "nomeCompleto": "ROBERTO DA SILVA",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002550806",
+   "uf": "AM",
+   "cargo": "senador",
+   "numero": "333",
+   "nomeUrna": "XUXA DO AMAZONAS",
+   "nomeCompleto": "MILTON ROGÉRIO MOREIRA PINTO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MOBILIZA",
+    "numero": "33",
+    "nome": "MOBILIZAÇÃO NACIONAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MOBILIZA",
+    "sq": "40001801135"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "40002550805",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "NEIDA FARIAS",
+     "nomeCompleto": "NEIDA MARIA DE OLIVEIRA FARIAS",
+     "partido": {
+      "sigla": "MOBILIZA",
+      "numero": "33",
+      "nome": "MOBILIZAÇÃO NACIONAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "40002550804",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ANGELO REIS",
+     "nomeCompleto": "ANGELO AUGUSTO CAVALCANTE REIS",
+     "partido": {
+      "sigla": "MOBILIZA",
+      "numero": "33",
+      "nome": "MOBILIZAÇÃO NACIONAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002541744",
+   "uf": "AM",
+   "cargo": "senador",
+   "numero": "444",
+   "nomeUrna": "WILSON LIMA",
+   "nomeCompleto": "WILSON MIRANDA LIMA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "UNIÃO PELO AMAZONAS",
+    "composicao": "PSB / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / PODE",
+    "sq": "40001800580"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "40002541742",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "LUÍS MÁRIO BONATES",
+     "nomeCompleto": "LUÍS MÁRIO BRAGA BONATES",
+     "partido": {
+      "sigla": "UNIÃO",
+      "numero": "44",
+      "nome": "UNIÃO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "40002541743",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "BABÁ TUPINAMBÁ",
+     "nomeCompleto": "JOSE TUPINAMBA RIBEIRO PONTE",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002537344",
+   "uf": "AM",
+   "cargo": "senador",
+   "numero": "455",
+   "nomeUrna": "PLINIO VALÉRIO",
+   "nomeCompleto": "FRANCISCO PLINIO VALERIO TOMAZ",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSDB",
+    "numero": "45",
+    "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "sq": "40001800368"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "40002537343",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "KELLY BARBOSA",
+     "nomeCompleto": "GRACE KELLY GONCALVES BARBOSA",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "40002537345",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PROFESSORA JUDITE",
+     "nomeCompleto": "JUDITE DA SILVA PINHO",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "40002551281",
+   "uf": "AM",
+   "cargo": "senador",
+   "numero": "500",
+   "nomeUrna": "PROFESSORA EVANY",
+   "nomeCompleto": "MARIA EVANY DO NASCIMENTO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "40001801106"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "40002551278",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "RENAN ROTONDANO",
+     "nomeCompleto": "RENAN NOGUEIRA ROTONDANO",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "40002551279",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JANDER MUNIZ",
+     "nomeCompleto": "JANDER DOS SANTOS MUNIZ",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,645 @@
+{
+ "uf": "MT",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.467Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 10,
+ "candidatos": [
+  {
+   "sq": "110002551967",
+   "uf": "MT",
+   "cargo": "senador",
+   "numero": "111",
+   "nomeUrna": "MARGARETH BUZETTI",
+   "nomeCompleto": "MARGARETH GETTERT BUSETTI",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PP",
+    "numero": "11",
+    "nome": "PROGRESSISTAS"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "MATO GROSSO NAO PODE PARAR I",
+    "composicao": "REPUBLICANOS / PODE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "110001801227"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "110002551971",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JUCÉLIA FERRO",
+     "nomeCompleto": "JUCELIA GONÇALVES FERRO",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "110002551969",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CORONEL GRASI",
+     "nomeCompleto": "GRASIELLE PAES DA SILVA BUGALHO",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "110002552698",
+   "uf": "MT",
+   "cargo": "senador",
+   "numero": "150",
+   "nomeUrna": "JANAINA RIVA",
+   "nomeCompleto": "JANAINA GREYCE RIVA FAGUNDES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "CORAÇÃO DA GENTE",
+    "composicao": "MDB / PL / NOVO / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "110001801262"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "110002552697",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ALUIZO LIMA",
+     "nomeCompleto": "ALUIZO LIMA PEREIRA",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "110002552696",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "IBRAHIM ZAHER",
+     "nomeCompleto": "IBRAHIM ZAHER",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "110002552693",
+   "uf": "MT",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "ZÉ MEDEIROS",
+   "nomeCompleto": "JOSE ANTONIO DOS SANTOS MEDEIROS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "CORAÇÃO DA GENTE",
+    "composicao": "MDB / PL / NOVO / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "110001801262"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "110002552695",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ODILIO BALBINOTTI",
+     "nomeCompleto": "ODILIO BALBINOTTI FILHO",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "110002552694",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "XUXU DAL MOLIN",
+     "nomeCompleto": "EDERSON DAL MOLIN",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "110002548042",
+   "uf": "MT",
+   "cargo": "senador",
+   "numero": "351",
+   "nomeUrna": "CORONEL DARWIN",
+   "nomeCompleto": "DARWIN SALGADO GERMANO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DEMOCRATA",
+    "numero": "35",
+    "nome": "DEMOCRATA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DEMOCRATA",
+    "sq": "110001800885"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "110002548043",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "TENENTE CÉLIO",
+     "nomeCompleto": "CELIO SELESTRINO DOS SANTOS",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "110002548044",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "SARGENTO LEOPOLDO",
+     "nomeCompleto": "CARLO LEOPOLDO MARQUES FERNANDES",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "110002553701",
+   "uf": "MT",
+   "cargo": "senador",
+   "numero": "360",
+   "nomeUrna": "PROFESSOR NELSON FERREIRA",
+   "nomeCompleto": "NELSON CARLOS FERREIRA JUNIOR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AGIR",
+    "numero": "36",
+    "nome": "AGIR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "AGIR",
+    "sq": "110001801434"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "110002553702",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MARIA GUEDES",
+     "nomeCompleto": "MARIA FERREIRA GUEDES",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "110002553705",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ITIOMA BARROS",
+     "nomeCompleto": "ITIOMA BARROS DA SILVA FERREIRA",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "110002553706",
+   "uf": "MT",
+   "cargo": "senador",
+   "numero": "365",
+   "nomeUrna": "BENY GODOY",
+   "nomeCompleto": "BENIVAL ALVES DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AGIR",
+    "numero": "36",
+    "nome": "AGIR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "AGIR",
+    "sq": "110001801434"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "110002554463",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JOACI CAMPOS",
+     "nomeCompleto": "JOACI GOMES DE CAMPOS",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "110002553704",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "GERALDO",
+     "nomeCompleto": "GERALDO OLIVEIRA DOS SANTOS",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "110002553703",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JACKSON PEREIRA",
+     "nomeCompleto": "ANTONIO JACKSON PEREIRA DA CRUZ",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "110002554422",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "NATANAEL ALMEIDA",
+     "nomeCompleto": "NATANAEL DOS SANTOS ALMEIDA",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "110002544988",
+   "uf": "MT",
+   "cargo": "senador",
+   "numero": "400",
+   "nomeUrna": "PEDRO TAQUES",
+   "nomeCompleto": "JOSE PEDRO GONCALVES TAQUES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSB",
+    "numero": "40",
+    "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "MATO GROSSO PARA TODOS",
+    "composicao": "PDT / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "110001800771"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "110002544989",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CARLOS ERNESTO TETI",
+     "nomeCompleto": "CARLOS ERNESTO AUGUSTIN",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "110002544991",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "GUELDA ANDRADE",
+     "nomeCompleto": "GUELDA CRISTINA DE OLIVEIRA ANDRADE",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "110002551966",
+   "uf": "MT",
+   "cargo": "senador",
+   "numero": "444",
+   "nomeUrna": "MAURO MENDES",
+   "nomeCompleto": "MAURO MENDES FERREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "MATO GROSSO NAO PODE PARAR I",
+    "composicao": "REPUBLICANOS / PODE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "110001801227"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "110002551968",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CIDINHO SANTOS",
+     "nomeCompleto": "JOSÉ APARECIDO DOS SANTOS",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "110002551970",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ELSON RAMOS",
+     "nomeCompleto": "ELSON RAMOS DE FIGUEIREDO",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "110002544986",
+   "uf": "MT",
+   "cargo": "senador",
+   "numero": "555",
+   "nomeUrna": "FÁVARO",
+   "nomeCompleto": "CARLOS HENRIQUE BAQUETA FAVARO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "MATO GROSSO PARA TODOS",
+    "composicao": "PDT / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "110001800771"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "110002544990",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ALEXANDRE SCHENKEL",
+     "nomeCompleto": "ALEXANDRE PEDRO SCHENKEL",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "110002544987",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CARMEN MACHADO",
+     "nomeCompleto": "CARMEN SILVIA CAMPOS MACHADO",
+     "partido": {
+      "sigla": "PV",
+      "numero": "43",
+      "nome": "PARTIDO VERDE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "110002540403",
+   "uf": "MT",
+   "cargo": "senador",
+   "numero": "700",
+   "nomeUrna": "GALVAN",
+   "nomeCompleto": "ANTONIO GALVAN",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AVANTE",
+    "numero": "70",
+    "nome": "AVANTE"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "AVANTE",
+    "sq": "110001800518"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "110002540404",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PASTORA ALINE",
+     "nomeCompleto": "ALINE FRANCIELE DE REZENDE DUARTE",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "110002540405",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "SAULO PATRIOTA",
+     "nomeCompleto": "SAULO BREDA GUIZELINI",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

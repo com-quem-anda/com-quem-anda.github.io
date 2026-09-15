@@ -1,0 +1,414 @@
+{
+ "uf": "RN",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.592Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 9,
+ "candidatos": [
+  {
+   "sq": "200002534001",
+   "uf": "RN",
+   "cargo": "governador",
+   "numero": "13",
+   "nomeUrna": "CADU DE LULA",
+   "nomeCompleto": "CARLOS EDUARDO XAVIER",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "TIME QUE CUIDA",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "200001800178"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "200002534002",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "LARISSA",
+     "nomeCompleto": "LARISSA DANIELA ESCOSSIA ROSADO",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "200002542481",
+   "uf": "RN",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "DÁRIO BARBOSA",
+   "nomeCompleto": "DARIO BARBOSA DE MELO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "200001800610"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "200002542482",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "FERNANDA SOARES",
+     "nomeCompleto": "FERNANDA LOURENA PEREIRA SOARES",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "200002534442",
+   "uf": "RN",
+   "cargo": "governador",
+   "numero": "22",
+   "nomeUrna": "ÁLVARO DIAS",
+   "nomeCompleto": "ÁLVARO COSTA DIAS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "ENDIREITA RN",
+    "composicao": "PODE / PL / NOVO / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / MOBILIZA",
+    "sq": "200001800163"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "200002534441",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "BABÁ",
+     "nomeCompleto": "ANTEOMAR PEREIRA DA SILVA",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "200002550223",
+   "uf": "RN",
+   "cargo": "governador",
+   "numero": "27",
+   "nomeUrna": "CARLOS JARARACA",
+   "nomeCompleto": "CARLOS ALBERTO DE ALMEIDA CAVALCANTE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "200001801097"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "200002550224",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PASTOR JÚLIO",
+     "nomeCompleto": "JULIO CESAR NEVES",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "200002553301",
+   "uf": "RN",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "HENRIQUE LYRA",
+   "nomeCompleto": "HENRIQUE OTHON COSTA DE LYRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "200001801344"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "200002553302",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ANDRE GUSTAVO",
+     "nomeCompleto": "ANDRE GUSTAVO MEDEIROS DE OLIVEIRA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "200002546756",
+   "uf": "RN",
+   "cargo": "governador",
+   "numero": "36",
+   "nomeUrna": "RODRIGO DE BOLSONARO",
+   "nomeCompleto": "KARLO RODRIGO LUCIO VIEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "AGIR",
+    "numero": "36",
+    "nome": "AGIR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "AGIR",
+    "sq": "200001800836"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "200002546755",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SOCORRO BATISTA",
+     "nomeCompleto": "MARIA SOCORRO BATISTA DE MACEDO",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "200002535255",
+   "uf": "RN",
+   "cargo": "governador",
+   "numero": "44",
+   "nomeUrna": "ALLYSON",
+   "nomeCompleto": "ALLYSON LEANDRO BEZERRA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "ESPERANÇA E TRABALHO",
+    "composicao": "REPUBLICANOS / MDB / PSD / AVANTE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "200001800267"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "200002535256",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "HERMANO",
+     "nomeCompleto": "HERMANO DA COSTA MORAES",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "200002546757",
+   "uf": "RN",
+   "cargo": "governador",
+   "numero": "50",
+   "nomeUrna": "PROFESSOR ROBERIO PAULINO",
+   "nomeCompleto": "ROBERIO PAULINO RODRIGUES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "200001800837"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "200002546758",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "LENNY GRILO",
+     "nomeCompleto": "LENY MACIEL GRILO",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "200002547826",
+   "uf": "RN",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "ARINALDA DO MLB",
+   "nomeCompleto": "ARINALDA VASCONCELOS DE MEDEIROS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "200001800947"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "200002547827",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "FRANCISCO DIAS",
+     "nomeCompleto": "FRANCISCO DE ASSIS DA COSTA DIAS",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

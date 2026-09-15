@@ -1,0 +1,442 @@
+{
+ "uf": "CE",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.357Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 9,
+ "candidatos": [
+  {
+   "sq": "60002543969",
+   "uf": "CE",
+   "cargo": "governador",
+   "numero": "13",
+   "nomeUrna": "ELMANO DE FREITAS",
+   "nomeCompleto": "ELMANO DE FREITAS DA COSTA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "CEARÁ FORTE DO LADO CERTO",
+    "composicao": "PSB / PDT / PODE / MOBILIZA / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / REPUBLICANOS / PSD / MDB / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "60001800686"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "60002543970",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "GABRIELLA AGUIAR",
+     "nomeCompleto": "GABRIELLA PEQUENO COSTA GOMES DE AGUIAR",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002540417",
+   "uf": "CE",
+   "cargo": "governador",
+   "numero": "14",
+   "nomeUrna": "DELEGADO HUGGO",
+   "nomeCompleto": "HUGGO LEONARDO DE LIMA ANASTACIO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "60001800520"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "60002540418",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "FELIPE MOREIRA",
+     "nomeCompleto": "FELIPE SILVA MOREIRA",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002549967",
+   "uf": "CE",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "ZÉ BATISTA",
+   "nomeCompleto": "JOSE BATISTA NETO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "60001801046"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "60002549968",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "IVONETE",
+     "nomeCompleto": "MARIA IVONETE FERREIRA FELIX",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002552320",
+   "uf": "CE",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "IERI BRAGA",
+   "nomeCompleto": "IERI DE SOUSA BRAGA JUNIOR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "60001801295"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "60002552321",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "LAERTE SILVA",
+     "nomeCompleto": "LAERTE SILVA DE MELO",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002540336",
+   "uf": "CE",
+   "cargo": "governador",
+   "numero": "30",
+   "nomeUrna": "PEDRO BRITO",
+   "nomeCompleto": "PEDRO FELIPE PINHEIRO BRITO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "60001800513"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "60002553983",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CAP. AMILTON GOMES",
+     "nomeCompleto": "AMILTON ALVES GOMES",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "60002540335",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "VERA LÚCIA",
+     "nomeCompleto": "VERA LUCIA DA SILVA",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002553922",
+   "uf": "CE",
+   "cargo": "governador",
+   "numero": "30",
+   "nomeUrna": "VERA LÚCIA",
+   "nomeCompleto": "VERA LUCIA DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "60001800513"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "60002553983",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CAP. AMILTON GOMES",
+     "nomeCompleto": "AMILTON ALVES GOMES",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "60002540335",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "VERA LÚCIA",
+     "nomeCompleto": "VERA LUCIA DA SILVA",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002552498",
+   "uf": "CE",
+   "cargo": "governador",
+   "numero": "35",
+   "nomeUrna": "DANILO SOARES",
+   "nomeCompleto": "DANILO SOARES SOUSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DEMOCRATA",
+    "numero": "35",
+    "nome": "DEMOCRATA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DEMOCRATA",
+    "sq": "60001801312"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "60002552499",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ERYCK VELOSO",
+     "nomeCompleto": "FRANCISCO ERYCK DE SOUZA VELOSO",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002531351",
+   "uf": "CE",
+   "cargo": "governador",
+   "numero": "45",
+   "nomeUrna": "CIRO GOMES",
+   "nomeCompleto": "CIRO FERREIRA GOMES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSDB",
+    "numero": "45",
+    "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "UNIR PARA MUDAR",
+    "composicao": "PL / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / DC / AVANTE",
+    "sq": "60001800087"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "60002531352",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ROBERTO CLAUDIO",
+     "nomeCompleto": "ROBERTO CLAUDIO RODRIGUES BEZERRA",
+     "partido": {
+      "sigla": "UNIÃO",
+      "numero": "44",
+      "nome": "UNIÃO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002533729",
+   "uf": "CE",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "SERLEY LEAL",
+   "nomeCompleto": "SERLEY DE SOUZA LEAL",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "60001800188"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "60002533730",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CATHERINE TELES",
+     "nomeCompleto": "CATHERINE MORAIS TELES",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

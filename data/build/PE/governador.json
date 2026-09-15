@@ -1,0 +1,363 @@
+{
+ "uf": "PE",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.510Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 8,
+ "candidatos": [
+  {
+   "sq": "170002540337",
+   "uf": "PE",
+   "cargo": "governador",
+   "numero": "14",
+   "nomeUrna": "RENAN",
+   "nomeCompleto": "RENAN LUCIO SANT ANNA HALLAIS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "170001800514"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "170002540338",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "LUCAS XAVIER",
+     "nomeCompleto": "LUCAS XAVIER BEZERRA DOS SANTOS",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002536575",
+   "uf": "PE",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "GUILHERME FONSECA",
+   "nomeCompleto": "GUILHERME FONSECA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "170001800243"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "170002536574",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "VALÉRIA FÉLIX",
+     "nomeCompleto": "VALÉRIA DO NASCIMENTO FELIX",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002552776",
+   "uf": "PE",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "VICTOR ASSIS",
+   "nomeCompleto": "VICTOR ASSIS DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "170001801265"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "170002552775",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ROBERTA RITA",
+     "nomeCompleto": "ROBERTA RITA CAVALCANTI PEREIRA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002541258",
+   "uf": "PE",
+   "cargo": "governador",
+   "numero": "35",
+   "nomeUrna": "PROFESSOR JEREMIAS DO BANCO",
+   "nomeCompleto": "JEREMIAS COSMO SILVA DOS SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DEMOCRATA",
+    "numero": "35",
+    "nome": "DEMOCRATA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DEMOCRATA",
+    "sq": "170001800550"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "170002541259",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CARLOS ALBERTO",
+     "nomeCompleto": "CARLOS ALBERTO DE BRITO JUNIOR",
+     "partido": {
+      "sigla": "DEMOCRATA",
+      "numero": "35",
+      "nome": "DEMOCRATA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002537230",
+   "uf": "PE",
+   "cargo": "governador",
+   "numero": "40",
+   "nomeUrna": "JOÃO CAMPOS",
+   "nomeCompleto": "JOÃO HENRIQUE DE ANDRADE LIMA CAMPOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSB",
+    "numero": "40",
+    "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FRENTE POPULAR DE PERNAMBUCO",
+    "composicao": "REPUBLICANOS / PDT / MDB / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / DC",
+    "sq": "170001800295"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "170002537229",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CARLOS COSTA",
+     "nomeCompleto": "CARLOS ANTONIO DA COSTA CAVALCANTI NETO",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002538097",
+   "uf": "PE",
+   "cargo": "governador",
+   "numero": "50",
+   "nomeUrna": "IVAN MORAES",
+   "nomeCompleto": "IVAN VASCONCELLOS DE MORAES FILHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FRENTE PERNAMBUCO DE LUTA",
+    "composicao": "PCB / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "170001800371"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "170002538098",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ALICE GABINO",
+     "nomeCompleto": "ALICE DOS SANTOS GABINO",
+     "partido": {
+      "sigla": "REDE",
+      "numero": "18",
+      "nome": "REDE SUSTENTABILIDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002537227",
+   "uf": "PE",
+   "cargo": "governador",
+   "numero": "55",
+   "nomeUrna": "RAQUEL LYRA",
+   "nomeCompleto": "RAQUEL TEIXEIRA LYRA LUCENA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PERNAMBUCO DE CORAÇÃO",
+    "composicao": "PODE / PSD / AVANTE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "170001800294"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "170002537228",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PRISCILA KRAUSE",
+     "nomeCompleto": "PRISCILA KRAUSE BRANCO",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "170002537320",
+   "uf": "PE",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "PROFESSORA CAMILA",
+   "nomeCompleto": "MARIA CAMILA DA SILVA FALCÃO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "170001800301"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "170002537319",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "MARCELO PESSOA",
+     "nomeCompleto": "MARCELO PESSOA DA SILVA",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

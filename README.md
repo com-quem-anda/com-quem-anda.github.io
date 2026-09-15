@@ -3,9 +3,16 @@
 Ferramenta pública para o eleitor registrar seus votos, consultar os dados oficiais de cada
 candidato e testar a coerência da própria chapa. Sem login, sem coleta, sem servidor.
 
-Este repositório está no **M1: pipeline de dados** (§9 da spec). Ainda não há interface.
+Este repositório tem o **M1 (pipeline de dados)** e a **camada vertical do M2**: o índice de
+coerência da chapa. Ainda não há interface versionada aqui — o protótipo da camada vertical roda
+como artifact, a partir dos mesmos JSONs de `data/build`.
 
 Especificação completa: [`CEDULA-ABERTA-SPEC.md`](CEDULA-ABERTA-SPEC.md).
+
+## Licença
+
+Código sob **MIT**. Os dados não: TSE e IBGE têm termos próprios, e a atribuição
+do TSE é obrigatória em qualquer publicação derivada — ver `LICENSE`.
 
 ## Como rodar
 
@@ -13,7 +20,10 @@ Especificação completa: [`CEDULA-ABERTA-SPEC.md`](CEDULA-ABERTA-SPEC.md).
 npm ci
 npm run fetch                   # baixa o pacote do TSE para data/raw/ (não versionado)
 npm run normalize -- --uf=SP    # gera data/build/SP/*.json   (--uf=all para as 27)
+npm run alianca                 # gera data/build/alianca.json  (exige --uf=all)
 npm run validate                # invariantes; falhou, não publica
+npm run web                     # dados compactos do site em web/dados/
+npm run artifact                # empacota o site num HTML único
 npm run check                   # tipos + testes + invariantes
 ```
 
@@ -23,6 +33,104 @@ TSE, Portal de Dados Abertos, dataset [`candidatos-2026`](https://dadosabertos.t
 licença **Creative Commons Atribuição (CC-BY)** — a atribuição é obrigatória e visível em
 qualquer publicação derivada. A proveniência de cada coleta (URL, sha256, data, `last-modified`
 do TSE) fica em `data/raw/proveniencia.json` e em `data/build/meta.json`.
+
+## A camada vertical: coerência da chapa
+
+Dado que o eleitor declare em quem vota, o índice diz o quanto aquelas escolhas costumam andar
+juntas. Ele **não** mede ideologia, e não precisa de nenhuma fonte além do próprio TSE.
+
+- **Proximidade é comportamento revelado.** Cada coligação majoritária e cada federação é um
+  conjunto de partidos; a similaridade de Jaccard sobre os 433 conjuntos do país dá π(a,b) sem
+  nenhum parâmetro para ajustar — e portanto sem espaço para escolha editorial. Federação entra
+  como aresta fixa de peso 1, porque é vínculo legal de quatro anos e não acordo de uma eleição.
+- **O número cru não significa nada,** então o que se reporta é a posição dele numa distribuição
+  nula montada com o universo real de candidatos da UF. Quando dá para enumerar todas as
+  combinações, enumeramos; só acima de 500 mil entra Monte Carlo, com semente fixa.
+- **O diagnóstico é por voto, não agregado.** A alavancagem deixa-um-de-fora aponta qual escolha
+  puxa a chapa para longe das outras — que é a saída útil, e não a nota.
+- **Coerência não é virtude.** Voto dividido é estratégia legítima. Nada no código chama chapa
+  dispersa de erro, e a interface também não deve.
+
+Por que o grafo exige `--uf=all`: com os 11 conjuntos de São Paulo sozinho, MDB~PL cravava 1,00
+porque coincidiram uma vez. Com as 27 UFs o mesmo par cai para 0,10. Grafo magro não é grafo
+impreciso, é grafo errado — o `validate` reprova abaixo de 100 conjuntos.
+
+## O site
+
+`web/` é estático e sem dependência nenhuma — nem framework, nem analytics, nem cookie,
+nem chamada a terceiros. Abrir em São Paulo custa **58 KB comprimidos**: a base (grafo,
+eleitorado, malha, presidentes) mais o arquivo daquela UF, carregado sob demanda.
+
+O mesmo código roda de dois jeitos. Se `window.CEDULA_DADOS` existir, os dados estão
+embutidos no próprio HTML (é o que `build-artifact.ts` gera); senão, ele busca
+`dados/base.json` e `dados/uf/<UF>.json`. Não há uma segunda versão do app para sair de sincronia.
+
+**A matemática da tela é conferida contra a biblioteca antes de publicar.** `app.js` reimplementa
+em JS o que `lib/{alianca,coerencia}.ts` faz em TypeScript, e uma reimplementação não verificada
+seria só um segundo lugar onde errar. A conferência compara os 900 pares de partidos, centenas de
+cédulas aleatórias, a distribuição nula enumerada, os 20.000 sorteios do Monte Carlo e a sugestão
+por partido — tudo exato até 1e-12.
+
+**Analytics: não há, por decisão.** Nem contador, nem identificador. É por isso que não existe
+estatística agregada de como as pessoas montam suas cédulas: coletar isso, mesmo em agregado e
+com consentimento, exigiria um servidor para receber — e servidor é exatamente o que este projeto
+não tem. A promessa vale mais que o dado.
+
+## A aba Você: o match
+
+O eleitor responde as mesmas doze votações que os deputados enfrentaram e recebe, para cada
+bancada, **a fração de deputados daquele partido que votou do mesmo lado que ele**. Não há
+modelo nem estimação — é contagem direta de voto registrado, ponderada pelo peso que o próprio
+eleitor deu a cada tema.
+
+A escala é comum por construção: eleitor e deputado respondem ao mesmo item. Testado com dois
+perfis espelhados, o resultado espelha — PT/PSOL/PV no topo de um, NOVO/PL no topo do outro.
+
+O cruzamento final confronta as respostas com a cédula declarada na primeira aba: quanto cada
+candidato escolhido tem de bancada votando como o eleitor. Para governador e deputado estadual
+a resposta é "sem registro de votação", porque não existe — ver a nota de viabilidade da camada
+horizontal.
+
+## Pautas: o único arquivo com autor
+
+`scripts/pautas/itens.json` é a exceção declarada à regra do projeto. Tudo o mais aqui é
+derivado mecanicamente da fonte; o texto das doze perguntas foi **escrito**, e escrever é
+escolher. Ele fica em arquivo próprio, versionado e apartado, justamente para que a escolha
+seja visível e contestável por pull request — não diluída dentro do código.
+
+Cada pergunta aponta para uma votação nominal real, diz o que "Sim" significou naquela
+votação e leva à ficha na Câmara. Seis são votos de mérito e seis de urgência; a diferença
+está marcada na tela, porque urgência mede disposição de priorizar e não concordância com
+o conteúdo.
+
+`build-pautas.ts` calcula o que é medido: o eixo de votação da 57ª legislatura (462 deputados
+× 964 votações divididas, primeiro componente principal) e como cada bancada votou nas doze.
+Duas escolhas metodológicas ficam gravadas no arquivo de saída porque mudam o resultado:
+**o corte de três deputados** por legenda — abaixo disso não se mede coesão de bancada — e
+**a filiação atual** do deputado, sabendo que 121 dos 462 trocaram de partido durante a
+legislatura e carregam para a legenda de hoje um histórico anterior à troca.
+
+## Desempenho: o encaixe existe, a nota não
+
+Cruzar coerência com desempenho parlamentar depende de duas coisas separadas, e só uma
+delas está em nossas mãos.
+
+**A chave de ligação está pronta.** `build-parlamentares.ts` casa candidatura de 2026 com
+mandato em exercício pelas APIs oficiais da Câmara e do Senado — 490 das 20.028 candidaturas.
+Casa por nome normalizado mais UF, e recusa homônimo dentro da mesma UF, porque vínculo errado
+é pior que vínculo ausente. Cargo nacional casa sem UF: presidente tem `SG_UF = BR`, e exigir UF
+igual descartava justamente quem tem mandato e disputa o Planalto.
+
+O teto é duro e vale saber antes de investir: **2,4% das candidaturas**. Só há registro de
+mandato para quem já teve mandato. Em compensação, **82% dos 594 parlamentares em exercício
+estão concorrendo**.
+
+**A nota depende de autorização.** O Ranking dos Políticos é organização séria e o trabalho é
+público — mas publicar não é licenciar. Não há termos de reuso no site, e o `robots.txt` traz
+`Disallow: /api/`: o próprio operador pede que agentes automatizados não acessem a API.
+`parlamentares.json` já tem o campo `desempenho`, vazio, esperando. Obtida a autorização, a nota
+entra **ao lado** do índice e nunca dentro dele, com crédito visível. Coerência descreve alianças;
+desempenho avalia mandato com critérios de terceiros. Somar as duas num número só destruiria as duas.
 
 ## O que este pipeline garante
 
@@ -49,6 +157,12 @@ isso `situacao.disponivel` existe no modelo: a interface precisa dizer "o TSE ai
 nunca traduzir ausência para "deferido". O alerta de registro indeferido/cassado (§5.4) fica
 bloqueado até `meta.json.situacaoRegistro.comSituacao` deixar de ser 0 — o `validate` avisa.
 
+**O TSE grafa o mesmo partido de dois jeitos.** `SG_PARTIDO` traz `PCDOB`; as composições de
+coligação e federação trazem `PC do B`. Sem canonizar, o partido do candidato nunca casa com o
+partido do grafo e o PCDOB fica com proximidade zero contra todo mundo — inclusive contra o PT,
+com quem tem federação. O erro é silencioso, que é o que o torna perigoso. O mapa está em
+`APELIDOS`, em `lib/alianca.ts`, e o `validate` falha se aparecer grafia nova.
+
 **A API DivulgaCandContas está vazia para 2026.** Responde 200 com `candidatos: []` em todos os
 cargos (CD_ELEICAO 6259, verificado em 10/09/2026). O critério de pronto do M1 na spec dependia
 dela; foi substituído pela conferência contra o CSV consolidado.
@@ -67,14 +181,27 @@ repositório. Decidir no M6 se o dado versionado vai minificado.
 scripts/
   fetch-tse.ts        download do pacote + proveniência
   normalize.ts        casca de I/O
+  build-alianca.ts    grafo de proximidade entre partidos
+  build-parlamentares.ts quem tem mandato hoje — Câmara e Senado
+  build-pautas.ts     eixo de votação da Câmara + cruzamento por pauta
+  pautas/itens.json   as 12 perguntas — AUTORAL, não derivado do dado
+  build-eleitorado.ts eleitores por UF — sob demanda, fora do cron
+  build-malha.ts      malha dos estados, do IBGE — idem
+  build-web.ts        forma compacta que o site consome
+  build-artifact.ts   mesmo site num arquivo só
   validate.ts         invariantes do CI
   lib/
     unzip.ts          leitor de ZIP sem dependência (build-time)
     csv.ts            CSV latin-1 do TSE
     normalizar.ts     lógica pura de normalização — é aqui que se mexe
+    alianca.ts        conjuntos de aliança + Jaccard + bootstrap
+    parlamentares.ts  casamento candidato <-> mandato em exercício
+    coerencia.ts      índice da chapa, distribuição nula, alavancagem
     tse.ts            constantes verificadas contra o dado
     types.ts          modelo de dados
 tests/                node:test, sem framework
-data/build/           JSONs versionados
+data/build/           JSONs versionados, incluindo alianca.json
+web/                  o site: index.html, estilo.css, app.js
+  dados/              forma compacta gerada por build-web.ts
 data/raw/             baixado do TSE, fora do git
 ```

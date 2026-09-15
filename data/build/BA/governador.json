@@ -1,0 +1,360 @@
+{
+ "uf": "BA",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.342Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 7,
+ "candidatos": [
+  {
+   "sq": "50002536314",
+   "uf": "BA",
+   "cargo": "governador",
+   "numero": "13",
+   "nomeUrna": "JERÔNIMO RODRIGUES",
+   "nomeCompleto": "JERONIMO RODRIGUES SOUZA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "MAIS BAHIA, MAIS BRASIL",
+    "composicao": "PDT / MDB / PSB / PSD / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "sq": "50001800259"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "50002536315",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "GERALDO JÚNIOR",
+     "nomeCompleto": "GERALDO ALVES FERREIRA JUNIOR",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002535253",
+   "uf": "BA",
+   "cargo": "governador",
+   "numero": "27",
+   "nomeUrna": "ARIEL CAPISTRANO",
+   "nomeCompleto": "ARIEL DA SILVA CAPISTRANO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "50001800206"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "50002535254",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ZÉ AUGUSTO",
+     "nomeCompleto": "JOSE AUGUSTO MACIEL TORRES",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002536580",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "NEUZIMAR CAMACAM",
+     "nomeCompleto": "NEUZIMAR MARQUES CAMACAM DÍAZ MORALES",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002536579",
+   "uf": "BA",
+   "cargo": "governador",
+   "numero": "27",
+   "nomeUrna": "ESTÊVÃO",
+   "nomeCompleto": "JOSE ESTEVAO DOS SANTOS BARBOSA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "50001800245"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "50002535254",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ZÉ AUGUSTO",
+     "nomeCompleto": "JOSE AUGUSTO MACIEL TORRES",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "50002536580",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "NEUZIMAR CAMACAM",
+     "nomeCompleto": "NEUZIMAR MARQUES CAMACAM DÍAZ MORALES",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002552489",
+   "uf": "BA",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "MARIA BONA",
+   "nomeCompleto": "MARIA BONA CARRARA DE SUMBUY",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "50001801309"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "50002552488",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ZÉ RICARDO",
+     "nomeCompleto": "JOSÉ RICARDO DE LIMA CHAVES",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002533190",
+   "uf": "BA",
+   "cargo": "governador",
+   "numero": "44",
+   "nomeUrna": "ACM NETO",
+   "nomeCompleto": "ANTONIO CARLOS PEIXOTO DE MAGALHÃES NETO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "UNIDOS PARA MUDAR A BAHIA",
+    "composicao": "REPUBLICANOS / PODE / PL / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / NOVO",
+    "sq": "50001800154"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "50002533189",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ZÉ COCÁ",
+     "nomeCompleto": "ZENILDO BRANDÃO SANTANA",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002532269",
+   "uf": "BA",
+   "cargo": "governador",
+   "numero": "50",
+   "nomeUrna": "RONALDO MANSUR",
+   "nomeCompleto": "RONALDO MANSUR SANTOS SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "50001799963"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "50002532270",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "PROF. MEIRE REIS",
+     "nomeCompleto": "MEIRE LUCIA ALVES DOS REIS",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "50002544692",
+   "uf": "BA",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "AROLDO FELIX",
+   "nomeCompleto": "AROLDO FELIX DE AZEVEDO JUNIOR",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "50001800741"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "50002544693",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "MARILIA DO MLB",
+     "nomeCompleto": "MARILIA REGINA SANTANA DOS SANTOS",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-10T04:51:20.171Z",
+ "geradoEm": "2026-09-12T11:48:27.712Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 16,
  "candidatos": [
@@ -100,7 +100,7 @@
    },
    "suplentes": [
     {
-     "sq": "250002554136",
+     "sq": "250002553929",
      "cargo": "1º SUPLENTE",
      "nomeUrna": "MEDON",
      "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
@@ -116,7 +116,7 @@
      }
     },
     {
-     "sq": "250002553929",
+     "sq": "250002554136",
      "cargo": "1º SUPLENTE",
      "nomeUrna": "MEDON",
      "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
@@ -191,7 +191,7 @@
    },
    "suplentes": [
     {
-     "sq": "250002554136",
+     "sq": "250002553929",
      "cargo": "1º SUPLENTE",
      "nomeUrna": "MEDON",
      "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
@@ -207,7 +207,7 @@
      }
     },
     {
-     "sq": "250002553929",
+     "sq": "250002554136",
      "cargo": "1º SUPLENTE",
      "nomeUrna": "MEDON",
      "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
@@ -463,10 +463,10 @@
    },
    "suplentes": [
     {
-     "sq": "250002554098",
+     "sq": "250002544671",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "LUCIANA FELIX",
-     "nomeCompleto": "LUCIANA AVIGO FELIX",
+     "nomeUrna": "ANA ESTIMA",
+     "nomeCompleto": "ANA CLAUDIA DE ALMEIDA ESTIMA",
      "partido": {
       "sigla": "PODE",
       "numero": "20",
@@ -479,10 +479,10 @@
      }
     },
     {
-     "sq": "250002544671",
+     "sq": "250002554098",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "ANA ESTIMA",
-     "nomeCompleto": "ANA CLAUDIA DE ALMEIDA ESTIMA",
+     "nomeUrna": "LUCIANA FELIX",
+     "nomeCompleto": "LUCIANA AVIGO FELIX",
      "partido": {
       "sigla": "PODE",
       "numero": "20",
@@ -778,10 +778,10 @@
    },
    "suplentes": [
     {
-     "sq": "250002532793",
+     "sq": "250002550682",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "ALCANTARA MACHADO",
-     "nomeCompleto": "MARCOS DE ALCANTARA MACHADO",
+     "nomeUrna": "FREDERICO D AVILA",
+     "nomeCompleto": "FREDERICO BRAUN DAVILA",
      "partido": {
       "sigla": "NOVO",
       "numero": "30",
@@ -794,10 +794,10 @@
      }
     },
     {
-     "sq": "250002550682",
+     "sq": "250002532793",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "FREDERICO D AVILA",
-     "nomeCompleto": "FREDERICO BRAUN DAVILA",
+     "nomeUrna": "ALCANTARA MACHADO",
+     "nomeCompleto": "MARCOS DE ALCANTARA MACHADO",
      "partido": {
       "sigla": "NOVO",
       "numero": "30",

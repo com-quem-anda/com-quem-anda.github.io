@@ -1,0 +1,495 @@
+{
+ "uf": "CE",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.357Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 8,
+ "candidatos": [
+  {
+   "sq": "60002550748",
+   "uf": "CE",
+   "cargo": "senador",
+   "numero": "162",
+   "nomeUrna": "REGINALDO",
+   "nomeCompleto": "REGINALDO FERREIRA DE ARAUJO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "60001801112"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "60002550749",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PROF. FÉLIX",
+     "nomeCompleto": "ANTONIO FERREIRA FELIX",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "60002550747",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MAGELA",
+     "nomeCompleto": "GERALDO MANO MAGELA FILHO",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002542476",
+   "uf": "CE",
+   "cargo": "senador",
+   "numero": "180",
+   "nomeUrna": "LUIZIANNE",
+   "nomeCompleto": "LUIZIANNE DE OLIVEIRA LINS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REDE",
+    "numero": "18",
+    "nome": "REDE SUSTENTABILIDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "CEARÁ FORTE, DO LADO CERTO",
+    "composicao": "PDT / PODE / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / REPUBLICANOS / MDB / MOBILIZA",
+    "sq": "60001800609"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "60002542478",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "CHAGAS VIEIRA",
+     "nomeCompleto": "FRANCISCO DAS CHAGAS CIPRIANO VIEIRA",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "60002542480",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "RODRIGO OLIVEIRA",
+     "nomeCompleto": "RODRIGO ANTONIO PAES DE ANDRADE LOPES DE OLIVEIRA",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002540754",
+   "uf": "CE",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "ALCIDES FERNANDES",
+   "nomeCompleto": "ALCIDES FERNANDES DA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "UNIR PARA MUDAR",
+    "composicao": "PL / DC / AVANTE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "60001800502"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "60002540757",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JOÃO BARROSO",
+     "nomeCompleto": "JOÃO RIBEIRO BARROSO",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "60002540758",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "DENÍSIO PINHEIRO",
+     "nomeCompleto": "JOSÉ DENISIO PINHEIRO",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002551397",
+   "uf": "CE",
+   "cargo": "senador",
+   "numero": "290",
+   "nomeUrna": "LINO ALVES",
+   "nomeCompleto": "LINO ALVES DE ALMEIDA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "60001801201"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "60002551396",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "TIAGO FERREIRA",
+     "nomeCompleto": "TIAGO FERREIRA LIMA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "60002551395",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ESTEVAM",
+     "nomeCompleto": "FRANCISCO DE ASSIS FERREIRA ESTEVAM",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002539687",
+   "uf": "CE",
+   "cargo": "senador",
+   "numero": "300",
+   "nomeUrna": "GUILHERME THEOPHILO",
+   "nomeCompleto": "GUILHERME CALS THEOPHILO GASPAR DE OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "NOVO",
+    "numero": "30",
+    "nome": "PARTIDO NOVO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "NOVO",
+    "sq": "60001800465"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "60002539688",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "DRA. VERÔNICA AMARAL",
+     "nomeCompleto": "VERÔNICA DO AMARAL MADEIRO BATISTA",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "60002539689",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CAPELLI",
+     "nomeCompleto": "JOSE NERY ROCHA JUNIOR",
+     "partido": {
+      "sigla": "NOVO",
+      "numero": "30",
+      "nome": "PARTIDO NOVO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002542479",
+   "uf": "CE",
+   "cargo": "senador",
+   "numero": "400",
+   "nomeUrna": "CID GOMES",
+   "nomeCompleto": "CID FERREIRA GOMES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSB",
+    "numero": "40",
+    "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "CEARÁ FORTE, DO LADO CERTO",
+    "composicao": "PDT / PODE / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / REPUBLICANOS / MDB / MOBILIZA",
+    "sq": "60001800609"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "60002542477",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JUNIOR MANO",
+     "nomeCompleto": "ANTONIO LUIZ RODRIGUES MANO JUNIOR",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "60002542475",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JULIO VENTURA",
+     "nomeCompleto": "JULIO VENTURA NETO",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002540753",
+   "uf": "CE",
+   "cargo": "senador",
+   "numero": "445",
+   "nomeUrna": "CAPITÃO WAGNER",
+   "nomeCompleto": "WAGNER SOUSA GOMES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "UNIR PARA MUDAR",
+    "composicao": "PL / DC / AVANTE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "60001800502"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "60002540755",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PRISCO BEZERRA",
+     "nomeCompleto": "PRISCO RODRIGUES BEZERRA",
+     "partido": {
+      "sigla": "UNIÃO",
+      "numero": "44",
+      "nome": "UNIÃO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "60002540756",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "LUCIO GOMES",
+     "nomeCompleto": "LUCIO FERREIRA GOMES",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "60002533959",
+   "uf": "CE",
+   "cargo": "senador",
+   "numero": "800",
+   "nomeUrna": "CATARINA MATOS",
+   "nomeCompleto": "CATARINA DA GRACA ALMEIDA MATOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "60001800159"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "60002533960",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "EMANUEL MENEZES",
+     "nomeCompleto": "EMANUEL ANTONIO MENEZES PEREIRA",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "60002533961",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CARLOS FEITOSA",
+     "nomeCompleto": "CARLOS AUGUSTO NOGUEIRA FEITOSA",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

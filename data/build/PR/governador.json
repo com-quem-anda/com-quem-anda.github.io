@@ -1,0 +1,359 @@
+{
+ "uf": "PR",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.535Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 8,
+ "candidatos": [
+  {
+   "sq": "160002547666",
+   "uf": "PR",
+   "cargo": "governador",
+   "numero": "12",
+   "nomeUrna": "REQUIÃO FILHO",
+   "nomeCompleto": "MAURICIO THADEU DE MELLO E SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARANÁ PARA TODOS",
+    "composicao": "PDT / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "160001800896"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "160002547665",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "MICHELE CAPUTO",
+     "nomeCompleto": "MICHELE CAPUTO NETO",
+     "partido": {
+      "sigla": "SOLIDARIEDADE",
+      "numero": "77",
+      "nome": "SOLIDARIEDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002551353",
+   "uf": "PR",
+   "cargo": "governador",
+   "numero": "14",
+   "nomeUrna": "LUIZ FRANÇA",
+   "nomeCompleto": "LUIZ FELIPE MARTINS FRANCA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "160001801193"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "160002551354",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "JOÃO ADOLFO",
+     "nomeCompleto": "JOÃO ADOLFO PADILHA YAMANE WENDPAP",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002548010",
+   "uf": "PR",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "SAMUEL DE MATTOS",
+   "nomeCompleto": "SAMUEL DE MATTOS FIGUEIREDO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "160001800881"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "160002548009",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "HELENA FIGUEIREDO",
+     "nomeCompleto": "HELENA FIGUEIREDO DA COSTA",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002540833",
+   "uf": "PR",
+   "cargo": "governador",
+   "numero": "22",
+   "nomeUrna": "SERGIO MORO",
+   "nomeCompleto": "SERGIO FERNANDO MORO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FORTALEZA PARANÁ",
+    "composicao": "PODE / PL / NOVO",
+    "sq": "160001800506"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "160002540834",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "EDSON VASCONCELOS",
+     "nomeCompleto": "EDSON JOSE DE VASCONCELOS",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002552560",
+   "uf": "PR",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "ADRIANO FUNILEIRO",
+   "nomeCompleto": "ADRIANO TEIXEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "160001801324"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "160002552561",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ZÉ CARLOS",
+     "nomeCompleto": "JOSE CARLOS TELLES",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002547594",
+   "uf": "PR",
+   "cargo": "governador",
+   "numero": "33",
+   "nomeUrna": "DOUTOR ALEXANDRE SALOMÃO",
+   "nomeCompleto": "ALEXANDRE SALOMAO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MOBILIZA",
+    "numero": "33",
+    "nome": "MOBILIZAÇÃO NACIONAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MOBILIZA",
+    "sq": "160001800891"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "160002547595",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DAIANA CRIMINACIO",
+     "nomeCompleto": "DAIANA DA SILVA CRIMINACIO",
+     "partido": {
+      "sigla": "MOBILIZA",
+      "numero": "33",
+      "nome": "MOBILIZAÇÃO NACIONAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002549553",
+   "uf": "PR",
+   "cargo": "governador",
+   "numero": "55",
+   "nomeUrna": "SANDRO ALEX",
+   "nomeCompleto": "SANDRO ALEX CRUZ DE OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "COLIGAÇÃO A MUDANÇA CONTINUA",
+    "composicao": "REPUBLICANOS / MDB / DEMOCRATA / PSD / AVANTE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "160001801051"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "160002549552",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "RAFAEL GRECA",
+     "nomeCompleto": "RAFAEL VALDOMIRO GRECA DE MACEDO",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "160002550997",
+   "uf": "PR",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "TAYNÁ MIESSA",
+   "nomeCompleto": "TAYNA MIESSA TSUSHIDA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "160001801143"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "160002550998",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "WILLIAN ARAKI",
+     "nomeCompleto": "WILLIAN YUKIO ARAKI",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

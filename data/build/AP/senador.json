@@ -1,0 +1,554 @@
+{
+ "uf": "AP",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.316Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 9,
+ "candidatos": [
+  {
+   "sq": "30002549909",
+   "uf": "AP",
+   "cargo": "senador",
+   "numero": "130",
+   "nomeUrna": "RANDOLFE",
+   "nomeCompleto": "RANDOLPH FREDERICH RODRIGUES ALVES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "JUNTOS POR TODO O AMAPÁ",
+    "composicao": "REPUBLICANOS / PDT / AGIR / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "30001801037"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "30002549908",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "GABRIEL ANDRADE",
+     "nomeCompleto": "CARLOS GABRIEL ANDRADE NONATO",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "30002549907",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JESSYCA MAIS SAUDE",
+     "nomeCompleto": "JESSYCA SOUSA DE AGUIAR",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "30002549911",
+   "uf": "AP",
+   "cargo": "senador",
+   "numero": "151",
+   "nomeUrna": "ACÁCIO FAVACHO",
+   "nomeCompleto": "ACACIO DA SILVA FAVACHO NETO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "30001801038"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "30002549912",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ELISANGELA TIMBIRAS",
+     "nomeCompleto": "ELISANGELA DO SOCORRO MORAES BASTOS",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "30002549910",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ABDIAS",
+     "nomeCompleto": "ABDIAS EDUARDO PONTES",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "30002530071",
+   "uf": "AP",
+   "cargo": "senador",
+   "numero": "200",
+   "nomeUrna": "RAYSSA FURLAN",
+   "nomeCompleto": "RAYSSA CADENA FURLAN",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PODE",
+    "numero": "20",
+    "nome": "PODEMOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "TRABALHAR PARA TRANSFORMAR O AMAPÁ",
+    "composicao": "PODE / PL / NOVO / PSD",
+    "sq": "30001799969"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "30002530072",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "NETO FURLAN",
+     "nomeCompleto": "JOSE FURLAN NETO",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "30002530068",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARLUCIA SULLYVAN",
+     "nomeCompleto": "ANTONIA FERREIRA SULLYVAN",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "30002551381",
+   "uf": "AP",
+   "cargo": "senador",
+   "numero": "272",
+   "nomeUrna": "PROFESSOR UZIAN PINTO",
+   "nomeCompleto": "UZIAN PINTO MACHADO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "30001801198"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "30002551386",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "HÉLIO FLÁVIO",
+     "nomeCompleto": "HELIO FLAVIO DE SOUZA LIMA",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "30002551383",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "GILBERTO PENA",
+     "nomeCompleto": "GILBERTO MAURO AMANAJÁS PENA",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "30002551382",
+   "uf": "AP",
+   "cargo": "senador",
+   "numero": "277",
+   "nomeUrna": "JUÍZA JÔ",
+   "nomeCompleto": "JOENILDA LOBATO SILVA LENZI",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "30001801198"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "30002551384",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "TOBIAS",
+     "nomeCompleto": "TOBIAS LAURINDO",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "30002551385",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "VILMAR",
+     "nomeCompleto": "VILMAR LAURINDO",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "30002553708",
+   "uf": "AP",
+   "cargo": "senador",
+   "numero": "290",
+   "nomeUrna": "HELIO SILVA",
+   "nomeCompleto": "HELIO PALHETA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "30001801435"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "30002553707",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "IRIS SILVA",
+     "nomeCompleto": "IRIS MONTEIRO SILVA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "30002553709",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JAZIEL SOUZA",
+     "nomeCompleto": "JAZIEL MAGALHAES DE SOUZA",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "30002550229",
+   "uf": "AP",
+   "cargo": "senador",
+   "numero": "401",
+   "nomeUrna": "CAPI",
+   "nomeCompleto": "JOAO ALBERTO RODRIGUES CAPIBERIBE",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSB",
+    "numero": "40",
+    "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSB",
+    "sq": "30001801099"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "30002550230",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JOSE RAMALHO",
+     "nomeCompleto": "JOSE RAMALHO DE OLIVEIRA",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "30002550228",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PROF HALDA",
+     "nomeCompleto": "HALDA MARIA DOS SANTOS BRANDAO",
+     "partido": {
+      "sigla": "PSB",
+      "numero": "40",
+      "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "30002551576",
+   "uf": "AP",
+   "cargo": "senador",
+   "numero": "444",
+   "nomeUrna": "ALLINY SERRÃO",
+   "nomeCompleto": "ALLINY SOUSA DA ROCHA SERRAO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "JUNTOS POR TODO O AMAPÁ",
+    "composicao": "REPUBLICANOS / PDT / AGIR / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "30001801037"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "30002552533",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JAIME NUNES",
+     "nomeCompleto": "JAIME DOMINGUES NUNES",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "30002552716",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "PASTOR MIGUEL",
+     "nomeCompleto": "MIGUEL ROBERTO NOGUEIRA DE ANDRADE",
+     "partido": {
+      "sigla": "UNIÃO",
+      "numero": "44",
+      "nome": "UNIÃO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "30002530069",
+   "uf": "AP",
+   "cargo": "senador",
+   "numero": "555",
+   "nomeUrna": "LUCAS BARRETO",
+   "nomeCompleto": "LUIZ CANTUARIA BARRETO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSD",
+    "numero": "55",
+    "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "TRABALHAR PARA TRANSFORMAR O AMAPÁ",
+    "composicao": "PODE / PL / NOVO / PSD",
+    "sq": "30001799969"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "30002530070",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PAULO ALBUQUERQUE",
+     "nomeCompleto": "PAULO JOSE DE BRITO SILVA ALBUQUERQUE",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "30002530073",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "DIOGO GRUNHO",
+     "nomeCompleto": "DIOGO BRITO GRUNHO",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

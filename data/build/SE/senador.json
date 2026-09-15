@@ -1,0 +1,692 @@
+{
+ "uf": "SE",
+ "cargo": "senador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.647Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 11,
+ "candidatos": [
+  {
+   "sq": "260002549127",
+   "uf": "SE",
+   "cargo": "senador",
+   "numero": "100",
+   "nomeUrna": "EDUARDO AMORIM",
+   "nomeCompleto": "EDUARDO ALVES DO AMORIM",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REPUBLICANOS",
+    "numero": "10",
+    "nome": "REPUBLICANOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "MUDA SERGIPE COM A FORÇA DO POVO",
+    "composicao": "REPUBLICANOS / AVANTE",
+    "sq": "260001801010"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "260002549129",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ADAILTON SOUSA",
+     "nomeCompleto": "ADAILTON RESENDE SOUSA",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002549128",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "DANILO DE JOALDO",
+     "nomeCompleto": "DANILO ALVES DE CARVALHO",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002549130",
+   "uf": "SE",
+   "cargo": "senador",
+   "numero": "101",
+   "nomeUrna": "DELEGADO ANDRÉ DAVID",
+   "nomeCompleto": "ANDRÉ DAVID CALDAS ROSA RODRIGUES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "REPUBLICANOS",
+    "numero": "10",
+    "nome": "REPUBLICANOS"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "MUDA SERGIPE COM A FORÇA DO POVO",
+    "composicao": "REPUBLICANOS / AVANTE",
+    "sq": "260001801010"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "260002549131",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "REBEKA MAIA",
+     "nomeCompleto": "REBEKA DA SILVA MAIA",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002549126",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "TENENTE-CORONEL IRIS",
+     "nomeCompleto": "IRIS LESSY SANTOS GOMES",
+     "partido": {
+      "sigla": "REPUBLICANOS",
+      "numero": "10",
+      "nome": "REPUBLICANOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002551550",
+   "uf": "SE",
+   "cargo": "senador",
+   "numero": "123",
+   "nomeUrna": "EDVALDO",
+   "nomeCompleto": "EDVALDO NOGUEIRA FILHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PDT",
+    "sq": "260001801179"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "260002551549",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JOAQUIM FERREIRA",
+     "nomeCompleto": "JOAQUIM DA SILVA FERREIRA",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002551548",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CRIS TEIXEIRA",
+     "nomeCompleto": "CRISTIAN ARAUJO TEIXEIRA",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002547285",
+   "uf": "SE",
+   "cargo": "senador",
+   "numero": "131",
+   "nomeUrna": "ROGERIO CARVALHO",
+   "nomeCompleto": "ROGERIO CARVALHO SANTOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PT",
+    "numero": "13",
+    "nome": "PARTIDO DOS TRABALHADORES"
+   },
+   "federacao": {
+    "sigla": "PT/PC do B/PV",
+    "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
+    "composicao": "PT/PC do B/PV"
+   },
+   "coligacao": {
+    "nome": "SERGIPE CRESCE COM VOCÊ",
+    "composicao": "PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "260001800870"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "260002547288",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "BRUNO COSTA",
+     "nomeCompleto": "BRUNO COSTA NUNES",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002547289",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FABIANO OLIVEIRA",
+     "nomeCompleto": "FABIANO LUIS DE ALMEIDA OLIVEIRA",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002533084",
+   "uf": "SE",
+   "cargo": "senador",
+   "numero": "155",
+   "nomeUrna": "DELEGADO ALESSANDRO",
+   "nomeCompleto": "ALESSANDRO VIEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MDB",
+    "sq": "260001800148"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "260002533085",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ADRIANA CARVALHO",
+     "nomeCompleto": "ADRIANA GOMES MENEZES CARVALHO",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002533086",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JOÃOZINHO DE SOLINHA",
+     "nomeCompleto": "JOAO ARAUJO DE MENEZES SOBRINHO",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002551366",
+   "uf": "SE",
+   "cargo": "senador",
+   "numero": "221",
+   "nomeUrna": "CORONEL ROCHA",
+   "nomeCompleto": "HENRIQUE ALVES DA ROCHA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FÉ E CORAGEM PRA MUDAR",
+    "composicao": "PODE / PL / NOVO",
+    "sq": "260001801195"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "260002551363",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "JOSÉ OLÍVIO",
+     "nomeCompleto": "JOSE OLIVIO CALASANS DO NASCIMENTO",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002551365",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "SGT. KRISVANIA",
+     "nomeCompleto": "KRISVANIA BARBOSA DA SILVA",
+     "partido": {
+      "sigla": "PL",
+      "numero": "22",
+      "nome": "PARTIDO LIBERAL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002551362",
+   "uf": "SE",
+   "cargo": "senador",
+   "numero": "222",
+   "nomeUrna": "RODRIGO VALADARES",
+   "nomeCompleto": "RODRIGO SANTANA VALADARES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "FÉ E CORAGEM PRA MUDAR",
+    "composicao": "PODE / PL / NOVO",
+    "sq": "260001801195"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "260002551364",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "GLÓRIA SENA",
+     "nomeCompleto": "MARIA DA GLORIA GOMES SENA",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002551361",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARINA CASTRO",
+     "nomeCompleto": "MARINA ARAUJO FERRAZ DE CASTRO",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002543589",
+   "uf": "SE",
+   "cargo": "senador",
+   "numero": "270",
+   "nomeUrna": "PAULINHO DA UNIÃO TUR",
+   "nomeCompleto": "PAULO VIEIRA DOS ANJOS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "260001800673"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "260002543592",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "GEIVISSON",
+     "nomeCompleto": "GEIVISSON VIEIRA DOS ANJOS",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002554205",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARIO SONHADOR",
+     "nomeCompleto": "ANTÔNIO MÁRIO DE JESUS",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002543590",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARCIO VIEIRA DO MOEMA MEIRE",
+     "nomeCompleto": "MARCIO VIEIRA DOS SANTOS",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002543591",
+   "uf": "SE",
+   "cargo": "senador",
+   "numero": "277",
+   "nomeUrna": "RENATINHA",
+   "nomeCompleto": "RENATA OLIVEIRA SILVA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "260001800673"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "260002543814",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "NEIDE ALVES",
+     "nomeCompleto": "VANEIDE ALVES DOS SANTOS",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002543813",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "SELMA BISPO",
+     "nomeCompleto": "SELMA BISPO DOS SANTOS",
+     "partido": {
+      "sigla": "DC",
+      "numero": "27",
+      "nome": "DEMOCRACIA CRISTÃ"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002547290",
+   "uf": "SE",
+   "cargo": "senador",
+   "numero": "444",
+   "nomeUrna": "ANDRÉ MOURA",
+   "nomeCompleto": "ANDRE LUIS DANTAS FERREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UNIÃO",
+    "numero": "44",
+    "nome": "UNIÃO BRASIL"
+   },
+   "federacao": {
+    "sigla": "UNIÃO/PP",
+    "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
+    "composicao": "UNIÃO/PP"
+   },
+   "coligacao": {
+    "nome": "SERGIPE CRESCE COM VOCÊ",
+    "composicao": "PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "260001800870"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "260002547286",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "RICARDO VASCONCELOS",
+     "nomeCompleto": "RICARDO VASCONCELOS SILVA",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002547287",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "SELMA FRANÇA",
+     "nomeCompleto": "REGINA SELMA FRANCA CRUZ",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "260002545677",
+   "uf": "SE",
+   "cargo": "senador",
+   "numero": "500",
+   "nomeUrna": "IRAN BARBOSA",
+   "nomeCompleto": "JOSE IRAN BARBOSA FILHO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSOL",
+    "numero": "50",
+    "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+   },
+   "federacao": {
+    "sigla": "PSOL/REDE",
+    "nome": "FEDERAÇÃO PSOL REDE",
+    "composicao": "PSOL/REDE"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "260001800786"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "260002545676",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MAGAL DA PASTORAL",
+     "nomeCompleto": "CARLOS ANTONIO DE MAGALHAES",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002545678",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "NÚZIA COSTA",
+     "nomeCompleto": "NUZIA CAMPOS NASCIMENTO COSTA",
+     "partido": {
+      "sigla": "PSOL",
+      "numero": "50",
+      "nome": "PARTIDO SOCIALISMO E LIBERDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}

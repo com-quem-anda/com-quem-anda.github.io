@@ -1,0 +1,320 @@
+{
+ "uf": "RS",
+ "cargo": "governador",
+ "eleicao": {
+  "ano": 2026,
+  "codigo": "6259",
+  "descricao": "Eleições Gerais Estaduais 2026",
+  "dataPleito": "2026-10-04"
+ },
+ "geradoEm": "2026-09-12T11:48:27.625Z",
+ "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
+ "total": 7,
+ "candidatos": [
+  {
+   "sq": "210002551508",
+   "uf": "RS",
+   "cargo": "governador",
+   "numero": "12",
+   "nomeUrna": "JULIANA BRIZOLA",
+   "nomeCompleto": "JULIANA BRIZOLA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PDT",
+    "numero": "12",
+    "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "COLIGAÇÃO COM O POVO",
+    "composicao": "PDT / PSB / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "sq": "210001801165"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "210002551509",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "EDEGAR PRETTO",
+     "nomeCompleto": "JOAO EDEGAR PRETTO",
+     "partido": {
+      "sigla": "PT",
+      "numero": "13",
+      "nome": "PARTIDO DOS TRABALHADORES"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "210002542892",
+   "uf": "RS",
+   "cargo": "governador",
+   "numero": "15",
+   "nomeUrna": "GABRIEL SOUZA",
+   "nomeCompleto": "GABRIEL VIEIRA DE SOUZA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MDB",
+    "numero": "15",
+    "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "NOSSO RIO GRANDE NÃO PARA",
+    "composicao": "MDB / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "sq": "210001800634"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "210002542891",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ERNANI POLO",
+     "nomeCompleto": "ERNANI POLO",
+     "partido": {
+      "sigla": "PSD",
+      "numero": "55",
+      "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "210002541367",
+   "uf": "RS",
+   "cargo": "governador",
+   "numero": "16",
+   "nomeUrna": "REJANE DE OLIVEIRA",
+   "nomeCompleto": "REJANE SILVA DE OLIVEIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSTU",
+    "numero": "16",
+    "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PSTU",
+    "sq": "210001800478"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "210002541368",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "ADÃO LIMA",
+     "nomeCompleto": "ADÃO ALBERTO TEIXEIRA LIMA",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "210002547857",
+   "uf": "RS",
+   "cargo": "governador",
+   "numero": "22",
+   "nomeUrna": "ZUCCO",
+   "nomeCompleto": "LUCIANO LORENZINI ZUCCO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PL",
+    "numero": "22",
+    "nome": "PARTIDO LIBERAL"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "O RIO GRANDE PODE MAIS",
+    "composicao": "REPUBLICANOS / PODE / PL / DC / NOVO / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "sq": "210001800953"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "210002547858",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SILVANA COVATTI",
+     "nomeCompleto": "SILVANA MARIA FRANCISCATTO COVATTI",
+     "partido": {
+      "sigla": "PP",
+      "numero": "11",
+      "nome": "PROGRESSISTAS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "210002552592",
+   "uf": "RS",
+   "cargo": "governador",
+   "numero": "29",
+   "nomeUrna": "CESAR PONTES",
+   "nomeCompleto": "CESAR AUGUSTO PONTES FERREIRA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PCO",
+    "numero": "29",
+    "nome": "PARTIDO DA CAUSA OPERÁRIA"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PCO",
+    "sq": "210001801331"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "210002552593",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "TIAGO NILO",
+     "nomeCompleto": "TIAGO NILO",
+     "partido": {
+      "sigla": "PCO",
+      "numero": "29",
+      "nome": "PARTIDO DA CAUSA OPERÁRIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "210002535802",
+   "uf": "RS",
+   "cargo": "governador",
+   "numero": "45",
+   "nomeUrna": "MARCELO MARANATA",
+   "nomeCompleto": "MARCELO MARANATA SOARES REINALDO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PSDB",
+    "numero": "45",
+    "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+   },
+   "federacao": {
+    "sigla": "PSDB/CIDADANIA",
+    "nome": "FEDERAÇÃO PSDB CIDADANIA",
+    "composicao": "PSDB/CIDADANIA"
+   },
+   "coligacao": {
+    "nome": "FEDERAÇÃO",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "sq": "210001800241"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "210002535803",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "CLAUDIO DIAZ",
+     "nomeCompleto": "CLAUDIO CASTANHEIRA DIAZ",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
+   "sq": "210002533355",
+   "uf": "RS",
+   "cargo": "governador",
+   "numero": "80",
+   "nomeUrna": "PRISCILA VOIGT",
+   "nomeCompleto": "PRISCILA VOIGT SEVERIANO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "UP",
+    "numero": "80",
+    "nome": "UNIDADE POPULAR"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "UP",
+    "sq": "210001800140"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "210002533354",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "NAF NASCIMENTO",
+     "nomeCompleto": "NAFTALY PEREIRA DO NASCIMENTO",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  }
+ ]
+}
