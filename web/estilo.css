@@ -94,6 +94,26 @@ select:hover, .botao:hover { border-color: var(--accent); }
 .cartao h3 { font-size: 0.95rem; }
 p.nota { font-size: 0.85rem; color: var(--muted); max-width: 58ch; }
 
+/* Orientação de primeira visita. Curta o bastante para quem já conhece não
+   precisar pular, explícita o bastante para quem nunca viu saber onde tocar. */
+ol.passos-uso {
+  list-style: none; margin: 18px 0 0; padding: 12px 15px; display: grid; gap: 6px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--r);
+  counter-reset: passo; font-size: .87rem; color: var(--ink-soft);
+}
+ol.passos-uso li { display: grid; grid-template-columns: 1.35rem minmax(0,1fr); gap: 9px; align-items: baseline; }
+ol.passos-uso li::before {
+  counter-increment: passo; content: counter(passo);
+  font-family: var(--mono); font-size: .7rem; font-weight: 600; color: var(--accent);
+  background: var(--accent-soft); border-radius: 50%; width: 1.35rem; height: 1.35rem;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+ol.passos-uso b { color: var(--ink); font-weight: 600; }
+
+/* O próximo cargo a preencher fica marcado, para o olho não ter de procurar. */
+.slot.proximo .slot-topo { box-shadow: inset 3px 0 0 var(--accent); background: var(--accent-soft); }
+.slot.proximo .slot-acao { color: var(--accent); font-weight: 600; }
+
 /* cédula */
 .cedula { display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
 .slot { background: var(--surface); }
@@ -238,6 +258,42 @@ footer .ia { color: var(--ink-soft); }
   .info::after { content: ""; position: absolute; inset: -10px; }
 }
 
+
+/* ---------- folha de impressão ---------- */
+/* Sem biblioteca de PDF: uma folha própria, montada na hora, e o diálogo do
+   navegador faz o resto. Funciona em desktop e em celular, e não custa
+   nenhum KB de download a quem só quer usar a ferramenta. */
+#impressao { display: none; }
+
+@media print {
+  body > *:not(#impressao) { display: none !important; }
+  #impressao { display: block !important; }
+  @page { margin: 14mm 12mm; }
+  html, body { background: #fff !important; color: #111 !important; font-size: 10.5pt; }
+
+  #impressao { font-family: "IBM Plex Sans", Helvetica, Arial, sans-serif; color: #111; }
+  #impressao h1 { font-size: 17pt; margin: 0 0 2mm; letter-spacing: -.01em; }
+  #impressao .sub { font-size: 9pt; color: #555; margin-bottom: 5mm; }
+  #impressao h2 { font-size: 10pt; text-transform: uppercase; letter-spacing: .08em;
+    color: #555; margin: 6mm 0 2mm; padding-bottom: 1mm; border-bottom: .4pt solid #bbb; font-weight: 600; }
+  #impressao table { width: 100%; border-collapse: collapse; font-size: 9.5pt; }
+  #impressao th { text-align: left; font-size: 7.5pt; text-transform: uppercase; letter-spacing: .07em;
+    color: #666; font-weight: 600; padding: 1.5mm 2mm 1.5mm 0; border-bottom: .4pt solid #bbb; }
+  #impressao td { padding: 1.8mm 2mm 1.8mm 0; border-bottom: .3pt solid #ddd; vertical-align: top; }
+  #impressao td.num { font-family: "IBM Plex Mono", monospace; white-space: nowrap; color: #444; }
+  #impressao td.nome { font-weight: 600; }
+  #impressao .chapa-p { font-size: 8.5pt; color: #555; padding-left: 4mm; }
+  #impressao .leitura { display: flex; flex-wrap: wrap; gap: 3mm 8mm; margin-top: 2mm; font-size: 9.5pt; }
+  #impressao .leitura b { display: block; font-size: 7.5pt; text-transform: uppercase; letter-spacing: .07em; color: #666; font-weight: 600; }
+  #impressao .destaque { font-size: 13pt; font-weight: 700; }
+  #impressao p { margin: 2mm 0 0; font-size: 9.5pt; }
+  #impressao .rodape { margin-top: 7mm; padding-top: 2mm; border-top: .4pt solid #bbb;
+    font-size: 7.5pt; color: #666; line-height: 1.45; }
+  #impressao .rodape code { font-family: "IBM Plex Mono", monospace; word-break: break-all; }
+  #impressao .aviso-p { margin-top: 3mm; padding: 2.5mm 3mm; border-left: 1pt solid #999; background: #f4f4f4; font-size: 8.5pt; color: #333; }
+  #impressao tr, #impressao .bloco-p { break-inside: avoid; }
+}
+
 /* pautas */
 .barras-pesq { display: grid; gap: 14px; }
 .pesq { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; display: grid; gap: 9px; }
@@ -309,3 +365,18 @@ table.cruz tbody tr:hover td { background: var(--sunk); }
 .cruz-item:last-child { border-bottom: 0; }
 .cruz-item small { display: block; color: var(--muted); font-family: var(--mono); font-size: .72em; }
 .cruz-val { font-family: var(--mono); font-size: .78rem; padding: 2px 8px; border-radius: 2px; white-space: nowrap; }
+
+/* avisos e limites */
+.aviso-doc { max-width: 60rem; }
+.alerta-doc { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 0 var(--r) var(--r) 0; padding: 14px 16px; display: grid; gap: 9px; }
+.alerta-doc.forte { border-left-color: var(--aviso); background: var(--aviso-soft); }
+.alerta-doc p { font-size: .93rem; color: var(--ink-soft); max-width: 68ch; }
+.alerta-doc.forte p { color: var(--ink); }
+ul.lista-limites { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
+ul.lista-limites li { background: var(--surface); padding: 13px 16px; display: grid; gap: 4px; }
+ul.lista-limites b { font-size: .95rem; color: var(--ink); font-weight: 600; }
+ul.lista-limites span { font-size: .89rem; color: var(--ink-soft); max-width: 70ch; overflow-wrap: anywhere; }
+ul.lista-limites code { font-family: var(--mono); font-size: .85em; background: var(--sunk); padding: 1px 4px; border-radius: 2px; }
+.nota-legal { font-size: .93rem; color: var(--ink-soft); background: var(--sunk); border-left: 2px solid var(--line-strong); padding: 13px 16px; border-radius: 0 var(--r) var(--r) 0; max-width: 70ch; }
+.aviso-doc .tabela td:first-child { width: 14rem; }
+@media (max-width: 620px) { .aviso-doc .tabela td:first-child { width: auto; } .aviso-doc .tabela tr { display: grid; gap: 2px; padding-block: 6px; } .aviso-doc .tabela td { border: 0; padding: 2px 0; } .aviso-doc .tabela tbody tr { border-bottom: 1px solid var(--line); } }

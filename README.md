@@ -9,6 +9,24 @@ como artifact, a partir dos mesmos JSONs de `data/build`.
 
 Especificação completa: [`CEDULA-ABERTA-SPEC.md`](CEDULA-ABERTA-SPEC.md).
 
+## Tirar do ar
+
+Duas formas, as duas imediatas e reversíveis:
+
+```bash
+# 1) desliga só o site, repositório segue público
+gh api -X DELETE repos/RikoDalge/cedula-aberta/pages
+
+# 2) tira site e código do ar de uma vez
+gh repo edit RikoDalge/cedula-aberta --visibility private --accept-visibility-change-consequences
+```
+
+Para religar: `gh api -X POST repos/RikoDalge/cedula-aberta/pages -f build_type=workflow`
+e um push na `main`.
+
+O que **não** volta atrás: quem já baixou, arquivos em cache de CDN por algumas horas,
+e cópias em serviços de arquivo como o Internet Archive.
+
 ## No ar
 
 **https://rikodalge.github.io/cedula-aberta/**

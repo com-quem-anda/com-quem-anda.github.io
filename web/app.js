@@ -193,7 +193,8 @@
     el("cedula").innerHTML = CARGOS.map(([slot]) => {
       const c = cand(slot);
       const corpo = c ? `<span class="num">${esc(c[0])}</span>${esc(c[1])}` : "sem voto";
-      return `<div class="slot">
+      const primeiroVazio = !c && !CARGOS.slice(0, CARGOS.findIndex(([x]) => x === slot)).some(([x]) => escolhas[x] === undefined);
+      return `<div class="slot${primeiroVazio ? " proximo" : ""}">
         <button class="slot-topo" type="button" data-slot="${slot}" aria-expanded="${aberto === slot}">
           <span class="slot-cargo">${esc(rotulo(slot))}</span>
           <span class="slot-nome${c ? "" : " vazio"}">${corpo} ${selo(c)}</span>
@@ -248,8 +249,11 @@
 
   function renderResultado(r) {
     if (r.C === null) {
-      el("nivelNome").textContent = "—";
-      el("nivelFrase").textContent = "Escolha pelo menos dois cargos para o índice existir.";
+      const quantos = CARGOS.filter(([sl]) => escolhas[sl] !== undefined).length;
+      el("nivelNome").textContent = quantos === 0 ? "Comece pela cédula" : "Falta um voto";
+      el("nivelFrase").textContent = quantos === 0
+        ? "Escolha seus candidatos ao lado. Com dois votos o índice já aparece aqui — e você pode preencher só os cargos que quiser."
+        : "Com mais um voto dá para comparar. O índice mede a relação entre as suas escolhas, então precisa de pelo menos duas.";
       el("nivelPct").textContent = "";
       el("degraus").innerHTML = NIVEIS.map(() => `<span class="degrau"></span>`).join("");
       el("metricas").innerHTML = ""; el("hist").innerHTML = ""; el("alavancagem").innerHTML = "";
@@ -358,6 +362,9 @@
 
   function render() {
     renderCedula(); renderChapa(); renderSugestao(); renderResultado(calcular());
+    const vazia = !CARGOS.some(([sl]) => escolhas[sl] !== undefined);
+    const dv = el("dicaVazia"); if (dv) dv.hidden = !vazia;
+    el("exportar").disabled = vazia;
     if (D.itensPautas) renderMatch();   // o cruzamento com a cédula depende dos votos
   }
 
@@ -681,6 +688,43 @@
     renderPrioridades(); renderVsBrasil(); renderQuestionario(); renderMatch();
   }
 
+
+  /* =================== avisos e limites =================== */
+
+  /** Os limites saem do próprio dado carregado, para não descolarem da realidade. */
+  function renderAvisos() {
+    const P = D.pautas, dt = (x) => x ? new Date(x).toLocaleDateString("pt-BR") : "—";
+    const semPosicao = P
+      ? D.grafo.partidos.filter((p) => !P.posicoes.some((x) => x.sigla.toUpperCase().replace(/\s/g, "") === p.toUpperCase().replace(/\s/g, "")))
+      : [];
+    const totalCand = 20028;
+
+    const itens = [
+      ["Nenhuma candidatura está confirmada",
+       `O TSE ainda publica <code>#NE</code> na situação de registro de <strong>todas</strong> as candidaturas de 2026. A ferramenta não tem como saber quem será indeferido, renunciará ou será cassado, e não afirma que qualquer nome aqui estará na urna.`],
+      ["O dado tem data e está congelado",
+       `Última coleta do pacote do TSE em <strong>${dt(D.fonte.tse.geradoEm)}</strong>. A atualização automática está desligada porque o CDN do TSE bloqueia os servidores de publicação por IP, então o dado só avança quando alguém roda a coleta manualmente.`],
+      ["O pacote do TSE contém anomalias",
+       `<strong>${mil(D.anomalias)}</strong> anomalias detectadas — candidaturas duplicadas, chapas com número de vice ou suplente fora do previsto em lei. Elas são declaradas, nunca corrigidas: a ferramenta não escolhe qual registro é o verdadeiro. Ainda não aparecem ao lado do candidato na tela.`],
+      ["Um quinto dos candidatos não tem posição estimável",
+       `<strong>${semPosicao.length}</strong> legendas não têm bancada federal suficiente para medir posição — cerca de <strong>19% das candidaturas</strong>. Para os candidatos delas a camada de posição não existe, e a tela diz isso em vez de estimar. São: ${semPosicao.map(esc).join(", ") || "—"}.`],
+      ["Governador e deputado estadual não têm dado de posição",
+       `Assembleias legislativas não publicam votação nominal de plenário. Medi na ALESP, a mais bem documentada do país: 94,8% das votações de comissão são unânimes e a mediana de itens em comum entre deputados é zero. Não há escala a construir.`],
+      ["Só uma fração dos candidatos tem registro de voto",
+       `<strong>${mil((D.mandatos && D.mandatos.comMandato) || 0)}</strong> das ${mil(totalCand)} candidaturas são de quem tem mandato hoje — cerca de 2,4%. Só existe histórico de votação para quem já votou em plenário.`],
+      ["Um quarto dos deputados trocou de partido",
+       P ? `<strong>${P.migrantes}</strong> dos ${P.deputados} deputados mudaram de legenda durante a legislatura. Cada um é contado no partido em que está hoje, o que significa que parte do comportamento medido é anterior à troca.` : "—"],
+      ["Parte do grafo de aliança é frágil",
+       `<strong>${Object.keys(D.grafo.fragil).length}</strong> das ${Object.keys(D.grafo.prox).length} relações entre partidos se apoiam em menos de três coincidências. São instáveis e ainda não estão marcadas como tal na tela.`],
+      ["Doze votações não são uma legislatura",
+       P ? `O questionário usa 12 votações entre as ${mil(P.votacoesDivididas)} divididas da legislatura. A escolha priorizou direção de voto declarável sem ambiguidade e cobertura temática, não representatividade estatística do conjunto.` : "—"],
+      ["A leitura satura no topo",
+       `Chapas bastante diferentes entre si podem receber o mesmo nível, porque quase toda combinação possível é incoerente e qualquer voto por afinidade partidária vai para o alto da distribuição.`],
+    ];
+    el("limites").innerHTML = itens.map(([t, d2]) =>
+      `<li><b>${esc(t)}</b><span>${d2}</span></li>`).join("");
+  }
+
   /* =================== dica flutuante =================== */
 
   const dica = el("dica");
@@ -808,6 +852,96 @@
     aberto = null; busca = ""; render();
   }
 
+
+  /* =================== exportar a cédula =================== */
+
+  /**
+   * Monta uma folha própria e chama o diálogo de impressão, que salva em PDF
+   * em qualquer navegador de desktop ou celular. A alternativa seria carregar
+   * uma biblioteca de PDF de algumas centenas de KB — custo que recairia sobre
+   * todo mundo, inclusive quem nunca vai exportar.
+   */
+  function montarImpressao() {
+    const r = calcular();
+    const agora = new Date().toLocaleString("pt-BR", { dateStyle: "long", timeStyle: "short" });
+    const votos = CARGOS.filter(([sl]) => escolhas[sl] !== undefined);
+
+    const linhas = votos.map(([sl]) => {
+      const c = cand(sl);
+      const vinc = (c[4] ?? []).map(([papel, nome, part]) =>
+        `<div class="chapa-p">${esc(papel.toLowerCase())}: ${esc(nome)} (${esc(part)})</div>`).join("");
+      return `<tr>
+        <td>${esc(rotulo(sl))}</td>
+        <td class="num">${esc(c[0])}</td>
+        <td class="nome">${esc(c[1])}${vinc}</td>
+        <td class="num">${esc(c[2])}${c[3] ? " · com mandato" : ""}</td>
+      </tr>`;
+    }).join("");
+
+    let leitura = "";
+    if (r.C !== null) {
+      const i = nivelDe(r.pct), sat = r.pct >= 99.95;
+      const mediana = r.nula.valores[Math.floor(r.nula.valores.length / 2)];
+      leitura = `<h2>Leitura da chapa</h2>
+        <div class="leitura">
+          <span><b>Nível</b><span class="destaque">${esc(NIVEIS[i].nome)}</span></span>
+          <span><b>Posição</b>${sat ? "acima de 99,9%" : "percentil " + num(r.pct, 1)}</span>
+          <span><b>Coerência bruta</b>${num(r.C)}</span>
+          <span><b>Mediana ao acaso</b>${num(mediana)}</span>
+          <span><b>Referência</b>${r.nula.exata ? mil(r.nula.combinacoes) + " cédulas, todas" : "20.000 sorteios"}</span>
+        </div>
+        <p>${esc(NIVEIS[i].frase)}</p>` +
+        (r.alav.length && r.alav[0].delta > 0.001
+          ? `<p><strong>Voto que mais destoa:</strong> ${esc(r.alav[0].cand[1])} (${esc(r.alav[0].cand[2])}, ${esc(rotulo(r.alav[0].slot))}).</p>`
+          : "");
+    }
+
+    // O resultado do questionário só entra se a pessoa tiver respondido.
+    let visao = "";
+    const m = D.itensPautas ? calcularMatch() : null;
+    if (m && !m.insuficiente && m.linhas?.length) {
+      visao = `<h2>Teste sua visão</h2>
+        <p>Respondeu ${m.respondidas} de ${itensVoce().length} votações. Bancadas que mais votaram como você:</p>
+        <div class="leitura">${m.linhas.slice(0, 4).map((l) =>
+          `<span><b>${esc(l.sigla)}</b>${Math.round(100 * l.match)}%</span>`).join("")}</div>`;
+    }
+
+    const f = D.fonte;
+    el("impressao").innerHTML = `
+      <h1>Minha cédula — ${esc(uf)}</h1>
+      <div class="sub">Cédula Aberta · gerado em ${esc(agora)}</div>
+      <h2>Votos</h2>
+      <table><thead><tr><th>Cargo</th><th>Número</th><th>Candidato</th><th>Partido</th></tr></thead>
+      <tbody>${linhas || `<tr><td colspan="4">Nenhum voto escolhido.</td></tr>`}</tbody></table>
+      ${leitura}${visao}
+      <div class="aviso-p">
+        Coerência mede se os partidos escolhidos costumam se aliar entre si — não mede ideologia,
+        qualidade de voto nem o que o candidato fará. Chapa dispersa não é erro: quem quer freio e
+        contrapeso monta assim de propósito. O TSE ainda não julgou os registros de 2026, então
+        nenhuma candidatura aqui está confirmada como deferida.
+      </div>
+      <div class="rodape">
+        Dados do TSE, Portal de Dados Abertos, dataset candidatos-2026, licença Creative Commons
+        Atribuição (CC-BY). Pacote <code>${esc(String(f.tse.sha256).slice(0, 32))}…</code>.
+        Malha territorial do IBGE. Votações nominais da Câmara dos Deputados.<br>
+        Método e fontes em rikodalge.github.io/cedula-aberta — aba Método.
+        Ferramenta construída com auxílio de inteligência artificial.
+      </div>`;
+  }
+
+  // Ctrl+P sem passar pelo botão imprimiria a folha vazia, porque o CSS de
+  // impressão esconde o resto da página. Montar aqui cobre os dois caminhos.
+  window.addEventListener("beforeprint", montarImpressao);
+
+  el("exportar").addEventListener("click", () => {
+    if (!CARGOS.some(([sl]) => escolhas[sl] !== undefined)) {
+      alert("Escolha ao menos um voto antes de exportar.");
+      return;
+    }
+    montarImpressao();
+    window.print();
+  });
+
   el("sortear").addEventListener("click", () => sortear(Date.now() >>> 0));
   el("limpar").addEventListener("click", () => { escolhas = {}; aberto = null; busca = ""; render(); });
 
@@ -868,8 +1002,13 @@
       renderMapa();
       renderPautas();
       renderVoce();
+      renderAvisos();
       marcarUfNoMapa();
-      sortear(SEMENTE);   // abre com uma cédula sorteada: mostra o que faz sem sugerir voto em ninguém
+      // Abre vazia, de propósito. Antes abria sorteada, para demonstrar a
+      // ferramenta — mas sortear dá exposição a nomes que ninguém pediu para
+      // ver, e numa ferramenta eleitoral isso é viés, não demonstração. Quem
+      // quiser ver funcionando clica em "Sortear cédula".
+      render();
     } catch (err) {
       el("cedula").innerHTML = `<div class="vazio-msg">Não foi possível carregar os dados: ${esc(err.message)}. Recarregue a página.</div>`;
       console.error(err);

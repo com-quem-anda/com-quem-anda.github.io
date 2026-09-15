@@ -22,26 +22,35 @@
     </p>
     <div class="abas" role="tablist">
       <button class="aba" role="tab" id="tab-cedula" aria-selected="true" aria-controls="pane-cedula">Cédula</button>
-      <button class="aba" role="tab" id="tab-mapa" aria-selected="false" aria-controls="pane-mapa">Mapa</button>
+      <button class="aba" role="tab" id="tab-voce" aria-selected="false" aria-controls="pane-voce">Teste sua Visão</button>
       <button class="aba" role="tab" id="tab-pautas" aria-selected="false" aria-controls="pane-pautas">Pautas</button>
-      <button class="aba" role="tab" id="tab-voce" aria-selected="false" aria-controls="pane-voce">Você</button>
+      <button class="aba" role="tab" id="tab-mapa" aria-selected="false" aria-controls="pane-mapa">Mapa</button>
       <button class="aba" role="tab" id="tab-metodo" aria-selected="false" aria-controls="pane-metodo">Método</button>
+      <button class="aba" role="tab" id="tab-aviso" aria-selected="false" aria-controls="pane-aviso">Avisos e limites</button>
     </div>
   </header>
 
   <!-- ============ CÉDULA ============ -->
   <div id="pane-cedula" role="tabpanel" aria-labelledby="tab-cedula">
+    <ol class="passos-uso">
+      <li><b>Escolha seu estado</b> — a comparação é sempre com quem está na urna de lá.</li>
+      <li><b>Toque em cada cargo e escolha o candidato</b> — pode preencher só os que quiser.</li>
+      <li><b>A leitura aparece sozinha</b> a partir do segundo voto, aqui do lado.</li>
+    </ol>
+
     <div class="controles">
       <label for="uf">Estado</label>
       <select id="uf"></select>
       <button class="botao" id="sortear" type="button">Sortear cédula</button>
       <button class="botao" id="limpar" type="button">Limpar</button>
+      <button class="botao" id="exportar" type="button">Salvar em PDF</button>
     </div>
 
     <div class="painel">
       <div class="coluna">
         <h2>Sua cédula</h2>
         <div class="cedula" id="cedula"></div>
+        <p class="nota" id="dicaVazia">Nenhum voto escolhido ainda. Toque em <strong>Presidente</strong> para começar — ou use <strong>Sortear cédula</strong> só para ver a ferramenta funcionando.</p>
 
         <div class="cartao"><div class="cartao-corpo">
           <div class="sug-cabeca">
@@ -399,14 +408,159 @@
     </div>
   </div>
 
+  <!-- ============ AVISOS E LIMITES ============ -->
+  <div id="pane-aviso" role="tabpanel" aria-labelledby="tab-aviso" hidden>
+    <div class="metodo aviso-doc">
+      <section>
+        <h2>Leia antes de usar</h2>
+        <div class="alerta-doc">
+          <p>
+            Esta é uma ferramenta de <strong>consulta a dados públicos</strong>. Ela organiza e
+            descreve informação que o TSE, a Câmara, o Senado e o IBGE já publicam. Não emite
+            juízo sobre pessoas, não recomenda voto e não prevê comportamento futuro de ninguém.
+          </p>
+          <p>
+            Se você discorda de algo aqui, o caminho está aberto e é público: o método inteiro
+            está na aba Método, o código e os dados estão no repositório, e correções entram por
+            <em>issue</em> ou <em>pull request</em>.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>O que esta ferramenta não é</h2>
+        <table class="tabela">
+          <tbody>
+            <tr><td>Não é pesquisa eleitoral</td><td>Não coleta, não registra e não agrega resposta de ninguém. Nada do que você faz aqui sai do seu navegador, então não existe amostra, não existe estimativa de intenção de voto e não há o que registrar perante a Justiça Eleitoral.</td></tr>
+            <tr><td>Não é propaganda eleitoral</td><td>Não promove candidatura, não pede voto e não tem vínculo com partido, coligação, federação, candidato ou grupo de interesse.</td></tr>
+            <tr><td>Não é recomendação de voto</td><td>A sugestão por partido responde a uma pergunta matemática — qual legenda deixaria a chapa mais coesa — e aparece sempre ao lado da ressalva de que chapa dispersa não é erro.</td></tr>
+            <tr><td>Não é avaliação de candidato</td><td>Não mede caráter, competência, honestidade, histórico pessoal nem desempenho de mandato. Não há nota, ranking de qualidade ou juízo de mérito sobre pessoa alguma.</td></tr>
+            <tr><td>Não é fonte oficial</td><td>É uma leitura derivada. Em qualquer divergência, valem o TSE e os dados abertos originais, cujos endereços e somas de verificação estão na aba Método.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>O que cada número significa, literalmente</h2>
+        <table class="tabela">
+          <tbody>
+            <tr><td>Índice de coerência</td><td>Mede <strong>com quem os partidos andam</strong>, não o que defendem. Sai da frequência com que duas legendas aparecem na mesma coligação majoritária ou federação. Coligação no Brasil mistura programa com disputa por cargo — dois partidos podem se aliar por conveniência regional sem concordar em nada.</td></tr>
+            <tr><td>Percentil</td><td>Posição da sua chapa entre as combinações possíveis <em>no seu estado</em>. Satura: chapas muito diferentes entre si podem aparecer as duas no topo.</td></tr>
+            <tr><td>Eixo de votação</td><td>Primeiro componente do padrão de votos da Câmara. Capta <strong>alinhamento com o Executivo</strong>, não esquerda e direita. Um deputado que vota com o governo aparece de um lado sem que isso descreva sua ideologia.</td></tr>
+            <tr><td>Match do "Teste sua Visão"</td><td>Fração de deputados de cada bancada que votou do mesmo lado que você <strong>em doze votações específicas</strong>, entre as centenas da legislatura. Doze votações não descrevem uma pessoa.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Limites de dado conhecidos, e declarados</h2>
+        <p>Nenhum destes é surpresa: foram medidos durante a construção e estão documentados no repositório.</p>
+        <ul class="lista-limites" id="limites"></ul>
+      </section>
+
+      <section>
+        <h2>O que aqui é autoral</h2>
+        <div class="alerta-doc">
+          <p>
+            Quase tudo nesta ferramenta é derivado mecanicamente da fonte. Três coisas não são, e
+            precisam estar identificadas porque envolvem escolha:
+          </p>
+          <p>
+            <strong>O texto das doze perguntas.</strong> As votações são reais e verificáveis, mas
+            transformar uma ementa jurídica em pergunta compreensível é síntese, e síntese embute
+            juízo. Foram redigidas por inteligência artificial (Claude, da Anthropic) a pedido do
+            mantenedor, e estão em arquivo apartado e versionado — <code>scripts/pautas/itens.json</code> —
+            para que a redação seja contestável por <em>pull request</em>.
+          </p>
+          <p>
+            <strong>Os cortes metodológicos.</strong> Partido com menos de três deputados não recebe
+            posição; votação só entra no eixo com ao menos 100 votos e 5% de minoria; as faixas de
+            nível têm limiares escolhidos. Todos estão declarados na aba Método com a justificativa.
+          </p>
+          <p>
+            <strong>Os rótulos descritivos.</strong> "Dispersa", "Mista", "Bloco único" são palavras
+            escolhidas para descrever posições numa distribuição, sem valor de julgamento.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Privacidade</h2>
+        <div class="alerta-doc">
+          <p>
+            <strong>Nada que você faz aqui sai do seu navegador.</strong> Seus votos, suas respostas
+            e seus pesos de tema são processados na própria página e desaparecem quando você a fecha.
+          </p>
+          <p>
+            Não há analytics, cookie, identificador, login, formulário, banco de dados nem chamada a
+            servidor de terceiros. A página baixa os arquivos de dados e mais nada. Como não há coleta
+            nem tratamento de dado pessoal, não há titular, finalidade ou base legal a declarar.
+          </p>
+          <p>
+            A consequência é assumida: <strong>não existe estatística de uso desta ferramenta</strong>,
+            e nunca se saberá por aqui como os eleitores brasileiros montam suas cédulas. Receber isso
+            exigiria um servidor, e a promessa vale mais que o dado.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Fontes, licenças e atribuição</h2>
+        <table class="tabela">
+          <tbody>
+            <tr><td>TSE</td><td>Candidaturas e perfil do eleitorado de 2026, Portal de Dados Abertos. Licença Creative Commons Atribuição (CC-BY) — a atribuição é obrigatória e visível em qualquer publicação derivada, inclusive nesta.</td></tr>
+            <tr><td>Câmara e Senado</td><td>Votações nominais e composição das bancadas, dados abertos oficiais.</td></tr>
+            <tr><td>IBGE</td><td>Malha territorial das unidades da federação.</td></tr>
+            <tr><td>Código</td><td>Licença MIT. Os dados <strong>não</strong> estão cobertos por ela e mantêm seus próprios termos.</td></tr>
+            <tr><td>Marcas e nomes</td><td>Siglas partidárias e nomes de candidatos aparecem por serem informação pública de registro eleitoral, sem vínculo, endosso ou autorização de quem quer que seja.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Isenção de responsabilidade</h2>
+        <div class="alerta-doc forte">
+          <p>
+            A ferramenta é fornecida <strong>como está</strong>, sem garantia de exatidão,
+            disponibilidade ou adequação a qualquer finalidade. Pode conter erro de código, de
+            interpretação de dado ou de redação.
+          </p>
+          <p>
+            O dado de origem pode mudar, conter inconsistência ou ser corrigido pelo próprio órgão
+            depois de publicado — e a data da última coleta está no rodapé de todas as páginas.
+            <strong>A decisão de voto é sua e apenas sua</strong>, e quem a publica não se
+            responsabiliza por escolhas tomadas com base nesta leitura.
+          </p>
+          <p>
+            Encontrou erro? Abra uma <em>issue</em> no repositório. Candidatos, partidos e federações
+            que se considerem incorretamente representados podem pedir correção pelo mesmo canal, e
+            o pedido será tratado publicamente.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Sobre este aviso</h2>
+        <p class="nota-legal">
+          Este texto foi redigido com auxílio de inteligência artificial e descreve, com a maior
+          precisão possível, o que a ferramenta faz e deixa de fazer. <strong>Não é parecer jurídico
+          e não substitui um.</strong> Uma ferramenta que toca eleição no Brasil está sujeita à Lei
+          9.504/1997, a resoluções do TSE e à LGPD, e a avaliação dessa exposição cabe a advogado
+          habilitado em direito eleitoral e proteção de dados.
+        </p>
+      </section>
+    </div>
+  </div>
+
   <footer>
     <p class="versao" id="versao"></p>
     <p id="rodapeGrafo"></p>
     <p>Dados do TSE sob licença Creative Commons Atribuição (CC-BY); malha territorial do IBGE. Detalhe e somas de verificação na aba Método.</p>
-    <p class="ia">Ferramenta construída com auxílio de inteligência artificial (Claude). O método está aberto na aba Método e o código é conferível — não confie nela por confiar em quem a escreveu.</p>
+    <p class="ia">Ferramenta construída com auxílio de inteligência artificial (Claude). O método está aberto na aba Método e o código é conferível — não confie nela por confiar em quem a escreveu. Limites, licenças e isenção de responsabilidade na aba <strong>Avisos e limites</strong>.</p>
   </footer>
 </div>
 
+<div id="impressao" aria-hidden="true"></div>
 <div class="dica" id="dica" role="tooltip"></div>
 <script src="app.js"></script>
 </body>
