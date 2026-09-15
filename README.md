@@ -9,6 +9,18 @@ como artifact, a partir dos mesmos JSONs de `data/build`.
 
 Especificação completa: [`CEDULA-ABERTA-SPEC.md`](CEDULA-ABERTA-SPEC.md).
 
+## No ar
+
+**https://rikodalge.github.io/cedula-aberta/**
+
+Site estático, publicado pelo workflow `publicar.yml` a cada push na `main`.
+Abrir em São Paulo custa 94 KB comprimidos.
+
+**A atualização do dado é manual, por enquanto.** O cron diário está desligado
+porque o CDN do TSE bloqueia os runners do GitHub por IP — 403 em quatro
+execuções seguidas, exatamente o que o M1 previa. Para atualizar, rode a cadeia
+de coleta de uma máquina com IP brasileiro e faça push de `data/build`.
+
 ## Licença
 
 Código sob **MIT**. Os dados não: TSE e IBGE têm termos próprios, e a atribuição

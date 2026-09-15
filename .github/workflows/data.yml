@@ -3,9 +3,23 @@ name: dados do TSE
 # Cron diário (§0.1): refetch -> normalize -> validate -> PR.
 # Nunca faz commit direto na branch principal: mudança de dado de candidatura
 # em período eleitoral tem que passar por revisão humana com diff à vista.
+# O cron diário está DESLIGADO, e não por esquecimento.
+#
+# O CDN do TSE está atrás de Akamai e bloqueia por IP: a mesma chamada que
+# funciona de um IP residencial brasileiro devolve 403 dos runners do GitHub.
+# Verificado em quatro execuções seguidas (runs 34605378034, 34694915825,
+# 34760894037, 34865229092), todas falhando em "Baixar dados do TSE" com 403 —
+# exatamente o que o README previa desde o M1.
+#
+# Enquanto não houver runner com IP brasileiro, a atualização é manual:
+#
+#   npm run fetch && npm run normalize -- --uf=all && npm run alianca && npm run validate
+#   git add data/build && git commit && git push
+#
+# Deixar o cron ligado só produziria uma falha vermelha por dia num repositório
+# público, treinando todo mundo a ignorar o sinal. Ele volta no dia em que a
+# coleta rodar de algum lugar que o TSE atenda.
 on:
-  schedule:
-    - cron: "17 9 * * *"   # 06:17 em Brasília
   workflow_dispatch:
   pull_request:
     paths: ["scripts/**", "tests/**", "package.json", "tsconfig.json"]
