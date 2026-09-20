@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 
 /**
  * Invariantes de privacidade do front.
@@ -12,6 +12,7 @@ import { readFileSync } from "node:fs";
  */
 const app = readFileSync(new URL("../web/app.js", import.meta.url), "utf8");
 const html = readFileSync(new URL("../web/index.html", import.meta.url), "utf8");
+const css = readFileSync(new URL("../web/estilo.css", import.meta.url), "utf8");
 
 /** Estado que descreve escolhas do eleitor e nunca pode ser transmitido. */
 const ESTADO_DO_ELEITOR = ["escolhas", "respostas", "pesos"];
@@ -89,8 +90,6 @@ test("todo host de terceiro no front está na lista declarada", () => {
   // terceiro: é a página se identificando.
   const PROPRIO = "com-quem-anda.github.io";
   const DECLARADOS = [
-    "fonts.googleapis.com",        // fontes, no carregamento
-    "fonts.gstatic.com",           // arquivos das fontes
     "cdnjs.cloudflare.com",        // gerador de PDF, só ao exportar
     "static.cloudflareinsights.com", // medidor de acesso, se ligado
     "gc.zgo.at",                   // idem, alternativa
@@ -109,6 +108,27 @@ test("todo host de terceiro no front está na lista declarada", () => {
           || host.endsWith("ibge.gov.br") || host.endsWith("senado.leg.br")) continue;
       assert.ok(DECLARADOS.includes(host), `host não declarado no texto de privacidade: ${host}`);
     }
+  }
+});
+
+test("abrir a página não contata nenhum terceiro", () => {
+  // As fontes voltarem para o Google Fonts é a regressão fácil: uma linha no
+  // head e o IP de todo visitante volta a sair daqui, contra a premissa. O
+  // texto de privacidade afirma que abrir não contata ninguém — isto prova.
+  // cdnjs é a única exceção e é sob clique, nunca no carregamento.
+  for (const [nome, fonte] of [["app.js", app], ["index.html", html]] as const) {
+    for (const proibido of ["fonts.googleapis.com", "fonts.gstatic.com"]) {
+      assert.ok(!fonte.includes(`//${proibido}`),
+        `${nome} voltou a carregar de ${proibido}: o texto de privacidade passa a mentir`);
+    }
+  }
+  // As fontes têm de existir servidas por nós, senão a página cai no fallback
+  // do sistema sem ninguém notar.
+  const refs = [...css.matchAll(/url\(fontes\/([^)]+)\)/g)].map((m) => m[1]!);
+  assert.ok(refs.length >= 1, "nenhuma @font-face própria no CSS");
+  for (const f of new Set(refs)) {
+    assert.ok(existsSync(new URL(`../web/fontes/${f}`, import.meta.url)),
+      `CSS aponta para fontes/${f}, que não existe no repositório`);
   }
 });
 

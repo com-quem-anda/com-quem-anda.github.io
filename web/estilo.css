@@ -1,5 +1,30 @@
 /* Com Quem Anda — paleta neutra de propósito: nenhuma cor que puxe para partido. */
 
+/* Fontes servidas daqui, não do Google. Duas razões, nesta ordem:
+   1) privacidade — pela CDN do Google o IP de todo visitante ia parar lá, o que
+      contradizia o rodapé. Agora a página não contata nenhum terceiro.
+   2) velocidade — o CSS do fonts.googleapis.com pesava 1,4 KB e custava 865 ms,
+      porque o caro era a cadeia DNS+TLS em duas origens, não o arquivo.
+   Só o subconjunto latin: uma varredura no HTML, CSS, JS e em todos os dados do
+   TSE não achou um único caractere em latin-ext. IBM Plex é OFL-1.1 (LICENSE.txt).
+   O Sans é fonte variável — um arquivo cobre 400 a 700. O Mono é estático por peso. */
+@font-face {
+  font-family: "IBM Plex Sans"; font-style: normal; font-weight: 400 700;
+  font-display: swap; src: url(fontes/ibm-plex-sans-var.woff2) format("woff2-variations");
+}
+@font-face {
+  font-family: "IBM Plex Mono"; font-style: normal; font-weight: 400;
+  font-display: swap; src: url(fontes/ibm-plex-mono-400.woff2) format("woff2");
+}
+@font-face {
+  font-family: "IBM Plex Mono"; font-style: normal; font-weight: 500;
+  font-display: swap; src: url(fontes/ibm-plex-mono-500.woff2) format("woff2");
+}
+@font-face {
+  font-family: "IBM Plex Mono"; font-style: normal; font-weight: 600;
+  font-display: swap; src: url(fontes/ibm-plex-mono-600.woff2) format("woff2");
+}
+
 :root {
   --ground: #f4f3f0;
   --surface: #fdfcfa;

@@ -949,11 +949,13 @@
 
   /** O texto de privacidade sai da configuração, para não poder divergir dela. */
   function textoPrivacidade() {
-    const terceiros = `A página contata servidores de terceiros em dois momentos, e vale
-      dizer quais: as <strong>fontes de texto</strong> vêm do Google Fonts ao abrir, e o
-      <strong>gerador de PDF</strong> vem do cdnjs, só se você clicar em exportar. Como
-      qualquer arquivo baixado da internet, essas requisições revelam seu endereço de IP a
-      quem as serve — e nada além disso. <strong>Nenhuma delas recebe o que você escolheu.</strong>`;
+    const terceiros = `<strong>Abrir esta página não contata nenhum servidor de terceiros.</strong>
+      Tudo — texto, estilo, código, fontes de letra e dados — vem deste mesmo endereço. Até as
+      fontes eram do Google Fonts e passaram a ser servidas daqui justamente para que o IP de
+      quem abre não chegue a ninguém. Existe uma única exceção, e ela depende de um clique seu:
+      o <strong>gerador de PDF</strong> é baixado do cdnjs se você pedir para exportar a cédula.
+      Como qualquer arquivo baixado da internet, essa requisição revela seu IP a quem a serve — e
+      nada além disso. <strong>Ela não recebe o que você escolheu.</strong>`;
 
     if (!analyticsLigado()) {
       return `Não há analytics, cookie, identificador, login, formulário nem banco de dados.
