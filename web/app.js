@@ -1310,7 +1310,7 @@
       `<span>versão ${esc(D.versao)}</span>` +
       `<span>candidaturas de ${dt(f.tse.geradoEm)}</span>` +
       `<span>eleitorado de ${dt(f.eleitorado.geradoEm)}</span>` +
-      `<span>Ricardo Dalge · <a href="mailto:10932531+RikoDalge@users.noreply.github.com">10932531+RikoDalge@users.noreply.github.com</a></span>`;
+      `<span>Ricardo Dalge · <a href="https://github.com/com-quem-anda/com-quem-anda.github.io/issues" target="_blank" rel="noopener">relatar erro ou comentar</a></span>`;
     el("rodapeGrafo").textContent =
       `Grafo de aliança: ${D.grafo.conjuntos} conjuntos observados nas 27 UFs, ${D.grafo.partidos.length} partidos, ${Object.keys(D.grafo.prox).length} arestas com proximidade maior que zero — ${Object.keys(D.grafo.fragil).length} delas apoiadas em menos de três coincidências. ${D.anomalias} anomalias no pacote do TSE ainda não aparecem nesta tela.`;
   }
