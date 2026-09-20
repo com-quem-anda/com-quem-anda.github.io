@@ -1,6 +1,6 @@
 # Com Quem Anda
 
-Ferramenta pública para o eleitor registrar seus votos, consultar os dados oficiais de cada
+Ferramenta pública para o eleitor analisar seus votos, consultar os dados oficiais de cada
 candidato e testar a coerência da própria chapa. Sem login, sem coleta, sem servidor.
 
 Este repositório tem o **M1 (pipeline de dados)** e a **camada vertical do M2**: o índice de
