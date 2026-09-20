@@ -20,8 +20,17 @@
 <meta name="twitter:title" content="Com Quem Anda — veja com quem os partidos do seu voto andam">
 <meta name="twitter:description" content="Monte sua cédula das Eleições 2026 e descubra se os partidos que você escolheu costumam se aliar.">
 <meta name="twitter:image" content="https://com-quem-anda.github.io/compartilhar.png">
+<!-- Os quatro pesos entram no primeiro paint. Sem preload, mono-500 e mono-600 só
+     são descobertos depois que o CSS é lido, o que punha um terceiro nível na cadeia.
+     Fonte vai sempre com crossorigin, mesmo do próprio site: é o modo do @font-face. -->
 <link rel="preload" href="fontes/ibm-plex-sans-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fontes/ibm-plex-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fontes/ibm-plex-mono-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fontes/ibm-plex-mono-600.woff2" as="font" type="font/woff2" crossorigin>
+<!-- base.json é sempre necessário e só começava depois do app.js executar. Sem
+     crossorigin de propósito: o fetch() é same-origin e um modo diferente daqui
+     faria o navegador baixar o arquivo duas vezes em vez de reaproveitar. -->
+<link rel="preload" href="dados/base.json" as="fetch">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="estilo.css">
 <script>
