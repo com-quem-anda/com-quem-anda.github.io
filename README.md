@@ -108,6 +108,55 @@ o IP de cada visitante a eles.
 | DNSSEC | **desligado** no Registro.br antes da troca de nameservers |
 | Origem | GitHub Pages, via `CNAME` de `@` e `www` para `com-quem-anda.github.io` |
 
+### Registros na zona do Cloudflare
+
+| Nome | Tipo | Conteúdo | Proxy |
+|---|---|---|---|
+| `com-quem-anda.com.br` | CNAME | `com-quem-anda.github.io` | cinza até o certificado sair |
+| `www` | CNAME | `com-quem-anda.github.io` | idem |
+| `com-quem-anda.com.br` | MX / TXT | placeholders de "não envia e-mail" | — |
+
+O apex é CNAME e o Cloudflare o achata para os quatro IPs do GitHub Pages
+(`185.199.108–111.153`). Isso é útil como diagnóstico: **se uma consulta devolver
+IPs do Cloudflare (104.x, 172.67.x) em vez dos do GitHub, o registro está laranja.**
+
+```bash
+dig com-quem-anda.com.br @brit.ns.cloudflare.com +noall +answer
+```
+
+### Três armadilhas que já custaram tempo aqui
+
+**1. O Registro.br segura domínio novo por ~2h.** Ao apontar para nameservers
+externos, ele avisa "servidores DNS em transição" e mantém a delegação anterior
+até vencer a carência. Durante esse tempo a zona do Cloudflare fica `pending` e
+nada resolve, por mais certa que esteja a configuração. Só esperar.
+
+**2. "DNS secundário" não é "outros servidores DNS".** No painel do Registro.br dá
+para cair numa opção que delega para `a.sec.dns.br` / `c.sec.dns.br` — servidores
+deles, com a zona vazia. O sintoma é o domínio não resolver com tudo aparentemente
+certo no Cloudflare. Confira sempre para onde o `.br` delega de fato:
+
+```bash
+dig NS com-quem-anda.com.br @a.dns.br +noall +authority
+```
+
+**3. O proxy tem de esperar o certificado.** O GitHub emite por desafio HTTP no
+domínio; com a nuvem laranja, o *Always Use HTTPS* do Cloudflare intercepta esse
+HTTP e a validação nunca fecha. E sem certificado o proxy também quebra: em
+`Full (strict)` dá **526**, em `Flexible` dá loop de redirecionamento. Ordem:
+cinza → certificado → *Enforce HTTPS* → laranja com `Full (strict)`.
+
+### O painel do Cloudflare mudou de lugar (set/2026)
+
+| O que | Onde está hoje |
+|---|---|
+| Email Routing | **Compute** → **Email Service** → **Email Routing** → *Onboard Domain* |
+| Regra do pânico | página **Security rules** → *Create rule* → *Custom rules* |
+
+A regra agora nasce ativa pelo botão **Deploy** — crie, faça o ensaio, e desative
+pelo toggle da lista. Email Routing exige a zona já usando o DNS do Cloudflare;
+com a zona `pending` ele nem aparece como opção.
+
 **Por que o DNSSEC está desligado.** O Registro.br liga DNSSEC por padrão quando o
 domínio usa o DNS dele. Se os nameservers mudam para o Cloudflare com o registro DS
 ainda publicado, todo resolvedor que valida DNSSEC devolve SERVFAIL — o domínio some

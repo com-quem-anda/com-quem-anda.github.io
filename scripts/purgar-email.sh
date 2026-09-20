@@ -20,13 +20,22 @@ set -euo pipefail
 
 NOVO_EMAIL="10932531+RikoDalge@users.noreply.github.com"
 NOVO_NOME="RikoDalge"
-ANTIGO_EMAIL="10932531+RikoDalge@users.noreply.github.com"
 REMOTO="git@github.com:com-quem-anda/com-quem-anda.github.io.git"
 
+# O endereço antigo NÃO fica escrito aqui — um script para remover um e-mail que
+# contém o e-mail é mais um lugar de onde ele vaza, e ainda por cima num commit
+# novo, que a própria purga depois teria de reescrever. Sai do histórico.
 cd "$(dirname "$0")/.."
-RAIZ="$(pwd)"
+ANTIGO_EMAIL=$(git log --all --format='%ae' | grep -v 'users\.noreply\.github\.com' | sort -u)
+if [ "$(printf '%s\n' "$ANTIGO_EMAIL" | grep -c .)" -ne 1 ]; then
+  echo "esperava exatamente um endereço a purgar, achei:"
+  printf '  %s\n' $ANTIGO_EMAIL
+  echo "Ajuste o filtro antes de seguir — reescrever histórico com alvo errado é pior que não reescrever."
+  exit 1
+fi
 
 echo "== 1. conferindo pré-condições =="
+echo "   alvo da purga: $ANTIGO_EMAIL"
 
 if ! command -v git-filter-repo >/dev/null 2>&1; then
   cat <<'FIM'
