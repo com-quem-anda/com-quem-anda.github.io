@@ -31,23 +31,62 @@ não toca em `escolhas`, `respostas` ou `pesos`.
 O texto de privacidade das abas Método e Avisos é **gerado a partir dessa configuração**,
 então não tem como a página dizer que não mede enquanto mede.
 
-## Tirar do ar
+## Tirar do ar — botão do pânico
 
-Duas formas, as duas imediatas e reversíveis:
+Três camadas, da mais rápida para a mais definitiva. **Emergência acontece longe do
+computador**, então a camada 1 é a única que importa projetar bem: ela funciona pelo
+navegador do celular, sem terminal e sem `gh` autenticado.
+
+### Camada 1 — regra no Cloudflare (segundos, do celular)
+
+A regra fica **criada e desativada** de antemão. Criar sob pressão é onde se erra.
+
+> Cloudflare → Security → WAF → Custom rules → `pânico`
+> Expressão: `(true)` · Ação: `Block` · **deixar desativada**
+
+Para derrubar: abrir a regra, ativar. Todo mundo passa a receber 403 em segundos, no
+mundo inteiro, sem esperar propagação de DNS. Para voltar: desativar.
+
+Como o `com-quem-anda.github.io` faz 301 para o domínio próprio, **esta regra derruba os
+dois endereços** — é por isso que não existe espelho independente aqui.
+
+Ela não alcança o repositório: o código segue público. Se o problema for o código, pule
+para a camada 3.
+
+### Camada 2 — desligar o Pages (tira a origem, não só a borda)
 
 ```bash
-# 1) desliga só o site, repositório segue público
 gh api -X DELETE repos/com-quem-anda/com-quem-anda.github.io/pages
+```
 
-# 2) tira site e código do ar de uma vez
+### Camada 3 — fechar o repositório (site e código)
+
+```bash
 gh repo edit com-quem-anda/com-quem-anda.github.io --visibility private --accept-visibility-change-consequences
 ```
 
 Para religar: `gh api -X POST repos/com-quem-anda/com-quem-anda.github.io/pages -f build_type=workflow`
 e um push na `main`.
 
-O que **não** volta atrás: quem já baixou, arquivos em cache de CDN por algumas horas,
-e cópias em serviços de arquivo como o Internet Archive.
+### Ensaio
+
+Botão do pânico nunca testado não é botão do pânico. Faça uma vez ao criar a regra, e de
+novo a cada mudança de infraestrutura:
+
+```bash
+# 1. ativar a regra no painel, então:
+curl -s -o /dev/null -w "com a regra ligada:  %{http_code}\n" https://com-quem-anda.com.br/
+# esperado: 403
+
+# 2. desativar a regra, então:
+curl -s -o /dev/null -w "com a regra desligada: %{http_code}\n" https://com-quem-anda.com.br/
+# esperado: 200
+```
+
+Anote quanto tempo levou entre ativar e ver o 403. Esse número é o que você tem.
+
+O que **não** volta atrás, em qualquer das camadas: quem já baixou, arquivos em cache de
+CDN por algumas horas, e cópias em serviços de arquivo como o Internet Archive.
 
 ## No ar
 
