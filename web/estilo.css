@@ -431,19 +431,27 @@ footer { margin-top: 36px; border-top: 1px solid var(--line-strong); padding-top
 footer code { font-family: var(--mono); word-break: break-all; }
 footer .versao { display: flex; flex-wrap: wrap; gap: 5px 14px; font-family: var(--mono); }
 footer .ia { color: var(--ink-soft); }
+footer .versao a { color: var(--accent); }
 
-/* Autoria e epígrafe abrem o rodapé; o miúdo técnico vem depois, separado. */
-footer .autoria { font-size: .88rem; color: var(--ink); }
-footer .autoria a { color: var(--accent); }
-footer .epigrafe {
-  font-size: .95rem; font-style: italic; color: var(--ink-soft);
-  padding-bottom: 11px; margin-bottom: 4px; border-bottom: 1px solid var(--line);
-  display: grid; gap: 2px; max-width: 60ch;
+/* A promessa de privacidade é o que mais importa dizer a quem chega, então
+   abre o rodapé com peso — e em frase curta, não em parágrafo jurídico. */
+footer .privacidade-forte {
+  font-size: .95rem; color: var(--ink); background: var(--accent-soft);
+  border: 1px solid var(--line-strong); border-left: 3px solid var(--accent);
+  border-radius: 0 var(--r) var(--r) 0; padding: 13px 16px; max-width: 72ch; margin-bottom: 5px;
 }
-footer .epigrafe span {
-  font-style: normal; font-family: var(--mono); font-size: .65rem;
-  letter-spacing: .1em; text-transform: uppercase; color: var(--muted);
+footer .privacidade-forte strong { display: block; margin-bottom: 3px; font-size: 1.02rem; }
+
+/* O gráfico de posição e coesão é a informação menos óbvia da aba; ganha
+   largura e respiro em vez de ficar espremido entre tabelas. */
+.destaque-grafico figure {
+  background: var(--surface); border: 1px solid var(--line-strong);
+  border-radius: var(--r); padding: 16px 18px; gap: 10px;
 }
+.destaque-grafico h2 { font-size: 1.25rem; }
+.destaque-grafico p { font-size: 1rem; }
+.destaque-grafico figcaption { font-size: .8rem; }
+
 
 .carregando { padding: 40px 0; color: var(--muted); font-size: 0.9rem; text-align: center; }
 
@@ -596,8 +604,8 @@ ul.lista-limites code { font-family: var(--mono); font-size: .85em; background: 
    quem está aprendendo a associar a explicação ao que está vendo. */
 .botao-tour { margin-top: 14px; border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
 
-#tour { position: fixed; inset: 0; z-index: 60; }
-#tourFundo { position: absolute; inset: 0; background: rgba(18, 18, 17, .62); }
+#tour { position: fixed; inset: 0; }
+#tourFundo { position: absolute; inset: 0; z-index: 60; background: rgba(18, 18, 17, .62); }
 /* O elemento em foco sobe acima do escurecimento e ganha anel. */
 .tour-alvo {
   position: relative; z-index: 61; border-radius: 4px;
@@ -605,7 +613,7 @@ ul.lista-limites code { font-family: var(--mono); font-size: .85em; background: 
   background: var(--surface);
 }
 #tourCartao {
-  position: absolute; width: min(330px, calc(100vw - 28px)); background: var(--surface);
+  position: absolute; z-index: 62; width: min(330px, calc(100vw - 28px)); background: var(--surface);
   border: 1px solid var(--line-strong); border-radius: var(--r); padding: 15px 17px;
   display: grid; gap: 8px; box-shadow: 0 10px 34px rgba(0,0,0,.28);
 }
@@ -621,6 +629,7 @@ ul.lista-limites code { font-family: var(--mono); font-size: .85em; background: 
 :root[data-theme="dark"] .tour-principal { color: #121211; }
 @media (max-width: 560px) {
   #tourCartao { left: 12px !important; right: 12px; width: auto; top: auto !important; bottom: 14px; }
+  .tour-alvo { scroll-margin-bottom: 240px; }
   #tourCartao .botao { min-height: 40px; }
 }
 @media (prefers-reduced-motion: reduce) { .tour-alvo { transition: none; } }

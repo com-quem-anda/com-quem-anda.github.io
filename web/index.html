@@ -150,6 +150,24 @@
   <!-- ============ PAUTAS ============ -->
   <div id="pane-pautas" role="tabpanel" aria-labelledby="tab-pautas" hidden>
     <div class="metodo">
+      <section class="destaque-grafico">
+        <h2>Onde cada partido vota — e o quanto ele se divide</h2>
+        <p>
+          O retrato mais útil desta aba, e o menos conhecido. Cada bolha é um partido.
+          <strong>Quanto mais à direita</strong>, mais a bancada votou com a oposição ao governo;
+          <strong>quanto mais alto</strong>, mais os deputados daquele partido discordam entre si —
+          e menos a sigla diz sobre o candidato que você tem à frente.
+        </p>
+        <figure>
+          <svg id="scatter" viewBox="0 0 620 420" role="img" aria-labelledby="scatterCap"></svg>
+          <figcaption id="scatterCap">
+            Mediana da bancada no eixo de votação, na horizontal, contra o desvio-padrão interno, na
+            vertical. O tamanho da bolha acompanha o tamanho da bancada. Partidos com menos de três
+            deputados não aparecem — ver o corte mais abaixo.
+          </figcaption>
+        </figure>
+      </section>
+
       <section>
         <h2>O que o Brasil diz que é prioridade</h2>
         <p>
@@ -177,21 +195,6 @@
         <div class="rolo"><table class="tabela cruz" id="cruzamento"></table></div>
       </section>
 
-      <section>
-        <h2>Posição e coesão: o cruzamento que importa</h2>
-        <p>
-          Cada partido tem duas medidas independentes. <strong>Onde ele vota</strong> — o eixo horizontal —
-          e <strong>o quanto seus deputados concordam entre si</strong>, no eixo vertical. Quanto mais
-          alto no gráfico, menos o rótulo partidário diz sobre o candidato individual.
-        </p>
-        <figure>
-          <svg id="scatter" viewBox="0 0 620 420" role="img" aria-labelledby="scatterCap"></svg>
-          <figcaption id="scatterCap">
-            Mediana da bancada no eixo de votação contra o desvio-padrão interno. Tamanho do círculo
-            proporcional ao tamanho da bancada.
-          </figcaption>
-        </figure>
-      </section>
 
       <section>
         <h2>O corte de três deputados, e quem ficou de fora</h2>
@@ -245,8 +248,8 @@
         </div></div>
 
         <div class="cartao"><div class="cartao-corpo">
-          <h3>E os candidatos que você escolheu</h3>
-          <p class="nota">Compara o que você respondeu aqui com a cédula que você montou na primeira aba.</p>
+          <h3>E os partidos que você votou</h3>
+          <p class="nota">Compara suas respostas com o que a <strong>bancada federal</strong> de cada partido da sua cédula fez nessas doze votações.</p>
           <div id="matchCedula"></div>
         </div></div>
 
@@ -562,8 +565,11 @@
   </div>
 
   <footer>
-    <p class="autoria">Criado por <strong>Ricardo Dalge</strong> · <a href="mailto:10932531+RikoDalge@users.noreply.github.com">10932531+RikoDalge@users.noreply.github.com</a></p>
-    <p class="epigrafe">&ldquo;Verás que um filho teu não foge à luta&rdquo;<span>Hino Nacional Brasileiro</span></p>
+    <p class="privacidade-forte">
+      <strong>Nada do que você faz aqui sai do seu aparelho.</strong>
+      Seus votos e suas respostas não são salvos, não são enviados e não são compartilhados com
+      ninguém. Fechou a página, acabou. Não há cadastro, cookie nem rastreador.
+    </p>
     <p class="versao" id="versao"></p>
     <p id="rodapeGrafo"></p>
     <p>Dados do TSE sob licença Creative Commons Atribuição (CC-BY); malha territorial do IBGE. Detalhe e somas de verificação na aba Método.</p>

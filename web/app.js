@@ -690,28 +690,39 @@
         <span class="v">${Math.round(100 * l.match)}%</span>
       </li>`).join("");
 
-    // cruzamento com a cédula declarada
+    // Cruzamento com a cédula — reescrito porque induzia a erro.
+    //
+    // Antes a linha trazia o NOME do candidato com "68% como você" ao lado, e
+    // isso lia-se como "este candidato votaria como você em 68% das vezes".
+    // Falso. O número é da BANCADA FEDERAL do partido dele, em doze votações
+    // que ele provavelmente nem participou. Agora o sujeito da frase é o
+    // partido, o nome do candidato vem como contexto, e a ressalva é a primeira
+    // coisa que se lê.
     const mapa = new Map(r.linhas.map((l) => [l.sigla.toUpperCase().replace(/\s/g, ""), l]));
-    const votos = CARGOS.filter(([s]) => escolhas[s] !== undefined).map(([s]) => ({ slot: s, c: cand(s) }));
+    const votos = CARGOS.filter(([s2]) => escolhas[s2] !== undefined).map(([s2]) => ({ slot: s2, c: cand(s2) }));
     if (!votos.length) {
       el("matchCedula").innerHTML = `<p class="nota">Você ainda não montou uma cédula na aba Cédula.</p>`;
       return;
     }
-    const melhor = r.linhas[0];
-    el("matchCedula").innerHTML = `<div class="cedula-cruz">` + votos.map(({ slot, c }) => {
-      const l = mapa.get(c[2].toUpperCase().replace(/\s/g, ""));
-      const federal = ["presidente", "senador", "senador2", "deputado-federal"].includes(slot);
-      let val, cor;
-      if (!l) { val = "sem bancada federal"; cor = "background:var(--sunk);color:var(--muted)"; }
-      else { val = `${Math.round(100 * l.match)}% como você`;
-        cor = l.match >= 0.6 ? "background:var(--sunk);color:var(--positivo)"
-            : l.match <= 0.4 ? "background:var(--aviso-soft);color:var(--aviso)"
-            : "background:var(--sunk);color:var(--muted)"; }
-      return `<div class="cruz-item">
-        <span>${esc(c[1])}<small>${esc(rotulo(slot))} · ${esc(c[2])}${federal ? "" : " · cargo estadual, sem registro de votação"}</small></span>
-        <span class="cruz-val" style="${cor}">${esc(val)}</span></div>`;
-    }).join("") + `</div>` +
-    `<p class="nota" style="margin-top:9px">Suas respostas ficaram mais perto da bancada do <strong>${esc(melhor.sigla)}</strong>. Isso é concordância em doze votações — não é indicação de voto, e não diz nada sobre esses candidatos como pessoas.</p>`;
+    el("matchCedula").innerHTML =
+      `<p class="ressalva" style="margin-bottom:10px">
+        <b>Isto não diz como o seu candidato votaria.</b> O número abaixo é da
+        <strong>bancada do partido dele na Câmara</strong>, em doze votações que ele quase
+        certamente nem participou. Candidato nenhum é obrigado a votar como seu partido — e
+        muitos não votam.
+      </p>` +
+      `<div class="cedula-cruz">` + votos.map(({ slot, c }) => {
+        const l = mapa.get(c[2].toUpperCase().replace(/\s/g, ""));
+        const federal = ["presidente", "senador", "senador2", "deputado-federal"].includes(slot);
+        let val, cor;
+        if (!l) { val = "partido sem bancada federal"; cor = "background:var(--sunk);color:var(--muted)"; }
+        else { val = `bancada do ${l.sigla}: ${Math.round(100 * l.match)}%`;
+          cor = "background:var(--sunk);color:var(--ink-soft)"; }
+        return `<div class="cruz-item">
+          <span>${esc(c[2])}<small>${esc(rotulo(slot))} · seu voto: ${esc(c[1])}${
+            federal ? "" : " · cargo estadual, o partido não tem esse registro"}</small></span>
+          <span class="cruz-val" style="${cor}">${esc(val)}</span></div>`;
+      }).join("") + `</div>`;
   }
 
   function renderVoce() {
@@ -1036,16 +1047,30 @@
     const posicionar = () => {
       const r = alvo.getBoundingClientRect();
       if (innerWidth > 560) {
-        const alturaCartao = cartao.offsetHeight || 190;
-        const abaixo = r.bottom + 14;
-        const cabeAbaixo = abaixo + alturaCartao < innerHeight - 10;
-        cartao.style.top = `${cabeAbaixo ? abaixo : Math.max(12, r.top - alturaCartao - 14)}px`;
-        cartao.style.left = `${Math.max(12, Math.min(r.left, innerWidth - 350))}px`;
+        const L = cartao.offsetWidth || 330;
+        const A = cartao.offsetHeight || 190;
+        const folga = 14, margem = 12;
+        const cabe = (t, l) => t >= margem && t + A <= innerHeight - margem && l >= margem && l + L <= innerWidth - margem;
+        const naFaixa = (v, min, max) => Math.max(min, Math.min(v, max));
+
+        const abaixo = { top: r.bottom + folga, left: naFaixa(r.left, margem, innerWidth - L - margem) };
+        const acima  = { top: r.top - A - folga, left: naFaixa(r.left, margem, innerWidth - L - margem) };
+        const direita = { top: naFaixa(r.top, margem, innerHeight - A - margem), left: r.right + folga };
+        const esquerda = { top: naFaixa(r.top, margem, innerHeight - A - margem), left: r.left - L - folga };
+
+        const escolhido =
+          [abaixo, acima, direita, esquerda].find((p) => cabe(p.top, p.left)) ??
+          // Alvo ocupa quase tudo: encosta na metade da tela mais longe dele.
+          { top: r.top > innerHeight - r.bottom ? margem : innerHeight - A - margem,
+            left: naFaixa(r.left, margem, innerWidth - L - margem) };
+
+        cartao.style.top = `${escolhido.top}px`;
+        cartao.style.left = `${escolhido.left}px`;
       }
     };
-    posicionar();                                   // imediato, para não piscar vazio
-    alvo.scrollIntoView({ block: "center", behavior: "smooth" });
-    setTimeout(posicionar, 280);                    // de novo, já com o scroll assentado
+    alvo.scrollIntoView({ block: "center", behavior: "auto" });
+    posicionar();
+    requestAnimationFrame(posicionar);              // após o layout assentar
   }
 
   function iniciarTour(passo = 0) {
@@ -1066,7 +1091,9 @@
   el("tourProximo").addEventListener("click", () => {
     if (tourPasso < TOUR.length - 1) { tourPasso++; desenharTour(); } else fecharTour();
   });
-  el("tourFundo").addEventListener("click", fecharTour);
+  // Clicar fora NÃO fecha: quem está aprendendo clica por engano o tempo todo,
+  // e perder o tour no meio por um clique errado é frustrante. Sai por Fechar,
+  // por Esc ou concluindo.
   document.addEventListener("keydown", (e) => {
     if (el("tour").hidden) return;
     if (e.key === "Escape") fecharTour();
@@ -1280,7 +1307,11 @@
 
     const q = el("qtMandato");
     if (q) q.textContent = mil(D.mandatos?.comMandato ?? 0);
-    el("versao").innerHTML = `<span>versão ${esc(D.versao)}</span><span>candidaturas de ${dt(f.tse.geradoEm)}</span><span>eleitorado de ${dt(f.eleitorado.geradoEm)}</span>`;
+    el("versao").innerHTML =
+      `<span>versão ${esc(D.versao)}</span>` +
+      `<span>candidaturas de ${dt(f.tse.geradoEm)}</span>` +
+      `<span>eleitorado de ${dt(f.eleitorado.geradoEm)}</span>` +
+      `<span>Ricardo Dalge · <a href="mailto:10932531+RikoDalge@users.noreply.github.com">10932531+RikoDalge@users.noreply.github.com</a></span>`;
     el("rodapeGrafo").textContent =
       `Grafo de aliança: ${D.grafo.conjuntos} conjuntos observados nas 27 UFs, ${D.grafo.partidos.length} partidos, ${Object.keys(D.grafo.prox).length} arestas com proximidade maior que zero — ${Object.keys(D.grafo.fragil).length} delas apoiadas em menos de três coincidências. ${D.anomalias} anomalias no pacote do TSE ainda não aparecem nesta tela.`;
   }
