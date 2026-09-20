@@ -117,7 +117,23 @@ religar depois usando o DS que o próprio Cloudflare fornece.
 **O `github.io` não é espelho.** Assim que o domínio próprio é configurado, o GitHub
 passa a fazer 301 do `com-quem-anda.github.io` para ele, automaticamente e sem opção
 de desligar. Isso é desejável: links antigos seguem funcionando e o SEO consolida num
-endereço só. Reverter é remover o domínio próprio, que leva um minuto.
+endereço só.
+
+**E o 301 é porta de mão única, por visitante.** Remover o domínio próprio no GitHub
+faz o servidor parar de redirecionar em um minuto — mas não desfaz nada em quem já
+recebeu o 301. O navegador gravou "permanentemente" e passa a redirecionar sozinho,
+sem consultar o servidor. Se o destino não responder, a pessoa fica sem site até
+limpar o cache do navegador, e ninguém limpa cache.
+
+Daí a regra, que já custou uma queda aqui: **só configure o Custom domain no GitHub
+depois que o domínio novo estiver servindo o site.** Confira antes:
+
+```bash
+curl -sI https://com-quem-anda.com.br/ | head -1   # tem de ser 200
+```
+
+Configurar antes deixa o `github.io` redirecionando para um domínio que ainda não
+resolve — ou seja, derruba o endereço que funcionava, para todo mundo que o abrir.
 
 Para trocar o endereço no código, use `scripts/migrar-dominio.ts` — ele conta as sete
 ocorrências nos quatro arquivos e falha se alguma sumir. Nunca troque à mão: um
