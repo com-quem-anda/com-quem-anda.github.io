@@ -914,18 +914,6 @@
     }
   });
 
-  function sortear(semente) {
-    const rnd = prng(semente);
-    escolhas = {};
-    for (const [slot] of CARGOS) {
-      const p = pool(slot);
-      if (!p.length) continue;
-      let i = Math.floor(rnd() * p.length);
-      if (slot === "senador2" && escolhas["senador"] === i) i = (i + 1) % p.length;
-      escolhas[slot] = i;
-    }
-    aberto = null; busca = ""; render();
-  }
 
 
 
@@ -1273,7 +1261,6 @@
     }
   });
 
-  el("sortear").addEventListener("click", () => sortear(Date.now() >>> 0));
   el("limpar").addEventListener("click", () => { escolhas = {}; aberto = null; busca = ""; render(); });
 
   /* =================== início =================== */
@@ -1341,10 +1328,10 @@
       renderPrivacidade();
       ligarAnalytics();
       marcarUfNoMapa();
-      // Abre vazia, de propósito. Antes abria sorteada, para demonstrar a
-      // ferramenta — mas sortear dá exposição a nomes que ninguém pediu para
-      // ver, e numa ferramenta eleitoral isso é viés, não demonstração. Quem
-      // quiser ver funcionando clica em "Sortear cédula".
+      // Abre vazia, e assim fica. Já houve um botão de sortear cédula, de
+      // quando ainda não existia o tour guiado. Ele contrariava o propósito:
+      // a leitura só diz algo sobre a cédula de ALGUÉM, e sortear dava
+      // exposição a nomes que ninguém pediu para ver, com um índice ao lado.
       render();
 
       // Primeira visita abre o tour. Quem já viu não é importunado de novo.

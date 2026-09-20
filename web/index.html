@@ -70,9 +70,10 @@
     <span class="eyebrow">Eleições 2026 · dados oficiais do TSE</span>
     <h1>Com Quem Anda</h1>
     <p class="lede">
-      Monte a cédula que você pretende votar e veja uma coisa que ninguém costuma te contar:
-      <strong>se os partidos que você escolheu costumam andar juntos</strong> — ou se andam em campos
-      opostos. Tudo acontece no seu aparelho. Nada é enviado, salvo ou compartilhado com ninguém.
+      Diz-me com quem andas. Monte a cédula que você pretende votar e veja uma coisa que ninguém
+      costuma te contar: <strong>se os partidos que você escolheu costumam andar juntos</strong> — ou
+      se andam em campos opostos. Tudo acontece no seu aparelho. Nada é enviado, salvo ou
+      compartilhado com ninguém.
     </p>
     <button class="botao botao-tour" id="abrirTour" type="button">Como usar esta página</button>
     <div class="abas" role="tablist">
@@ -96,7 +97,6 @@
     <div class="controles">
       <label for="uf">Estado</label>
       <select id="uf"></select>
-      <button class="botao" id="sortear" type="button">Sortear cédula</button>
       <button class="botao" id="limpar" type="button">Limpar</button>
       <button class="botao" id="exportar" type="button">Salvar em PDF</button>
       <button class="info" id="ajudaPdf" type="button" data-info="O botão gera o PDF direto, com a cédula e nada mais. Se em vez dele você usar Ctrl+P, quem monta a página é o navegador — e ele carimba data e endereço do site nas bordas. Só dá para tirar esse carimbo desmarcando &quot;Cabeçalhos e rodapés&quot; no próprio diálogo de impressão.">?</button>
@@ -106,7 +106,7 @@
       <div class="coluna">
         <h2 class="rot-cedula">Sua cédula</h2>
         <div class="cedula" id="cedula"></div>
-        <p class="nota" id="dicaVazia">Nenhum voto escolhido ainda. Toque em <strong>Presidente</strong> para começar — ou use <strong>Sortear cédula</strong> só para ver a ferramenta funcionando.</p>
+        <p class="nota" id="dicaVazia">Nenhum voto escolhido ainda. Toque em <strong>Presidente</strong> para começar. Não precisa preencher tudo — com dois votos a leitura já aparece.</p>
 
         <div class="cartao" id="cartaoSugestao"><div class="cartao-corpo">
           <div class="sug-cabeca">
@@ -469,8 +469,9 @@
         <h2>Leia antes de usar</h2>
         <div class="alerta-doc">
           <p>
-            Esta é uma ferramenta de <strong>consulta a dados públicos</strong>. Ela organiza e
-            descreve informação que o TSE, a Câmara, o Senado e o IBGE já publicam. Não emite
+            O <strong>Com Quem Anda</strong> é uma ferramenta de <strong>consulta a dados
+            públicos</strong>. Ele organiza e descreve informação que o TSE, a Câmara, o Senado e o
+            IBGE já publicam. Não emite
             juízo sobre pessoas, não recomenda voto e não prevê comportamento futuro de ninguém.
           </p>
           <p>
