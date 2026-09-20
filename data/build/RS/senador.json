@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.625Z",
+ "geradoEm": "2026-09-20T14:36:11.287Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 13,
  "candidatos": [
@@ -25,13 +25,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "COLIGAÇÃO COM O POVO",
-    "composicao": "PDT / PSB / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PDT / PSB / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "210001800171"
    },
    "situacao": {
@@ -90,7 +90,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "NOSSO RIO GRANDE NÃO PARA",
-    "composicao": "MDB / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "MDB / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "210001800677"
    },
    "situacao": {
@@ -267,7 +267,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "O RIO GRANDE PODE MAIS",
-    "composicao": "REPUBLICANOS / PODE / DC / NOVO / PL / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "REPUBLICANOS / PODE / DC / NOVO / PL / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "210001800905"
    },
    "situacao": {
@@ -324,13 +324,13 @@
     "nome": "CIDADANIA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "210001800394"
    },
    "situacao": {
@@ -448,7 +448,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "O RIO GRANDE PODE MAIS",
-    "composicao": "REPUBLICANOS / PODE / DC / NOVO / PL / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "REPUBLICANOS / PODE / DC / NOVO / PL / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "210001800905"
    },
    "situacao": {
@@ -505,13 +505,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "210001800394"
    },
    "situacao": {
@@ -568,13 +568,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "COLIGAÇÃO COM O POVO",
-    "composicao": "PDT / PSB / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PDT / PSB / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "210001800171"
    },
    "situacao": {
@@ -633,7 +633,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "NOSSO RIO GRANDE NÃO PARA",
-    "composicao": "MDB / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "MDB / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "210001800677"
    },
    "situacao": {

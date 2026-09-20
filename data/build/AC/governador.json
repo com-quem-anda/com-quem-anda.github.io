@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.292Z",
+ "geradoEm": "2026-09-20T14:36:10.936Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 6,
  "candidatos": [
@@ -68,13 +68,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "AVANÇA ACRE",
-    "composicao": "PDT / MDB / PL / DEMOCRATA / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "PDT / MDB / PL / DEMOCRATA / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "10001800654"
    },
    "situacao": {
@@ -203,7 +203,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "FRENTE AMPLA PELO ACRE",
-    "composicao": "PODE / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "PODE / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "10001801129"
    },
    "situacao": {
@@ -244,13 +244,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "PRODUZIR PARA EMPREGAR",
-    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "10001800730"
    },
    "situacao": {

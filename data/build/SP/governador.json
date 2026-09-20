@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.711Z",
+ "geradoEm": "2026-09-20T14:36:11.362Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 7,
  "candidatos": [
@@ -27,7 +27,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "CORAGEM PARA SEGUIR AVANÇANDO",
-    "composicao": "REPUBLICANOS / PL / MDB / DEMOCRATA / AVANTE / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "REPUBLICANOS / PL / MDB / DEMOCRATA / AVANTE / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "250001800554"
    },
    "situacao": {
@@ -68,13 +68,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "DESPERTA SÃO PAULO",
-    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "250001801022"
    },
    "situacao": {
@@ -126,6 +126,22 @@
     "codigo": null
    },
    "vice": [
+    {
+     "sq": "250002554470",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "FABIO BOSCO",
+     "nomeCompleto": "FABIO JOSE BOSCO",
+     "partido": {
+      "sigla": "PSTU",
+      "numero": "16",
+      "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
     {
      "sq": "250002536916",
      "cargo": "VICE-GOVERNADOR",
@@ -256,10 +272,10 @@
    },
    "vice": [
     {
-     "sq": "250002554211",
+     "sq": "250002548079",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "PROFESSORA NAYR DUARTE",
-     "nomeCompleto": "NAIR ALVES DUARTE PAIS",
+     "nomeUrna": "RENATA BOLSONARO",
+     "nomeCompleto": "RENATA CRISTINA TEDESQUE BOLSONARO",
      "partido": {
       "sigla": "AGIR",
       "numero": "36",
@@ -272,10 +288,10 @@
      }
     },
     {
-     "sq": "250002548079",
+     "sq": "250002554211",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "RENATA BOLSONARO",
-     "nomeCompleto": "RENATA CRISTINA TEDESQUE BOLSONARO",
+     "nomeUrna": "PROFESSORA NAYR DUARTE",
+     "nomeCompleto": "NAIR ALVES DUARTE PAIS",
      "partido": {
       "sigla": "AGIR",
       "numero": "36",

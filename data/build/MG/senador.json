@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.451Z",
+ "geradoEm": "2026-09-20T14:36:11.108Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 18,
  "candidatos": [
@@ -25,13 +25,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "130001800934"
    },
    "situacao": {
@@ -90,7 +90,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "CUIDAR DE MINAS",
-    "composicao": "PDT / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "PDT / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "130001801409"
    },
    "situacao": {
@@ -99,22 +99,6 @@
     "codigo": null
    },
    "suplentes": [
-    {
-     "sq": "130002553854",
-     "cargo": "1º SUPLENTE",
-     "nomeUrna": "GIOVANE LELIS",
-     "nomeCompleto": "GIOVANE DE LELIS CUPERTINO",
-     "partido": {
-      "sigla": "PDT",
-      "numero": "12",
-      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
-     },
-     "situacao": {
-      "disponivel": false,
-      "registro": null,
-      "codigo": null
-     }
-    },
     {
      "sq": "130002554270",
      "cargo": "1º SUPLENTE",
@@ -132,10 +116,10 @@
      }
     },
     {
-     "sq": "130002553855",
-     "cargo": "2º SUPLENTE",
-     "nomeUrna": "ROBSON DUTRA",
-     "nomeCompleto": "ROBSON LUIZ MOREIRA DUTRA",
+     "sq": "130002553854",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "GIOVANE LELIS",
+     "nomeCompleto": "GIOVANE DE LELIS CUPERTINO",
      "partido": {
       "sigla": "PDT",
       "numero": "12",
@@ -152,6 +136,22 @@
      "cargo": "2º SUPLENTE",
      "nomeUrna": "BRUNA D ÂNGELA",
      "nomeCompleto": "BRUNA D ÂNGELA MARTINS FERREIRA",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "130002553855",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ROBSON DUTRA",
+     "nomeCompleto": "ROBSON LUIZ MOREIRA DUTRA",
      "partido": {
       "sigla": "PDT",
       "numero": "12",
@@ -179,13 +179,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "PRA MINAS GERAIS VOLTAR A SONHAR",
-    "composicao": "PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "130001801064"
    },
    "situacao": {
@@ -714,13 +714,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "CUIDAR DE MINAS",
-    "composicao": "PDT / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "PDT / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "130001801409"
    },
    "situacao": {
@@ -729,6 +729,22 @@
     "codigo": null
    },
    "suplentes": [
+    {
+     "sq": "130002553353",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ZELINHO",
+     "nomeCompleto": "JOSE DE FREITAS CORDEIRO",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
     {
      "sq": "130002554333",
      "cargo": "1º SUPLENTE",
@@ -746,10 +762,10 @@
      }
     },
     {
-     "sq": "130002553353",
-     "cargo": "1º SUPLENTE",
-     "nomeUrna": "ZELINHO",
-     "nomeCompleto": "JOSE DE FREITAS CORDEIRO",
+     "sq": "130002553352",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ANTÔNIO DIVINO",
+     "nomeCompleto": "ANTONIO DIVINO DE SOUZA",
      "partido": {
       "sigla": "PSDB",
       "numero": "45",
@@ -770,22 +786,6 @@
       "sigla": "PDT",
       "numero": "12",
       "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
-     },
-     "situacao": {
-      "disponivel": false,
-      "registro": null,
-      "codigo": null
-     }
-    },
-    {
-     "sq": "130002553352",
-     "cargo": "2º SUPLENTE",
-     "nomeUrna": "ANTÔNIO DIVINO",
-     "nomeCompleto": "ANTONIO DIVINO DE SOUZA",
-     "partido": {
-      "sigla": "PSDB",
-      "numero": "45",
-      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
      },
      "situacao": {
       "disponivel": false,
@@ -809,13 +809,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "CUIDAR DE MINAS",
-    "composicao": "PDT / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "PDT / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "130001801409"
    },
    "situacao": {
@@ -824,6 +824,22 @@
     "codigo": null
    },
    "suplentes": [
+    {
+     "sq": "130002553353",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ZELINHO",
+     "nomeCompleto": "JOSE DE FREITAS CORDEIRO",
+     "partido": {
+      "sigla": "PSDB",
+      "numero": "45",
+      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
     {
      "sq": "130002554333",
      "cargo": "1º SUPLENTE",
@@ -841,10 +857,10 @@
      }
     },
     {
-     "sq": "130002553353",
-     "cargo": "1º SUPLENTE",
-     "nomeUrna": "ZELINHO",
-     "nomeCompleto": "JOSE DE FREITAS CORDEIRO",
+     "sq": "130002553352",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ANTÔNIO DIVINO",
+     "nomeCompleto": "ANTONIO DIVINO DE SOUZA",
      "partido": {
       "sigla": "PSDB",
       "numero": "45",
@@ -871,22 +887,6 @@
       "registro": null,
       "codigo": null
      }
-    },
-    {
-     "sq": "130002553352",
-     "cargo": "2º SUPLENTE",
-     "nomeUrna": "ANTÔNIO DIVINO",
-     "nomeCompleto": "ANTONIO DIVINO DE SOUZA",
-     "partido": {
-      "sigla": "PSDB",
-      "numero": "45",
-      "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
-     },
-     "situacao": {
-      "disponivel": false,
-      "registro": null,
-      "codigo": null
-     }
     }
    ]
   },
@@ -904,13 +904,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "PRA MINAS GERAIS VOLTAR A SONHAR",
-    "composicao": "PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "130001801064"
    },
    "situacao": {

@@ -14,14 +14,20 @@
   /**
    * Métricas de acesso — desligadas até alguém preencher isto.
    *
-   * Regra que não se negocia: aqui só passa CONTAGEM DE VISITA. Nada sobre a
-   * cédula, as respostas do questionário ou os pesos de tema sai do navegador,
-   * em nenhuma hipótese. O texto de privacidade da página é gerado a partir
-   * deste bloco, então ele nunca pode mentir sobre o que está ligado.
+   * PREMISSA DO PROJETO: anonimato total do visitante, sem coleta.
+   *
+   * Qualquer medidor que rode no navegador dispara uma requisição, e toda
+   * requisição carrega um endereço de IP — mesmo os sem cookie e sem impressão
+   * digital. Por isso este bloco fica VAZIO, e a medição de audiência, se um
+   * dia houver, tem de vir de quem serve o arquivo, não de código embarcado
+   * aqui. O encaixe permanece para não ser reinventado às pressas.
+   *
+   * O texto de privacidade da página é gerado a partir deste bloco, então ele
+   * nunca pode mentir sobre o que está ligado.
    *
    * provedor: "" (nenhum) | "cloudflare" | "goatcounter"
    */
-  window.VC_ANALYTICS = { provedor: "goatcounter", token: "rikodalge" };
+  window.VC_ANALYTICS = { provedor: "", token: "" };
 </script>
 </head>
 <body>
@@ -556,6 +562,8 @@
   </div>
 
   <footer>
+    <p class="autoria">Criado por <strong>Ricardo Dalge</strong> · <a href="mailto:10932531+RikoDalge@users.noreply.github.com">10932531+RikoDalge@users.noreply.github.com</a></p>
+    <p class="epigrafe">&ldquo;Verás que um filho teu não foge à luta&rdquo;<span>Hino Nacional Brasileiro</span></p>
     <p class="versao" id="versao"></p>
     <p id="rodapeGrafo"></p>
     <p>Dados do TSE sob licença Creative Commons Atribuição (CC-BY); malha territorial do IBGE. Detalhe e somas de verificação na aba Método.</p>

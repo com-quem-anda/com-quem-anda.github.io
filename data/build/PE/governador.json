@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.510Z",
+ "geradoEm": "2026-09-20T14:36:11.169Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 8,
  "candidatos": [
@@ -199,7 +199,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "FRENTE POPULAR DE PERNAMBUCO",
-    "composicao": "REPUBLICANOS / PDT / MDB / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / DC",
+    "composicao": "REPUBLICANOS / PDT / MDB / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / DC",
     "sq": "170001800295"
    },
    "situacao": {
@@ -240,13 +240,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FRENTE PERNAMBUCO DE LUTA",
-    "composicao": "PCB / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PCB / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "170001800371"
    },
    "situacao": {
@@ -289,7 +289,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "PERNAMBUCO DE CORAÇÃO",
-    "composicao": "PODE / PSD / AVANTE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "PODE / PSD / AVANTE / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "170001800294"
    },
    "situacao": {

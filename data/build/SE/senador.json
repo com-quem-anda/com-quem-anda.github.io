@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.647Z",
+ "geradoEm": "2026-09-20T14:36:11.307Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 11,
  "candidatos": [
@@ -202,13 +202,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "SERGIPE CRESCE COM VOCÊ",
-    "composicao": "PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "260001800870"
    },
    "situacao": {
@@ -470,10 +470,10 @@
      }
     },
     {
-     "sq": "260002554205",
+     "sq": "260002543590",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "MARIO SONHADOR",
-     "nomeCompleto": "ANTÔNIO MÁRIO DE JESUS",
+     "nomeUrna": "MARCIO VIEIRA DO MOEMA MEIRE",
+     "nomeCompleto": "MARCIO VIEIRA DOS SANTOS",
      "partido": {
       "sigla": "DC",
       "numero": "27",
@@ -486,10 +486,10 @@
      }
     },
     {
-     "sq": "260002543590",
+     "sq": "260002554205",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "MARCIO VIEIRA DO MOEMA MEIRE",
-     "nomeCompleto": "MARCIO VIEIRA DOS SANTOS",
+     "nomeUrna": "MARIO SONHADOR",
+     "nomeCompleto": "ANTÔNIO MÁRIO DE JESUS",
      "partido": {
       "sigla": "DC",
       "numero": "27",
@@ -576,13 +576,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "SERGIPE CRESCE COM VOCÊ",
-    "composicao": "PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "260001800870"
    },
    "situacao": {
@@ -639,13 +639,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "260001800786"
    },
    "situacao": {

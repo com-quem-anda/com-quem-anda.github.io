@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.343Z",
+ "geradoEm": "2026-09-20T14:36:10.990Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 643,
  "candidatos": [
@@ -292,7 +292,7 @@
    "cargo": "deputado-estadual",
    "numero": "10022",
    "nomeUrna": "DOUTORA LARA",
-   "nomeCompleto": "LARA DE CASTRO ARAÚJO FERNENDES",
+   "nomeCompleto": "LARA DE CASTRO ARAÚJO FERNANDES",
    "nomeSocial": null,
    "partido": {
     "sigla": "REPUBLICANOS",
@@ -1650,13 +1650,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -1679,13 +1679,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -1708,13 +1708,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -1737,13 +1737,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -1766,13 +1766,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -1795,13 +1795,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -1824,13 +1824,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -1853,13 +1853,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -1882,13 +1882,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -1911,13 +1911,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -1940,13 +1940,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -1969,13 +1969,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -1998,13 +1998,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -3277,13 +3277,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3306,13 +3306,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3335,13 +3335,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3364,13 +3364,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3393,13 +3393,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3422,13 +3422,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3451,13 +3451,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3480,13 +3480,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3509,13 +3509,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3538,13 +3538,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3567,13 +3567,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3596,13 +3596,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3625,13 +3625,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3654,13 +3654,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3683,13 +3683,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3712,13 +3712,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3741,13 +3741,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3770,13 +3770,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3799,13 +3799,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3828,13 +3828,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3857,13 +3857,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3886,13 +3886,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3915,13 +3915,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3944,13 +3944,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -3973,13 +3973,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -4002,13 +4002,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -4031,13 +4031,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -4060,13 +4060,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -4089,13 +4089,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -4118,13 +4118,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -5672,13 +5672,13 @@
     "nome": "REDE SUSTENTABILIDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -5701,13 +5701,13 @@
     "nome": "REDE SUSTENTABILIDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -5730,13 +5730,13 @@
     "nome": "REDE SUSTENTABILIDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -5759,13 +5759,13 @@
     "nome": "REDE SUSTENTABILIDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -5788,13 +5788,13 @@
     "nome": "REDE SUSTENTABILIDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -5817,13 +5817,13 @@
     "nome": "REDE SUSTENTABILIDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -5846,13 +5846,13 @@
     "nome": "REDE SUSTENTABILIDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -5875,13 +5875,13 @@
     "nome": "REDE SUSTENTABILIDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -7454,13 +7454,13 @@
     "nome": "CIDADANIA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -7483,13 +7483,13 @@
     "nome": "CIDADANIA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -7512,13 +7512,13 @@
     "nome": "CIDADANIA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -7541,13 +7541,13 @@
     "nome": "CIDADANIA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -7570,13 +7570,13 @@
     "nome": "CIDADANIA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -7599,13 +7599,13 @@
     "nome": "CIDADANIA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -7628,13 +7628,13 @@
     "nome": "CIDADANIA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -7657,13 +7657,13 @@
     "nome": "CIDADANIA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -7686,13 +7686,13 @@
     "nome": "CIDADANIA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -7927,31 +7927,6 @@
    }
   },
   {
-   "sq": "50002543993",
-   "uf": "BA",
-   "cargo": "deputado-estadual",
-   "numero": "27123",
-   "nomeUrna": "MARCOS SEGURO",
-   "nomeCompleto": "MARCOS ANTONIO DOS SANTOS SOUZA",
-   "nomeSocial": null,
-   "partido": {
-    "sigla": "DC",
-    "numero": "27",
-    "nome": "DEMOCRACIA CRISTÃ"
-   },
-   "federacao": null,
-   "coligacao": {
-    "nome": "PARTIDO ISOLADO",
-    "composicao": "DC",
-    "sq": "50001800727"
-   },
-   "situacao": {
-    "disponivel": false,
-    "registro": null,
-    "codigo": null
-   }
-  },
-  {
    "sq": "50002550346",
    "uf": "BA",
    "cargo": "deputado-estadual",
@@ -7969,6 +7944,31 @@
     "nome": "PARTIDO ISOLADO",
     "composicao": "DC",
     "sq": "50001801076"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "50002543993",
+   "uf": "BA",
+   "cargo": "deputado-estadual",
+   "numero": "27123",
+   "nomeUrna": "MARCOS SEGURO",
+   "nomeCompleto": "MARCOS ANTONIO DOS SANTOS SOUZA",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "50001800727"
    },
    "situacao": {
     "disponivel": false,
@@ -8027,31 +8027,6 @@
    }
   },
   {
-   "sq": "50002550348",
-   "uf": "BA",
-   "cargo": "deputado-estadual",
-   "numero": "27190",
-   "nomeUrna": "SARGENTO IGOR MANDACARU",
-   "nomeCompleto": "IGOR DA MOTA SOARES",
-   "nomeSocial": null,
-   "partido": {
-    "sigla": "DC",
-    "numero": "27",
-    "nome": "DEMOCRACIA CRISTÃ"
-   },
-   "federacao": null,
-   "coligacao": {
-    "nome": "PARTIDO ISOLADO",
-    "composicao": "DC",
-    "sq": "50001801076"
-   },
-   "situacao": {
-    "disponivel": false,
-    "registro": null,
-    "codigo": null
-   }
-  },
-  {
    "sq": "50002543972",
    "uf": "BA",
    "cargo": "deputado-estadual",
@@ -8069,6 +8044,31 @@
     "nome": "PARTIDO ISOLADO",
     "composicao": "DC",
     "sq": "50001800727"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "50002550348",
+   "uf": "BA",
+   "cargo": "deputado-estadual",
+   "numero": "27190",
+   "nomeUrna": "SARGENTO IGOR MANDACARU",
+   "nomeCompleto": "IGOR DA MOTA SOARES",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "50001801076"
    },
    "situacao": {
     "disponivel": false,
@@ -8127,31 +8127,6 @@
    }
   },
   {
-   "sq": "50002550347",
-   "uf": "BA",
-   "cargo": "deputado-estadual",
-   "numero": "27333",
-   "nomeUrna": "ARAGUACY COSTA",
-   "nomeCompleto": "ARAGUACY COSTA DE JESUS",
-   "nomeSocial": null,
-   "partido": {
-    "sigla": "DC",
-    "numero": "27",
-    "nome": "DEMOCRACIA CRISTÃ"
-   },
-   "federacao": null,
-   "coligacao": {
-    "nome": "PARTIDO ISOLADO",
-    "composicao": "DC",
-    "sq": "50001801076"
-   },
-   "situacao": {
-    "disponivel": false,
-    "registro": null,
-    "codigo": null
-   }
-  },
-  {
    "sq": "50002543979",
    "uf": "BA",
    "cargo": "deputado-estadual",
@@ -8169,6 +8144,31 @@
     "nome": "PARTIDO ISOLADO",
     "composicao": "DC",
     "sq": "50001800727"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   }
+  },
+  {
+   "sq": "50002550347",
+   "uf": "BA",
+   "cargo": "deputado-estadual",
+   "numero": "27333",
+   "nomeUrna": "ARAGUACY COSTA",
+   "nomeCompleto": "ARAGUACY COSTA DE JESUS",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "DC",
+    "numero": "27",
+    "nome": "DEMOCRACIA CRISTÃ"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "DC",
+    "sq": "50001801076"
    },
    "situacao": {
     "disponivel": false,
@@ -10715,13 +10715,13 @@
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -10744,13 +10744,13 @@
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -10773,13 +10773,13 @@
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -10794,21 +10794,21 @@
    "cargo": "deputado-estadual",
    "numero": "43069",
    "nomeUrna": "KEITY BRASIL",
-   "nomeCompleto": "KEITY BRASIL",
-   "nomeSocial": "KEITY BRASIL",
+   "nomeCompleto": "KEITY SOUZA SANTOS VELOSO",
+   "nomeSocial": "KEITY SOUZA SANTOS VELOSO",
    "partido": {
     "sigla": "PV",
     "numero": "43",
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -10831,13 +10831,13 @@
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -10860,13 +10860,13 @@
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -10889,13 +10889,13 @@
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -10918,13 +10918,13 @@
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -10947,13 +10947,13 @@
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -10976,13 +10976,13 @@
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -11005,13 +11005,13 @@
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -11034,13 +11034,13 @@
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -11063,13 +11063,13 @@
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -11092,13 +11092,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11121,13 +11121,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11150,13 +11150,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11179,13 +11179,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11208,13 +11208,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11237,13 +11237,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11266,13 +11266,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11295,13 +11295,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11324,13 +11324,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11353,13 +11353,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11382,13 +11382,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11411,13 +11411,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11440,13 +11440,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11469,13 +11469,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11498,13 +11498,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11527,13 +11527,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11556,13 +11556,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11585,13 +11585,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11614,13 +11614,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11643,13 +11643,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11672,13 +11672,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11701,13 +11701,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11730,13 +11730,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11759,13 +11759,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11788,13 +11788,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11817,13 +11817,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11846,13 +11846,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11875,13 +11875,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11904,13 +11904,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11933,13 +11933,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11962,13 +11962,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -11991,13 +11991,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -12020,13 +12020,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -12049,13 +12049,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -12078,13 +12078,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -12107,13 +12107,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -12136,13 +12136,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -12165,13 +12165,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -12194,13 +12194,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -12223,13 +12223,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -12252,13 +12252,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -12281,13 +12281,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -12310,13 +12310,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "50001800231"
    },
    "situacao": {
@@ -12339,13 +12339,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12368,13 +12368,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12397,13 +12397,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12426,13 +12426,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12455,13 +12455,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12484,13 +12484,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12513,13 +12513,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12542,13 +12542,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12571,13 +12571,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12600,13 +12600,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12629,13 +12629,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12658,13 +12658,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12687,13 +12687,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12716,13 +12716,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12745,13 +12745,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12774,13 +12774,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12803,13 +12803,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12832,13 +12832,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12861,13 +12861,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12890,13 +12890,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12919,13 +12919,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12948,13 +12948,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -12977,13 +12977,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13006,13 +13006,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13035,13 +13035,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13064,13 +13064,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13093,13 +13093,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13122,13 +13122,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13151,13 +13151,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13180,13 +13180,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13209,13 +13209,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13238,13 +13238,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13267,13 +13267,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13296,13 +13296,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13325,13 +13325,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13354,13 +13354,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13383,13 +13383,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13412,13 +13412,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13441,13 +13441,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13470,13 +13470,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13499,13 +13499,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13528,13 +13528,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13557,13 +13557,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13586,13 +13586,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13615,13 +13615,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13644,13 +13644,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13673,13 +13673,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13702,13 +13702,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13731,13 +13731,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13760,13 +13760,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13789,13 +13789,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13818,13 +13818,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13847,13 +13847,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13876,13 +13876,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "50001800153"
    },
    "situacao": {
@@ -13905,13 +13905,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -13934,13 +13934,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -13963,13 +13963,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -13992,13 +13992,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14021,13 +14021,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14050,13 +14050,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14079,13 +14079,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14108,13 +14108,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14137,13 +14137,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14166,13 +14166,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14195,13 +14195,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14224,13 +14224,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14253,13 +14253,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14282,13 +14282,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14311,13 +14311,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14340,13 +14340,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14369,13 +14369,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14398,13 +14398,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14427,13 +14427,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14456,13 +14456,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14485,13 +14485,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14514,13 +14514,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14543,13 +14543,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14572,13 +14572,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14601,13 +14601,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14630,13 +14630,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14659,13 +14659,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14688,13 +14688,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14717,13 +14717,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14746,13 +14746,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14775,13 +14775,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14804,13 +14804,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14833,13 +14833,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14862,13 +14862,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14891,13 +14891,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -14920,13 +14920,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800216"
    },
    "situacao": {
@@ -15374,13 +15374,13 @@
     "nome": "PARTIDO COMUNISTA DO BRASIL"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -15403,13 +15403,13 @@
     "nome": "PARTIDO COMUNISTA DO BRASIL"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -15432,13 +15432,13 @@
     "nome": "PARTIDO COMUNISTA DO BRASIL"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -15461,13 +15461,13 @@
     "nome": "PARTIDO COMUNISTA DO BRASIL"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -15490,13 +15490,13 @@
     "nome": "PARTIDO COMUNISTA DO BRASIL"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -15519,13 +15519,13 @@
     "nome": "PARTIDO COMUNISTA DO BRASIL"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -15548,13 +15548,13 @@
     "nome": "PARTIDO COMUNISTA DO BRASIL"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -15577,13 +15577,13 @@
     "nome": "PARTIDO COMUNISTA DO BRASIL"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -15606,13 +15606,13 @@
     "nome": "PARTIDO COMUNISTA DO BRASIL"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800408"
    },
    "situacao": {
@@ -16860,13 +16860,13 @@
     "nome": "SOLIDARIEDADE"
    },
    "federacao": {
-    "sigla": "PRD/SOLIDARIEDADE",
+    "sigla": "25-PRD/77-SOLIDARIEDADE",
     "nome": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA",
-    "composicao": "PRD/SOLIDARIEDADE"
+    "composicao": "25-PRD/77-SOLIDARIEDADE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "50001801547"
    },
    "situacao": {
@@ -16889,13 +16889,13 @@
     "nome": "SOLIDARIEDADE"
    },
    "federacao": {
-    "sigla": "PRD/SOLIDARIEDADE",
+    "sigla": "25-PRD/77-SOLIDARIEDADE",
     "nome": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA",
-    "composicao": "PRD/SOLIDARIEDADE"
+    "composicao": "25-PRD/77-SOLIDARIEDADE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "50001801547"
    },
    "situacao": {

@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.647Z",
+ "geradoEm": "2026-09-20T14:36:11.307Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 6,
  "candidatos": [
@@ -170,13 +170,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "260001801269"
    },
    "situacao": {
@@ -190,6 +190,22 @@
      "cargo": "VICE-GOVERNADOR",
      "nomeUrna": "SUELY BARRETO",
      "nomeCompleto": "SUELY CHAVES BARRETO",
+     "partido": {
+      "sigla": "CIDADANIA",
+      "numero": "23",
+      "nome": "CIDADANIA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "260002554525",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "DR. FABRÍCIO MENEZES",
+     "nomeCompleto": "FABRICIO MOREIRA MENEZES",
      "partido": {
       "sigla": "CIDADANIA",
       "numero": "23",
@@ -217,13 +233,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "260001800858"
    },
    "situacao": {
@@ -266,7 +282,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "SERGIPE CRESCE COM VOCÊ",
-    "composicao": "PSB / PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "PSB / PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "260001800613"
    },
    "situacao": {

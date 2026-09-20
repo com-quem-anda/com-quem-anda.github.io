@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.467Z",
+ "geradoEm": "2026-09-20T14:36:11.125Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 10,
  "candidatos": [
@@ -25,13 +25,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "MATO GROSSO NAO PODE PARAR I",
-    "composicao": "REPUBLICANOS / PODE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "REPUBLICANOS / PODE / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "110001801227"
    },
    "situacao": {
@@ -90,7 +90,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "CORAÇÃO DA GENTE",
-    "composicao": "MDB / PL / NOVO / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "MDB / PL / NOVO / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "110001801262"
    },
    "situacao": {
@@ -116,10 +116,42 @@
      }
     },
     {
+     "sq": "110002554448",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "DANILO TRENTO",
+     "nomeCompleto": "DANILO BERNDT TRENTO",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
      "sq": "110002552696",
      "cargo": "2º SUPLENTE",
      "nomeUrna": "IBRAHIM ZAHER",
      "nomeCompleto": "IBRAHIM ZAHER",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "110002554447",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "RAFAEL TORRES",
+     "nomeCompleto": "RAFAEL YAMADA TORRES",
      "partido": {
       "sigla": "MDB",
       "numero": "15",
@@ -149,7 +181,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "CORAÇÃO DA GENTE",
-    "composicao": "MDB / PL / NOVO / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "MDB / PL / NOVO / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "110001801262"
    },
    "situacao": {
@@ -417,7 +449,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "MATO GROSSO PARA TODOS",
-    "composicao": "PDT / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PDT / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "110001800771"
    },
    "situacao": {
@@ -474,13 +506,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "MATO GROSSO NAO PODE PARAR I",
-    "composicao": "REPUBLICANOS / PODE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "REPUBLICANOS / PODE / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "110001801227"
    },
    "situacao": {
@@ -539,7 +571,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "MATO GROSSO PARA TODOS",
-    "composicao": "PDT / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PDT / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "110001800771"
    },
    "situacao": {

@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.720Z",
+ "geradoEm": "2026-09-20T14:36:11.370Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 8,
  "candidatos": [
@@ -123,10 +123,10 @@
    },
    "vice": [
     {
-     "sq": "270002554376",
+     "sq": "270002546369",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "CAPITÃO OSMAR",
-     "nomeCompleto": "OSMAR GOMES DE LIMA",
+     "nomeUrna": "JAIR MEDEIROS",
+     "nomeCompleto": "JAIR MEDEIRO DA CUNHA",
      "partido": {
       "sigla": "DEMOCRATA",
       "numero": "35",
@@ -139,10 +139,10 @@
      }
     },
     {
-     "sq": "270002546369",
+     "sq": "270002554376",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "JAIR MEDEIROS",
-     "nomeCompleto": "JAIR MEDEIRO DA CUNHA",
+     "nomeUrna": "CAPITÃO OSMAR",
+     "nomeCompleto": "OSMAR GOMES DE LIMA",
      "partido": {
       "sigla": "DEMOCRATA",
       "numero": "35",
@@ -182,10 +182,10 @@
    },
    "vice": [
     {
-     "sq": "270002554376",
+     "sq": "270002546369",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "CAPITÃO OSMAR",
-     "nomeCompleto": "OSMAR GOMES DE LIMA",
+     "nomeUrna": "JAIR MEDEIROS",
+     "nomeCompleto": "JAIR MEDEIRO DA CUNHA",
      "partido": {
       "sigla": "DEMOCRATA",
       "numero": "35",
@@ -198,10 +198,10 @@
      }
     },
     {
-     "sq": "270002546369",
+     "sq": "270002554376",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "JAIR MEDEIROS",
-     "nomeCompleto": "JAIR MEDEIRO DA CUNHA",
+     "nomeUrna": "CAPITÃO OSMAR",
+     "nomeCompleto": "OSMAR GOMES DE LIMA",
      "partido": {
       "sigla": "DEMOCRATA",
       "numero": "35",
@@ -229,13 +229,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "UNIÃO PELO TOCANTINS",
-    "composicao": "REPUBLICANOS / PODE / AVANTE / PL / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "REPUBLICANOS / PODE / AVANTE / PL / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "270001800733"
    },
    "situacao": {
@@ -276,13 +276,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "PRA CIMA TOCANTINS",
-    "composicao": "MDB / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "MDB / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "270001800725"
    },
    "situacao": {
@@ -323,13 +323,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "270001800451"
    },
    "situacao": {
@@ -372,7 +372,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "PRA FRENTE TOCANTINS",
-    "composicao": "PDT / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "PDT / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "270001800720"
    },
    "situacao": {

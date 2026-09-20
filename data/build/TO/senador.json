@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.720Z",
+ "geradoEm": "2026-09-20T14:36:11.370Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 13,
  "candidatos": [
@@ -53,10 +53,10 @@
      }
     },
     {
-     "sq": "270002548411",
+     "sq": "270002554322",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "ELSON RIBEIRO",
-     "nomeCompleto": "ELSON RIBEIRO DOS SANTOS",
+     "nomeUrna": "ELIANE MOREIRA",
+     "nomeCompleto": "ELIANE APARECIDA DA SILVA MOREIRA",
      "partido": {
       "sigla": "REPUBLICANOS",
       "numero": "10",
@@ -69,10 +69,10 @@
      }
     },
     {
-     "sq": "270002554322",
+     "sq": "270002548411",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "ELIANE MOREIRA",
-     "nomeCompleto": "ELIANE APARECIDA DA SILVA MOREIRA",
+     "nomeUrna": "ELSON RIBEIRO",
+     "nomeCompleto": "ELSON RIBEIRO DOS SANTOS",
      "partido": {
       "sigla": "REPUBLICANOS",
       "numero": "10",
@@ -100,13 +100,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "PRA FRENTE TOCANTINS",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / PDT / PSB / PSD",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / PDT / PSB / PSD",
     "sq": "270001800736"
    },
    "situacao": {
@@ -165,7 +165,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "PRA CIMA TOCANTINS",
-    "composicao": "MDB / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "MDB / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "270001800931"
    },
    "situacao": {
@@ -222,13 +222,13 @@
     "nome": "REDE SUSTENTABILIDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "270001800448"
    },
    "situacao": {
@@ -254,10 +254,10 @@
      }
     },
     {
-     "sq": "270002551934",
-     "cargo": "2º SUPLENTE",
-     "nomeUrna": "ADALBERTO",
-     "nomeCompleto": "ADALBERTO BRITO NUNES",
+     "sq": "270002554512",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "LILIA MANICURE",
+     "nomeCompleto": "LILIA BATISTA COSTA",
      "partido": {
       "sigla": "REDE",
       "numero": "18",
@@ -274,6 +274,22 @@
      "cargo": "2º SUPLENTE",
      "nomeUrna": "DEUSIVETE DOS SANTOS",
      "nomeCompleto": "DEUSIVETE SOUSA DOS SANTOS",
+     "partido": {
+      "sigla": "REDE",
+      "numero": "18",
+      "nome": "REDE SUSTENTABILIDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "270002551934",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "ADALBERTO",
+     "nomeCompleto": "ADALBERTO BRITO NUNES",
      "partido": {
       "sigla": "REDE",
       "numero": "18",
@@ -699,10 +715,10 @@
    },
    "suplentes": [
     {
-     "sq": "270002554464",
+     "sq": "270002551274",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "ANDREIA GUIMARÃES",
-     "nomeCompleto": "ANDREIA GUIMARÃES DOS SANTOS",
+     "nomeUrna": "ZULEICA NEGRI",
+     "nomeCompleto": "ZULEICA SILVA NEGRI",
      "partido": {
       "sigla": "DEMOCRATA",
       "numero": "35",
@@ -715,10 +731,10 @@
      }
     },
     {
-     "sq": "270002551274",
+     "sq": "270002554464",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "ZULEICA NEGRI",
-     "nomeCompleto": "ZULEICA SILVA NEGRI",
+     "nomeUrna": "ANDREIA GUIMARÃES",
+     "nomeCompleto": "ANDREIA GUIMARÃES DOS SANTOS",
      "partido": {
       "sigla": "DEMOCRATA",
       "numero": "35",
@@ -762,13 +778,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "270001800927"
    },
    "situacao": {
@@ -825,13 +841,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "270001800448"
    },
    "situacao": {

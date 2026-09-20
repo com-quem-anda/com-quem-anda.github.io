@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.592Z",
+ "geradoEm": "2026-09-20T14:36:11.249Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 14,
  "candidatos": [
@@ -27,7 +27,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "TIME QUE CUIDA",
-    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "200001800192"
    },
    "situacao": {
@@ -84,13 +84,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "TIME QUE CUIDA",
-    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "200001800192"
    },
    "situacao": {
@@ -267,7 +267,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "ENDIREITA RN",
-    "composicao": "PODE / PL / NOVO / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / MOBILIZA",
+    "composicao": "PODE / PL / NOVO / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / MOBILIZA",
     "sq": "200001800164"
    },
    "situacao": {
@@ -326,7 +326,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "ENDIREITA RN",
-    "composicao": "PODE / PL / NOVO / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / MOBILIZA",
+    "composicao": "PODE / PL / NOVO / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / MOBILIZA",
     "sq": "200001800164"
    },
    "situacao": {
@@ -529,10 +529,10 @@
      }
     },
     {
-     "sq": "200002554266",
+     "sq": "200002548117",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "CHARLLYS PADILHA",
-     "nomeCompleto": "CHARLLYS PADILHA FELIX",
+     "nomeUrna": "PRISCILA DUTRA",
+     "nomeCompleto": "PRISCILA DUTRA DA COSTA",
      "partido": {
       "sigla": "AGIR",
       "numero": "36",
@@ -545,10 +545,10 @@
      }
     },
     {
-     "sq": "200002548117",
+     "sq": "200002554266",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "PRISCILA DUTRA",
-     "nomeCompleto": "PRISCILA DUTRA DA COSTA",
+     "nomeUrna": "CHARLLYS PADILHA",
+     "nomeCompleto": "CHARLLYS PADILHA FELIX",
      "partido": {
       "sigla": "AGIR",
       "numero": "36",
@@ -576,13 +576,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "ESPERANÇA E TRABALHO",
-    "composicao": "REPUBLICANOS / MDB / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / AVANTE",
+    "composicao": "REPUBLICANOS / MDB / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / AVANTE",
     "sq": "200001800248"
    },
    "situacao": {
@@ -639,13 +639,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "200001800841"
    },
    "situacao": {
@@ -671,10 +671,10 @@
      }
     },
     {
-     "sq": "200002546793",
+     "sq": "200002554415",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "WESLEY",
-     "nomeCompleto": "WESLEY DE LIMA CAETANO",
+     "nomeUrna": "DANILO",
+     "nomeCompleto": "DANILO MORAIS DE ALMEIDA",
      "partido": {
       "sigla": "PSOL",
       "numero": "50",
@@ -687,10 +687,10 @@
      }
     },
     {
-     "sq": "200002554415",
+     "sq": "200002546793",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "DANILO",
-     "nomeCompleto": "DANILO MORAIS DE ALMEIDA",
+     "nomeUrna": "WESLEY",
+     "nomeCompleto": "WESLEY DE LIMA CAETANO",
      "partido": {
       "sigla": "PSOL",
       "numero": "50",
@@ -718,13 +718,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "200001800841"
    },
    "situacao": {
@@ -734,10 +734,10 @@
    },
    "suplentes": [
     {
-     "sq": "200002546791",
+     "sq": "200002554414",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "MODESTO NETO",
-     "nomeCompleto": "MODESTO CORNELIO BATISTA NETO",
+     "nomeUrna": "RODRIGO",
+     "nomeCompleto": "RODRIGO TOMAZINI DIAS",
      "partido": {
       "sigla": "PSOL",
       "numero": "50",
@@ -750,10 +750,10 @@
      }
     },
     {
-     "sq": "200002554414",
+     "sq": "200002546791",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "RODRIGO",
-     "nomeCompleto": "RODRIGO TOMAZINI DIAS",
+     "nomeUrna": "MODESTO NETO",
+     "nomeCompleto": "MODESTO CORNELIO BATISTA NETO",
      "partido": {
       "sigla": "PSOL",
       "numero": "50",
@@ -799,7 +799,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "ESPERANÇA E TRABALHO",
-    "composicao": "REPUBLICANOS / MDB / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / AVANTE",
+    "composicao": "REPUBLICANOS / MDB / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / AVANTE",
     "sq": "200001800248"
    },
    "situacao": {

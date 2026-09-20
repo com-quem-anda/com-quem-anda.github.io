@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.300Z",
+ "geradoEm": "2026-09-20T14:36:10.945Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 7,
  "candidatos": [
@@ -84,13 +84,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "ALAGOAS GIGANTE II",
-    "composicao": "PDT / PODE / PL / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / DC / AVANTE",
+    "composicao": "PDT / PL / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / DC",
     "sq": "20001801340"
    },
    "situacao": {
@@ -149,7 +149,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "PRA ALAGOAS FAZER HISTÓRIA DE NOVO",
-    "composicao": "MDB / PODE / AGIR / PSB / PSD / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "MDB / PODE / AGIR / PSB / PSD / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "20001801441"
    },
    "situacao": {
@@ -191,10 +191,10 @@
      }
     },
     {
-     "sq": "20002553956",
+     "sq": "20002553728",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "CHRISTIANE BULHÕES",
-     "nomeCompleto": "CHRISTIANE BULHÕES BARROS MELO SILVA",
+     "nomeUrna": "SABINO",
+     "nomeCompleto": "SABINO FIDELIS DE MOURA",
      "partido": {
       "sigla": "MDB",
       "numero": "15",
@@ -207,10 +207,10 @@
      }
     },
     {
-     "sq": "20002553728",
+     "sq": "20002553956",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "SABINO",
-     "nomeCompleto": "SABINO FIDELIS DE MOURA",
+     "nomeUrna": "CHRISTIANE BULHÕES",
+     "nomeCompleto": "CHRISTIANE BULHÕES BARROS MELO SILVA",
      "partido": {
       "sigla": "MDB",
       "numero": "15",
@@ -240,7 +240,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "PRA ALAGOAS FAZER HISTÓRIA DE NOVO",
-    "composicao": "MDB / PODE / AGIR / PSB / PSD / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "MDB / PODE / AGIR / PSB / PSD / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "20001801441"
    },
    "situacao": {
@@ -250,6 +250,22 @@
    },
    "suplentes": [
     {
+     "sq": "20002554456",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MARIVONE LOUREIRO",
+     "nomeCompleto": "MARIA YVONE LOUREIRO RIBEIRO",
+     "partido": {
+      "sigla": "PCDOB",
+      "numero": "65",
+      "nome": "PARTIDO COMUNISTA DO BRASIL"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
      "sq": "20002553730",
      "cargo": "1º SUPLENTE",
      "nomeUrna": "ROBERTSON",
@@ -258,6 +274,22 @@
       "sigla": "MDB",
       "numero": "15",
       "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "20002554471",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ANDREA ALFAMA",
+     "nomeCompleto": "ANDREA CARVALHO ALFAMA",
+     "partido": {
+      "sigla": "PCDOB",
+      "numero": "65",
+      "nome": "PARTIDO COMUNISTA DO BRASIL"
      },
      "situacao": {
       "disponivel": false,
@@ -282,14 +314,14 @@
      }
     },
     {
-     "sq": "20002553958",
+     "sq": "20002554524",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "CEL. CAMILA PAIVA",
-     "nomeCompleto": "CAMILA RENATHA PAIVA BARBOSA TORRES",
+     "nomeUrna": "THIAGO SOUZA",
+     "nomeCompleto": "THIAGO SOUZA SANTOS",
      "partido": {
-      "sigla": "MDB",
-      "numero": "15",
-      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+      "sigla": "PCDOB",
+      "numero": "65",
+      "nome": "PARTIDO COMUNISTA DO BRASIL"
      },
      "situacao": {
       "disponivel": false,
@@ -302,6 +334,22 @@
      "cargo": "2º SUPLENTE",
      "nomeUrna": "ADEMIR",
      "nomeCompleto": "ADEMIR PEREIRA CABRAL",
+     "partido": {
+      "sigla": "MDB",
+      "numero": "15",
+      "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "20002553958",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "CEL. CAMILA PAIVA",
+     "nomeCompleto": "CAMILA RENATHA PAIVA BARBOSA TORRES",
      "partido": {
       "sigla": "MDB",
       "numero": "15",
@@ -388,14 +436,14 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "ALAGOAS GIGANTE II",
-    "composicao": "PDT / PODE / PL / DC / AVANTE / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
-    "sq": "20001801436"
+    "composicao": "PDT / PL / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / DC",
+    "sq": "20001801340"
    },
    "situacao": {
     "disponivel": false,
@@ -412,6 +460,22 @@
       "sigla": "PSDB",
       "numero": "45",
       "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "20002554504",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "JURANDIR BOIA",
+     "nomeCompleto": "JURANDIR BOIA ROCHA",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
      },
      "situacao": {
       "disponivel": false,

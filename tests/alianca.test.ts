@@ -90,3 +90,14 @@ test("PC do B e PCDOB são o mesmo partido — sem isto, ele zera contra todo mu
   assert.equal(canonizarPartido("pc do b"), "PCDOB", "a grafia do TSE varia no caixa");
   assert.equal(canonizarPartido("PT"), "PT", "quem não tem apelido passa intacto");
 });
+
+test("número do partido na frente do nome é removido — o TSE passou a prefixar dentro das federações", () => {
+  assert.equal(canonizarPartido("13-PT"), "PT");
+  assert.equal(canonizarPartido("65-PC do B"), "PCDOB", "prefixo some e o apelido ainda vale");
+  assert.equal(canonizarPartido("77-SOLIDARIEDADE"), "SOLIDARIEDADE");
+  assert.equal(canonizarPartido("PL"), "PL", "quem vem sem prefixo passa intacto");
+  assert.deepEqual(
+    expandirComposicao("FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / PSB"),
+    ["PT", "PCDOB", "PV", "PSB"],
+  );
+});

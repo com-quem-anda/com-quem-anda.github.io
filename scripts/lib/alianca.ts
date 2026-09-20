@@ -54,7 +54,12 @@ const APELIDOS: Record<string, string> = {
 };
 
 export function canonizarPartido(nome: string): string {
-  const t = nome.trim();
+  // Desde o pacote de 20/09/2026 o TSE prefixa o número do partido dentro das
+  // federações — "13-PT", "65-PC do B". Fora delas vem sem prefixo. Se o
+  // prefixo passasse, essas legendas virariam partidos inexistentes e ficariam
+  // com proximidade zero contra todo mundo, em silêncio. Foi a invariante de
+  // grafia que apanhou a mudança.
+  const t = nome.trim().replace(/^\d{1,3}\s*-\s*/, "");
   return APELIDOS[t.toUpperCase()] ?? t;
 }
 

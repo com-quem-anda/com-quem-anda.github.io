@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.467Z",
+ "geradoEm": "2026-09-20T14:36:11.124Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 7,
  "candidatos": [
@@ -27,7 +27,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "MATO GROSSO NÃO PODE PARAR",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / REPUBLICANOS / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / PODE",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / REPUBLICANOS / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / PODE",
     "sq": "110001801124"
    },
    "situacao": {
@@ -113,7 +113,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "CORAÇÃO DA GENTE",
-    "composicao": "MDB / PL / NOVO / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "MDB / PL / NOVO / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "110001801271"
    },
    "situacao": {
@@ -225,6 +225,22 @@
      }
     },
     {
+     "sq": "110002554503",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SARGENTO KAREN FORTES",
+     "nomeCompleto": "KAREN DE ARRUDA FORTES",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
      "sq": "110002554099",
      "cargo": "VICE-GOVERNADOR",
      "nomeUrna": "ALEX PUCINELI",
@@ -284,6 +300,22 @@
      }
     },
     {
+     "sq": "110002554503",
+     "cargo": "VICE-GOVERNADOR",
+     "nomeUrna": "SARGENTO KAREN FORTES",
+     "nomeCompleto": "KAREN DE ARRUDA FORTES",
+     "partido": {
+      "sigla": "AGIR",
+      "numero": "36",
+      "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
      "sq": "110002554099",
      "cargo": "VICE-GOVERNADOR",
      "nomeUrna": "ALEX PUCINELI",
@@ -317,7 +349,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "MATO GROSSO PARA TODOS",
-    "composicao": "PDT / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PDT / PSB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "110001800770"
    },
    "situacao": {

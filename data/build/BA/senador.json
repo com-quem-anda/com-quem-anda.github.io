@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.342Z",
+ "geradoEm": "2026-09-20T14:36:10.988Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 10,
  "candidatos": [
@@ -27,7 +27,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "UNIDOS PARA MUDAR A BAHIA",
-    "composicao": "REPUBLICANOS / PODE / PL / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / NOVO",
+    "composicao": "REPUBLICANOS / PODE / PL / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / NOVO",
     "sq": "50001800152"
    },
    "situacao": {
@@ -84,13 +84,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "MAIS BAHIA MAIS BRASIL",
-    "composicao": "PDT / MDB / PSB / PSD / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "PDT / MDB / PSB / PSD / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800260"
    },
    "situacao": {
@@ -147,13 +147,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "MAIS BAHIA MAIS BRASIL",
-    "composicao": "PDT / MDB / PSB / PSD / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "PDT / MDB / PSB / PSD / AVANTE / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "50001800260"
    },
    "situacao": {
@@ -210,13 +210,13 @@
     "nome": "REDE SUSTENTABILIDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800207"
    },
    "situacao": {
@@ -275,7 +275,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "UNIDOS PARA MUDAR A BAHIA",
-    "composicao": "REPUBLICANOS / PODE / PL / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / NOVO",
+    "composicao": "REPUBLICANOS / PODE / PL / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / NOVO",
     "sq": "50001800152"
    },
    "situacao": {
@@ -360,10 +360,10 @@
      }
     },
     {
-     "sq": "50002552958",
+     "sq": "50002536576",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "LAZARO LEITE",
-     "nomeCompleto": "LÁZARO SOUZA LEITE",
+     "nomeUrna": "MAURO LEME",
+     "nomeCompleto": "MAURO LEME",
      "partido": {
       "sigla": "DC",
       "numero": "27",
@@ -376,10 +376,10 @@
      }
     },
     {
-     "sq": "50002536576",
+     "sq": "50002552958",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "MAURO LEME",
-     "nomeCompleto": "MAURO LEME",
+     "nomeUrna": "LAZARO LEITE",
+     "nomeCompleto": "LÁZARO SOUZA LEITE",
      "partido": {
       "sigla": "DC",
       "numero": "27",
@@ -541,13 +541,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "50001800207"
    },
    "situacao": {

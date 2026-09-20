@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.606Z",
+ "geradoEm": "2026-09-20T14:36:11.264Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 5,
  "candidatos": [
@@ -27,7 +27,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "RORAIMA SEGUE EM FRENTE",
-    "composicao": "REPUBLICANOS / PODE / AGIR / PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "REPUBLICANOS / PODE / AGIR / PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "230001801181"
    },
    "situacao": {
@@ -123,10 +123,10 @@
    },
    "vice": [
     {
-     "sq": "230002553858",
+     "sq": "230002554442",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "GREGÓRIO PEREIRA",
-     "nomeCompleto": "JOSÉ GREGÓRIO RODRIGUES PEREIRA",
+     "nomeUrna": "JOTA RODRIGUES",
+     "nomeCompleto": "JARILOM RODRIGUES SABAJO",
      "partido": {
       "sigla": "PCO",
       "numero": "29",
@@ -139,10 +139,10 @@
      }
     },
     {
-     "sq": "230002554442",
+     "sq": "230002553858",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "JOTA RODRIGUES",
-     "nomeCompleto": "JARILOM RODRIGUES SABAJO",
+     "nomeUrna": "GREGÓRIO PEREIRA",
+     "nomeCompleto": "JOSÉ GREGÓRIO RODRIGUES PEREIRA",
      "partido": {
       "sigla": "PCO",
       "numero": "29",
@@ -170,13 +170,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "RORAIMA DA ESPERANÇA",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "230001801234"
    },
    "situacao": {
@@ -217,13 +217,13 @@
     "nome": "SOLIDARIEDADE"
    },
    "federacao": {
-    "sigla": "PRD/SOLIDARIEDADE",
+    "sigla": "25-PRD/77-SOLIDARIEDADE",
     "nome": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA",
-    "composicao": "PRD/SOLIDARIEDADE"
+    "composicao": "25-PRD/77-SOLIDARIEDADE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "230001801001"
    },
    "situacao": {

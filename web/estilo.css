@@ -236,10 +236,6 @@ ul.sug .qt { font-family: var(--mono); font-size: 0.68rem; color: var(--muted); 
 .fonte .meta { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); word-break: break-all; }
 .fonte p { font-size: 0.86rem; }
 
-footer { margin-top: 36px; border-top: 1px solid var(--line-strong); padding-top: 16px; display: grid; gap: 7px; color: var(--muted); font-size: 0.79rem; }
-footer code { font-family: var(--mono); word-break: break-all; }
-footer .versao { display: flex; flex-wrap: wrap; gap: 5px 14px; font-family: var(--mono); }
-footer .ia { color: var(--ink-soft); }
 
 .carregando { padding: 40px 0; color: var(--muted); font-size: 0.9rem; text-align: center; }
 
@@ -435,6 +431,19 @@ footer { margin-top: 36px; border-top: 1px solid var(--line-strong); padding-top
 footer code { font-family: var(--mono); word-break: break-all; }
 footer .versao { display: flex; flex-wrap: wrap; gap: 5px 14px; font-family: var(--mono); }
 footer .ia { color: var(--ink-soft); }
+
+/* Autoria e epígrafe abrem o rodapé; o miúdo técnico vem depois, separado. */
+footer .autoria { font-size: .88rem; color: var(--ink); }
+footer .autoria a { color: var(--accent); }
+footer .epigrafe {
+  font-size: .95rem; font-style: italic; color: var(--ink-soft);
+  padding-bottom: 11px; margin-bottom: 4px; border-bottom: 1px solid var(--line);
+  display: grid; gap: 2px; max-width: 60ch;
+}
+footer .epigrafe span {
+  font-style: normal; font-family: var(--mono); font-size: .65rem;
+  letter-spacing: .1em; text-transform: uppercase; color: var(--muted);
+}
 
 .carregando { padding: 40px 0; color: var(--muted); font-size: 0.9rem; text-align: center; }
 

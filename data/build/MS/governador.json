@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.459Z",
+ "geradoEm": "2026-09-20T14:36:11.117Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 8,
  "candidatos": [
@@ -25,13 +25,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "FAZENDO O FUTURO ACONTECER",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / PL / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / PODE / AVANTE / REPUBLICANOS / PSD / MDB",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / PL / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / PODE / AVANTE / REPUBLICANOS / PSD / MDB",
     "sq": "120001800246"
    },
    "situacao": {
@@ -72,13 +72,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "POR UM MS DO POVO",
-    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "120001800491"
    },
    "situacao": {
@@ -119,13 +119,13 @@
     "nome": "PARTIDO RENOVACAO DEMOCRATICA"
    },
    "federacao": {
-    "sigla": "PRD/SOLIDARIEDADE",
+    "sigla": "25-PRD/77-SOLIDARIEDADE",
     "nome": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA",
-    "composicao": "PRD/SOLIDARIEDADE"
+    "composicao": "25-PRD/77-SOLIDARIEDADE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "120001801243"
    },
    "situacao": {
@@ -178,10 +178,10 @@
    },
    "vice": [
     {
-     "sq": "120002549682",
+     "sq": "120002554133",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "THIAGO MARTINS",
-     "nomeCompleto": "THIAGO MARTINS DOS SANTOS",
+     "nomeUrna": "ROBERTO PATZLAFF",
+     "nomeCompleto": "ROBERTO OSCAR PATZLAFF",
      "partido": {
       "sigla": "DC",
       "numero": "27",
@@ -194,10 +194,10 @@
      }
     },
     {
-     "sq": "120002554133",
+     "sq": "120002549682",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "ROBERTO PATZLAFF",
-     "nomeCompleto": "ROBERTO OSCAR PATZLAFF",
+     "nomeUrna": "THIAGO MARTINS",
+     "nomeCompleto": "THIAGO MARTINS DOS SANTOS",
      "partido": {
       "sigla": "DC",
       "numero": "27",
@@ -354,13 +354,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "120001799961"
    },
    "situacao": {

@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.480Z",
+ "geradoEm": "2026-09-20T14:36:11.139Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 13,
  "candidatos": [
@@ -86,7 +86,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "O PARÁ TÁ JUNTO",
-    "composicao": "PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / PSB / REPUBLICANOS / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / MDB / AVANTE",
+    "composicao": "PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / PSB / REPUBLICANOS / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / MDB / AVANTE",
     "sq": "140001801116"
    },
    "situacao": {
@@ -171,10 +171,10 @@
      }
     },
     {
-     "sq": "140002542689",
+     "sq": "140002554078",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "PR. FENELON",
-     "nomeCompleto": "FENELON LIMA SOBRINHO",
+     "nomeUrna": "FRANCY PARÁ",
+     "nomeCompleto": "FRANCISCA CHARLES CARNEIRO SILVA",
      "partido": {
       "sigla": "PODE",
       "numero": "20",
@@ -187,10 +187,10 @@
      }
     },
     {
-     "sq": "140002554078",
+     "sq": "140002542689",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "FRANCY PARÁ",
-     "nomeCompleto": "FRANCISCA CHARLES CARNEIRO SILVA",
+     "nomeUrna": "PR. FENELON",
+     "nomeCompleto": "FENELON LIMA SOBRINHO",
      "partido": {
       "sigla": "PODE",
       "numero": "20",
@@ -529,13 +529,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "O PARÁ TÁ JUNTO",
-    "composicao": "PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / PSB / REPUBLICANOS / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / MDB / AVANTE",
+    "composicao": "PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / PSB / REPUBLICANOS / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / MDB / AVANTE",
     "sq": "140001801116"
    },
    "situacao": {
@@ -592,13 +592,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "140001800785"
    },
    "situacao": {
@@ -655,13 +655,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "140001800785"
    },
    "situacao": {
@@ -718,13 +718,13 @@
     "nome": "SOLIDARIEDADE"
    },
    "federacao": {
-    "sigla": "PRD/SOLIDARIEDADE",
+    "sigla": "25-PRD/77-SOLIDARIEDADE",
     "nome": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA",
-    "composicao": "PRD/SOLIDARIEDADE"
+    "composicao": "25-PRD/77-SOLIDARIEDADE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "140001801527"
    },
    "situacao": {
@@ -754,6 +754,22 @@
      "cargo": "2º SUPLENTE",
      "nomeUrna": "KINZINHO",
      "nomeCompleto": "JOAQUIM DUARTE CORDEIRO",
+     "partido": {
+      "sigla": "SOLIDARIEDADE",
+      "numero": "77",
+      "nome": "SOLIDARIEDADE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "140002554506",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARCELO PINHEIRO",
+     "nomeCompleto": "MARCELO SANDRO ARAUJO PINHEIRO",
      "partido": {
       "sigla": "SOLIDARIEDADE",
       "numero": "77",

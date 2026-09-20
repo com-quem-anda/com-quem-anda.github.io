@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-09-12T11:48:27.721Z",
+  "geradoEm": "2026-09-20T14:36:11.371Z",
   "ufs": [
     "AC",
     "AL",
@@ -33,207 +33,239 @@
     "nome": "TSE — Portal de Dados Abertos, dataset candidatos-2026",
     "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
     "licenca": "Creative Commons Atribuição (CC-BY)",
-    "sha256": "342852c06b645fa90f4bc767153b497995ead648542d04059ccf14fb745c25d8"
+    "sha256": "13470a30f74b17035d6bb621f4bd820e498493c239c31875c5a30047c1e386a0"
   },
   "contagens": {
     "AC": {
       "governador": 6,
       "senador": 8,
       "deputado-federal": 102,
-      "deputado-estadual": 246,
-      "presidente": 13
+      "deputado-estadual": 247,
+      "presidente": 14
     },
     "AL": {
       "governador": 4,
       "senador": 7,
       "deputado-federal": 118,
-      "deputado-estadual": 143,
-      "presidente": 13
+      "deputado-estadual": 144,
+      "presidente": 14
     },
     "AM": {
       "governador": 7,
       "senador": 9,
       "deputado-federal": 139,
-      "deputado-estadual": 292,
-      "presidente": 13
+      "deputado-estadual": 294,
+      "presidente": 14
     },
     "AP": {
       "governador": 5,
       "senador": 9,
-      "deputado-federal": 90,
-      "deputado-estadual": 193,
-      "presidente": 13
+      "deputado-federal": 91,
+      "deputado-estadual": 194,
+      "presidente": 14
     },
     "BA": {
       "governador": 7,
       "senador": 10,
       "deputado-federal": 535,
       "deputado-estadual": 643,
-      "presidente": 13
+      "presidente": 14
     },
     "CE": {
       "governador": 9,
       "senador": 8,
       "deputado-federal": 295,
       "deputado-estadual": 376,
-      "presidente": 13
+      "presidente": 14
     },
     "DF": {
       "governador": 11,
       "senador": 13,
-      "deputado-federal": 170,
-      "deputado-distrital": 432,
-      "presidente": 13
+      "deputado-federal": 172,
+      "deputado-distrital": 433,
+      "presidente": 14
     },
     "ES": {
       "governador": 5,
       "senador": 11,
-      "deputado-federal": 136,
+      "deputado-federal": 137,
       "deputado-estadual": 410,
-      "presidente": 13
+      "presidente": 14
     },
     "GO": {
       "governador": 6,
       "senador": 11,
-      "deputado-federal": 264,
-      "deputado-estadual": 593,
-      "presidente": 13
+      "deputado-federal": 265,
+      "deputado-estadual": 594,
+      "presidente": 14
     },
     "MA": {
       "governador": 8,
       "senador": 11,
-      "deputado-federal": 281,
-      "deputado-estadual": 284,
-      "presidente": 13
+      "deputado-federal": 282,
+      "deputado-estadual": 285,
+      "presidente": 14
     },
     "MG": {
       "governador": 11,
       "senador": 18,
       "deputado-federal": 756,
-      "deputado-estadual": 996,
-      "presidente": 13
+      "deputado-estadual": 998,
+      "presidente": 14
     },
     "MS": {
       "governador": 8,
       "senador": 10,
       "deputado-federal": 124,
       "deputado-estadual": 253,
-      "presidente": 13
+      "presidente": 14
     },
     "MT": {
       "governador": 7,
       "senador": 10,
       "deputado-federal": 138,
-      "deputado-estadual": 267,
-      "presidente": 13
+      "deputado-estadual": 268,
+      "presidente": 14
     },
     "PA": {
       "governador": 8,
       "senador": 13,
       "deputado-federal": 268,
-      "deputado-estadual": 416,
-      "presidente": 13
+      "deputado-estadual": 417,
+      "presidente": 14
     },
     "PB": {
       "governador": 6,
       "senador": 10,
       "deputado-federal": 190,
-      "deputado-estadual": 212,
-      "presidente": 13
+      "deputado-estadual": 213,
+      "presidente": 14
     },
     "PE": {
       "governador": 8,
       "senador": 12,
       "deputado-federal": 392,
       "deputado-estadual": 517,
-      "presidente": 13
+      "presidente": 14
     },
     "PI": {
       "governador": 11,
       "senador": 20,
       "deputado-federal": 164,
-      "deputado-estadual": 151,
-      "presidente": 13
+      "deputado-estadual": 153,
+      "presidente": 14
     },
     "PR": {
       "governador": 8,
       "senador": 9,
-      "deputado-federal": 426,
+      "deputado-federal": 428,
       "deputado-estadual": 617,
-      "presidente": 13
+      "presidente": 14
     },
     "RJ": {
       "governador": 9,
       "senador": 17,
-      "deputado-federal": 792,
+      "deputado-federal": 793,
       "deputado-estadual": 1188,
-      "presidente": 13
+      "presidente": 14
     },
     "RN": {
-      "governador": 9,
+      "governador": 10,
       "senador": 14,
       "deputado-federal": 111,
       "deputado-estadual": 154,
-      "presidente": 13
+      "presidente": 14
     },
     "RO": {
       "governador": 6,
       "senador": 10,
-      "deputado-federal": 133,
+      "deputado-federal": 134,
       "deputado-estadual": 260,
-      "presidente": 13
+      "presidente": 14
     },
     "RR": {
       "governador": 5,
       "senador": 13,
       "deputado-federal": 108,
-      "deputado-estadual": 248,
-      "presidente": 13
+      "deputado-estadual": 250,
+      "presidente": 14
     },
     "RS": {
       "governador": 7,
       "senador": 13,
       "deputado-federal": 458,
       "deputado-estadual": 542,
-      "presidente": 13
+      "presidente": 14
     },
     "SC": {
       "governador": 8,
       "senador": 13,
       "deputado-federal": 231,
-      "deputado-estadual": 413,
-      "presidente": 13
+      "deputado-estadual": 414,
+      "presidente": 14
     },
     "SE": {
       "governador": 6,
       "senador": 11,
       "deputado-federal": 141,
-      "deputado-estadual": 221,
-      "presidente": 13
+      "deputado-estadual": 222,
+      "presidente": 14
     },
     "SP": {
       "governador": 7,
       "senador": 16,
       "deputado-federal": 1131,
       "deputado-estadual": 1430,
-      "presidente": 13
+      "presidente": 14
     },
     "TO": {
       "governador": 8,
       "senador": 13,
       "deputado-federal": 98,
-      "deputado-estadual": 208,
-      "presidente": 13
+      "deputado-estadual": 209,
+      "presidente": 14
     }
   },
-  "linhasCsvLidas": 20933,
+  "linhasCsvLidas": 20984,
   "situacaoRegistroDisponivel": false,
   "situacaoRegistro": {
     "comSituacao": 0,
-    "semSituacao": 20964,
+    "semSituacao": 21019,
     "observacao": "O TSE ainda publica #NE em DS_SITUACAO_CANDIDATURA para 2026. Enquanto isto for 0, o alerta de registro indeferido/cassado (§5.4) não tem fonte."
   },
   "anomalias": [
+    {
+      "tipo": "vice-multiplo",
+      "uf": "BR",
+      "cargo": "presidente",
+      "detalhe": "PABLO MARÇAL (nº 28) tem 2 vices, esperado 1",
+      "sq": [
+        "280002553884",
+        "280002553883",
+        "280002554490"
+      ]
+    },
+    {
+      "tipo": "vice-multiplo",
+      "uf": "BR",
+      "cargo": "presidente",
+      "detalhe": "LEONARDO AVALANCHE (nº 28) tem 2 vices, esperado 1",
+      "sq": [
+        "280002554479",
+        "280002553883",
+        "280002554490"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "BR",
+      "cargo": "presidente",
+      "detalhe": "nº 28 usado por 2 candidaturas: PABLO MARÇAL, LEONARDO AVALANCHE",
+      "sq": [
+        "280002553884",
+        "280002554479"
+      ]
+    },
     {
       "tipo": "suplentes-cardinalidade",
       "uf": "AC",
@@ -263,10 +295,20 @@
       "tipo": "numero-duplicado",
       "uf": "AC",
       "cargo": "deputado-estadual",
-      "detalhe": "nº 55444 usado por 2 candidaturas: LENINHA DA BAIXADA, RAQUEL ALBUQUERQUE",
+      "detalhe": "nº 55444 usado por 2 candidaturas: RAQUEL ALBUQUERQUE, LENINHA DA BAIXADA",
       "sq": [
-        "10002554293",
-        "10002534777"
+        "10002534777",
+        "10002554293"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "AC",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 23555 usado por 2 candidaturas: TEREZINHA, CRISTIANE DE ARAUJO",
+      "sq": [
+        "10002554473",
+        "10002544040"
       ]
     },
     {
@@ -278,31 +320,36 @@
         "20002553727",
         "20002553957",
         "20002553731",
-        "20002553956",
-        "20002553728"
+        "20002553728",
+        "20002553956"
       ]
     },
     {
       "tipo": "suplentes-cardinalidade",
       "uf": "AL",
       "cargo": "senador",
-      "detalhe": "DR. WANDERLEY (nº 156) tem 4 suplentes, esperado 2",
+      "detalhe": "DR. WANDERLEY (nº 156) tem 7 suplentes, esperado 2",
       "sq": [
         "20002553726",
+        "20002554456",
         "20002553730",
+        "20002554471",
         "20002553955",
-        "20002553958",
-        "20002553729"
+        "20002554524",
+        "20002553729",
+        "20002553958"
       ]
     },
     {
-      "tipo": "cpf-duplicado",
+      "tipo": "suplentes-cardinalidade",
       "uf": "AL",
-      "cargo": "deputado-federal",
-      "detalhe": "CICERO CONCEIÇÃO aparece 2x com o mesmo CPF (…3420)",
+      "cargo": "senador",
+      "detalhe": "MARINA JHC (nº 456) tem 3 suplentes, esperado 2",
       "sq": [
-        "20002554280",
-        "20002538212"
+        "20002553711",
+        "20002553712",
+        "20002554504",
+        "20002553710"
       ]
     },
     {
@@ -319,10 +366,10 @@
       "tipo": "cpf-duplicado",
       "uf": "AL",
       "cargo": "deputado-federal",
-      "detalhe": "LAU DA CAUSA ANIMAL aparece 2x com o mesmo CPF (…5491)",
+      "detalhe": "CICERO CONCEICAO aparece 2x com o mesmo CPF (…3420)",
       "sq": [
-        "20002538206",
-        "20002552856"
+        "20002538212",
+        "20002554280"
       ]
     },
     {
@@ -339,10 +386,30 @@
       "tipo": "cpf-duplicado",
       "uf": "AL",
       "cargo": "deputado-federal",
+      "detalhe": "CORONEL IVON aparece 2x com o mesmo CPF (…0430)",
+      "sq": [
+        "20002552854",
+        "20002538207"
+      ]
+    },
+    {
+      "tipo": "cpf-duplicado",
+      "uf": "AL",
+      "cargo": "deputado-federal",
+      "detalhe": "LAU DA CAUSA ANIMAL aparece 2x com o mesmo CPF (…5491)",
+      "sq": [
+        "20002552856",
+        "20002538206"
+      ]
+    },
+    {
+      "tipo": "cpf-duplicado",
+      "uf": "AL",
+      "cargo": "deputado-federal",
       "detalhe": "EUCENIA VIEIRA aparece 2x com o mesmo CPF (…0404)",
       "sq": [
-        "20002538211",
-        "20002552852"
+        "20002552852",
+        "20002538211"
       ]
     },
     {
@@ -351,18 +418,8 @@
       "cargo": "deputado-federal",
       "detalhe": "HELO BEZERRA aparece 2x com o mesmo CPF (…5428)",
       "sq": [
-        "20002538205",
-        "20002552855"
-      ]
-    },
-    {
-      "tipo": "cpf-duplicado",
-      "uf": "AL",
-      "cargo": "deputado-federal",
-      "detalhe": "CORONEL IVON aparece 2x com o mesmo CPF (…0430)",
-      "sq": [
-        "20002538207",
-        "20002552854"
+        "20002552855",
+        "20002538205"
       ]
     },
     {
@@ -373,6 +430,26 @@
       "sq": [
         "20002538203",
         "20002552853"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "AL",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 4599 usado por 2 candidaturas: ANA HORA, CORONEL DANIELLI",
+      "sq": [
+        "20002553987",
+        "20002554356"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "AL",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 7780 usado por 2 candidaturas: DR JOÃO NETO, DR. JOAO NETO",
+      "sq": [
+        "20002552857",
+        "20002538204"
       ]
     },
     {
@@ -390,20 +467,10 @@
       "tipo": "numero-duplicado",
       "uf": "AL",
       "cargo": "deputado-federal",
-      "detalhe": "nº 7780 usado por 2 candidaturas: DR JOÃO NETO, DR. JOAO NETO",
+      "detalhe": "nº 7755 usado por 2 candidaturas: CICERO CONCEICAO, CICERO CONCEIÇÃO",
       "sq": [
-        "20002552857",
-        "20002538204"
-      ]
-    },
-    {
-      "tipo": "numero-duplicado",
-      "uf": "AL",
-      "cargo": "deputado-federal",
-      "detalhe": "nº 7789 usado por 2 candidaturas: LAU DA CAUSA ANIMAL, LAU DA CAUSA ANIMAL",
-      "sq": [
-        "20002538206",
-        "20002552856"
+        "20002538212",
+        "20002554280"
       ]
     },
     {
@@ -420,10 +487,30 @@
       "tipo": "numero-duplicado",
       "uf": "AL",
       "cargo": "deputado-federal",
+      "detalhe": "nº 2500 usado por 2 candidaturas: CORONEL IVON, CORONEL IVON",
+      "sq": [
+        "20002552854",
+        "20002538207"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "AL",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 7789 usado por 2 candidaturas: LAU DA CAUSA ANIMAL, LAU DA CAUSA ANIMAL",
+      "sq": [
+        "20002552856",
+        "20002538206"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "AL",
+      "cargo": "deputado-federal",
       "detalhe": "nº 2512 usado por 2 candidaturas: EUCENIA VIEIRA, EUCENIA VIEIRA",
       "sq": [
-        "20002538211",
-        "20002552852"
+        "20002552852",
+        "20002538211"
       ]
     },
     {
@@ -432,39 +519,19 @@
       "cargo": "deputado-federal",
       "detalhe": "nº 7777 usado por 3 candidaturas: HELO BEZERRA, HELO BEZERRA, WADSON REGIS",
       "sq": [
-        "20002538205",
         "20002552855",
+        "20002538205",
         "20002554446"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "AL",
-      "cargo": "deputado-federal",
-      "detalhe": "nº 4599 usado por 2 candidaturas: ANA HORA, CORONEL DANIELLI",
-      "sq": [
-        "20002553987",
-        "20002554356"
-      ]
-    },
-    {
-      "tipo": "numero-duplicado",
-      "uf": "AL",
-      "cargo": "deputado-federal",
-      "detalhe": "nº 2500 usado por 2 candidaturas: CORONEL IVON, CORONEL IVON",
-      "sq": [
-        "20002538207",
-        "20002552854"
-      ]
-    },
-    {
-      "tipo": "numero-duplicado",
-      "uf": "AL",
       "cargo": "deputado-estadual",
-      "detalhe": "nº 45400 usado por 2 candidaturas: VICTÓRIA GAIA, CIDINHA DA TRANSFORMAÇÃO",
+      "detalhe": "nº 45400 usado por 2 candidaturas: CIDINHA DA TRANSFORMAÇÃO, VICTÓRIA GAIA",
       "sq": [
-        "20002554346",
-        "20002553258"
+        "20002553258",
+        "20002554346"
       ]
     },
     {
@@ -484,8 +551,8 @@
       "detalhe": "ISMAEL MUNDURUKU (nº 181) tem 3 suplentes, esperado 2",
       "sq": [
         "40002551283",
-        "40002551280",
         "40002554392",
+        "40002551280",
         "40002551282"
       ]
     },
@@ -503,51 +570,70 @@
       "tipo": "numero-duplicado",
       "uf": "AM",
       "cargo": "deputado-estadual",
-      "detalhe": "nº 44133 usado por 2 candidaturas: DEDEIA MEDEIROS, SILVYANE CASTRO",
+      "detalhe": "nº 44133 usado por 2 candidaturas: SILVYANE CASTRO, DEDEIA MEDEIROS",
       "sq": [
-        "40002554183",
-        "40002542658"
+        "40002542658",
+        "40002554183"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "AM",
       "cargo": "deputado-estadual",
-      "detalhe": "nº 30000 usado por 2 candidaturas: MÔNICA ALVES DE SOUZA MOTA, NEDY VALE",
+      "detalhe": "nº 30000 usado por 2 candidaturas: NEDY VALE, MÔNICA ALVES DE SOUZA MOTA",
       "sq": [
-        "40002552158",
-        "40002536895"
+        "40002536895",
+        "40002552158"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "AM",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 65656 usado por 2 candidaturas: ERON BEZERRA, EDILON QUEIROZ",
+      "sq": [
+        "40002545609",
+        "40002554515"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "AP",
       "cargo": "deputado-federal",
-      "detalhe": "nº 1522 usado por 2 candidaturas: ALINNE MADEIREIRO, GUARACY",
+      "detalhe": "nº 5555 usado por 2 candidaturas: KELLY DANTAS, DR. BRASIL",
       "sq": [
-        "30002554423",
-        "30002549853"
+        "30002554527",
+        "30002532249"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "AP",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 1522 usado por 2 candidaturas: GUARACY, ALINNE MADEIREIRO",
+      "sq": [
+        "30002549853",
+        "30002554423"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "AP",
       "cargo": "deputado-estadual",
-      "detalhe": "nº 22190 usado por 2 candidaturas: TENENTE SOLANGE, ÍNDIA POTIRA",
+      "detalhe": "nº 10300 usado por 2 candidaturas: TEKA DO JORY, JORY OEIRAS",
       "sq": [
-        "30002538151",
-        "30002554364"
+        "30002554526",
+        "30002549885"
       ]
     },
     {
-      "tipo": "vice-multiplo",
-      "uf": "BA",
-      "cargo": "governador",
-      "detalhe": "ESTÊVÃO (nº 27) tem 2 vices, esperado 1",
+      "tipo": "numero-duplicado",
+      "uf": "AP",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 22190 usado por 2 candidaturas: ÍNDIA POTIRA, TENENTE SOLANGE",
       "sq": [
-        "50002536579",
-        "50002535254",
-        "50002536580"
+        "30002554364",
+        "30002538151"
       ]
     },
     {
@@ -557,18 +643,41 @@
       "detalhe": "ARIEL CAPISTRANO (nº 27) tem 2 vices, esperado 1",
       "sq": [
         "50002535253",
-        "50002535254",
-        "50002536580"
+        "50002536580",
+        "50002535254"
+      ]
+    },
+    {
+      "tipo": "vice-multiplo",
+      "uf": "BA",
+      "cargo": "governador",
+      "detalhe": "ESTÊVÃO (nº 27) tem 2 vices, esperado 1",
+      "sq": [
+        "50002536579",
+        "50002536580",
+        "50002535254"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "BA",
       "cargo": "governador",
-      "detalhe": "nº 27 usado por 2 candidaturas: ESTÊVÃO, ARIEL CAPISTRANO",
+      "detalhe": "nº 27 usado por 2 candidaturas: ARIEL CAPISTRANO, ESTÊVÃO",
       "sq": [
-        "50002536579",
-        "50002535253"
+        "50002535253",
+        "50002536579"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "BA",
+      "cargo": "senador",
+      "detalhe": "MARCELO SANTTANA (nº 277) tem 3 suplentes, esperado 2",
+      "sq": [
+        "50002536577",
+        "50002536578",
+        "50002536576",
+        "50002552958"
       ]
     },
     {
@@ -581,18 +690,6 @@
         "50002554411",
         "50002553645",
         "50002553644"
-      ]
-    },
-    {
-      "tipo": "suplentes-cardinalidade",
-      "uf": "BA",
-      "cargo": "senador",
-      "detalhe": "MARCELO SANTTANA (nº 277) tem 3 suplentes, esperado 2",
-      "sq": [
-        "50002536577",
-        "50002536578",
-        "50002552958",
-        "50002536576"
       ]
     },
     {
@@ -609,10 +706,10 @@
       "tipo": "cpf-duplicado",
       "uf": "BA",
       "cargo": "deputado-federal",
-      "detalhe": "DURVAL NETO aparece 2x com o mesmo CPF (…6549)",
+      "detalhe": "LESLEY CARNEIRO aparece 2x com o mesmo CPF (…0563)",
       "sq": [
-        "50002554210",
-        "50002542552"
+        "50002542414",
+        "50002535013"
       ]
     },
     {
@@ -621,18 +718,18 @@
       "cargo": "deputado-federal",
       "detalhe": "BRUNO ELIAS aparece 2x com o mesmo CPF (…8565)",
       "sq": [
-        "50002542554",
-        "50002544001"
+        "50002544001",
+        "50002542554"
       ]
     },
     {
       "tipo": "cpf-duplicado",
       "uf": "BA",
       "cargo": "deputado-federal",
-      "detalhe": "LESLEY CARNEIRO aparece 2x com o mesmo CPF (…0563)",
+      "detalhe": "NETO DA KOMBI aparece 2x com o mesmo CPF (…6549)",
       "sq": [
-        "50002542414",
-        "50002535013"
+        "50002542552",
+        "50002554210"
       ]
     },
     {
@@ -649,10 +746,10 @@
       "tipo": "numero-duplicado",
       "uf": "BA",
       "cargo": "deputado-federal",
-      "detalhe": "nº 2744 usado por 2 candidaturas: DURVAL NETO, NETO DA KOMBI",
+      "detalhe": "nº 1017 usado por 2 candidaturas: ALAN LOPES, MARCELLE DO ESPORTE",
       "sq": [
-        "50002554210",
-        "50002542552"
+        "50002552590",
+        "50002532518"
       ]
     },
     {
@@ -661,8 +758,8 @@
       "cargo": "deputado-federal",
       "detalhe": "nº 2717 usado por 2 candidaturas: BRUNO ELIAS, BRUNO ELIAS",
       "sq": [
-        "50002542554",
-        "50002544001"
+        "50002544001",
+        "50002542554"
       ]
     },
     {
@@ -679,10 +776,10 @@
       "tipo": "numero-duplicado",
       "uf": "BA",
       "cargo": "deputado-federal",
-      "detalhe": "nº 1017 usado por 2 candidaturas: ALAN LOPES, MARCELLE DO ESPORTE",
+      "detalhe": "nº 2744 usado por 2 candidaturas: NETO DA KOMBI, DURVAL NETO",
       "sq": [
-        "50002552590",
-        "50002532518"
+        "50002542552",
+        "50002554210"
       ]
     },
     {
@@ -699,10 +796,20 @@
       "tipo": "cpf-duplicado",
       "uf": "BA",
       "cargo": "deputado-estadual",
+      "detalhe": "ARAGUACY COSTA aparece 2x com o mesmo CPF (…6549)",
+      "sq": [
+        "50002543979",
+        "50002550347"
+      ]
+    },
+    {
+      "tipo": "cpf-duplicado",
+      "uf": "BA",
+      "cargo": "deputado-estadual",
       "detalhe": "SARGENTO IGOR MANDACARU aparece 2x com o mesmo CPF (…8500)",
       "sq": [
-        "50002550348",
-        "50002543972"
+        "50002543972",
+        "50002550348"
       ]
     },
     {
@@ -711,38 +818,8 @@
       "cargo": "deputado-estadual",
       "detalhe": "MARCOS SEGURO aparece 2x com o mesmo CPF (…9534)",
       "sq": [
-        "50002543993",
-        "50002550346"
-      ]
-    },
-    {
-      "tipo": "cpf-duplicado",
-      "uf": "BA",
-      "cargo": "deputado-estadual",
-      "detalhe": "ARAGUACY COSTA aparece 2x com o mesmo CPF (…6549)",
-      "sq": [
-        "50002550347",
-        "50002543979"
-      ]
-    },
-    {
-      "tipo": "numero-duplicado",
-      "uf": "BA",
-      "cargo": "deputado-estadual",
-      "detalhe": "nº 27190 usado por 2 candidaturas: SARGENTO IGOR MANDACARU, SARGENTO IGOR MANDACARU",
-      "sq": [
-        "50002550348",
-        "50002543972"
-      ]
-    },
-    {
-      "tipo": "numero-duplicado",
-      "uf": "BA",
-      "cargo": "deputado-estadual",
-      "detalhe": "nº 27123 usado por 2 candidaturas: MARCOS SEGURO, MARCOS SEGURO",
-      "sq": [
-        "50002543993",
-        "50002550346"
+        "50002550346",
+        "50002543993"
       ]
     },
     {
@@ -751,8 +828,28 @@
       "cargo": "deputado-estadual",
       "detalhe": "nº 27333 usado por 2 candidaturas: ARAGUACY COSTA, ARAGUACY COSTA",
       "sq": [
-        "50002550347",
-        "50002543979"
+        "50002543979",
+        "50002550347"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "BA",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 27190 usado por 2 candidaturas: SARGENTO IGOR MANDACARU, SARGENTO IGOR MANDACARU",
+      "sq": [
+        "50002543972",
+        "50002550348"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "BA",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 27123 usado por 2 candidaturas: MARCOS SEGURO, MARCOS SEGURO",
+      "sq": [
+        "50002550346",
+        "50002543993"
       ]
     },
     {
@@ -762,8 +859,8 @@
       "detalhe": "PEDRO BRITO (nº 30) tem 2 vices, esperado 1",
       "sq": [
         "60002540336",
-        "60002553983",
-        "60002540335"
+        "60002540335",
+        "60002553983"
       ]
     },
     {
@@ -773,8 +870,8 @@
       "detalhe": "VERA LÚCIA (nº 30) tem 2 vices, esperado 1",
       "sq": [
         "60002553922",
-        "60002553983",
-        "60002540335"
+        "60002540335",
+        "60002553983"
       ]
     },
     {
@@ -791,40 +888,30 @@
       "tipo": "numero-duplicado",
       "uf": "CE",
       "cargo": "deputado-federal",
-      "detalhe": "nº 1544 usado por 2 candidaturas: JESSICA MACAXEIRA, JESSICA MACAXEIRA",
+      "detalhe": "nº 4077 usado por 2 candidaturas: TAINAH MARINHO, ROMEU ALDIGUERI",
       "sq": [
-        "60002554044",
-        "60002542440"
+        "60002545223",
+        "60002536703"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "CE",
       "cargo": "deputado-federal",
-      "detalhe": "nº 4077 usado por 2 candidaturas: ROMEU ALDIGUERI, TAINAH MARINHO",
+      "detalhe": "nº 1544 usado por 2 candidaturas: JESSICA MACAXEIRA, JESSICA MACAXEIRA",
       "sq": [
-        "60002536703",
-        "60002545223"
+        "60002542440",
+        "60002554044"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "CE",
       "cargo": "deputado-estadual",
-      "detalhe": "nº 25333 usado por 2 candidaturas: DEDÃO DO POVO, JORNALISTA MARINHO",
+      "detalhe": "nº 16000 usado por 2 candidaturas: RAIMUNDO BANCADA OPERÁRIA, RAIMUNDÃO",
       "sq": [
-        "60002532469",
-        "60002553997"
-      ]
-    },
-    {
-      "tipo": "numero-duplicado",
-      "uf": "CE",
-      "cargo": "deputado-estadual",
-      "detalhe": "nº 16000 usado por 2 candidaturas: RAIMUNDÃO, RAIMUNDO BANCADA OPERÁRIA",
-      "sq": [
-        "60002550750",
-        "60002553981"
+        "60002553981",
+        "60002550750"
       ]
     },
     {
@@ -835,6 +922,16 @@
       "sq": [
         "60002536686",
         "60002545224"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "CE",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 25333 usado por 2 candidaturas: JORNALISTA MARINHO, DEDÃO DO POVO",
+      "sq": [
+        "60002553997",
+        "60002532469"
       ]
     },
     {
@@ -850,10 +947,42 @@
       ]
     },
     {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "DF",
+      "cargo": "senador",
+      "detalhe": "TIAGO (nº 360) tem 3 suplentes, esperado 2",
+      "sq": [
+        "70002551323",
+        "70002551324",
+        "70002554457",
+        "70002551325"
+      ]
+    },
+    {
       "tipo": "numero-duplicado",
       "uf": "DF",
       "cargo": "deputado-federal",
-      "detalhe": "nº 3535 usado por 2 candidaturas: LAIRA INÁCIO, COLETIVO CORAGEM",
+      "detalhe": "nº 2022 usado por 2 candidaturas: CARLOS MACEDO, KLESLEY GARCIA",
+      "sq": [
+        "70002554509",
+        "70002540847"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "DF",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 4456 usado por 2 candidaturas: DRA. GARDENIA, PROF. DÍDIA",
+      "sq": [
+        "70002554528",
+        "70002538516"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "DF",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 3535 usado por 2 candidaturas: LAIRA INÁCIO, NOELY COLETIVO CORAGEM",
       "sq": [
         "70002546416",
         "70002554416"
@@ -884,11 +1013,21 @@
     {
       "tipo": "numero-duplicado",
       "uf": "ES",
-      "cargo": "deputado-estadual",
-      "detalhe": "nº 27010 usado por 2 candidaturas: JHEYSI, NANDA DA BAIXADA",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 2222 usado por 2 candidaturas: LUCAS O FEDERAL DA DIREITA, GILVAN O FEDERAL DA DIREITA",
       "sq": [
-        "80002551804",
-        "80002554306"
+        "80002554483",
+        "80002549700"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "ES",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 27010 usado por 2 candidaturas: NANDA DA BAIXADA, JHEYSI",
+      "sq": [
+        "80002554306",
+        "80002551804"
       ]
     },
     {
@@ -898,9 +1037,29 @@
       "detalhe": "DR. ZACHARIAS CALIL (nº 155) tem 3 suplentes, esperado 2",
       "sq": [
         "90002546974",
-        "90002554305",
         "90002546975",
+        "90002554305",
         "90002546976"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "GO",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 4515 usado por 2 candidaturas: FLÁVIA DO MAGUITO, ANA FLÁVIA RESENDE",
+      "sq": [
+        "90002547106",
+        "90002554472"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "GO",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 2590 usado por 2 candidaturas: SARGENTO WIVIANE, CABO LORRANE",
+      "sq": [
+        "90002553971",
+        "90002543567"
       ]
     },
     {
@@ -917,20 +1076,10 @@
       "tipo": "numero-duplicado",
       "uf": "GO",
       "cargo": "deputado-federal",
-      "detalhe": "nº 1040 usado por 2 candidaturas: SAMUEL DA RAÇÃO, CARLIN DA OFICINA",
+      "detalhe": "nº 1040 usado por 2 candidaturas: CARLIN DA OFICINA, SAMUEL DA RAÇÃO",
       "sq": [
-        "90002554348",
-        "90002548375"
-      ]
-    },
-    {
-      "tipo": "numero-duplicado",
-      "uf": "GO",
-      "cargo": "deputado-federal",
-      "detalhe": "nº 2590 usado por 2 candidaturas: CABO LORRANE, SARGENTO WIVIANE",
-      "sq": [
-        "90002543567",
-        "90002553971"
+        "90002548375",
+        "90002554348"
       ]
     },
     {
@@ -950,8 +1099,8 @@
       "detalhe": "REGINALDO LIMA (nº 21) tem 2 vices, esperado 1",
       "sq": [
         "100002544073",
-        "100002554354",
-        "100002544074"
+        "100002544074",
+        "100002554354"
       ]
     },
     {
@@ -962,8 +1111,8 @@
       "sq": [
         "100002548853",
         "100002548851",
-        "100002554412",
-        "100002548852"
+        "100002548852",
+        "100002554412"
       ]
     },
     {
@@ -973,8 +1122,8 @@
       "detalhe": "DR.HILTON GONÇALO (nº 333) tem 3 suplentes, esperado 2",
       "sq": [
         "100002550418",
-        "100002554367",
         "100002550419",
+        "100002554367",
         "100002550420"
       ]
     },
@@ -982,23 +1131,20 @@
       "tipo": "numero-duplicado",
       "uf": "MA",
       "cargo": "deputado-federal",
-      "detalhe": "nº 1221 usado por 2 candidaturas: SOPHIA GOMES, MARIA DA FITA",
+      "detalhe": "nº 4480 usado por 2 candidaturas: PEDRO NERES DO ZE FRANCISCO, DR. ZÉ FRANCISCO",
       "sq": [
-        "100002535246",
-        "100002551359"
+        "100002554452",
+        "100002542874"
       ]
     },
     {
-      "tipo": "suplentes-cardinalidade",
-      "uf": "MG",
-      "cargo": "senador",
-      "detalhe": "AÉCIO NEVES (nº 456) tem 4 suplentes, esperado 2",
+      "tipo": "numero-duplicado",
+      "uf": "MA",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 1221 usado por 2 candidaturas: MARIA DA FITA, SOPHIA GOMES",
       "sq": [
-        "130002554332",
-        "130002554333",
-        "130002553353",
-        "130002554334",
-        "130002553352"
+        "100002551359",
+        "100002535246"
       ]
     },
     {
@@ -1008,10 +1154,23 @@
       "detalhe": "MARCELO HERINGER (nº 123) tem 4 suplentes, esperado 2",
       "sq": [
         "130002553856",
-        "130002553854",
         "130002554270",
-        "130002553855",
-        "130002554243"
+        "130002553854",
+        "130002554243",
+        "130002553855"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "MG",
+      "cargo": "senador",
+      "detalhe": "AÉCIO NEVES (nº 456) tem 4 suplentes, esperado 2",
+      "sq": [
+        "130002554332",
+        "130002553353",
+        "130002554333",
+        "130002553352",
+        "130002554334"
       ]
     },
     {
@@ -1021,10 +1180,10 @@
       "detalhe": "GUSTAVO GALASSI (nº 456) tem 4 suplentes, esperado 2",
       "sq": [
         "130002553354",
-        "130002554333",
         "130002553353",
-        "130002554334",
-        "130002553352"
+        "130002554333",
+        "130002553352",
+        "130002554334"
       ]
     },
     {
@@ -1041,10 +1200,10 @@
       "tipo": "numero-duplicado",
       "uf": "MG",
       "cargo": "deputado-federal",
-      "detalhe": "nº 7713 usado por 2 candidaturas: TONY JOSSONE, DINO",
+      "detalhe": "nº 1855 usado por 2 candidaturas: ELIENE CHAVES, CASA GRANDE",
       "sq": [
-        "130002550171",
-        "130002536472"
+        "130002554390",
+        "130002538969"
       ]
     },
     {
@@ -1062,10 +1221,10 @@
       "tipo": "numero-duplicado",
       "uf": "MG",
       "cargo": "deputado-federal",
-      "detalhe": "nº 1855 usado por 2 candidaturas: ELIENE CHAVES, CASA GRANDE",
+      "detalhe": "nº 7713 usado por 2 candidaturas: TONY JOSSONE, DINO",
       "sq": [
-        "130002554390",
-        "130002538969"
+        "130002550171",
+        "130002536472"
       ]
     },
     {
@@ -1076,6 +1235,26 @@
       "sq": [
         "130002534560",
         "130002554208"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "MG",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 33125 usado por 2 candidaturas: PEDRO PAULO, DONA FATIMA PROFESSORA",
+      "sq": [
+        "130002552407",
+        "130002554454"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "MG",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 33033 usado por 2 candidaturas: JACQUELINE BOMBEIRA, GLORIA SÃO COSME",
+      "sq": [
+        "130002552430",
+        "130002554455"
       ]
     },
     {
@@ -1095,8 +1274,8 @@
       "detalhe": "ECONOMISTA RENATO GOMES (nº 27) tem 2 vices, esperado 1",
       "sq": [
         "120002549681",
-        "120002549682",
-        "120002554133"
+        "120002554133",
+        "120002549682"
       ]
     },
     {
@@ -1135,10 +1314,11 @@
       "tipo": "vice-multiplo",
       "uf": "MT",
       "cargo": "governador",
-      "detalhe": "SARGENTO LAUDICÉRIO (nº 36) tem 2 vices, esperado 1",
+      "detalhe": "SARGENTO LAUDICÉRIO (LAU) (nº 36) tem 3 vices, esperado 1",
       "sq": [
-        "110002554073",
+        "110002553937",
         "110002553938",
+        "110002554503",
         "110002554099"
       ]
     },
@@ -1146,10 +1326,11 @@
       "tipo": "vice-multiplo",
       "uf": "MT",
       "cargo": "governador",
-      "detalhe": "SARGENTO LAUDICÉRIO (LAU) (nº 36) tem 2 vices, esperado 1",
+      "detalhe": "SARGENTO LAUDICÉRIO (nº 36) tem 3 vices, esperado 1",
       "sq": [
-        "110002553937",
+        "110002554073",
         "110002553938",
+        "110002554503",
         "110002554099"
       ]
     },
@@ -1157,20 +1338,33 @@
       "tipo": "cpf-duplicado",
       "uf": "MT",
       "cargo": "governador",
-      "detalhe": "SARGENTO LAUDICÉRIO aparece 2x com o mesmo CPF (…6153)",
+      "detalhe": "SARGENTO LAUDICÉRIO (LAU) aparece 2x com o mesmo CPF (…6153)",
       "sq": [
-        "110002554073",
-        "110002553937"
+        "110002553937",
+        "110002554073"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "MT",
       "cargo": "governador",
-      "detalhe": "nº 36 usado por 2 candidaturas: SARGENTO LAUDICÉRIO, SARGENTO LAUDICÉRIO (LAU)",
+      "detalhe": "nº 36 usado por 2 candidaturas: SARGENTO LAUDICÉRIO (LAU), SARGENTO LAUDICÉRIO",
       "sq": [
-        "110002554073",
-        "110002553937"
+        "110002553937",
+        "110002554073"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "MT",
+      "cargo": "senador",
+      "detalhe": "JANAINA RIVA (nº 150) tem 4 suplentes, esperado 2",
+      "sq": [
+        "110002552698",
+        "110002552697",
+        "110002554448",
+        "110002552696",
+        "110002554447"
       ]
     },
     {
@@ -1193,30 +1387,8 @@
       "detalhe": "JOSÉ MOITA (nº 35) tem 2 vices, esperado 1",
       "sq": [
         "140002551357",
-        "140002554426",
-        "140002551358"
-      ]
-    },
-    {
-      "tipo": "vice-multiplo",
-      "uf": "PA",
-      "cargo": "governador",
-      "detalhe": "RUTH REIS (nº 35) tem 2 vices, esperado 1",
-      "sq": [
-        "140002554434",
-        "140002554426",
-        "140002551358"
-      ]
-    },
-    {
-      "tipo": "vice-multiplo",
-      "uf": "PA",
-      "cargo": "governador",
-      "detalhe": "CLEBER RABELO (nº 16) tem 2 vices, esperado 1",
-      "sq": [
-        "140002538631",
-        "140002538632",
-        "140002554109"
+        "140002551358",
+        "140002554426"
       ]
     },
     {
@@ -1226,6 +1398,28 @@
       "detalhe": "WELL MACEDO (nº 16) tem 2 vices, esperado 1",
       "sq": [
         "140002554108",
+        "140002538632",
+        "140002554109"
+      ]
+    },
+    {
+      "tipo": "vice-multiplo",
+      "uf": "PA",
+      "cargo": "governador",
+      "detalhe": "RUTH REIS (nº 35) tem 2 vices, esperado 1",
+      "sq": [
+        "140002554434",
+        "140002551358",
+        "140002554426"
+      ]
+    },
+    {
+      "tipo": "vice-multiplo",
+      "uf": "PA",
+      "cargo": "governador",
+      "detalhe": "CLEBER RABELO (nº 16) tem 2 vices, esperado 1",
+      "sq": [
+        "140002538631",
         "140002538632",
         "140002554109"
       ]
@@ -1244,10 +1438,22 @@
       "tipo": "numero-duplicado",
       "uf": "PA",
       "cargo": "governador",
-      "detalhe": "nº 16 usado por 2 candidaturas: CLEBER RABELO, WELL MACEDO",
+      "detalhe": "nº 16 usado por 2 candidaturas: WELL MACEDO, CLEBER RABELO",
       "sq": [
-        "140002538631",
-        "140002554108"
+        "140002554108",
+        "140002538631"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "PA",
+      "cargo": "senador",
+      "detalhe": "LIVIA NORONHA (nº 777) tem 3 suplentes, esperado 2",
+      "sq": [
+        "140002553952",
+        "140002553959",
+        "140002553960",
+        "140002554506"
       ]
     },
     {
@@ -1258,8 +1464,8 @@
       "sq": [
         "140002542691",
         "140002542690",
-        "140002542689",
-        "140002554078"
+        "140002554078",
+        "140002542689"
       ]
     },
     {
@@ -1288,30 +1494,20 @@
       "tipo": "numero-duplicado",
       "uf": "PA",
       "cargo": "deputado-federal",
-      "detalhe": "nº 2277 usado por 2 candidaturas: LORENA LIMA, PATRICIA RODRIGUES",
+      "detalhe": "nº 3000 usado por 2 candidaturas: ANA RAQUEL, GIOVANNA ARAÚJO",
       "sq": [
-        "140002546715",
-        "140002554240"
+        "140002551856",
+        "140002554308"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "PA",
       "cargo": "deputado-federal",
-      "detalhe": "nº 3000 usado por 2 candidaturas: GIOVANNA ARAÚJO, ANA RAQUEL",
+      "detalhe": "nº 2277 usado por 2 candidaturas: LORENA LIMA, PATRICIA RODRIGUES",
       "sq": [
-        "140002554308",
-        "140002551856"
-      ]
-    },
-    {
-      "tipo": "numero-duplicado",
-      "uf": "PA",
-      "cargo": "deputado-estadual",
-      "detalhe": "nº 22123 usado por 2 candidaturas: RAYSSA LIMA, KATIA MELO",
-      "sq": [
-        "140002549260",
-        "140002554403"
+        "140002546715",
+        "140002554240"
       ]
     },
     {
@@ -1325,15 +1521,13 @@
       ]
     },
     {
-      "tipo": "suplentes-cardinalidade",
-      "uf": "PB",
-      "cargo": "senador",
-      "detalhe": "ANDRÉ GADELHA (nº 151) tem 3 suplentes, esperado 2",
+      "tipo": "numero-duplicado",
+      "uf": "PA",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 22123 usado por 2 candidaturas: RAYSSA LIMA, KATIA MELO",
       "sq": [
-        "150002544909",
-        "150002544910",
-        "150002554104",
-        "150002544907"
+        "140002549260",
+        "140002554403"
       ]
     },
     {
@@ -1344,8 +1538,20 @@
       "sq": [
         "150002544140",
         "150002544138",
-        "150002544137",
-        "150002554281"
+        "150002554281",
+        "150002544137"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "PB",
+      "cargo": "senador",
+      "detalhe": "VENEZIANO (nº 155) tem 3 suplentes, esperado 2",
+      "sq": [
+        "150002544905",
+        "150002554453",
+        "150002544908",
+        "150002544906"
       ]
     },
     {
@@ -1357,8 +1563,20 @@
         "150002538459",
         "150002538461",
         "150002551961",
-        "150002551962",
-        "150002538460"
+        "150002538460",
+        "150002551962"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "PB",
+      "cargo": "senador",
+      "detalhe": "ANDRÉ GADELHA (nº 151) tem 3 suplentes, esperado 2",
+      "sq": [
+        "150002544909",
+        "150002544910",
+        "150002554104",
+        "150002544907"
       ]
     },
     {
@@ -1375,10 +1593,10 @@
       "tipo": "numero-duplicado",
       "uf": "PB",
       "cargo": "deputado-federal",
-      "detalhe": "nº 1267 usado por 2 candidaturas: EVILIANE LINS, SARGENTO KARLA",
+      "detalhe": "nº 1267 usado por 2 candidaturas: SARGENTO KARLA, EVILIANE LINS",
       "sq": [
-        "150002552387",
-        "150002554304"
+        "150002554304",
+        "150002552387"
       ]
     },
     {
@@ -1387,8 +1605,18 @@
       "cargo": "deputado-estadual",
       "detalhe": "TERESA CARNEIRO FELICIANO aparece 2x com o mesmo CPF (…5802)",
       "sq": [
-        "150002554321",
-        "150002540226"
+        "150002540226",
+        "150002554321"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "PB",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 12321 usado por 2 candidaturas: ANDRÉ LIMA JÚNIOR, DR. ANDRÉ LIMA",
+      "sq": [
+        "150002554486",
+        "150002551591"
       ]
     },
     {
@@ -1397,48 +1625,48 @@
       "cargo": "deputado-estadual",
       "detalhe": "nº 15556 usado por 2 candidaturas: TERESA CARNEIRO FELICIANO, TERESA CARNEIRO FELICIANO",
       "sq": [
-        "150002554321",
-        "150002540226"
+        "150002540226",
+        "150002554321"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "PB",
       "cargo": "deputado-estadual",
-      "detalhe": "nº 40456 usado por 2 candidaturas: NIL MENDES, CHICO MENDES",
+      "detalhe": "nº 40456 usado por 2 candidaturas: CHICO MENDES, NIL MENDES",
       "sq": [
-        "150002553920",
-        "150002544668"
+        "150002544668",
+        "150002553920"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "PB",
       "cargo": "deputado-estadual",
-      "detalhe": "nº 12247 usado por 2 candidaturas: EVILLIANE LINS, ELAINE KARLA",
+      "detalhe": "nº 12247 usado por 2 candidaturas: ELAINE KARLA, EVILLIANE LINS",
       "sq": [
-        "150002554303",
-        "150002553984"
+        "150002553984",
+        "150002554303"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "PE",
       "cargo": "deputado-federal",
-      "detalhe": "nº 4033 usado por 2 candidaturas: ZOZOI DO IBURA, GERMANA LACERDA",
+      "detalhe": "nº 4444 usado por 2 candidaturas: JULIANA DE CHAPARRAL, RAFA DA NOVA ALIANÇA",
       "sq": [
-        "170002554393",
-        "170002540294"
+        "170002544057",
+        "170002544904"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "PE",
       "cargo": "deputado-federal",
-      "detalhe": "nº 4444 usado por 2 candidaturas: RAFA DA NOVA ALIANÇA, JULIANA DE CHAPARRAL",
+      "detalhe": "nº 4033 usado por 2 candidaturas: GERMANA LACERDA, ZOZOI DO IBURA",
       "sq": [
-        "170002544904",
-        "170002544057"
+        "170002540294",
+        "170002554393"
       ]
     },
     {
@@ -1458,25 +1686,11 @@
       "detalhe": "ALEXANDRE MARIANO (nº 700) tem 5 suplentes, esperado 2",
       "sq": [
         "180002552962",
-        "180002552960",
         "180002554318",
         "180002549937",
-        "180002552963",
-        "180002549935"
-      ]
-    },
-    {
-      "tipo": "suplentes-cardinalidade",
-      "uf": "PI",
-      "cargo": "senador",
-      "detalhe": "ANTÔNIO JOSÉ LIRA (nº 700) tem 5 suplentes, esperado 2",
-      "sq": [
-        "180002549936",
         "180002552960",
-        "180002554318",
-        "180002549937",
-        "180002552963",
-        "180002549935"
+        "180002549935",
+        "180002552963"
       ]
     },
     {
@@ -1495,12 +1709,26 @@
       "tipo": "suplentes-cardinalidade",
       "uf": "PI",
       "cargo": "senador",
+      "detalhe": "ANTÔNIO JOSÉ LIRA (nº 700) tem 5 suplentes, esperado 2",
+      "sq": [
+        "180002549936",
+        "180002554318",
+        "180002549937",
+        "180002552960",
+        "180002549935",
+        "180002552963"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "PI",
+      "cargo": "senador",
       "detalhe": "TIAGO JUNQUEIRA (nº 222) tem 3 suplentes, esperado 2",
       "sq": [
         "180002540449",
         "180002540451",
-        "180002540448",
-        "180002554391"
+        "180002554391",
+        "180002540448"
       ]
     },
     {
@@ -1511,6 +1739,16 @@
       "sq": [
         "180002552962",
         "180002549936"
+      ]
+    },
+    {
+      "tipo": "cpf-duplicado",
+      "uf": "PI",
+      "cargo": "deputado-federal",
+      "detalhe": "PROFESSOR MARCOS AURÉLIO aparece 2x com o mesmo CPF (…7307)",
+      "sq": [
+        "180002548564",
+        "180002552096"
       ]
     },
     {
@@ -1529,18 +1767,8 @@
       "cargo": "deputado-federal",
       "detalhe": "ALINE NASCIMENTO aparece 2x com o mesmo CPF (…3389)",
       "sq": [
-        "180002552093",
-        "180002553917"
-      ]
-    },
-    {
-      "tipo": "cpf-duplicado",
-      "uf": "PI",
-      "cargo": "deputado-federal",
-      "detalhe": "PROFESSOR MARCOS AURÉLIO aparece 2x com o mesmo CPF (…7307)",
-      "sq": [
-        "180002548564",
-        "180002552096"
+        "180002553917",
+        "180002552093"
       ]
     },
     {
@@ -1557,20 +1785,20 @@
       "tipo": "numero-duplicado",
       "uf": "PI",
       "cargo": "deputado-federal",
-      "detalhe": "nº 7070 usado por 2 candidaturas: PROFESSOR XIMENES, HEDILENE NASSIL",
+      "detalhe": "nº 7077 usado por 2 candidaturas: ALINE NASCIMENTO, ALINE NASCIMENTO",
       "sq": [
-        "180002552095",
-        "180002548563"
+        "180002553917",
+        "180002552093"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "PI",
-      "cargo": "deputado-federal",
-      "detalhe": "nº 7077 usado por 2 candidaturas: ALINE NASCIMENTO, ALINE NASCIMENTO",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 45222 usado por 2 candidaturas: LUCINETE LIMA, PASTORA LÚCIA",
       "sq": [
-        "180002552093",
-        "180002553917"
+        "180002554487",
+        "180002552109"
       ]
     },
     {
@@ -1609,11 +1837,11 @@
     {
       "tipo": "numero-duplicado",
       "uf": "PR",
-      "cargo": "deputado-estadual",
-      "detalhe": "nº 23833 usado por 2 candidaturas: DEDÉ DA CALHA, MANINHO DAS FRUTAS",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 2226 usado por 2 candidaturas: ANAJARA, MIRIAM FERREIRA",
       "sq": [
-        "160002552798",
-        "160002554377"
+        "160002554481",
+        "160002547566"
       ]
     },
     {
@@ -1643,20 +1871,8 @@
       "detalhe": "GAROTINHO (nº 10) tem 2 vices, esperado 1",
       "sq": [
         "190002550196",
-        "190002550197",
-        "190002554226"
-      ]
-    },
-    {
-      "tipo": "suplentes-cardinalidade",
-      "uf": "RJ",
-      "cargo": "senador",
-      "detalhe": "MARCELO CRIVELLA (nº 100) tem 3 suplentes, esperado 2",
-      "sq": [
-        "190002550184",
-        "190002554227",
-        "190002550181",
-        "190002550186"
+        "190002554226",
+        "190002550197"
       ]
     },
     {
@@ -1676,6 +1892,19 @@
       "tipo": "suplentes-cardinalidade",
       "uf": "RJ",
       "cargo": "senador",
+      "detalhe": "MARCOS DIAS (nº 200) tem 4 suplentes, esperado 2",
+      "sq": [
+        "190002545553",
+        "190002554489",
+        "190002545554",
+        "190002554480",
+        "190002545555"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "RJ",
+      "cargo": "senador",
       "detalhe": "COMANDANTE RIBEIRO AFONSO (nº 350) tem 4 suplentes, esperado 2",
       "sq": [
         "190002554290",
@@ -1683,6 +1912,30 @@
         "190002550193",
         "190002554289",
         "190002550191"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "RJ",
+      "cargo": "senador",
+      "detalhe": "MARCELO CRIVELLA (nº 100) tem 3 suplentes, esperado 2",
+      "sq": [
+        "190002550184",
+        "190002554227",
+        "190002550181",
+        "190002550186"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "RJ",
+      "cargo": "senador",
+      "detalhe": "MICHELLY XAVIER (nº 800) tem 3 suplentes, esperado 2",
+      "sq": [
+        "190002548589",
+        "190002548586",
+        "190002554510",
+        "190002548587"
       ]
     },
     {
@@ -1699,30 +1952,20 @@
       "tipo": "numero-duplicado",
       "uf": "RJ",
       "cargo": "deputado-federal",
-      "detalhe": "nº 2288 usado por 2 candidaturas: CARLOS JORDY, LAIS JORDY",
+      "detalhe": "nº 2215 usado por 2 candidaturas: PRISCIANE SILVEIRA, MATILDES SILVEIRA",
       "sq": [
-        "190002532808",
-        "190002543213"
+        "190002532812",
+        "190002554508"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "RJ",
-      "cargo": "deputado-estadual",
-      "detalhe": "nº 22202 usado por 2 candidaturas: FERNANDA LOUBACK, MARIA JOSÉ",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 2288 usado por 2 candidaturas: LAIS JORDY, CARLOS JORDY",
       "sq": [
-        "190002533427",
-        "190002543234"
-      ]
-    },
-    {
-      "tipo": "numero-duplicado",
-      "uf": "RJ",
-      "cargo": "deputado-estadual",
-      "detalhe": "nº 22888 usado por 2 candidaturas: CAROL DE CAXIAS, LAIS JORDY",
-      "sq": [
-        "190002542652",
-        "190002533713"
+        "190002543213",
+        "190002532808"
       ]
     },
     {
@@ -1746,15 +1989,44 @@
       ]
     },
     {
-      "tipo": "suplentes-cardinalidade",
-      "uf": "RN",
-      "cargo": "senador",
-      "detalhe": "CLÓVIS COSTA DO COLETIVO NÓS (nº 369) tem 3 suplentes, esperado 2",
+      "tipo": "numero-duplicado",
+      "uf": "RJ",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 22888 usado por 2 candidaturas: LAIS JORDY, CAROL DE CAXIAS",
       "sq": [
-        "200002548115",
-        "200002548116",
-        "200002554266",
-        "200002548117"
+        "190002533713",
+        "190002542652"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "RJ",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 22202 usado por 2 candidaturas: FERNANDA LOUBACK, MARIA JOSÉ",
+      "sq": [
+        "190002533427",
+        "190002543234"
+      ]
+    },
+    {
+      "tipo": "vice-multiplo",
+      "uf": "RN",
+      "cargo": "governador",
+      "detalhe": "HENRIQUE LYRA (nº 29) tem 2 vices, esperado 1",
+      "sq": [
+        "200002553301",
+        "200002554523",
+        "200002553302"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "RN",
+      "cargo": "governador",
+      "detalhe": "nº 27 usado por 2 candidaturas: GODEIRO LINHARESS, CARLOS JARARACA",
+      "sq": [
+        "200002554482",
+        "200002550223"
       ]
     },
     {
@@ -1764,9 +2036,21 @@
       "detalhe": "SONIA GODEIRO (nº 501) tem 3 suplentes, esperado 2",
       "sq": [
         "200002546795",
-        "200002546791",
         "200002554414",
+        "200002546791",
         "200002546796"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "RN",
+      "cargo": "senador",
+      "detalhe": "CLÓVIS COSTA DO COLETIVO NÓS (nº 369) tem 3 suplentes, esperado 2",
+      "sq": [
+        "200002548115",
+        "200002548116",
+        "200002548117",
+        "200002554266"
       ]
     },
     {
@@ -1777,18 +2061,18 @@
       "sq": [
         "200002546792",
         "200002546794",
-        "200002546793",
-        "200002554415"
+        "200002554415",
+        "200002546793"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "RN",
       "cargo": "deputado-estadual",
-      "detalhe": "nº 45666 usado por 2 candidaturas: DRA JÚLIA ALMEIDA, DRA KARINA PEREIRA",
+      "detalhe": "nº 45666 usado por 2 candidaturas: DRA KARINA PEREIRA, DRA JÚLIA ALMEIDA",
       "sq": [
-        "200002538227",
-        "200002554438"
+        "200002554438",
+        "200002538227"
       ]
     },
     {
@@ -1804,13 +2088,25 @@
       ]
     },
     {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "RO",
+      "cargo": "senador",
+      "detalhe": "NEIDINHA (nº 400) tem 3 suplentes, esperado 2",
+      "sq": [
+        "220002550928",
+        "220002554478",
+        "220002550930",
+        "220002550929"
+      ]
+    },
+    {
       "tipo": "numero-duplicado",
       "uf": "RO",
       "cargo": "deputado-estadual",
-      "detalhe": "nº 20140 usado por 2 candidaturas: EDWILSON NEGREIROS, PROFESSORA GLÁUCIA NEGREIROS",
+      "detalhe": "nº 20140 usado por 2 candidaturas: PROFESSORA GLÁUCIA NEGREIROS, EDWILSON NEGREIROS",
       "sq": [
-        "220002542187",
-        "220002554101"
+        "220002554101",
+        "220002542187"
       ]
     },
     {
@@ -1820,44 +2116,8 @@
       "detalhe": "CLÉBIO GENUÍNO (nº 29) tem 2 vices, esperado 1",
       "sq": [
         "230002553857",
-        "230002553858",
-        "230002554442"
-      ]
-    },
-    {
-      "tipo": "suplentes-cardinalidade",
-      "uf": "RR",
-      "cargo": "senador",
-      "detalhe": "HIPERION DE OLIVEIRA (nº 433) tem 3 suplentes, esperado 2",
-      "sq": [
-        "230002552727",
-        "230002552728",
-        "230002552729",
-        "230002554351"
-      ]
-    },
-    {
-      "tipo": "suplentes-cardinalidade",
-      "uf": "RR",
-      "cargo": "senador",
-      "detalhe": "REGINA TIO IVO (nº 300) tem 3 suplentes, esperado 2",
-      "sq": [
-        "230002549330",
-        "230002549331",
-        "230002554357",
-        "230002549332"
-      ]
-    },
-    {
-      "tipo": "suplentes-cardinalidade",
-      "uf": "RR",
-      "cargo": "senador",
-      "detalhe": "MARIO ROCHA (nº 505) tem 3 suplentes, esperado 2",
-      "sq": [
-        "230002549360",
-        "230002549358",
-        "230002554191",
-        "230002549359"
+        "230002554442",
+        "230002553858"
       ]
     },
     {
@@ -1874,33 +2134,59 @@
       ]
     },
     {
-      "tipo": "numero-duplicado",
+      "tipo": "suplentes-cardinalidade",
       "uf": "RR",
-      "cargo": "deputado-estadual",
-      "detalhe": "nº 45333 usado por 2 candidaturas: NILL SANTOS, LEANDRO AÇOUGUEIRO",
+      "cargo": "senador",
+      "detalhe": "REGINA TIO IVO (nº 300) tem 3 suplentes, esperado 2",
       "sq": [
-        "230002548848",
-        "230002554380"
+        "230002549330",
+        "230002554357",
+        "230002549331",
+        "230002549332"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "RR",
+      "cargo": "senador",
+      "detalhe": "HIPERION DE OLIVEIRA (nº 433) tem 3 suplentes, esperado 2",
+      "sq": [
+        "230002552727",
+        "230002552728",
+        "230002554351",
+        "230002552729"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "RR",
+      "cargo": "senador",
+      "detalhe": "MARIO ROCHA (nº 505) tem 3 suplentes, esperado 2",
+      "sq": [
+        "230002549360",
+        "230002549358",
+        "230002554191",
+        "230002549359"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "RR",
       "cargo": "deputado-estadual",
-      "detalhe": "nº 45100 usado por 2 candidaturas: CARLA DA SOCIAL PREV, MÁRCIO BRAÇAL",
+      "detalhe": "nº 45100 usado por 2 candidaturas: MÁRCIO BRAÇAL, CARLA DA SOCIAL PREV",
       "sq": [
-        "230002554379",
-        "230002548826"
+        "230002548826",
+        "230002554379"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "RR",
       "cargo": "deputado-estadual",
-      "detalhe": "nº 45000 usado por 2 candidaturas: DEYVID DUARTE, CAROL QUEIROZ",
+      "detalhe": "nº 45333 usado por 2 candidaturas: LEANDRO AÇOUGUEIRO, NILL SANTOS",
       "sq": [
-        "230002548828",
-        "230002554374"
+        "230002554380",
+        "230002548848"
       ]
     },
     {
@@ -1915,12 +2201,33 @@
     },
     {
       "tipo": "numero-duplicado",
+      "uf": "RR",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 45000 usado por 2 candidaturas: DEYVID DUARTE, CAROL QUEIROZ",
+      "sq": [
+        "230002548828",
+        "230002554374"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
       "uf": "SC",
       "cargo": "deputado-estadual",
       "detalhe": "nº 25000 usado por 2 candidaturas: EMMANUEL TUCA, RAFAEL GOMES",
       "sq": [
         "240002552123",
         "240002554271"
+      ]
+    },
+    {
+      "tipo": "vice-multiplo",
+      "uf": "SE",
+      "cargo": "governador",
+      "detalhe": "EMANUEL CACHO (nº 45) tem 2 vices, esperado 1",
+      "sq": [
+        "260002551712",
+        "260002551711",
+        "260002554525"
       ]
     },
     {
@@ -1942,28 +2249,28 @@
       "sq": [
         "260002543589",
         "260002543592",
-        "260002554205",
-        "260002543590"
+        "260002543590",
+        "260002554205"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "SE",
       "cargo": "deputado-federal",
-      "detalhe": "nº 4055 usado por 2 candidaturas: DRA. TATI DE VAVÁ DO ALGODÃO, ROSANGELA SANTOS",
+      "detalhe": "nº 4055 usado por 2 candidaturas: ROSANGELA SANTOS, DRA. TATI DE VAVÁ DO ALGODÃO",
       "sq": [
-        "260002541268",
-        "260002554436"
+        "260002554436",
+        "260002541268"
       ]
     },
     {
       "tipo": "numero-duplicado",
       "uf": "SE",
       "cargo": "deputado-federal",
-      "detalhe": "nº 2244 usado por 2 candidaturas: NEO SOBRAL, CELINHA SOBRAL",
+      "detalhe": "nº 2244 usado por 2 candidaturas: CELINHA SOBRAL, NEO SOBRAL",
       "sq": [
-        "260002549707",
-        "260002554338"
+        "260002554338",
+        "260002549707"
       ]
     },
     {
@@ -1987,14 +2294,13 @@
       ]
     },
     {
-      "tipo": "vice-multiplo",
-      "uf": "SP",
-      "cargo": "governador",
-      "detalhe": "POLICIAL EDJANE (nº 36) tem 2 vices, esperado 1",
+      "tipo": "numero-duplicado",
+      "uf": "SE",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 22345 usado por 2 candidaturas: MÃE DINAH, GG LEANDRO",
       "sq": [
-        "250002548080",
-        "250002554211",
-        "250002548079"
+        "260002554530",
+        "260002554130"
       ]
     },
     {
@@ -2009,40 +2315,25 @@
       ]
     },
     {
-      "tipo": "suplentes-cardinalidade",
+      "tipo": "vice-multiplo",
       "uf": "SP",
-      "cargo": "senador",
-      "detalhe": "GERALDO RUFINO (nº 200) tem 3 suplentes, esperado 2",
+      "cargo": "governador",
+      "detalhe": "POLICIAL EDJANE (nº 36) tem 2 vices, esperado 1",
       "sq": [
-        "250002544673",
-        "250002544671",
-        "250002554098",
-        "250002544672"
+        "250002548080",
+        "250002548079",
+        "250002554211"
       ]
     },
     {
-      "tipo": "suplentes-cardinalidade",
+      "tipo": "vice-multiplo",
       "uf": "SP",
-      "cargo": "senador",
-      "detalhe": "GUTO SCHIAVETTO (nº 144) tem 4 suplentes, esperado 2",
+      "cargo": "governador",
+      "detalhe": "VERA LÚCIA (nº 16) tem 2 vices, esperado 1",
       "sq": [
-        "250002553928",
-        "250002553929",
-        "250002554136",
-        "250002553930",
-        "250002554143"
-      ]
-    },
-    {
-      "tipo": "suplentes-cardinalidade",
-      "uf": "SP",
-      "cargo": "senador",
-      "detalhe": "SALLES (nº 300) tem 3 suplentes, esperado 2",
-      "sq": [
-        "250002532794",
-        "250002550682",
-        "250002532793",
-        "250002532792"
+        "250002536915",
+        "250002554470",
+        "250002536916"
       ]
     },
     {
@@ -2052,10 +2343,47 @@
       "detalhe": "GUTO SCHIAVETTO (nº 144) tem 4 suplentes, esperado 2",
       "sq": [
         "250002554075",
-        "250002553929",
         "250002554136",
-        "250002553930",
-        "250002554143"
+        "250002553929",
+        "250002554143",
+        "250002553930"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "SP",
+      "cargo": "senador",
+      "detalhe": "SALLES (nº 300) tem 3 suplentes, esperado 2",
+      "sq": [
+        "250002532794",
+        "250002532793",
+        "250002550682",
+        "250002532792"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "SP",
+      "cargo": "senador",
+      "detalhe": "GUTO SCHIAVETTO (nº 144) tem 4 suplentes, esperado 2",
+      "sq": [
+        "250002553928",
+        "250002554136",
+        "250002553929",
+        "250002554143",
+        "250002553930"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "SP",
+      "cargo": "senador",
+      "detalhe": "GERALDO RUFINO (nº 200) tem 3 suplentes, esperado 2",
+      "sq": [
+        "250002544673",
+        "250002554098",
+        "250002544671",
+        "250002544672"
       ]
     },
     {
@@ -2064,8 +2392,8 @@
       "cargo": "senador",
       "detalhe": "GUTO SCHIAVETTO aparece 2x com o mesmo CPF (…9802)",
       "sq": [
-        "250002553928",
-        "250002554075"
+        "250002554075",
+        "250002553928"
       ]
     },
     {
@@ -2074,8 +2402,18 @@
       "cargo": "senador",
       "detalhe": "nº 144 usado por 2 candidaturas: GUTO SCHIAVETTO, GUTO SCHIAVETTO",
       "sq": [
-        "250002553928",
-        "250002554075"
+        "250002554075",
+        "250002553928"
+      ]
+    },
+    {
+      "tipo": "numero-duplicado",
+      "uf": "SP",
+      "cargo": "deputado-federal",
+      "detalhe": "nº 3605 usado por 2 candidaturas: SIRLEA MATHEUS, MARIA LOPES DA MICHELLE B",
+      "sq": [
+        "250002554238",
+        "250002553909"
       ]
     },
     {
@@ -2086,16 +2424,6 @@
       "sq": [
         "250002554040",
         "250002551112"
-      ]
-    },
-    {
-      "tipo": "numero-duplicado",
-      "uf": "SP",
-      "cargo": "deputado-federal",
-      "detalhe": "nº 3605 usado por 2 candidaturas: MARIA LOPES DA MICHELLE B, SIRLEA MATHEUS",
-      "sq": [
-        "250002553909",
-        "250002554238"
       ]
     },
     {
@@ -2115,8 +2443,8 @@
       "detalhe": "SIQUEIRA CAMPOS JR (nº 35) tem 2 vices, esperado 1",
       "sq": [
         "270002554375",
-        "270002554376",
-        "270002546369"
+        "270002546369",
+        "270002554376"
       ]
     },
     {
@@ -2126,8 +2454,8 @@
       "detalhe": "SUBTENENTE LUIZ CARLOS (nº 35) tem 2 vices, esperado 1",
       "sq": [
         "270002546368",
-        "270002554376",
-        "270002546369"
+        "270002546369",
+        "270002554376"
       ]
     },
     {
@@ -2144,24 +2472,13 @@
       "tipo": "suplentes-cardinalidade",
       "uf": "TO",
       "cargo": "senador",
-      "detalhe": "OSVANY LUZ (nº 355) tem 3 suplentes, esperado 2",
+      "detalhe": "FÁBIO RIBEIRO (nº 180) tem 4 suplentes, esperado 2",
       "sq": [
-        "270002551273",
-        "270002554464",
-        "270002551274",
-        "270002551269"
-      ]
-    },
-    {
-      "tipo": "suplentes-cardinalidade",
-      "uf": "TO",
-      "cargo": "senador",
-      "detalhe": "ELI BORGES (nº 100) tem 3 suplentes, esperado 2",
-      "sq": [
-        "270002548409",
-        "270002548410",
-        "270002548411",
-        "270002554322"
+        "270002539141",
+        "270002539140",
+        "270002554512",
+        "270002539143",
+        "270002551934"
       ]
     },
     {
@@ -2180,6 +2497,30 @@
       "tipo": "suplentes-cardinalidade",
       "uf": "TO",
       "cargo": "senador",
+      "detalhe": "ELI BORGES (nº 100) tem 3 suplentes, esperado 2",
+      "sq": [
+        "270002548409",
+        "270002548410",
+        "270002554322",
+        "270002548411"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "TO",
+      "cargo": "senador",
+      "detalhe": "OSVANY LUZ (nº 355) tem 3 suplentes, esperado 2",
+      "sq": [
+        "270002551273",
+        "270002551274",
+        "270002554464",
+        "270002551269"
+      ]
+    },
+    {
+      "tipo": "suplentes-cardinalidade",
+      "uf": "TO",
+      "cargo": "senador",
       "detalhe": "HELIO RODRIGUES BOLSONARO (nº 351) tem 3 suplentes, esperado 2",
       "sq": [
         "270002551270",
@@ -2189,15 +2530,13 @@
       ]
     },
     {
-      "tipo": "suplentes-cardinalidade",
+      "tipo": "numero-duplicado",
       "uf": "TO",
-      "cargo": "senador",
-      "detalhe": "FÁBIO RIBEIRO (nº 180) tem 3 suplentes, esperado 2",
+      "cargo": "deputado-estadual",
+      "detalhe": "nº 30000 usado por 2 candidaturas: NELCIVAN COSTA FEITOSA, TENENTE BIGODE",
       "sq": [
-        "270002539141",
-        "270002539140",
-        "270002551934",
-        "270002539143"
+        "270002550618",
+        "270002554451"
       ]
     }
   ]

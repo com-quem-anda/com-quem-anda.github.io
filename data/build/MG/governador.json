@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.448Z",
+ "geradoEm": "2026-09-20T14:36:11.108Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 11,
  "candidatos": [
@@ -70,7 +70,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "CUIDAR DE MINAS",
-    "composicao": "PDT / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "PDT / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "130001800385"
    },
    "situacao": {
@@ -111,13 +111,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "PRA MINAS GERAIS VOLTAR A SONHAR",
-    "composicao": "PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "130001801084"
    },
    "situacao": {
@@ -418,7 +418,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "MINAS NO CAMINHO CERTO",
-    "composicao": "PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / NOVO / AVANTE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / MOBILIZA / DC / AGIR",
+    "composicao": "PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / NOVO / AVANTE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / MOBILIZA / DC / AGIR",
     "sq": "130001800588"
    },
    "situacao": {

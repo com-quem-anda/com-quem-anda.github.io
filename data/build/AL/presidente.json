@@ -7,9 +7,9 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.301Z",
+ "geradoEm": "2026-09-20T14:36:10.946Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
- "total": 13,
+ "total": 14,
  "candidatos": [
   {
    "sq": "280002542548",
@@ -25,13 +25,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "BRASIL PRONTO PRA MAIS",
-    "composicao": "PSB / PDT / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PSB / PDT / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "280001800617"
    },
    "situacao": {
@@ -274,6 +274,65 @@
    ]
   },
   {
+   "sq": "280002554479",
+   "uf": "BR",
+   "cargo": "presidente",
+   "numero": "28",
+   "nomeUrna": "LEONARDO AVALANCHE",
+   "nomeCompleto": "LEONARDO ALVES DE ARAUJO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "PRTB",
+    "numero": "28",
+    "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "PRTB",
+    "sq": "280001801455"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "vice": [
+    {
+     "sq": "280002553883",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "LEONARDO AVALANCHE",
+     "nomeCompleto": "LEONARDO ALVES DE ARAUJO",
+     "partido": {
+      "sigla": "PRTB",
+      "numero": "28",
+      "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "280002554490",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "SILVIA",
+     "nomeCompleto": "SILVIA HELLEN DA SILVA PEREIRA",
+     "partido": {
+      "sigla": "PRTB",
+      "numero": "28",
+      "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    }
+   ]
+  },
+  {
    "sq": "280002553884",
    "uf": "BR",
    "cargo": "presidente",
@@ -303,6 +362,22 @@
      "cargo": "VICE-PRESIDENTE",
      "nomeUrna": "LEONARDO AVALANCHE",
      "nomeCompleto": "LEONARDO ALVES DE ARAUJO",
+     "partido": {
+      "sigla": "PRTB",
+      "numero": "28",
+      "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "280002554490",
+     "cargo": "VICE-PRESIDENTE",
+     "nomeUrna": "SILVIA",
+     "nomeCompleto": "SILVIA HELLEN DA SILVA PEREIRA",
      "partido": {
       "sigla": "PRTB",
       "numero": "28",

@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.409Z",
+ "geradoEm": "2026-09-20T14:36:11.067Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 8,
  "candidatos": [
@@ -25,13 +25,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "BRASIL JUSTO, MARANHÃO GRANDE",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / PSB / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / PSB / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "100001800619"
    },
    "situacao": {
@@ -117,7 +117,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "AVANÇO POR TODO MARANHÃO",
-    "composicao": "MDB / PDT / REPUBLICANOS / PODE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "MDB / PDT / REPUBLICANOS / PODE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "100001800678"
    },
    "situacao": {
@@ -213,10 +213,10 @@
    },
    "vice": [
     {
-     "sq": "100002554354",
+     "sq": "100002544074",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "GATO FELIX",
-     "nomeCompleto": "FELIX LIMA E SILVA",
+     "nomeUrna": "BARTOLOMEU",
+     "nomeCompleto": "BARTOLOMEU MOREIRA",
      "partido": {
       "sigla": "PCB",
       "numero": "21",
@@ -229,10 +229,10 @@
      }
     },
     {
-     "sq": "100002544074",
+     "sq": "100002554354",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "BARTOLOMEU",
-     "nomeCompleto": "BARTOLOMEU MOREIRA",
+     "nomeUrna": "GATO FELIX",
+     "nomeCompleto": "FELIX LIMA E SILVA",
      "partido": {
       "sigla": "PCB",
       "numero": "21",

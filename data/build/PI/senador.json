@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.516Z",
+ "geradoEm": "2026-09-20T14:36:11.176Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 20,
  "candidatos": [
@@ -25,13 +25,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "JUNTOS PELO PIAUÍ",
-    "composicao": "PODE / PL / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "PODE / PL / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "180001800523"
    },
    "situacao": {
@@ -90,7 +90,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "A FORÇA DO POVO",
-    "composicao": "REPUBLICANOS / PDT / MDB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "REPUBLICANOS / PDT / MDB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "180001800161"
    },
    "situacao": {
@@ -208,7 +208,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "JUNTOS PELO PIAUÍ",
-    "composicao": "PODE / PL / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "PODE / PL / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "180001800523"
    },
    "situacao": {
@@ -234,10 +234,10 @@
      }
     },
     {
-     "sq": "180002540448",
+     "sq": "180002554391",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "CARLOS AUGUSTO",
-     "nomeCompleto": "CARLOS AUGUSTO TEIXEIRA NUNES",
+     "nomeUrna": "KAUÃ LACERDA",
+     "nomeCompleto": "KAUÃ LACERDA REGO",
      "partido": {
       "sigla": "PL",
       "numero": "22",
@@ -250,10 +250,10 @@
      }
     },
     {
-     "sq": "180002554391",
+     "sq": "180002540448",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "KAUÃ LACERDA",
-     "nomeCompleto": "KAUÃ LACERDA REGO",
+     "nomeUrna": "CARLOS AUGUSTO",
+     "nomeCompleto": "CARLOS AUGUSTO TEIXEIRA NUNES",
      "partido": {
       "sigla": "PL",
       "numero": "22",
@@ -769,13 +769,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "180001800924"
    },
    "situacao": {
@@ -832,13 +832,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "180001801163"
    },
    "situacao": {
@@ -895,13 +895,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "180001801163"
    },
    "situacao": {
@@ -949,7 +949,7 @@
    "uf": "PI",
    "cargo": "senador",
    "numero": "555",
-   "nomeUrna": "JULIO CESAR",
+   "nomeUrna": "JÚLIO CÉSAR O JULIM DO LULA",
    "nomeCompleto": "JULIO CESAR DE CARVALHO LIMA",
    "nomeSocial": null,
    "partido": {
@@ -960,7 +960,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "A FORÇA DO POVO",
-    "composicao": "REPUBLICANOS / PDT / MDB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "REPUBLICANOS / PDT / MDB / PSD / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "180001800161"
    },
    "situacao": {
@@ -1029,22 +1029,6 @@
    },
    "suplentes": [
     {
-     "sq": "180002552960",
-     "cargo": "1º SUPLENTE",
-     "nomeUrna": "GUILHERME ROCHA",
-     "nomeCompleto": "GUILHERME FERREIRA DA CUNHA ROCHA",
-     "partido": {
-      "sigla": "AVANTE",
-      "numero": "70",
-      "nome": "AVANTE"
-     },
-     "situacao": {
-      "disponivel": false,
-      "registro": null,
-      "codigo": null
-     }
-    },
-    {
      "sq": "180002554318",
      "cargo": "1º SUPLENTE",
      "nomeUrna": "PAULO LIMEIRA",
@@ -1077,10 +1061,10 @@
      }
     },
     {
-     "sq": "180002552963",
-     "cargo": "2º SUPLENTE",
-     "nomeUrna": "J C DO DIRCEU",
-     "nomeCompleto": "JOSÉ CARLOS LIMA DA SILVA",
+     "sq": "180002552960",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "GUILHERME ROCHA",
+     "nomeCompleto": "GUILHERME FERREIRA DA CUNHA ROCHA",
      "partido": {
       "sigla": "AVANTE",
       "numero": "70",
@@ -1097,6 +1081,22 @@
      "cargo": "2º SUPLENTE",
      "nomeUrna": "ANA CÂMPELO",
      "nomeCompleto": "ANA ALICE BARBOSA ALENCAR CAMPELO MENDES",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002552963",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "J C DO DIRCEU",
+     "nomeCompleto": "JOSÉ CARLOS LIMA DA SILVA",
      "partido": {
       "sigla": "AVANTE",
       "numero": "70",
@@ -1136,22 +1136,6 @@
    },
    "suplentes": [
     {
-     "sq": "180002552960",
-     "cargo": "1º SUPLENTE",
-     "nomeUrna": "GUILHERME ROCHA",
-     "nomeCompleto": "GUILHERME FERREIRA DA CUNHA ROCHA",
-     "partido": {
-      "sigla": "AVANTE",
-      "numero": "70",
-      "nome": "AVANTE"
-     },
-     "situacao": {
-      "disponivel": false,
-      "registro": null,
-      "codigo": null
-     }
-    },
-    {
      "sq": "180002554318",
      "cargo": "1º SUPLENTE",
      "nomeUrna": "PAULO LIMEIRA",
@@ -1184,10 +1168,10 @@
      }
     },
     {
-     "sq": "180002552963",
-     "cargo": "2º SUPLENTE",
-     "nomeUrna": "J C DO DIRCEU",
-     "nomeCompleto": "JOSÉ CARLOS LIMA DA SILVA",
+     "sq": "180002552960",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "GUILHERME ROCHA",
+     "nomeCompleto": "GUILHERME FERREIRA DA CUNHA ROCHA",
      "partido": {
       "sigla": "AVANTE",
       "numero": "70",
@@ -1204,6 +1188,22 @@
      "cargo": "2º SUPLENTE",
      "nomeUrna": "ANA CÂMPELO",
      "nomeCompleto": "ANA ALICE BARBOSA ALENCAR CAMPELO MENDES",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "180002552963",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "J C DO DIRCEU",
+     "nomeCompleto": "JOSÉ CARLOS LIMA DA SILVA",
      "partido": {
       "sigla": "AVANTE",
       "numero": "70",

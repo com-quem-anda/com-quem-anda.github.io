@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.606Z",
+ "geradoEm": "2026-09-20T14:36:11.264Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 13,
  "candidatos": [
@@ -305,10 +305,10 @@
    },
    "suplentes": [
     {
-     "sq": "230002549331",
+     "sq": "230002554357",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "DUNGA SILVA",
-     "nomeCompleto": "IDINALDO CARDOSO DA SILVA",
+     "nomeUrna": "MARCOS SILVA",
+     "nomeCompleto": "MARCOS DA SILVA E SILVA",
      "partido": {
       "sigla": "NOVO",
       "numero": "30",
@@ -321,10 +321,10 @@
      }
     },
     {
-     "sq": "230002554357",
+     "sq": "230002549331",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "MARCOS SILVA",
-     "nomeCompleto": "MARCOS DA SILVA E SILVA",
+     "nomeUrna": "DUNGA SILVA",
+     "nomeCompleto": "IDINALDO CARDOSO DA SILVA",
      "partido": {
       "sigla": "NOVO",
       "numero": "30",
@@ -370,7 +370,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "RORAIMA MAIS FORTE",
-    "composicao": "PSB / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "PSB / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "230001801133"
    },
    "situacao": {
@@ -427,13 +427,13 @@
     "nome": "PARTIDO VERDE"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "230001801275"
    },
    "situacao": {
@@ -447,22 +447,6 @@
      "cargo": "1º SUPLENTE",
      "nomeUrna": "ERISLAN FILHÃO",
      "nomeCompleto": "ERISLAN THIAGO LUCENA COSTA",
-     "partido": {
-      "sigla": "PV",
-      "numero": "43",
-      "nome": "PARTIDO VERDE"
-     },
-     "situacao": {
-      "disponivel": false,
-      "registro": null,
-      "codigo": null
-     }
-    },
-    {
-     "sq": "230002552729",
-     "cargo": "2º SUPLENTE",
-     "nomeUrna": "EDSON COSTA",
-     "nomeCompleto": "EDSON ROBERTO DA COSTA",
      "partido": {
       "sigla": "PV",
       "numero": "43",
@@ -489,6 +473,22 @@
       "registro": null,
       "codigo": null
      }
+    },
+    {
+     "sq": "230002552729",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "EDSON COSTA",
+     "nomeCompleto": "EDSON ROBERTO DA COSTA",
+     "partido": {
+      "sigla": "PV",
+      "numero": "43",
+      "nome": "PARTIDO VERDE"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
     }
    ]
   },
@@ -506,13 +506,13 @@
     "nome": "UNIÃO BRASIL"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "RORAIMA SEGUE EM FRENTE",
-    "composicao": "REPUBLICANOS / PODE / AGIR / PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "REPUBLICANOS / PODE / AGIR / PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "230001801031"
    },
    "situacao": {
@@ -569,13 +569,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "RORAIMA MAIS FORTE",
-    "composicao": "PSB / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "PSB / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "230001801133"
    },
    "situacao": {
@@ -632,13 +632,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "230001801006"
    },
    "situacao": {
@@ -695,13 +695,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "230001801006"
    },
    "situacao": {
@@ -776,7 +776,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "RORAIMA SEGUE EM FRENTE",
-    "composicao": "REPUBLICANOS / PODE / AGIR / PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "REPUBLICANOS / PODE / AGIR / PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "230001801031"
    },
    "situacao": {
@@ -835,7 +835,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "ENDIREITA RORAIMA",
-    "composicao": "AVANTE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "AVANTE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "230001801131"
    },
    "situacao": {

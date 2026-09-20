@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-09-12T12:59:29.288Z",
+ "geradoEm": "2026-09-20T14:36:16.785Z",
  "fontes": [
   {
    "nome": "Câmara dos Deputados — Dados Abertos, deputados em exercício",
@@ -14,14 +14,14 @@
  ],
  "metodo": "Casamento por nome normalizado (sem acento, sem pontuação, em maiúsculas) mais UF, testando nome de urna e nome completo. Homônimo dentro da mesma UF não é casado: vínculo errado é pior que vínculo ausente.",
  "desempenho": {},
- "totalCandidaturas": 20028,
- "comMandato": 490,
+ "totalCandidaturas": 20060,
+ "comMandato": 489,
  "porCargoDisputado": {
-  "deputado-federal": 396,
+  "deputado-federal": 397,
   "governador": 15,
   "presidente": 1,
-  "senador": 65,
-  "deputado-estadual": 13
+  "senador": 64,
+  "deputado-estadual": 12
  },
  "vinculos": {
   "10002532489": {
@@ -1060,13 +1060,6 @@
    "partidoAtual": "REPUBLICANOS",
    "confianca": "nome-urna"
   },
-  "130002540596": {
-   "casa": "camara",
-   "id": 236284,
-   "uf": "MG",
-   "partidoAtual": "PSDB",
-   "confianca": "nome-urna"
-  },
   "130002537223": {
    "casa": "camara",
    "id": 204491,
@@ -1161,6 +1154,13 @@
   "130002535286": {
    "casa": "camara",
    "id": 171786,
+   "uf": "MG",
+   "partidoAtual": "PT",
+   "confianca": "nome-urna"
+  },
+  "130002535314": {
+   "casa": "camara",
+   "id": 74581,
    "uf": "MG",
    "partidoAtual": "PT",
    "confianca": "nome-urna"
@@ -1947,13 +1947,6 @@
    "id": null,
    "uf": "PI",
    "partidoAtual": "MDB",
-   "confianca": "nome-urna"
-  },
-  "180002533964": {
-   "casa": "camara",
-   "id": 74317,
-   "uf": "PI",
-   "partidoAtual": "PSD",
    "confianca": "nome-urna"
   },
   "160002547611": {

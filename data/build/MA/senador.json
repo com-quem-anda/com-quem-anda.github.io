@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.409Z",
+ "geradoEm": "2026-09-20T14:36:11.067Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 11,
  "candidatos": [
@@ -25,13 +25,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "MARANHÃO DE CARA NOVA",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "100001800630"
    },
    "situacao": {
@@ -90,7 +90,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "AVANÇO POR TODO MARANHÃO",
-    "composicao": "REPUBLICANOS / PDT / MDB / PODE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "REPUBLICANOS / PDT / MDB / PODE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "100001800306"
    },
    "situacao": {
@@ -147,13 +147,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "BRASIL JUSTO, MARANHÃO GRANDE",
-    "composicao": "PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "100001800486"
    },
    "situacao": {
@@ -212,7 +212,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "AVANÇO POR TODO MARANHÃO",
-    "composicao": "REPUBLICANOS / PDT / MDB / PODE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "REPUBLICANOS / PDT / MDB / PODE / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "100001800306"
    },
    "situacao": {
@@ -576,22 +576,6 @@
    },
    "suplentes": [
     {
-     "sq": "100002554367",
-     "cargo": "1º SUPLENTE",
-     "nomeUrna": "PASTOR PORTO",
-     "nomeCompleto": "LUIZ CARLOS PORTO",
-     "partido": {
-      "sigla": "AVANTE",
-      "numero": "70",
-      "nome": "AVANTE"
-     },
-     "situacao": {
-      "disponivel": false,
-      "registro": null,
-      "codigo": null
-     }
-    },
-    {
      "sq": "100002550419",
      "cargo": "1º SUPLENTE",
      "nomeUrna": "ESTER ALVES",
@@ -600,6 +584,22 @@
       "sigla": "AGIR",
       "numero": "36",
       "nome": "AGIR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "100002554367",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "PASTOR PORTO",
+     "nomeCompleto": "LUIZ CARLOS PORTO",
+     "partido": {
+      "sigla": "AVANTE",
+      "numero": "70",
+      "nome": "AVANTE"
      },
      "situacao": {
       "disponivel": false,
@@ -639,13 +639,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "BRASIL JUSTO, MARANHÃO GRANDE",
-    "composicao": "PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "100001800486"
    },
    "situacao": {
@@ -671,10 +671,10 @@
      }
     },
     {
-     "sq": "100002554412",
+     "sq": "100002548852",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "ELIZABETH SOUSA",
-     "nomeCompleto": "ELIZABETH CORREA SOUSA",
+     "nomeUrna": "KELLY SANTOS",
+     "nomeCompleto": "KELLY CRISTINA SANTOS SILVA",
      "partido": {
       "sigla": "PSOL",
       "numero": "50",
@@ -687,10 +687,10 @@
      }
     },
     {
-     "sq": "100002548852",
+     "sq": "100002554412",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "KELLY SANTOS",
-     "nomeCompleto": "KELLY CRISTINA SANTOS SILVA",
+     "nomeUrna": "ELIZABETH SOUSA",
+     "nomeCompleto": "ELIZABETH CORREA SOUSA",
      "partido": {
       "sigla": "PSOL",
       "numero": "50",

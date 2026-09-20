@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.582Z",
+ "geradoEm": "2026-09-20T14:36:11.242Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 9,
  "candidatos": [
@@ -37,10 +37,10 @@
    },
    "vice": [
     {
-     "sq": "190002550197",
+     "sq": "190002554226",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "MAJOR ELAINE",
-     "nomeCompleto": "ELAINE CRISTINA GONÇALVES NOGAROL DE ANDRADE",
+     "nomeUrna": "ANDRÉ MONTEIRO",
+     "nomeCompleto": "LUIZ ANDRE DE MOURA MONTEIRO",
      "partido": {
       "sigla": "DEMOCRATA",
       "numero": "35",
@@ -53,10 +53,10 @@
      }
     },
     {
-     "sq": "190002554226",
+     "sq": "190002550197",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "ANDRÉ MONTEIRO",
-     "nomeCompleto": "LUIZ ANDRE DE MOURA MONTEIRO",
+     "nomeUrna": "MAJOR ELAINE",
+     "nomeCompleto": "ELAINE CRISTINA GONÇALVES NOGAROL DE ANDRADE",
      "partido": {
       "sigla": "DEMOCRATA",
       "numero": "35",
@@ -299,13 +299,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "190001800282"
    },
    "situacao": {
@@ -348,7 +348,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "JUNTOS PARA MUDAR CORAGEM PARA RECONSTRUIR",
-    "composicao": "PDT / MDB / DC / PSB / PSD / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "PDT / MDB / DC / PSB / PSD / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "190001800636"
    },
    "situacao": {

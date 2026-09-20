@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.583Z",
+ "geradoEm": "2026-09-20T14:36:11.242Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 17,
  "candidatos": [
@@ -159,13 +159,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "JUNTOS PARA MUDAR CORAGEM PARA RECONSTRUIR",
-    "composicao": "PDT / MDB / DC / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / PSB / PSD / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "PDT / MDB / DC / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / PSB / PSD / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "190001800973"
    },
    "situacao": {
@@ -352,10 +352,42 @@
    },
    "suplentes": [
     {
+     "sq": "190002554489",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "ELAINE DINIZ",
+     "nomeCompleto": "ELAINE DINIZ OLEGARIO DE FIGUEIREDO PEREIRA",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
      "sq": "190002545554",
      "cargo": "1º SUPLENTE",
      "nomeUrna": "EVERALDO PEREIRA",
      "nomeCompleto": "EVERALDO DIAS PEREIRA",
+     "partido": {
+      "sigla": "PODE",
+      "numero": "20",
+      "nome": "PODEMOS"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "190002554480",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "RAFAEL JJ",
+     "nomeCompleto": "RAFAEL DOS SANTOS SILVA",
      "partido": {
       "sigla": "PODE",
       "numero": "20",
@@ -876,13 +908,13 @@
     "nome": "PARTIDO SOCIALISMO E LIBERDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "190001800283"
    },
    "situacao": {
@@ -941,7 +973,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "JUNTOS PARA MUDAR CORAGEM PARA RECONSTRUIR",
-    "composicao": "PDT / MDB / DC / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / PSB / PSD / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "PDT / MDB / DC / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / PSB / PSD / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "190001800973"
    },
    "situacao": {
@@ -1014,6 +1046,22 @@
      "cargo": "1º SUPLENTE",
      "nomeUrna": "ROBERTO VASCONCELLOS",
      "nomeCompleto": "ROBERTO VASCONCELLOS",
+     "partido": {
+      "sigla": "UP",
+      "numero": "80",
+      "nome": "UNIDADE POPULAR"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "190002554510",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "MARCOS VILLELA",
+     "nomeCompleto": "MARCOS VILLELA DE CASTRO",
      "partido": {
       "sigla": "UP",
       "numero": "80",

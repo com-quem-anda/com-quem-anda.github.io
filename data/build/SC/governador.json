@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.639Z",
+ "geradoEm": "2026-09-20T14:36:11.300Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 8,
  "candidatos": [
@@ -113,7 +113,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "FÉ NO TRABALHO E PÉ NA TÁBUA",
-    "composicao": "AVANTE / AGIR / DC / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / NOVO / REPUBLICANOS / PODE / PL",
+    "composicao": "AVANTE / AGIR / DC / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / NOVO / REPUBLICANOS / PODE / PL",
     "sq": "240001800349"
    },
    "situacao": {
@@ -154,13 +154,13 @@
     "nome": "PARTIDO RENOVACAO DEMOCRATICA"
    },
    "federacao": {
-    "sigla": "PRD/SOLIDARIEDADE",
+    "sigla": "25-PRD/77-SOLIDARIEDADE",
     "nome": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA",
-    "composicao": "PRD/SOLIDARIEDADE"
+    "composicao": "25-PRD/77-SOLIDARIEDADE"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE)",
+    "composicao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE)",
     "sq": "240001801244"
    },
    "situacao": {
@@ -246,7 +246,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "CORAGEM PARA MUDAR",
-    "composicao": "PDT / PSB / FEDERAÇÃO PSOL REDE (PSOL / REDE) / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV)",
+    "composicao": "PDT / PSB / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE) / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV)",
     "sq": "240001800990"
    },
    "situacao": {
@@ -289,7 +289,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "SANTA CATARINA ACIMA DE TUDO",
-    "composicao": "MDB / PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "MDB / PSD / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "240001801145"
    },
    "situacao": {

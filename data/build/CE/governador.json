@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.357Z",
+ "geradoEm": "2026-09-20T14:36:11.002Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 9,
  "candidatos": [
@@ -25,13 +25,13 @@
     "nome": "PARTIDO DOS TRABALHADORES"
    },
    "federacao": {
-    "sigla": "PT/PC do B/PV",
+    "sigla": "13-PT/65-PC do B/43-PV",
     "nome": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL",
-    "composicao": "PT/PC do B/PV"
+    "composicao": "13-PT/65-PC do B/43-PV"
    },
    "coligacao": {
     "nome": "CEARÁ FORTE DO LADO CERTO",
-    "composicao": "PSB / PDT / PODE / MOBILIZA / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / REPUBLICANOS / PSD / MDB / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PSB / PDT / PODE / MOBILIZA / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / REPUBLICANOS / PSD / MDB / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "60001800686"
    },
    "situacao": {
@@ -213,10 +213,10 @@
    },
    "vice": [
     {
-     "sq": "60002553983",
+     "sq": "60002540335",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "CAP. AMILTON GOMES",
-     "nomeCompleto": "AMILTON ALVES GOMES",
+     "nomeUrna": "VERA LÚCIA",
+     "nomeCompleto": "VERA LUCIA DA SILVA",
      "partido": {
       "sigla": "NOVO",
       "numero": "30",
@@ -229,10 +229,10 @@
      }
     },
     {
-     "sq": "60002540335",
+     "sq": "60002553983",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "VERA LÚCIA",
-     "nomeCompleto": "VERA LUCIA DA SILVA",
+     "nomeUrna": "CAP. AMILTON GOMES",
+     "nomeCompleto": "AMILTON ALVES GOMES",
      "partido": {
       "sigla": "NOVO",
       "numero": "30",
@@ -272,10 +272,10 @@
    },
    "vice": [
     {
-     "sq": "60002553983",
+     "sq": "60002540335",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "CAP. AMILTON GOMES",
-     "nomeCompleto": "AMILTON ALVES GOMES",
+     "nomeUrna": "VERA LÚCIA",
+     "nomeCompleto": "VERA LUCIA DA SILVA",
      "partido": {
       "sigla": "NOVO",
       "numero": "30",
@@ -288,10 +288,10 @@
      }
     },
     {
-     "sq": "60002540335",
+     "sq": "60002553983",
      "cargo": "VICE-GOVERNADOR",
-     "nomeUrna": "VERA LÚCIA",
-     "nomeCompleto": "VERA LUCIA DA SILVA",
+     "nomeUrna": "CAP. AMILTON GOMES",
+     "nomeCompleto": "AMILTON ALVES GOMES",
      "partido": {
       "sigla": "NOVO",
       "numero": "30",
@@ -362,13 +362,13 @@
     "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "UNIR PARA MUDAR",
-    "composicao": "PL / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / DC / AVANTE",
+    "composicao": "PL / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / DC / AVANTE",
     "sq": "60001800087"
    },
    "situacao": {

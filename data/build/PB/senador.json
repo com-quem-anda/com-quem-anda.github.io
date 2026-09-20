@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.488Z",
+ "geradoEm": "2026-09-20T14:36:11.148Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 10,
  "candidatos": [
@@ -27,7 +27,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "COLIGAÇÃO DAQUI PRA MELHOR",
-    "composicao": "REPUBLICANOS / PODE / MOBILIZA / AGIR / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "REPUBLICANOS / PODE / MOBILIZA / AGIR / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "150001801109"
    },
    "situacao": {
@@ -86,7 +86,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "JUNTOS PARA A PARAÍBA DAR O PRÓXIMO PASSO",
-    "composicao": "MDB / DEMOCRATA / PSD / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / PDT",
+    "composicao": "MDB / DEMOCRATA / PSD / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / PDT",
     "sq": "150001800765"
    },
    "situacao": {
@@ -161,7 +161,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "JUNTOS PARA A PARAÍBA DAR O PRÓXIMO PASSO",
-    "composicao": "MDB / DEMOCRATA / PSD / FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA) / PDT",
+    "composicao": "MDB / DEMOCRATA / PSD / FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA) / PDT",
     "sq": "150001800765"
    },
    "situacao": {
@@ -170,6 +170,22 @@
     "codigo": null
    },
    "suplentes": [
+    {
+     "sq": "150002554453",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MATHEUS LUCENA",
+     "nomeCompleto": "MATHEUS ASSIS DE LUCENA",
+     "partido": {
+      "sigla": "PDT",
+      "numero": "12",
+      "nome": "PARTIDO DEMOCRÁTICO TRABALHISTA"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
     {
      "sq": "150002544908",
      "cargo": "1º SUPLENTE",
@@ -262,10 +278,10 @@
      }
     },
     {
-     "sq": "150002551962",
+     "sq": "150002538460",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "EMIR CANDEIA",
-     "nomeCompleto": "EMIR CANDEIA GURJÃO",
+     "nomeUrna": "CAROL MORAIS",
+     "nomeCompleto": "FLAVIA CAROLINA ROCHA MORAIS",
      "partido": {
       "sigla": "PL",
       "numero": "22",
@@ -278,10 +294,10 @@
      }
     },
     {
-     "sq": "150002538460",
+     "sq": "150002551962",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "CAROL MORAIS",
-     "nomeCompleto": "FLAVIA CAROLINA ROCHA MORAIS",
+     "nomeUrna": "EMIR CANDEIA",
+     "nomeCompleto": "EMIR CANDEIA GURJÃO",
      "partido": {
       "sigla": "PL",
       "numero": "22",
@@ -488,7 +504,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "COLIGAÇÃO DAQUI PRA MELHOR",
-    "composicao": "REPUBLICANOS / PODE / MOBILIZA / AGIR / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP)",
+    "composicao": "REPUBLICANOS / PODE / MOBILIZA / AGIR / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP)",
     "sq": "150001801109"
    },
    "situacao": {
@@ -632,10 +648,10 @@
      }
     },
     {
-     "sq": "150002544137",
+     "sq": "150002554281",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "BRUNO SOUTO",
-     "nomeCompleto": "BRUNO SOUTO MARTINS",
+     "nomeUrna": "JIPINHO",
+     "nomeCompleto": "JOSIEL FREIRE DE LIMA",
      "partido": {
       "sigla": "UP",
       "numero": "80",
@@ -648,10 +664,10 @@
      }
     },
     {
-     "sq": "150002554281",
+     "sq": "150002544137",
      "cargo": "2º SUPLENTE",
-     "nomeUrna": "JIPINHO",
-     "nomeCompleto": "JOSIEL FREIRE DE LIMA",
+     "nomeUrna": "BRUNO SOUTO",
+     "nomeCompleto": "BRUNO SOUTO MARTINS",
      "partido": {
       "sigla": "UP",
       "numero": "80",

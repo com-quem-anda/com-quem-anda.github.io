@@ -7,7 +7,7 @@
   "descricao": "Eleições Gerais Estaduais 2026",
   "dataPleito": "2026-10-04"
  },
- "geradoEm": "2026-09-12T11:48:27.712Z",
+ "geradoEm": "2026-09-20T14:36:11.362Z",
  "fonte": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_2026.zip",
  "total": 16,
  "candidatos": [
@@ -25,13 +25,13 @@
     "nome": "PROGRESSISTAS"
    },
    "federacao": {
-    "sigla": "UNIÃO/PP",
+    "sigla": "44-UNIÃO/11-PP",
     "nome": "FEDERAÇÃO UNIÃO PROGRESSISTA",
-    "composicao": "UNIÃO/PP"
+    "composicao": "44-UNIÃO/11-PP"
    },
    "coligacao": {
     "nome": "CORAGEM PARA SEGUIR AVANÇANDO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / REPUBLICANOS / PL / MDB / DEMOCRATA / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / AVANTE",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / REPUBLICANOS / PL / MDB / DEMOCRATA / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / AVANTE",
     "sq": "250001800556"
    },
    "situacao": {
@@ -75,97 +75,6 @@
    ]
   },
   {
-   "sq": "250002553928",
-   "uf": "SP",
-   "cargo": "senador",
-   "numero": "144",
-   "nomeUrna": "GUTO SCHIAVETTO",
-   "nomeCompleto": "RICARDO AUGUSTO MANGUE SCHIAVETTO",
-   "nomeSocial": null,
-   "partido": {
-    "sigla": "MISSÃO",
-    "numero": "14",
-    "nome": "PARTIDO MISSÃO"
-   },
-   "federacao": null,
-   "coligacao": {
-    "nome": "PARTIDO ISOLADO",
-    "composicao": "MISSÃO",
-    "sq": "250001801467"
-   },
-   "situacao": {
-    "disponivel": false,
-    "registro": null,
-    "codigo": null
-   },
-   "suplentes": [
-    {
-     "sq": "250002553929",
-     "cargo": "1º SUPLENTE",
-     "nomeUrna": "MEDON",
-     "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
-     "partido": {
-      "sigla": "MISSÃO",
-      "numero": "14",
-      "nome": "PARTIDO MISSÃO"
-     },
-     "situacao": {
-      "disponivel": false,
-      "registro": null,
-      "codigo": null
-     }
-    },
-    {
-     "sq": "250002554136",
-     "cargo": "1º SUPLENTE",
-     "nomeUrna": "MEDON",
-     "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
-     "partido": {
-      "sigla": "MISSÃO",
-      "numero": "14",
-      "nome": "PARTIDO MISSÃO"
-     },
-     "situacao": {
-      "disponivel": false,
-      "registro": null,
-      "codigo": null
-     }
-    },
-    {
-     "sq": "250002553930",
-     "cargo": "2º SUPLENTE",
-     "nomeUrna": "FABIO RODRIGUES",
-     "nomeCompleto": "FABIO RODRIGUES",
-     "partido": {
-      "sigla": "MISSÃO",
-      "numero": "14",
-      "nome": "PARTIDO MISSÃO"
-     },
-     "situacao": {
-      "disponivel": false,
-      "registro": null,
-      "codigo": null
-     }
-    },
-    {
-     "sq": "250002554143",
-     "cargo": "2º SUPLENTE",
-     "nomeUrna": "FABIO RODRIGUES",
-     "nomeCompleto": "FABIO RODRIGUES",
-     "partido": {
-      "sigla": "MISSÃO",
-      "numero": "14",
-      "nome": "PARTIDO MISSÃO"
-     },
-     "situacao": {
-      "disponivel": false,
-      "registro": null,
-      "codigo": null
-     }
-    }
-   ]
-  },
-  {
    "sq": "250002554075",
    "uf": "SP",
    "cargo": "senador",
@@ -191,6 +100,22 @@
    },
    "suplentes": [
     {
+     "sq": "250002554136",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MEDON",
+     "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
      "sq": "250002553929",
      "cargo": "1º SUPLENTE",
      "nomeUrna": "MEDON",
@@ -207,10 +132,10 @@
      }
     },
     {
-     "sq": "250002554136",
-     "cargo": "1º SUPLENTE",
-     "nomeUrna": "MEDON",
-     "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
+     "sq": "250002554143",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FABIO RODRIGUES",
+     "nomeCompleto": "FABIO RODRIGUES",
      "partido": {
       "sigla": "MISSÃO",
       "numero": "14",
@@ -237,9 +162,84 @@
       "registro": null,
       "codigo": null
      }
+    }
+   ]
+  },
+  {
+   "sq": "250002553928",
+   "uf": "SP",
+   "cargo": "senador",
+   "numero": "144",
+   "nomeUrna": "GUTO SCHIAVETTO",
+   "nomeCompleto": "RICARDO AUGUSTO MANGUE SCHIAVETTO",
+   "nomeSocial": null,
+   "partido": {
+    "sigla": "MISSÃO",
+    "numero": "14",
+    "nome": "PARTIDO MISSÃO"
+   },
+   "federacao": null,
+   "coligacao": {
+    "nome": "PARTIDO ISOLADO",
+    "composicao": "MISSÃO",
+    "sq": "250001801467"
+   },
+   "situacao": {
+    "disponivel": false,
+    "registro": null,
+    "codigo": null
+   },
+   "suplentes": [
+    {
+     "sq": "250002554136",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MEDON",
+     "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002553929",
+     "cargo": "1º SUPLENTE",
+     "nomeUrna": "MEDON",
+     "nomeCompleto": "GUILHERME MEDON BIANCO FONSECA",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
     },
     {
      "sq": "250002554143",
+     "cargo": "2º SUPLENTE",
+     "nomeUrna": "FABIO RODRIGUES",
+     "nomeCompleto": "FABIO RODRIGUES",
+     "partido": {
+      "sigla": "MISSÃO",
+      "numero": "14",
+      "nome": "PARTIDO MISSÃO"
+     },
+     "situacao": {
+      "disponivel": false,
+      "registro": null,
+      "codigo": null
+     }
+    },
+    {
+     "sq": "250002553930",
      "cargo": "2º SUPLENTE",
      "nomeUrna": "FABIO RODRIGUES",
      "nomeCompleto": "FABIO RODRIGUES",
@@ -388,13 +388,13 @@
     "nome": "REDE SUSTENTABILIDADE"
    },
    "federacao": {
-    "sigla": "PSOL/REDE",
+    "sigla": "50-PSOL/18-REDE",
     "nome": "FEDERAÇÃO PSOL REDE",
-    "composicao": "PSOL/REDE"
+    "composicao": "50-PSOL/18-REDE"
    },
    "coligacao": {
     "nome": "DESPERTA SÃO PAULO",
-    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "250001801164"
    },
    "situacao": {
@@ -463,10 +463,10 @@
    },
    "suplentes": [
     {
-     "sq": "250002544671",
+     "sq": "250002554098",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "ANA ESTIMA",
-     "nomeCompleto": "ANA CLAUDIA DE ALMEIDA ESTIMA",
+     "nomeUrna": "LUCIANA FELIX",
+     "nomeCompleto": "LUCIANA AVIGO FELIX",
      "partido": {
       "sigla": "PODE",
       "numero": "20",
@@ -479,10 +479,10 @@
      }
     },
     {
-     "sq": "250002554098",
+     "sq": "250002544671",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "LUCIANA FELIX",
-     "nomeCompleto": "LUCIANA AVIGO FELIX",
+     "nomeUrna": "ANA ESTIMA",
+     "nomeCompleto": "ANA CLAUDIA DE ALMEIDA ESTIMA",
      "partido": {
       "sigla": "PODE",
       "numero": "20",
@@ -587,7 +587,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "CORAGEM PARA SEGUIR AVANÇANDO",
-    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (UNIÃO / PP) / REPUBLICANOS / PL / MDB / DEMOCRATA / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (PRD / SOLIDARIEDADE) / AVANTE",
+    "composicao": "FEDERAÇÃO UNIÃO PROGRESSISTA (44-UNIÃO / 11-PP) / REPUBLICANOS / PL / MDB / DEMOCRATA / PSD / FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA (25-PRD / 77-SOLIDARIEDADE) / AVANTE",
     "sq": "250001800556"
    },
    "situacao": {
@@ -644,13 +644,13 @@
     "nome": "CIDADANIA"
    },
    "federacao": {
-    "sigla": "PSDB/CIDADANIA",
+    "sigla": "45-PSDB/23-CIDADANIA",
     "nome": "FEDERAÇÃO PSDB CIDADANIA",
-    "composicao": "PSDB/CIDADANIA"
+    "composicao": "45-PSDB/23-CIDADANIA"
    },
    "coligacao": {
     "nome": "FEDERAÇÃO",
-    "composicao": "FEDERAÇÃO PSDB CIDADANIA (PSDB / CIDADANIA)",
+    "composicao": "FEDERAÇÃO PSDB CIDADANIA (45-PSDB / 23-CIDADANIA)",
     "sq": "250001801300"
    },
    "situacao": {
@@ -778,10 +778,10 @@
    },
    "suplentes": [
     {
-     "sq": "250002550682",
+     "sq": "250002532793",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "FREDERICO D AVILA",
-     "nomeCompleto": "FREDERICO BRAUN DAVILA",
+     "nomeUrna": "ALCANTARA MACHADO",
+     "nomeCompleto": "MARCOS DE ALCANTARA MACHADO",
      "partido": {
       "sigla": "NOVO",
       "numero": "30",
@@ -794,10 +794,10 @@
      }
     },
     {
-     "sq": "250002532793",
+     "sq": "250002550682",
      "cargo": "1º SUPLENTE",
-     "nomeUrna": "ALCANTARA MACHADO",
-     "nomeCompleto": "MARCOS DE ALCANTARA MACHADO",
+     "nomeUrna": "FREDERICO D AVILA",
+     "nomeCompleto": "FREDERICO BRAUN DAVILA",
      "partido": {
       "sigla": "NOVO",
       "numero": "30",
@@ -902,7 +902,7 @@
    "federacao": null,
    "coligacao": {
     "nome": "DESPERTA SÃO PAULO",
-    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (PT / PC do B / PV) / FEDERAÇÃO PSOL REDE (PSOL / REDE)",
+    "composicao": "PDT / PSB / FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL (13-PT / 65-PC do B / 43-PV) / FEDERAÇÃO PSOL REDE (50-PSOL / 18-REDE)",
     "sq": "250001801164"
    },
    "situacao": {
