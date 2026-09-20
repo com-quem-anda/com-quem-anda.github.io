@@ -172,6 +172,47 @@
    */
   const vinculadosDe = (c) => (Array.isArray(c?.[4]) ? c[4] : []);
 
+  /**
+   * Link para a candidatura no DivulgaCandContas, a fonte oficial.
+   *
+   * O formato da rota é
+   *   /divulga/#/candidato/<REGIÃO>/<UF>/<ID_ELEIÇÃO>/<SQ_CANDIDATO>/<ANO>/<UF>
+   * e foi obtido por engenharia reversa de URLs reais — o portal devolve 403
+   * para qualquer requisição nossa (Akamai), então nada aqui pôde ser testado
+   * por programa. Cada valor abaixo ou foi visto numa URL real ou está
+   * marcado como não confirmado.
+   *
+   * ID_ELEIÇÃO é constante para a eleição estadual: mesmo valor observado em
+   * SP e RN, em governador e senador. Presidente é outra eleição (CD_ELEICAO
+   * 6257 contra 6259) e teria outro id, que não temos — por isso o cargo fica
+   * sem link em vez de ganhar um link quebrado.
+   */
+  const ID_ELEICAO_ESTADUAL = "20322002026";
+  const REGIAO = {
+    // Confirmadas em URLs reais:
+    SP: "SUDESTE", RN: "NORDESTE",
+    // Mesma região das confirmadas, grafia idêntica:
+    ES: "SUDESTE", MG: "SUDESTE", RJ: "SUDESTE",
+    AL: "NORDESTE", BA: "NORDESTE", CE: "NORDESTE", MA: "NORDESTE",
+    PB: "NORDESTE", PE: "NORDESTE", PI: "NORDESTE", SE: "NORDESTE",
+    // NÃO CONFIRMADAS — grafia inferida. Se o link abrir a busca em vez da
+    // candidatura, é aqui que está o erro.
+    AC: "NORTE", AP: "NORTE", AM: "NORTE", PA: "NORTE",
+    RO: "NORTE", RR: "NORTE", TO: "NORTE",
+    DF: "CENTRO-OESTE", GO: "CENTRO-OESTE", MT: "CENTRO-OESTE", MS: "CENTRO-OESTE",
+    PR: "SUL", RS: "SUL", SC: "SUL",
+  };
+
+  const linkTse = (c, slot) => {
+    const sq = c?.[6];
+    if (!sq || slot === "presidente") return "";
+    const reg = REGIAO[uf];
+    if (!reg) return "";
+    const url = `https://divulgacandcontas.tse.jus.br/divulga/#/candidato/${reg}/${uf}/${ID_ELEICAO_ESTADUAL}/${encodeURIComponent(sq)}/${D?.eleicao?.ano ?? 2026}/${uf}`;
+    return `<a class="conferir-tse" href="${url}" target="_blank" rel="noopener"
+      title="Abre a página oficial desta candidatura no DivulgaCandContas, do TSE">conferir no TSE</a>`;
+  };
+
   /** c[5]: quantos registros o TSE tem para esta mesma candidatura. */
   const seloDuplicado = (c) => c && c[5] > 1
     ? `<span class="duplicado" title="Esta candidatura aparece ${c[5]} vezes no pacote do TSE, com o mesmo número, nome e partido. A lista mostra uma vez só. A ferramenta não escolhe qual registro é o válido — quem decide isso é a Justiça Eleitoral.">${c[5]} registros no TSE</span>` : "";
@@ -210,7 +251,7 @@
           <span class="slot-cargo">${esc(rotulo(slot))}</span>
           <span class="slot-nome${c ? "" : " vazio"}">${corpo} ${selo(c)}${seloDuplicado(c)}</span>
           <span class="slot-acao">${c ? `<span class="sigla">${esc(c[2])}</span>` : "escolher"}</span>
-        </button>${aberto === slot ? `<div class="picker">
+        </button>${c ? linkTse(c, slot) : ""}${aberto === slot ? `<div class="picker">
           <input type="search" id="busca" placeholder="Nome, número ou partido — ${pool(slot).length} candidatos" value="${esc(busca)}" autocomplete="off" aria-label="Buscar candidato">
           <div class="lista" id="lista">${renderLista(slot)}</div></div>` : ""}</div>`;
     }).join("");

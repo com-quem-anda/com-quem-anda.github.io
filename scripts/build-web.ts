@@ -21,11 +21,17 @@ const DIR_WEB = new URL("../web/dados/", import.meta.url);
 const ler = async (p: string) => JSON.parse(await readFile(new URL(p, DIR_BUILD), "utf8"));
 
 /**
- * [numero, nomeUrna, partido, mandato, vinculados?]
+ * [numero, nomeUrna, partido, mandato, vinculados|0, registros?, sq]
  *
  * A posição de `mandato` é a mesma nos dois formatos de propósito: já houve
  * bug aqui por índice que mudava de significado conforme o cargo.
  * mandato: 0 sem mandato, "CD" deputado federal, "SF" senador.
+ *
+ * `sq` é o SQ_CANDIDATO do TSE, no fim para não deslocar índice nenhum — a
+ * quebra do PDF veio exatamente de um índice que mudou de significado. Serve
+ * para montar o link do DivulgaCandContas, onde o eleitor confere a candidatura
+ * na fonte oficial. Fica no fim também porque é o único campo que a tela não
+ * usa para calcular nada.
  */
 type Mandatos = Record<string, { casa: string }>;
 /**
@@ -50,8 +56,8 @@ const vinculados = (c: Candidato) => {
 };
 const mandato = (c: Candidato, m: Mandatos) =>
   m[c.sq] ? (m[c.sq]!.casa === "senado" ? "SF" : "CD") : 0;
-const majoritario = (c: Candidato, m: Mandatos) => [c.numero, c.nomeUrna, c.partido.sigla, mandato(c, m), vinculados(c)];
-const proporcional = (c: Candidato, m: Mandatos) => [c.numero, c.nomeUrna, c.partido.sigla, mandato(c, m), 0];
+const majoritario = (c: Candidato, m: Mandatos) => [c.numero, c.nomeUrna, c.partido.sigla, mandato(c, m), vinculados(c), 1, c.sq];
+const proporcional = (c: Candidato, m: Mandatos) => [c.numero, c.nomeUrna, c.partido.sigla, mandato(c, m), 0, 1, c.sq];
 
 /**
  * A mesma candidatura aparece mais de uma vez no pacote do TSE.
