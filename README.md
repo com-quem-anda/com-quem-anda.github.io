@@ -90,10 +90,39 @@ CDN por algumas horas, e cópias em serviços de arquivo como o Internet Archive
 
 ## No ar
 
-**https://com-quem-anda.github.io/**
+**https://com-quem-anda.github.io/** — migrando para **https://com-quem-anda.com.br/**
 
 Site estático, publicado pelo workflow `publicar.yml` a cada push na `main`.
-Abrir em São Paulo custa 94 KB comprimidos.
+Abrir custa 204 KB, **todos do nosso próprio servidor**: nenhuma requisição a
+terceiro no carregamento. Antes eram 86 KB vindos do Google Fonts, o que entregava
+o IP de cada visitante a eles.
+
+### DNS e domínio
+
+| | |
+|---|---|
+| Domínio | `com-quem-anda.com.br` (Registro.br, registrado em 20/09/2026) |
+| Titular | pessoa física — WHOIS do `.br` publica nome e CPF parcial, e não há como ocultar |
+| DNS | Cloudflare (plano Free) |
+| Nameservers | `brit.ns.cloudflare.com` · `colin.ns.cloudflare.com` |
+| DNSSEC | **desligado** no Registro.br antes da troca de nameservers |
+| Origem | GitHub Pages, via `CNAME` de `@` e `www` para `com-quem-anda.github.io` |
+
+**Por que o DNSSEC está desligado.** O Registro.br liga DNSSEC por padrão quando o
+domínio usa o DNS dele. Se os nameservers mudam para o Cloudflare com o registro DS
+ainda publicado, todo resolvedor que valida DNSSEC devolve SERVFAIL — o domínio some
+da internet, sem erro que explique o motivo. Desligar antes é obrigatório. Dá para
+religar depois usando o DS que o próprio Cloudflare fornece.
+
+**O `github.io` não é espelho.** Assim que o domínio próprio é configurado, o GitHub
+passa a fazer 301 do `com-quem-anda.github.io` para ele, automaticamente e sem opção
+de desligar. Isso é desejável: links antigos seguem funcionando e o SEO consolida num
+endereço só. Reverter é remover o domínio próprio, que leva um minuto.
+
+Para trocar o endereço no código, use `scripts/migrar-dominio.ts` — ele conta as sete
+ocorrências nos quatro arquivos e falha se alguma sumir. Nunca troque à mão: um
+`canonical` errado não quebra nada visível, só manda o Google indexar o lugar errado,
+calado, por semanas.
 
 **A atualização do dado é manual, por enquanto.** O cron diário está desligado
 porque o CDN do TSE bloqueia os runners do GitHub por IP — 403 em quatro
