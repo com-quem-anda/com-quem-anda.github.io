@@ -85,7 +85,20 @@ select:hover, .botao:hover { border-color: var(--accent); }
 .botao[disabled] { opacity: .5; cursor: default; }
 
 .painel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.08fr); gap: 22px; align-items: start; }
-@media (max-width: 900px) { .painel { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 900px) {
+  .painel { grid-template-columns: minmax(0, 1fr); }
+
+  #pane-cedula .painel > .coluna { display: contents; }
+  #pane-cedula .rot-cedula      { order: 1; }
+  #pane-cedula .cedula          { order: 2; }
+  #pane-cedula #dicaVazia       { order: 3; }
+  #pane-cedula .rot-leitura     { order: 4; margin-top: 6px; }
+  #pane-cedula #cartaoLeitura   { order: 5; }
+  #pane-cedula #cartaoAlav      { order: 6; }
+  #pane-cedula #cartaoSugestao  { order: 7; }
+  #pane-cedula #chapaBloco      { order: 8; }
+  #pane-cedula .ressalva        { order: 9; }
+}
 .coluna { display: grid; gap: 16px; min-width: 0; }
 .coluna > h2 { font-size: 0.82rem; font-family: var(--mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
 
@@ -551,6 +564,7 @@ table.cruz tbody tr:hover td { background: var(--sunk); }
 .voce-grade { padding-top: 22px; }
 @media (max-width: 560px) { .cartao-corpo { padding: 13px 14px; } .wrap { padding-inline: 14px; } }
 .prior { display: grid; gap: 6px; }
+.tema-rotulo { display: inline-flex; align-items: center; gap: 6px; }
 .prior-linha { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 10px; align-items: center; font-size: .88rem; }
 @media (max-width: 560px) {
   .prior-linha { grid-template-columns: minmax(0,1fr); gap: 4px; padding-block: 4px; }

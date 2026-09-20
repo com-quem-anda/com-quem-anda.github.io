@@ -562,6 +562,17 @@
   /* =================== você: prioridades, respostas e match =================== */
 
   const TEMAS_ORD = ["segurança", "saúde", "economia", "educação", "instituições", "sociais", "meio ambiente"];
+
+  /** O que cada tema cobre NESTAS doze votações — não o tema em abstrato. */
+  const TEMAS_DESC = {
+    "segurança": "Armas de fogo, crimes e violência doméstica. Nas votações usadas aqui: quem pode ter arma, a proibição de arma para quem responde por agressão contra mulher, e a ampliação da Lei Maria da Penha.",
+    "saúde": "Atendimento público e profissionais de saúde. Aqui: a recontratação de médicos do Mais Médicos para os Distritos Sanitários Especiais Indígenas.",
+    "economia": "Impostos, gastos e dívidas do poder público. Aqui: o corte de benefícios tributários da União e o limite para o pagamento de precatórios pelos municípios.",
+    "educação": "O que as escolas ensinam e como a política de educação é organizada. Aqui: a inclusão de educação para reação a desastres climáticos nas leis de educação ambiental.",
+    "instituições": "As regras do jogo político e o funcionamento do poder. Aqui: a anistia a participantes de manifestações desde outubro de 2022 e as obrigações das plataformas digitais.",
+    "sociais": "Políticas de inclusão e reparação de desigualdades. Aqui: a reserva de 30% das vagas em concursos federais para pessoas pretas, pardas, indígenas e quilombolas.",
+    "meio ambiente": "Terras, áreas protegidas e clima. Aqui: a demarcação de terras indígenas e a redução da Área de Proteção Ambiental da Baleia Franca.",
+  };
   /** Onde cada tema aparece no ranking de cada pesquisa (1 = mais citado). */
   const RANK_BRASIL = {
     "segurança":     { quaest: 1, datafolha: 2 },
@@ -582,7 +593,8 @@
     const rotulos = ["não é prioridade", "importa", "é decisivo"];
     el("prioridades").innerHTML = `<div class="prior">` + TEMAS_ORD.map((t) => `
       <div class="prior-linha">
-        <span>${esc(t[0].toUpperCase() + t.slice(1))}</span>
+        <span class="tema-rotulo">${esc(t[0].toUpperCase() + t.slice(1))}
+          <button class="info" type="button" data-info="${esc(TEMAS_DESC[t] ?? "")}">?</button></span>
         <span class="pesos">${[0, 1, 2].map((v) => `
           <button class="peso" type="button" data-tema="${esc(t)}" data-peso="${v}"
             aria-pressed="${(pesos[t] ?? 1) === v}">${esc(rotulos[v])}</button>`).join("")}</span>
