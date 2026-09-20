@@ -1,5 +1,5 @@
 /**
- * Voto Consciente — camada vertical.
+ * Com Quem Anda — camada vertical.
  *
  * Sem framework e sem dependência: é uma página estática de utilidade pública,
  * e cada KB aqui é tempo de carregamento de quem vai abrir no celular. A
@@ -932,7 +932,7 @@
 
   /* =================== métricas de acesso =================== */
 
-  const ANALYTICS = window.VC_ANALYTICS ?? { provedor: "", token: "" };
+  const ANALYTICS = window.CQA_ANALYTICS ?? { provedor: "", token: "" };
   const analyticsLigado = () => Boolean(ANALYTICS.provedor && ANALYTICS.token);
 
   /**
@@ -1017,7 +1017,7 @@
       texto: "Ela <strong>não</strong> diz em quem votar, não avalia caráter nem competência de ninguém, e não é pesquisa eleitoral. Tudo o que ela não alcança está listado nesta aba, com números. Vale a leitura antes de tirar conclusão." },
   ];
 
-  const TOUR_CHAVE = "voto-consciente:tour-visto";
+  const TOUR_CHAVE = "com-quem-anda:tour-visto";
   let tourPasso = 0;
 
   function irParaAba(nome) {
@@ -1240,7 +1240,7 @@
    * exportação — foi exatamente o que aconteceu antes de eu recolocar isto.
    *
    * O título também é trocado: o navegador carimba o título da página no
-   * cabeçalho da impressão, e "Voto Consciente" não tem por que ir junto numa
+   * cabeçalho da impressão, e "Com Quem Anda" não tem por que ir junto numa
    * cédula. Já o endereço que ele põe no rodapé, página nenhuma remove — só o
    * usuário, desmarcando "Cabeçalhos e rodapés" no diálogo. É por isso que o
    * botão gera o PDF por conta própria em vez de abrir o diálogo.

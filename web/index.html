@@ -3,8 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Voto Consciente</title>
-<meta name="description" content="Monte sua cédula e veja o quanto os partidos em que você votou costumam se aliar entre si. Dados oficiais do TSE, sem login e sem coleta.">
+<title>Com Quem Anda — veja com quem os partidos do seu voto andam | Eleições 2026</title>
+<meta name="description" content="Monte a cédula que você pretende votar nas Eleições 2026 e descubra se os partidos escolhidos costumam se aliar — e quem você elege junto como vice e suplente. Dados oficiais do TSE, sem cadastro e sem coleta.">
+<link rel="canonical" href="https://com-quem-anda.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Com Quem Anda">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://com-quem-anda.github.io/">
+<meta property="og:title" content="Com Quem Anda — veja com quem os partidos do seu voto andam">
+<meta property="og:description" content="Monte sua cédula das Eleições 2026 e descubra se os partidos que você escolheu costumam se aliar — e quem você elege junto como vice e suplente.">
+<meta property="og:image" content="https://com-quem-anda.github.io/compartilhar.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Com Quem Anda: monte sua cédula e veja com quem os partidos do seu voto andam.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Com Quem Anda — veja com quem os partidos do seu voto andam">
+<meta name="twitter:description" content="Monte sua cédula das Eleições 2026 e descubra se os partidos que você escolheu costumam se aliar.">
+<meta name="twitter:image" content="https://com-quem-anda.github.io/compartilhar.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
@@ -27,14 +42,33 @@
    *
    * provedor: "" (nenhum) | "cloudflare" | "goatcounter"
    */
-  window.VC_ANALYTICS = { provedor: "", token: "" };
+  window.CQA_ANALYTICS = { provedor: "", token: "" };
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Com Quem Anda",
+  "url": "https://com-quem-anda.github.io/",
+  "applicationCategory": "GovernmentApplication",
+  "operatingSystem": "Navegador",
+  "inLanguage": "pt-BR",
+  "isAccessibleForFree": true,
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "BRL" },
+  "description": "Ferramenta para o eleitor montar a cédula das Eleições 2026 e verificar se os partidos escolhidos costumam se aliar entre si, além de mostrar vice e suplentes eleitos junto. Não coleta dados.",
+  "license": "https://opensource.org/licenses/MIT",
+  "isBasedOn": [
+    { "@type": "Dataset", "name": "Candidaturas 2026", "creator": { "@type": "GovernmentOrganization", "name": "Tribunal Superior Eleitoral" }, "license": "https://creativecommons.org/licenses/by/4.0/" },
+    { "@type": "Dataset", "name": "Votações nominais da Câmara dos Deputados", "creator": { "@type": "GovernmentOrganization", "name": "Câmara dos Deputados" } }
+  ]
+}
 </script>
 </head>
 <body>
 <div class="wrap">
   <header class="top">
     <span class="eyebrow">Eleições 2026 · dados oficiais do TSE</span>
-    <h1>Voto Consciente</h1>
+    <h1>Com Quem Anda</h1>
     <p class="lede">
       Monte a cédula que você pretende votar e veja uma coisa que ninguém costuma te contar:
       <strong>se os partidos que você escolheu costumam andar juntos</strong> — ou se andam em campos

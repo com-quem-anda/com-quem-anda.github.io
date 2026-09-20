@@ -69,7 +69,7 @@ test("se houver medidor configurado, é um dos dois sem cookie", () => {
   // Esta trava não impede ligar métricas — impede ligar um provedor que a
   // página não descreve. O texto de privacidade nomeia o medidor, e nomear o
   // errado seria pior que não ter medidor nenhum.
-  const m = /VC_ANALYTICS\s*=\s*\{\s*provedor:\s*"([^"]*)",\s*token:\s*"([^"]*)"/.exec(html);
+  const m = /CQA_ANALYTICS\s*=\s*\{\s*provedor:\s*"([^"]*)",\s*token:\s*"([^"]*)"/.exec(html);
   assert.ok(m, "bloco de configuração não encontrado");
   const [, provedor, token] = m!;
   if (provedor === "") {
@@ -85,6 +85,9 @@ test("todo host de terceiro no front está na lista declarada", () => {
   // A página nomeia quem ela contata. Um host novo que entre sem passar por
   // aqui tornaria esse texto falso — foi assim que "nem chamada a servidor de
   // terceiros" ficou desatualizado enquanto as fontes já vinham do Google.
+  // O próprio endereço do site aparece em canonical, og:url e JSON-LD. Não é
+  // terceiro: é a página se identificando.
+  const PROPRIO = "com-quem-anda.github.io";
   const DECLARADOS = [
     "fonts.googleapis.com",        // fontes, no carregamento
     "fonts.gstatic.com",           // arquivos das fontes
@@ -95,9 +98,15 @@ test("todo host de terceiro no front está na lista declarada", () => {
   for (const fonte of [app, html]) {
     for (const m of fonte.matchAll(/https:\/\/([a-z0-9.-]+\.[a-z]{2,})/g)) {
       const host = m[1]!;
+      if (host === PROPRIO) continue;
+      // Endereços apenas CITADOS: fontes no texto, licenças e vocabulários de
+      // dados estruturados. Nenhum deles é buscado pelo navegador — schema.org
+      // e creativecommons.org são identificadores, não recursos.
+      const SO_CITADOS = ["ranking.org.br", "github.com", "schema.org",
+                          "creativecommons.org", "opensource.org"];
+      if (SO_CITADOS.includes(host)) continue;
       if (host.endsWith("camara.leg.br") || host.endsWith("tse.jus.br")
-          || host.endsWith("ibge.gov.br") || host.endsWith("senado.leg.br")
-          || host === "ranking.org.br" || host === "github.com") continue;  // só citados em texto
+          || host.endsWith("ibge.gov.br") || host.endsWith("senado.leg.br")) continue;
       assert.ok(DECLARADOS.includes(host), `host não declarado no texto de privacidade: ${host}`);
     }
   }
@@ -114,4 +123,15 @@ test("a posição dos vinculados é lida por um só caminho", () => {
     .split("\n").filter((l) => !l.trim().startsWith("//")).join("\n");
   const leiturasCruas = [...semComentarios.matchAll(/c\[4\]/g)].length;
   assert.equal(leiturasCruas, 1, "c[4] só deve ser lido dentro de vinculadosDe()");
+});
+
+test("o endereço declarado no canonical é o mesmo em toda a página", () => {
+  // Trocar de domínio e esquecer um og:url apontando para o antigo é o tipo de
+  // resíduo que passa despercebido e estraga o card compartilhado.
+  const canonical = /<link rel="canonical" href="https:\/\/([^/"]+)/.exec(html)?.[1];
+  assert.ok(canonical, "canonical não encontrado");
+  const ogUrl = /<meta property="og:url" content="https:\/\/([^/"]+)/.exec(html)?.[1];
+  assert.equal(ogUrl, canonical, "og:url aponta para host diferente do canonical");
+  const ogImg = /<meta property="og:image" content="https:\/\/([^/"]+)/.exec(html)?.[1];
+  assert.equal(ogImg, canonical, "og:image aponta para host diferente do canonical");
 });
