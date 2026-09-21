@@ -182,12 +182,12 @@
    * por programa. Todo valor abaixo veio de uma URL que comprovadamente abria:
    * as cinco regiões, uma a uma, e o id da eleição.
    *
-   * ID_ELEIÇÃO é constante para a eleição estadual: mesmo valor observado em
-   * SP e RN, em governador e senador. Presidente é outra eleição (CD_ELEICAO
-   * 6257 contra 6259) e teria outro id, que não temos — por isso o cargo fica
-   * sem link em vez de ganhar um link quebrado.
+   * ID_PLEITO é um só para 2026 inteiro. Isso contraria o que o pacote do TSE
+   * sugere — lá presidente está sob CD_ELEICAO 6257 e o resto sob 6259 — mas a
+   * URL real de um presidenciável traz o mesmo id dos candidatos estaduais. O
+   * portal agrupa por pleito, não por eleição. Verificado, não deduzido.
    */
-  const ID_ELEICAO_ESTADUAL = "20322002026";
+  const ID_PLEITO = "20322002026";
   /**
    * CENTROOESTE vai sem hífen. Não é descuido: é a grafia que o portal usa, e
    * foi conferida numa URL real do MS. "CENTRO-OESTE", que é como se escreve
@@ -206,10 +206,12 @@
 
   const linkTse = (c, slot) => {
     const sq = c?.[6];
-    if (!sq || slot === "presidente") return "";
-    const reg = REGIAO[uf];
+    if (!sq) return "";
+    // Presidente é candidatura nacional: o portal põe BR nos dois lugares onde
+    // os demais cargos levam região e UF.
+    const [reg, ue] = slot === "presidente" ? ["BR", "BR"] : [REGIAO[uf], uf];
     if (!reg) return "";
-    const url = `https://divulgacandcontas.tse.jus.br/divulga/#/candidato/${reg}/${uf}/${ID_ELEICAO_ESTADUAL}/${encodeURIComponent(sq)}/${D?.eleicao?.ano ?? 2026}/${uf}`;
+    const url = `https://divulgacandcontas.tse.jus.br/divulga/#/candidato/${reg}/${ue}/${ID_PLEITO}/${encodeURIComponent(sq)}/${D?.eleicao?.ano ?? 2026}/${ue}`;
     return `<a class="conferir-tse" href="${url}" target="_blank" rel="noopener"
       title="Abre a página oficial desta candidatura no DivulgaCandContas, do TSE">conferir no TSE</a>`;
   };

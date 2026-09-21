@@ -18,6 +18,10 @@ import { readFileSync } from "node:fs";
 const app = readFileSync(new URL("../web/app.js", import.meta.url), "utf8");
 const ler = (uf: string) =>
   JSON.parse(readFileSync(new URL(`../web/dados/uf/${uf}.json`, import.meta.url), "utf8"));
+const base = JSON.parse(readFileSync(new URL("../web/dados/base.json", import.meta.url), "utf8"));
+/** Presidente não está por UF: a candidatura é nacional e vive em base.json. */
+const listaDe = (uf: string, cargo: string): unknown[][] =>
+  uf === "BR" ? base.presidentes : ler(uf)[cargo];
 
 /** Mesma montagem de web/app.js. Se lá mudar, o teste abaixo acusa. */
 const REGIAO: Record<string, string> = {
@@ -29,9 +33,12 @@ const REGIAO: Record<string, string> = {
   ES: "SUDESTE", MG: "SUDESTE", RJ: "SUDESTE", SP: "SUDESTE",
   PR: "SUL", RS: "SUL", SC: "SUL",
 };
-const ID_ESTADUAL = "20322002026";
-const montar = (uf: string, sq: string) =>
-  `https://divulgacandcontas.tse.jus.br/divulga/#/candidato/${REGIAO[uf]}/${uf}/${ID_ESTADUAL}/${sq}/2026/${uf}`;
+const ID_PLEITO = "20322002026";
+/** Presidente é nacional: BR onde os demais levam região e UF. */
+const montar = (uf: string, sq: string) => {
+  const [reg, ue] = uf === "BR" ? ["BR", "BR"] : [REGIAO[uf], uf];
+  return `https://divulgacandcontas.tse.jus.br/divulga/#/candidato/${reg}/${ue}/${ID_PLEITO}/${sq}/2026/${ue}`;
+};
 
 /**
  * URLs copiadas da barra de endereço, com a página aberta. São a verdade.
@@ -53,11 +60,15 @@ const REAIS = [
     url: "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/CENTROOESTE/MS/20322002026/120002535764/2026/MS" },
   { uf: "RS", cargo: "df", nome: "EDUARDO CARREIRA",
     url: "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/SUL/RS/20322002026/210002533004/2026/RS" },
+  // Presidente: mesmo id de pleito dos estaduais, apesar de CD_ELEICAO 6257
+  // contra 6259 no pacote do TSE. O portal agrupa por pleito, não por eleição.
+  { uf: "BR", cargo: "presidente", nome: "RENAN SANTOS",
+    url: "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/BR/BR/20322002026/280002540694/2026/BR" },
 ];
 
 /** Nenhuma região pode ficar sem uma URL real que a comprove. */
 test("as cinco regiões estão cobertas por URL real", () => {
-  const cobertas = new Set(REAIS.map((r) => REGIAO[r.uf]));
+  const cobertas = new Set(REAIS.filter((r) => r.uf !== "BR").map((r) => REGIAO[r.uf]));
   for (const reg of new Set(Object.values(REGIAO))) {
     assert.ok(cobertas.has(reg), `região ${reg} não tem URL real que a confirme`);
   }
@@ -66,7 +77,7 @@ test("as cinco regiões estão cobertas por URL real", () => {
 
 test("a URL montada bate com as URLs reais do DivulgaCandContas", () => {
   for (const alvo of REAIS) {
-    const lista = ler(alvo.uf)[alvo.cargo] as unknown[][];
+    const lista = listaDe(alvo.uf, alvo.cargo);
     const c = lista.find((x) => x[1] === alvo.nome);
     assert.ok(c, `${alvo.nome} sumiu de ${alvo.uf}/${alvo.cargo} — o pacote do TSE mudou?`);
     const sq = c![6] as string;
@@ -78,13 +89,13 @@ test("a URL montada bate com as URLs reais do DivulgaCandContas", () => {
 test("o app usa o mesmo id de eleição e as mesmas regiões que o teste", () => {
   // Duas cópias do mapa divergirem é o jeito silencioso de isto quebrar:
   // o teste passaria contra si mesmo enquanto a tela monta outra coisa.
-  assert.ok(app.includes(`"${ID_ESTADUAL}"`), "o id da eleição estadual mudou em app.js");
+  assert.ok(app.includes(`"${ID_PLEITO}"`), "o id do pleito mudou em app.js");
   for (const [uf, reg] of Object.entries(REGIAO)) {
     assert.match(app, new RegExp(`${uf}:\\s*"${reg}"`), `região de ${uf} diverge entre app.js e o teste`);
   }
 });
 
-test("todo candidato publicado tem sq, e presidente não ganha link", () => {
+test("todo candidato publicado tem sq, inclusive os presidenciáveis", () => {
   // sq ausente vira link para /undefined/. Melhor não ter link.
   const uf = ler("SP");
   for (const [cargo, lista] of Object.entries(uf)) {
@@ -94,7 +105,10 @@ test("todo candidato publicado tem sq, e presidente não ganha link", () => {
       assert.match(String(c[6]), /^\d+$/, `sq não numérico em SP/${cargo}: ${c[1]}`);
     }
   }
-  // Presidente é outra eleição (CD_ELEICAO 6257) e o id dela não é conhecido.
-  assert.match(app, /slot === "presidente"\) return ""/,
-    "app.js precisa continuar recusando link para presidente enquanto o id federal for desconhecido");
+  // Presidente também tem link, com BR no lugar de região e UF.
+  assert.match(app, /slot === "presidente" \? \["BR", "BR"\]/,
+    "presidente precisa continuar usando BR/BR — a candidatura é nacional");
+  for (const c of base.presidentes as unknown[][]) {
+    assert.equal(typeof c[6], "string", `presidenciável sem sq: ${c[1]}`);
+  }
 });
