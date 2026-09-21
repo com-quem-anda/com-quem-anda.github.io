@@ -88,7 +88,7 @@ test("todo host de terceiro no front está na lista declarada", () => {
   // terceiros" ficou desatualizado enquanto as fontes já vinham do Google.
   // O próprio endereço do site aparece em canonical, og:url e JSON-LD. Não é
   // terceiro: é a página se identificando.
-  const PROPRIO = "com-quem-anda.github.io";
+  const PROPRIO = "com-quem-anda.com.br";
   const DECLARADOS = [
     "cdnjs.cloudflare.com",        // gerador de PDF, só ao exportar
     "static.cloudflareinsights.com", // medidor de acesso, se ligado

@@ -4,4 +4,4 @@ Allow: /
 # Os JSON de dados são a fonte da página, não conteúdo para busca.
 Disallow: /dados/
 
-Sitemap: https://com-quem-anda.github.io/sitemap.xml
+Sitemap: https://com-quem-anda.com.br/sitemap.xml
