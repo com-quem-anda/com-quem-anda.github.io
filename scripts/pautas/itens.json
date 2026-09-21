@@ -1,5 +1,5 @@
 {
-  "_leia": "PERGUNTAS DE AUTORIA. Este arquivo é o único do projeto cujo conteúdo não é derivado mecanicamente do dado — o texto das perguntas foi escrito, e escrever é escolher. Redigido por Claude (Anthropic) a pedido do mantenedor, em 13/09/2026. Cada item traz a votação real que lhe dá origem, o que 'Sim' significou naquela votação e o link para conferir na Câmara. Discordou da redação? Abra um pull request: é para isso que ela está aqui e não escondida no código.",
+  "_leia": "PERGUNTAS DE AUTORIA. Este arquivo é o único do projeto cujo conteúdo não é derivado mecanicamente do dado — o texto das perguntas foi escrito, e escrever é escolher. Redigido por Claude (Anthropic) a pedido de quem criou a ferramenta, em 13/09/2026. Cada item traz a votação real que lhe dá origem, o que 'Sim' significou naquela votação e o link para conferir na Câmara. Discordou da redação? Diga por quê na página pública de correções do projeto: é para isso que ela está aqui, à vista, e não escondida no código.",
   "_direcao": "tipoVoto 'merito' = a Câmara votou o conteúdo (manter/aprovar o texto). tipoVoto 'urgencia' = votou acelerar a tramitação; mede disposição de priorizar, o que é sinal de apoio mas não é voto sobre o mérito. A tela diz qual é qual em cada item.",
   "itens": [
     {

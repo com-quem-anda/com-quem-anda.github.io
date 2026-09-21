@@ -24,12 +24,18 @@ on:
   pull_request:
     paths: ["scripts/**", "tests/**", "package.json", "tsconfig.json"]
 
+# O padrão do workflow é somente leitura. Só o job que abre PR pede escrita, e
+# ele nunca roda em pull_request. Importa porque PR de fork executa código de
+# estranho: hoje o GitHub já rebaixa o token nesse caso, mas trocar
+# "pull_request" por "pull_request_target" — que parece correção inocente e
+# aparece em muito tutorial — daria escrita de verdade a esse código. Com a
+# permissão no job certo, essa troca deixa de ser suficiente para causar dano.
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
 
 jobs:
-  dados:
+  # Roda em PR. Só tipos e testes: é o que se quer conferir numa contribuição.
+  conferir:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -45,6 +51,25 @@ jobs:
 
       - name: Testes
         run: npm test
+
+  # Só em disparo manual. A coleta do TSE ficava no mesmo job e rodava em PR
+  # também — e como o Akamai devolve 403 para runner do GitHub, todo PR que
+  # tocasse em scripts/ ou tests/ falhava em vermelho por motivo alheio ao PR.
+  atualizar:
+    if: github.event_name != 'pull_request'
+    needs: conferir
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.18"
+
+      - run: npm ci --no-audit --no-fund
 
       # O CDN do TSE está atrás de Akamai e devolve 403 para clientes que não
       # pareçam navegador. Se este passo falhar em 403 no runner do GitHub e
@@ -62,7 +87,6 @@ jobs:
         run: npm run validate
 
       - name: Abrir PR se o dado mudou
-        if: github.event_name != 'pull_request'
         uses: peter-evans/create-pull-request@v6
         with:
           branch: dados/atualizacao-tse
