@@ -100,7 +100,9 @@ async function main(): Promise<void> {
   try { itensPautas = JSON.parse(await readFile(new URL("pautas/itens.json", import.meta.url), "utf8")); }
   catch { /* opcional */ }
 
-  let parlamentares: { vinculos: Mandatos; comMandato: number; fontes: unknown[]; metodo: string } | null = null;
+  type Composicao = Record<string, { camara: number; senado: number; total: number; pct: number }>;
+  let parlamentares: { vinculos: Mandatos; comMandato: number; fontes: unknown[]; metodo: string;
+                       composicao?: Composicao } | null = null;
   try { parlamentares = await ler("parlamentares.json"); }
   catch { console.log("AVISO parlamentares.json ausente — rode `npm run parlamentares`"); }
   const mand: Mandatos = parlamentares?.vinculos ?? {};
@@ -141,7 +143,8 @@ async function main(): Promise<void> {
     malha: { type: malha.type, features: malha.features },
     presidentes: colapsarDuplicatas(presidentes.candidatos.map((c) => majoritario(c, mand))),
     mandatos: parlamentares
-      ? { comMandato: parlamentares.comMandato, fontes: parlamentares.fontes, metodo: parlamentares.metodo }
+      ? { comMandato: parlamentares.comMandato, fontes: parlamentares.fontes, metodo: parlamentares.metodo,
+          composicao: parlamentares.composicao ?? {} }
       : null,
     pautas,
     itensPautas,

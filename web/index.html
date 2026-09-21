@@ -87,7 +87,7 @@
     <div class="abas" role="tablist">
       <button class="aba" role="tab" id="tab-cedula" aria-selected="true" aria-controls="pane-cedula">Cédula</button>
       <button class="aba" role="tab" id="tab-voce" aria-selected="false" aria-controls="pane-voce">Teste sua Visão</button>
-      <button class="aba" role="tab" id="tab-pautas" aria-selected="false" aria-controls="pane-pautas">Pautas</button>
+      <button class="aba" role="tab" id="tab-pautas" aria-selected="false" aria-controls="pane-pautas">Pautas &amp; Partidos</button>
       <button class="aba" role="tab" id="tab-mapa" aria-selected="false" aria-controls="pane-mapa">Mapa</button>
       <button class="aba" role="tab" id="tab-metodo" aria-selected="false" aria-controls="pane-metodo">Método</button>
       <button class="aba" role="tab" id="tab-aviso" aria-selected="false" aria-controls="pane-aviso">Avisos e limites</button>
@@ -148,6 +148,53 @@
           </figure>
           <div class="metricas" id="metricas"></div>
         </div></div>
+        <div class="cartao destaque-metodo"><div class="cartao-corpo">
+          <details class="conferir" id="comoLer">
+            <summary><strong>Não entendeu o número?</strong> A explicação sem matemática</summary>
+      <p>
+      <strong>1. O site repara em quem anda com quem.</strong> Para saber se duas pessoas da
+      escola são amigas, você não pergunta — repara em quantas vezes elas aparecem juntas: no
+      mesmo grupo do trabalho, no mesmo time, na mesma mesa. O site faz isso com partidos,
+      olhando as <strong>coligações</strong>, que são os times que eles formam para disputar a
+      eleição. Dois partidos que sempre se juntam ficam perto de <b>1</b>. Dois que nunca se
+      juntaram ficam em <b>0</b>.
+      </p>
+      <p>
+      <strong>2. Depois tira a média da sua cédula.</strong> Com os seis votos preenchidos
+      existem <b>15 duplas</b> possíveis — presidente com governador, presidente com senador,
+      governador com senador, e assim por diante. O site olha a nota de cada dupla, soma tudo
+      e divide por 15. Esse é o seu número.
+      </p>
+      <p>
+      <strong>3. E aqui está o pulo do gato: sozinho, esse número não diz nada.</strong>
+      Se alguém disser que tem <b>1,55 m</b>, isso é muito ou pouco? Você não sabe — é alto
+      para quem tem 9 anos e baixo para um adulto. Falta saber <em>com quem está comparando</em>.
+      </p>
+      <p>
+      Por isso o site monta <strong>todas as outras cédulas que você poderia ter montado</strong>,
+      trocando os candidatos de todo jeito possível, calcula o número de cada uma e enfileira da
+      menor para a maior. Depois acha o seu lugar na fila. Quando a tela diz que seus votos andam
+      mais juntos que em <b>97%</b> das cédulas, é como saber que você é mais alto que 97 de cada
+      100 colegas — <strong>aí sim o número vira informação</strong>. Aquele gráfico de barrinhas
+      é essa fila inteira, desenhada; a linha vertical é você.
+      </p>
+      <p>
+      <strong>Um detalhe honesto.</strong> Às vezes existem cédulas demais para contar uma por
+      uma — pode dar bilhões. Quando passa de meio milhão, o computador para de contar todas e
+      <strong>sorteia vinte mil ao acaso</strong>. É o que institutos de pesquisa fazem: não
+      perguntam a todos os brasileiros, perguntam a alguns milhares bem escolhidos. O sorteio é
+      sempre o mesmo, então você e um amigo com a mesma cédula veem o mesmo número, e qualquer
+      pessoa pode rodar o código e conferir que a conta bate.
+      </p>
+      <p class="ressalva">
+      <strong>Atenção a uma confusão comum.</strong> Este número é sobre <strong>com quem os
+      partidos se aliam</strong> — não sobre como eles votam no Congresso. Voto em plenário é
+      outra medição, que mora na aba <strong>Pautas &amp; Partidos</strong> e alimenta o "Teste sua Visão".
+      São duas coisas separadas de propósito, e o site nunca as soma.
+      </p>
+          </details>
+        </div></div>
+
 
         <div class="cartao" id="cartaoAlav" hidden><div class="cartao-corpo">
           <h3>Qual voto destoa dos outros</h3>
@@ -351,51 +398,13 @@
   <div id="pane-metodo" role="tabpanel" aria-labelledby="tab-metodo" hidden>
     <div class="metodo">
       <section>
-        <details class="conferir">
-          <summary>Comece por aqui: a explicação sem matemática</summary>
-          <p>
-            <strong>1. O site repara em quem anda com quem.</strong> Para saber se duas pessoas da
-            escola são amigas, você não pergunta — repara em quantas vezes elas aparecem juntas: no
-            mesmo grupo do trabalho, no mesmo time, na mesma mesa. O site faz isso com partidos,
-            olhando as <strong>coligações</strong>, que são os times que eles formam para disputar a
-            eleição. Dois partidos que sempre se juntam ficam perto de <b>1</b>. Dois que nunca se
-            juntaram ficam em <b>0</b>.
-          </p>
-          <p>
-            <strong>2. Depois tira a média da sua cédula.</strong> Com os seis votos preenchidos
-            existem <b>15 duplas</b> possíveis — presidente com governador, presidente com senador,
-            governador com senador, e assim por diante. O site olha a nota de cada dupla, soma tudo
-            e divide por 15. Esse é o seu número.
-          </p>
-          <p>
-            <strong>3. E aqui está o pulo do gato: sozinho, esse número não diz nada.</strong>
-            Se alguém disser que tem <b>1,55 m</b>, isso é muito ou pouco? Você não sabe — é alto
-            para quem tem 9 anos e baixo para um adulto. Falta saber <em>com quem está comparando</em>.
-          </p>
-          <p>
-            Por isso o site monta <strong>todas as outras cédulas que você poderia ter montado</strong>,
-            trocando os candidatos de todo jeito possível, calcula o número de cada uma e enfileira da
-            menor para a maior. Depois acha o seu lugar na fila. Quando a tela diz que seus votos andam
-            mais juntos que em <b>97%</b> das cédulas, é como saber que você é mais alto que 97 de cada
-            100 colegas — <strong>aí sim o número vira informação</strong>. Aquele gráfico de barrinhas
-            é essa fila inteira, desenhada; a linha vertical é você.
-          </p>
-          <p>
-            <strong>Um detalhe honesto.</strong> Às vezes existem cédulas demais para contar uma por
-            uma — pode dar bilhões. Quando passa de meio milhão, o computador para de contar todas e
-            <strong>sorteia vinte mil ao acaso</strong>. É o que institutos de pesquisa fazem: não
-            perguntam a todos os brasileiros, perguntam a alguns milhares bem escolhidos. O sorteio é
-            sempre o mesmo, então você e um amigo com a mesma cédula veem o mesmo número, e qualquer
-            pessoa pode rodar o código e conferir que a conta bate.
-          </p>
-          <p class="ressalva">
-            <strong>Atenção a uma confusão comum.</strong> Este número é sobre <strong>com quem os
-            partidos se aliam</strong> — não sobre como eles votam no Congresso. Voto em plenário é
-            outra medição, que mora na aba <strong>Pautas</strong> e alimenta o "Teste sua Visão".
-            São duas coisas separadas de propósito, e o site nunca as soma.
-          </p>
-        </details>
+        <p class="nota">
+          A explicação sem matemática — a que usa altura de criança para explicar percentil — fica
+          na aba <strong>Cédula</strong>, logo abaixo do seu resultado, que é onde ela é útil. O que
+          vem aqui é a mesma coisa em detalhe e com os nomes técnicos.
+        </p>
       </section>
+
 
       <section>
         <h2>O que o índice mede — e o que ele não mede</h2>
@@ -664,6 +673,29 @@
       <section>
         <h2>Isenção de responsabilidade</h2>
         <div class="alerta-doc forte">
+            <p>
+              <strong>Natureza do projeto.</strong> Esta é uma iniciativa <strong>cívica, apartidária
+              e sem fins lucrativos</strong>. Não possui, e nunca possuiu, vínculo, filiação,
+              patrocínio, financiamento ou orientação de partido político, coligação, federação,
+              candidatura, comitê eleitoral, entidade sindical ou patronal, campanha ou governo,
+              em qualquer esfera. Não integra nem apoia propaganda eleitoral e não recebe
+              contrapartida de espécie alguma por seu conteúdo.
+            </p>
+            <p>
+              <strong>Finalidade.</strong> O único propósito é <strong>ampliar o acesso público a
+              informação oficial já disponível</strong>, organizando dados do Tribunal Superior
+              Eleitoral, da Câmara dos Deputados, do Senado Federal e do IBGE de modo que o eleitor
+              possa consultá-los e tirar suas próprias conclusões. A ferramenta é gratuita, seu
+              método está integralmente descrito na aba Método e seu código é aberto à verificação
+              de qualquer pessoa.
+            </p>
+            <p>
+              <strong>O que ela não faz.</strong> Não recomenda voto, não classifica candidatura ou
+              partido como melhor ou pior, não emite juízo sobre pessoas e não promove nem
+              desqualifica qualquer candidatura. Os números que apresenta descrevem
+              <strong>fatos registrados</strong> — com quem os partidos se coligaram e como os
+              parlamentares votaram — e não prescrevem escolha alguma.
+            </p>
           <p>
             A ferramenta é fornecida <strong>como está</strong>, sem garantia de exatidão,
             disponibilidade ou adequação a qualquer finalidade. Pode conter erro de código, de

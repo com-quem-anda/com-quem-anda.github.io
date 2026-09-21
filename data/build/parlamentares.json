@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-09-20T14:36:16.785Z",
+ "geradoEm": "2026-09-21T11:21:01.865Z",
  "fontes": [
   {
    "nome": "Câmara dos Deputados — Dados Abertos, deputados em exercício",
@@ -22,6 +22,146 @@
   "presidente": 1,
   "senador": 64,
   "deputado-estadual": 12
+ },
+ "composicao": {
+  "MDB": {
+   "camara": 38,
+   "senado": 9,
+   "total": 47,
+   "pct": 7.91
+  },
+  "PL": {
+   "camara": 98,
+   "senado": 15,
+   "total": 113,
+   "pct": 19.02
+  },
+  "PSDB": {
+   "camara": 17,
+   "senado": 4,
+   "total": 21,
+   "pct": 3.54
+  },
+  "NOVO": {
+   "camara": 5,
+   "senado": 0,
+   "total": 5,
+   "pct": 0.84
+  },
+  "PP": {
+   "camara": 46,
+   "senado": 7,
+   "total": 53,
+   "pct": 8.92
+  },
+  "PT": {
+   "camara": 65,
+   "senado": 9,
+   "total": 74,
+   "pct": 12.46
+  },
+  "PDT": {
+   "camara": 9,
+   "senado": 2,
+   "total": 11,
+   "pct": 1.85
+  },
+  "REPUBLICANOS": {
+   "camara": 42,
+   "senado": 6,
+   "total": 48,
+   "pct": 8.08
+  },
+  "CIDADANIA": {
+   "camara": 2,
+   "senado": 0,
+   "total": 2,
+   "pct": 0.34
+  },
+  "UNIÃO": {
+   "camara": 52,
+   "senado": 3,
+   "total": 55,
+   "pct": 9.26
+  },
+  "PCDOB": {
+   "camara": 11,
+   "senado": 0,
+   "total": 11,
+   "pct": 1.85
+  },
+  "PV": {
+   "camara": 6,
+   "senado": 0,
+   "total": 6,
+   "pct": 1.01
+  },
+  "REDE": {
+   "camara": 3,
+   "senado": 0,
+   "total": 3,
+   "pct": 0.51
+  },
+  "PSB": {
+   "camara": 17,
+   "senado": 7,
+   "total": 24,
+   "pct": 4.04
+  },
+  "PSD": {
+   "camara": 48,
+   "senado": 14,
+   "total": 62,
+   "pct": 10.44
+  },
+  "PODE": {
+   "camara": 27,
+   "senado": 3,
+   "total": 30,
+   "pct": 5.05
+  },
+  "SOLIDARIEDADE": {
+   "camara": 4,
+   "senado": 0,
+   "total": 4,
+   "pct": 0.67
+  },
+  "PSOL": {
+   "camara": 13,
+   "senado": 0,
+   "total": 13,
+   "pct": 2.19
+  },
+  "AVANTE": {
+   "camara": 5,
+   "senado": 1,
+   "total": 6,
+   "pct": 1.01
+  },
+  "PRD": {
+   "camara": 3,
+   "senado": 0,
+   "total": 3,
+   "pct": 0.51
+  },
+  "DC": {
+   "camara": 1,
+   "senado": 0,
+   "total": 1,
+   "pct": 0.17
+  },
+  "MISSÃO": {
+   "camara": 1,
+   "senado": 0,
+   "total": 1,
+   "pct": 0.17
+  },
+  "S/PARTIDO": {
+   "camara": 0,
+   "senado": 1,
+   "total": 1,
+   "pct": 0.17
+  }
  },
  "vinculos": {
   "10002532489": {

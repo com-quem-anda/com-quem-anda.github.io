@@ -49,6 +49,42 @@ async function senado(): Promise<{ m: Mandato; nomeUrna: string; nomeCivil?: str
   });
 }
 
+/**
+ * Composição do Congresso hoje, por partido.
+ *
+ * Não confundir com o `n` do gráfico de posições: aquele conta deputados que
+ * entraram na análise de votação nominal (presentes em metade das votações
+ * divididas), e é uma amostra. Este conta a bancada inteira das duas casas,
+ * que é o que alguém quer saber ao perguntar "qual o tamanho desse partido".
+ *
+ * Sai das mesmas listas oficiais já buscadas para casar mandato — 513
+ * deputados e 81 senadores — então não custa requisição nenhuma a mais.
+ */
+function composicaoAtual(
+  dep: { m: Mandato }[],
+  sen: { m: Mandato }[],
+): Record<string, { camara: number; senado: number; total: number; pct: number }> {
+  const acc: Record<string, { camara: number; senado: number; total: number; pct: number }> = {};
+  const somar = (sigla: string, casa: "camara" | "senado") => {
+    const k = sigla.trim().toUpperCase();
+    if (!k) return;
+    acc[k] ??= { camara: 0, senado: 0, total: 0, pct: 0 };
+    acc[k]![casa] += 1;
+    acc[k]!.total += 1;
+  };
+  for (const d of dep) somar(d.m.partido, "camara");
+  for (const s of sen) somar(s.m.partido, "senado");
+
+  const congresso = dep.length + sen.length;
+  for (const v of Object.values(acc)) v.pct = Number(((100 * v.total) / congresso).toFixed(2));
+
+  const soma = Object.values(acc).reduce((t, v) => t + v.total, 0);
+  if (soma !== congresso) {
+    throw new Error(`composição perdeu parlamentar: ${soma} somados contra ${congresso} buscados`);
+  }
+  return acc;
+}
+
 async function main(): Promise<void> {
   const dep = await camara();
   const sen = await senado();
@@ -103,6 +139,7 @@ async function main(): Promise<void> {
     totalCandidaturas: total,
     comMandato: casados,
     porCargoDisputado: porCargo,
+    composicao: composicaoAtual(dep, sen),
     vinculos,
   };
 

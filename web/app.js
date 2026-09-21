@@ -606,6 +606,20 @@
       <p>Tudo o mais nesta aba é medido ou citado: as posições saem de ${P.deputados} deputados em ${P.votacoesDivididas} votações divididas, e os percentuais de pesquisa vêm com instituto e data. Só o texto das doze perguntas foi escrito por alguém.</p>`;
   }
 
+  /**
+   * Tamanho real da bancada, das duas casas.
+   *
+   * O `n` do gráfico é outra coisa: conta quem entrou na análise de votação
+   * nominal, e é amostra. Quem olha uma bolha e pergunta "que partido é esse"
+   * quer saber o tamanho dele no Congresso, não o tamanho da amostra — e
+   * confundir os dois faria o gráfico parecer dizer que o PL tem 88 cadeiras.
+   */
+  const bancada = (sigla) => {
+    const c = D?.mandatos?.composicao?.[String(sigla).toUpperCase()];
+    if (!c) return "";
+    return `\nCongresso hoje: ${c.camara} deputados + ${c.senado} senadores = ${c.total} de 594 (${num(c.pct, 1)}%)`;
+  };
+
   function desenharScatter(pos) {
     const W = 620, H = 420, ml = 46, mr = 16, mt = 18, mb = 42;
     const xs = pos.map((p) => p.mediana), ys = pos.map((p) => p.desvio);
@@ -623,7 +637,7 @@
       g += `<text x="${ml - 8}" y="${(Y(v) + 3).toFixed(1)}" fill="var(--muted)" font-size="10" font-family="IBM Plex Mono,monospace" text-anchor="end">${String(v).replace(".", ",")}</text>`; }
     for (const p of pos) {
       const r = 4 + 9 * Math.sqrt(p.n / rMax);
-      g += `<circle cx="${X(p.mediana).toFixed(1)}" cy="${Y(p.desvio).toFixed(1)}" r="${r.toFixed(1)}" fill="var(--barra)" fill-opacity="0.42" stroke="var(--barra)" stroke-width="1.5"><title>${esc(p.sigla)} — posição ${num(p.mediana, 2)}, desvio ${num(p.desvio, 2)}, ${p.n} deputados</title></circle>`;
+      g += `<circle cx="${X(p.mediana).toFixed(1)}" cy="${Y(p.desvio).toFixed(1)}" r="${r.toFixed(1)}" fill="var(--barra)" fill-opacity="0.42" stroke="var(--barra)" stroke-width="1.5"><title>${esc(p.sigla)} — posição ${num(p.mediana, 2)}, desvio ${num(p.desvio, 2)}${bancada(p.sigla)}\nAnálise: ${p.n} deputados com presença suficiente nas votações</title></circle>`;
       g += `<text x="${X(p.mediana).toFixed(1)}" y="${(Y(p.desvio) - r - 4).toFixed(1)}" fill="var(--ink)" font-size="9.5" font-family="IBM Plex Mono,monospace" text-anchor="middle">${esc(p.sigla)}</text>`;
     }
     g += `<text x="${(W / 2).toFixed(0)}" y="${H - 6}" fill="var(--muted)" font-size="10.5" text-anchor="middle">posição no eixo de votação →</text>`;

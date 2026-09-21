@@ -185,6 +185,14 @@ ol.passos-uso b { color: var(--ink); font-weight: 600; }
    .info da página só abrem tooltip, e errar o alvo não custa nada. Este
    navega para fora do site, e a cédula só existe em memória — um toque
    errado no celular é diferente de um acerto. 14px de desenho, 40px de alvo. */
+/* O único accordion da página que vale abrir sem ser procurado: fica embaixo
+   do número que a pessoa acabou de ver e explica justamente aquele número.
+   A borda no acento marca isso sem virar alerta — não há nada de errado aqui. */
+.destaque-metodo { border-left: 3px solid var(--accent); }
+.destaque-metodo summary { font-size: 0.92rem; color: var(--ink); }
+.destaque-metodo summary strong { color: var(--accent); }
+.destaque-metodo[open] { background: var(--surface); }
+
 .conferir-tse {
   position: relative; margin-left: 7px; vertical-align: 1px;
   text-decoration: none; font-family: var(--mono); font-style: normal;

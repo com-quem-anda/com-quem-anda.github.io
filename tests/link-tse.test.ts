@@ -112,3 +112,24 @@ test("todo candidato publicado tem sq, inclusive os presidenciáveis", () => {
     assert.equal(typeof c[6], "string", `presidenciável sem sq: ${c[1]}`);
   }
 });
+
+test("todo partido do gráfico tem bancada no dado de composição", () => {
+  // O tooltip monta a bancada procurando a sigla na composição. Sigla que não
+  // casar simplesmente não mostra o número — sem erro, sem aviso, e ninguém
+  // repara que só alguns partidos têm o dado.
+  const comp = new Set(Object.keys(base.mandatos?.composicao ?? {}).map((k) => k.toUpperCase()));
+  assert.ok(comp.size > 0, "base.json sem composição do Congresso");
+  for (const p of (base.pautas?.posicoes ?? []) as { sigla: string }[]) {
+    assert.ok(comp.has(p.sigla.toUpperCase()),
+      `${p.sigla} está no gráfico e não tem bancada — o tooltip vai omitir em silêncio`);
+  }
+});
+
+test("a composição soma as duas casas inteiras", () => {
+  const comp = Object.values(base.mandatos?.composicao ?? {}) as { camara: number; senado: number; total: number }[];
+  const cam = comp.reduce((t, v) => t + v.camara, 0);
+  const sen = comp.reduce((t, v) => t + v.senado, 0);
+  assert.equal(cam, 513, "a Câmara tem 513 cadeiras");
+  assert.equal(sen, 81, "o Senado tem 81 cadeiras");
+  assert.equal(comp.reduce((t, v) => t + v.total, 0), 594);
+});
