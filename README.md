@@ -11,7 +11,14 @@ Especificação completa: [`CEDULA-ABERTA-SPEC.md`](CEDULA-ABERTA-SPEC.md).
 
 ## Métricas de acesso
 
-Desligadas no repositório. Para ligar, preencha o bloco no topo de `web/index.html`:
+**A medição de acesso acontece na borda do Cloudflare, não na página.** Em
+`Analytics & Logs → Traffic` estão requisições, banda e país, contados no servidor
+porque o tráfego passa por lá. O visitante não executa nada, não recebe cookie e não é
+identificado — é a única forma de medição compatível com a premissa de não coletar
+dado de ninguém, e por isso o medidor embutido segue desligado.
+
+O bloco abaixo existe para o caso de o site sair do Cloudflare. Está vazio de propósito;
+preenchê-lo religa um medidor **dentro** da página, que é o que se quer evitar.
 
 ```js
 window.CQA_ANALYTICS = { provedor: "goatcounter", token: "<subdominio>" };
@@ -83,7 +90,13 @@ gh repo edit com-quem-anda/com-quem-anda.github.io --visibility private --accept
 Para religar: `gh api -X POST repos/com-quem-anda/com-quem-anda.github.io/pages -f build_type=workflow`
 e um push na `main`.
 
-### Ensaio
+### Ensaio — ⬜ PENDENTE
+
+> **Nunca foi executado.** A regra existe e está desligada desde 20/09/2026, mas
+> **ninguém confirmou que ela derruba o site**, nem quanto tempo leva. Até o ensaio
+> acontecer, este runbook é uma hipótese, não um procedimento.
+>
+> Marcado para 21/09/2026.
 
 Botão do pânico nunca testado não é botão do pânico. Faça uma vez ao criar a regra, e de
 novo a cada mudança de infraestrutura:
@@ -98,14 +111,30 @@ curl -s -o /dev/null -w "com a regra desligada: %{http_code}\n" https://com-quem
 # esperado: 200
 ```
 
-Anote quanto tempo levou entre ativar e ver o 403. Esse número é o que você tem.
+Anote os dois números abaixo. **São eles, e não a existência da regra, que dizem o que
+você tem numa emergência.**
+
+| | Medido em | Tempo |
+|---|---|---|
+| Ativar → primeiro `403` | — | — |
+| Desativar → `200` de volta | — | — |
+
+Enquanto essa tabela estiver vazia, trate a camada 1 como não verificada e considere que
+a queda pode levar mais do que você espera.
+
+**O que o ensaio também prova, de graça:** que a regra alcança `www` e o `github.io`
+(que redireciona para cá), e que desligar realmente devolve o site — um `Block` que não
+volta é pior que não ter botão.
 
 O que **não** volta atrás, em qualquer das camadas: quem já baixou, arquivos em cache de
 CDN por algumas horas, e cópias em serviços de arquivo como o Internet Archive.
 
 ## No ar
 
-**https://com-quem-anda.github.io/** — migrando para **https://com-quem-anda.com.br/**
+**https://com-quem-anda.com.br/**
+
+O antigo `com-quem-anda.github.io` faz 301 para cá, automaticamente e sem opção de
+desligar. Migração concluída em 20/09/2026.
 
 Site estático, publicado pelo workflow `publicar.yml` a cada push na `main`.
 Abrir custa 204 KB, **todos do nosso próprio servidor**: nenhuma requisição a
@@ -121,19 +150,43 @@ o IP de cada visitante a eles.
 | DNS | Cloudflare (plano Free) |
 | Nameservers | `brit.ns.cloudflare.com` · `colin.ns.cloudflare.com` |
 | DNSSEC | **desligado** no Registro.br antes da troca de nameservers |
-| Origem | GitHub Pages, via `CNAME` de `@` e `www` para `com-quem-anda.github.io` |
+| Origem | GitHub Pages, via `CNAME` de `@` e `www`, ambos **proxiados** |
+| TLS | Let's Encrypt via Cloudflare, `Full (strict)`, `Always Use HTTPS` |
+| HSTS | ligado mas com `max-age=0` — o que, na prática, é não ter HSTS |
+| Cache | **bypass** por regra, de propósito (ver abaixo) |
+| E-mail | Cloudflare Email Routing: `contato@` encaminha, destino só no painel |
 
 ### Registros na zona do Cloudflare
 
 | Nome | Tipo | Conteúdo | Proxy |
 |---|---|---|---|
-| `com-quem-anda.com.br` | CNAME | `com-quem-anda.github.io` | cinza até o certificado sair |
-| `www` | CNAME | `com-quem-anda.github.io` | idem |
-| `com-quem-anda.com.br` | MX / TXT | placeholders de "não envia e-mail" | — |
+| `com-quem-anda.com.br` | CNAME | `com-quem-anda.github.io` | laranja |
+| `www` | CNAME | `com-quem-anda.github.io` | laranja |
+| `com-quem-anda.com.br` | MX | `route1/2/3.mx.cloudflare.net` | — |
+| `com-quem-anda.com.br` | TXT | `v=spf1 include:_spf.mx.cloudflare.net ~all` | — |
+| `_dmarc` | TXT | `v=DMARC1; p=reject` | — |
 
 O apex é CNAME e o Cloudflare o achata para os quatro IPs do GitHub Pages
-(`185.199.108–111.153`). Isso é útil como diagnóstico: **se uma consulta devolver
-IPs do Cloudflare (104.x, 172.67.x) em vez dos do GitHub, o registro está laranja.**
+(`185.199.108–111.153`). Isso é útil como diagnóstico: **IPs do GitHub significam
+nuvem cinza; IPs do Cloudflare (104.x, 172.67.x) significam laranja.**
+
+**O SPF precisa incluir o Cloudflare.** A zona nasce com `v=spf1 -all`, que declara
+que nenhum servidor pode enviar em nome do domínio — e encaminhar e-mail é enviar.
+Com o DMARC em `p=reject`, isso faz o destino **rejeitar em silêncio** tudo que for
+encaminhado. Parece configurado e não entrega. Junto com o SPF, o `MX 0 .` (null MX
+da RFC 7505) precisa ser apagado antes do onboarding, senão ele nem começa.
+
+### Por que o cache do Cloudflare está desligado
+
+Uma regra de **bypass** cobre o site inteiro, e isso é deliberado. O Cloudflare está
+aqui por duas coisas — analytics de borda e o botão do pânico — e nenhuma depende de
+cache. A origem já é o GitHub Pages, que tem CDN próprio com nó em São Paulo, e o
+Lighthouse marcava 99/100 antes de o Cloudflare existir.
+
+Com cache ligado o custo era concreto: o Cloudflare não guarda HTML mas guarda `.js` e
+`.css` por extensão, então por até 10 minutos depois de cada deploy o visitante recebia
+**HTML novo com JavaScript velho**. Ganho de velocidade quase nulo, janela de site
+quebrado a cada publicação.
 
 ```bash
 dig com-quem-anda.com.br @brit.ns.cloudflare.com +noall +answer
