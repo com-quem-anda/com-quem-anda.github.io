@@ -569,6 +569,11 @@
         <p class="siglas">${semBancada.map(esc).join(" · ") || "nenhuma"}</p>
       </div></div>`;
 
+    // O universo de onde as doze saíram é dado medido, não número escrito à mão:
+    // se a legislatura mudar, o texto muda junto em vez de envelhecer calado.
+    const un = el("porqueDozeUniverso");
+    if (un) un.textContent = `${P.votacoesDivididas}`;
+
     el("autoria").innerHTML = `<h3>As perguntas têm autor, e o autor está declarado</h3>
       <p>${esc(IT._leia)}</p>
       <p>${esc(IT._direcao)}</p>
