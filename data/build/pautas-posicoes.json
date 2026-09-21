@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-09-21T11:13:28.647Z",
+ "geradoEm": "2026-09-21T15:33:35.594Z",
  "metodo": {
   "fonte": "Câmara dos Deputados — votações nominais da 57ª legislatura, dados abertos",
   "matriz": "462 deputados x 964 votações divididas",
@@ -274,73 +274,73 @@
     "nao": 1
    }
   },
-  "PL 747/2023": {
+  "PLP 93/2023": {
    "PL": {
-    "sim": 12,
-    "nao": 71
+    "sim": 27,
+    "nao": 62
    },
    "MDB": {
-    "sim": 25,
-    "nao": 3
+    "sim": 33,
+    "nao": 2
    },
    "PSDB": {
-    "sim": 7,
-    "nao": 8
+    "sim": 16,
+    "nao": 3
    },
    "NOVO": {
     "sim": 0,
-    "nao": 4
+    "nao": 5
    },
    "PP": {
-    "sim": 11,
-    "nao": 29
+    "sim": 37,
+    "nao": 7
    },
    "PDT": {
-    "sim": 10,
+    "sim": 11,
     "nao": 0
    },
    "PT": {
-    "sim": 59,
+    "sim": 65,
     "nao": 0
    },
    "REPUBLICANOS": {
-    "sim": 26,
-    "nao": 6
+    "sim": 31,
+    "nao": 5
+   },
+   "UNIÃO": {
+    "sim": 48,
+    "nao": 4
    },
    "PCdoB": {
-    "sim": 5,
+    "sim": 8,
     "nao": 0
    },
    "PV": {
-    "sim": 6,
-    "nao": 0
-   },
-   "PSB": {
-    "sim": 8,
-    "nao": 2
-   },
-   "PSD": {
-    "sim": 30,
-    "nao": 7
-   },
-   "PODE": {
-    "sim": 13,
-    "nao": 4
-   },
-   "SOLIDARIEDADE": {
-    "sim": 2,
+    "sim": 5,
     "nao": 1
    },
-   "UNIÃO": {
-    "sim": 34,
-    "nao": 6
-   },
-   "PSOL": {
-    "sim": 9,
+   "PSB": {
+    "sim": 16,
     "nao": 0
    },
-   "AVANTE": {
+   "PSD": {
+    "sim": 44,
+    "nao": 3
+   },
+   "PODE": {
+    "sim": 17,
+    "nao": 2
+   },
+   "SOLIDARIEDADE": {
     "sim": 3,
+    "nao": 0
+   },
+   "PSOL": {
+    "sim": 1,
+    "nao": 12
+   },
+   "AVANTE": {
+    "sim": 5,
     "nao": 0
    }
   },
@@ -484,73 +484,73 @@
     "nao": 10
    }
   },
-  "PL 3874/2023": {
+  "PL 327/2021": {
    "PL": {
-    "sim": 12,
-    "nao": 60
+    "sim": 21,
+    "nao": 59
    },
    "MDB": {
-    "sim": 22,
-    "nao": 1
+    "sim": 14,
+    "nao": 19
    },
    "PSDB": {
     "sim": 12,
+    "nao": 2
+   },
+   "NOVO": {
+    "sim": 4,
     "nao": 1
    },
    "PP": {
-    "sim": 26,
+    "sim": 34,
     "nao": 7
    },
    "PDT": {
     "sim": 9,
     "nao": 0
    },
-   "REPUBLICANOS": {
-    "sim": 32,
-    "nao": 3
-   },
    "PT": {
-    "sim": 55,
+    "sim": 54,
     "nao": 0
+   },
+   "REPUBLICANOS": {
+    "sim": 8,
+    "nao": 29
    },
    "UNIÃO": {
-    "sim": 41,
-    "nao": 5
+    "sim": 33,
+    "nao": 12
    },
    "PCdoB": {
-    "sim": 6,
-    "nao": 0
-   },
-   "PSB": {
-    "sim": 11,
-    "nao": 0
-   },
-   "PSD": {
-    "sim": 39,
+    "sim": 8,
     "nao": 0
    },
    "PODE": {
-    "sim": 11,
-    "nao": 2
+    "sim": 12,
+    "nao": 4
+   },
+   "SOLIDARIEDADE": {
+    "sim": 2,
+    "nao": 0
    },
    "PV": {
     "sim": 5,
     "nao": 0
    },
+   "PSD": {
+    "sim": 33,
+    "nao": 2
+   },
    "PSOL": {
-    "sim": 8,
+    "sim": 13,
     "nao": 0
    },
    "AVANTE": {
-    "sim": 6,
+    "sim": 4,
     "nao": 0
    },
-   "NOVO": {
-    "sim": 0,
-    "nao": 3
-   },
-   "SOLIDARIEDADE": {
-    "sim": 3,
+   "PSB": {
+    "sim": 10,
     "nao": 0
    }
   },
@@ -621,6 +621,76 @@
    },
    "AVANTE": {
     "sim": 3,
+    "nao": 1
+   }
+  },
+  "PL 2583/2020": {
+   "MDB": {
+    "sim": 27,
+    "nao": 2
+   },
+   "PL": {
+    "sim": 40,
+    "nao": 41
+   },
+   "PSDB": {
+    "sim": 15,
+    "nao": 1
+   },
+   "NOVO": {
+    "sim": 0,
+    "nao": 5
+   },
+   "PP": {
+    "sim": 31,
+    "nao": 4
+   },
+   "PDT": {
+    "sim": 10,
+    "nao": 0
+   },
+   "PT": {
+    "sim": 57,
+    "nao": 0
+   },
+   "REPUBLICANOS": {
+    "sim": 28,
+    "nao": 1
+   },
+   "PCdoB": {
+    "sim": 9,
+    "nao": 0
+   },
+   "PV": {
+    "sim": 5,
+    "nao": 0
+   },
+   "PSB": {
+    "sim": 13,
+    "nao": 0
+   },
+   "PSD": {
+    "sim": 36,
+    "nao": 2
+   },
+   "PODE": {
+    "sim": 17,
+    "nao": 2
+   },
+   "UNIÃO": {
+    "sim": 36,
+    "nao": 3
+   },
+   "SOLIDARIEDADE": {
+    "sim": 4,
+    "nao": 0
+   },
+   "PSOL": {
+    "sim": 13,
+    "nao": 0
+   },
+   "AVANTE": {
+    "sim": 4,
     "nao": 1
    }
   },
@@ -764,76 +834,6 @@
     "nao": 0
    }
   },
-  "PEC 66/2023": {
-   "MDB": {
-    "sim": 34,
-    "nao": 5
-   },
-   "PL": {
-    "sim": 6,
-    "nao": 83
-   },
-   "PSDB": {
-    "sim": 9,
-    "nao": 10
-   },
-   "NOVO": {
-    "sim": 0,
-    "nao": 4
-   },
-   "PP": {
-    "sim": 34,
-    "nao": 12
-   },
-   "PDT": {
-    "sim": 9,
-    "nao": 0
-   },
-   "PT": {
-    "sim": 64,
-    "nao": 0
-   },
-   "REPUBLICANOS": {
-    "sim": 31,
-    "nao": 3
-   },
-   "PCdoB": {
-    "sim": 8,
-    "nao": 0
-   },
-   "PV": {
-    "sim": 5,
-    "nao": 0
-   },
-   "PSB": {
-    "sim": 13,
-    "nao": 0
-   },
-   "PODE": {
-    "sim": 17,
-    "nao": 4
-   },
-   "UNIÃO": {
-    "sim": 35,
-    "nao": 11
-   },
-   "SOLIDARIEDADE": {
-    "sim": 3,
-    "nao": 1
-   },
-   "PSD": {
-    "sim": 31,
-    "nao": 7
-   },
-   "PSOL": {
-    "sim": 13,
-    "nao": 0
-   },
-   "AVANTE": {
-    "sim": 4,
-    "nao": 1
-   }
-  },
   "PLP 128/2025": {
    "MDB": {
     "sim": 18,
@@ -904,6 +904,76 @@
     "nao": 1
    }
   },
+  "PL 2159/2021": {
+   "MDB": {
+    "sim": 20,
+    "nao": 1
+   },
+   "PL": {
+    "sim": 71,
+    "nao": 2
+   },
+   "NOVO": {
+    "sim": 4,
+    "nao": 0
+   },
+   "PP": {
+    "sim": 29,
+    "nao": 2
+   },
+   "PT": {
+    "sim": 0,
+    "nao": 41
+   },
+   "PCdoB": {
+    "sim": 0,
+    "nao": 8
+   },
+   "REPUBLICANOS": {
+    "sim": 25,
+    "nao": 0
+   },
+   "PSB": {
+    "sim": 3,
+    "nao": 7
+   },
+   "PSDB": {
+    "sim": 10,
+    "nao": 1
+   },
+   "PODE": {
+    "sim": 10,
+    "nao": 4
+   },
+   "UNIÃO": {
+    "sim": 30,
+    "nao": 1
+   },
+   "PV": {
+    "sim": 0,
+    "nao": 3
+   },
+   "PSD": {
+    "sim": 22,
+    "nao": 3
+   },
+   "PSOL": {
+    "sim": 0,
+    "nao": 10
+   },
+   "PDT": {
+    "sim": 0,
+    "nao": 1
+   },
+   "AVANTE": {
+    "sim": 3,
+    "nao": 1
+   },
+   "SOLIDARIEDADE": {
+    "sim": 1,
+    "nao": 0
+   }
+  },
   "PL 3880/2024": {
    "MDB": {
     "sim": 22,
@@ -972,76 +1042,6 @@
    "AVANTE": {
     "sim": 2,
     "nao": 0
-   }
-  },
-  "PL 849/2025": {
-   "MDB": {
-    "sim": 25,
-    "nao": 6
-   },
-   "PL": {
-    "sim": 84,
-    "nao": 1
-   },
-   "PSDB": {
-    "sim": 17,
-    "nao": 3
-   },
-   "NOVO": {
-    "sim": 5,
-    "nao": 0
-   },
-   "PP": {
-    "sim": 34,
-    "nao": 4
-   },
-   "PT": {
-    "sim": 0,
-    "nao": 61
-   },
-   "PDT": {
-    "sim": 0,
-    "nao": 9
-   },
-   "UNIÃO": {
-    "sim": 34,
-    "nao": 10
-   },
-   "PCdoB": {
-    "sim": 1,
-    "nao": 10
-   },
-   "REPUBLICANOS": {
-    "sim": 29,
-    "nao": 2
-   },
-   "PODE": {
-    "sim": 8,
-    "nao": 12
-   },
-   "PSD": {
-    "sim": 29,
-    "nao": 8
-   },
-   "SOLIDARIEDADE": {
-    "sim": 3,
-    "nao": 0
-   },
-   "PV": {
-    "sim": 0,
-    "nao": 5
-   },
-   "PSOL": {
-    "sim": 0,
-    "nao": 12
-   },
-   "PSB": {
-    "sim": 1,
-    "nao": 12
-   },
-   "AVANTE": {
-    "sim": 5,
-    "nao": 1
    }
   }
  },

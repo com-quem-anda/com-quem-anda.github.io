@@ -737,15 +737,15 @@
   const TEMAS_ORD = ["segurança", "saúde", "economia", "educação", "instituições", "sociais", "meio ambiente"];
 
   /** O que cada tema cobre NESTAS doze votações — não o tema em abstrato. */
-  const TEMAS_DESC = {
-    "segurança": "Armas de fogo, crimes e violência doméstica. Nas votações usadas aqui: quem pode ter arma, a proibição de arma para quem responde por agressão contra mulher, e a ampliação da Lei Maria da Penha.",
-    "saúde": "Atendimento público e profissionais de saúde. Aqui: a recontratação de médicos do Mais Médicos para os Distritos Sanitários Especiais Indígenas.",
-    "economia": "Impostos, gastos e dívidas do poder público. Aqui: o corte de benefícios tributários da União e o limite para o pagamento de precatórios pelos municípios.",
-    "educação": "O que as escolas ensinam e como a política de educação é organizada. Aqui: a inclusão de educação para reação a desastres climáticos nas leis de educação ambiental.",
-    "instituições": "As regras do jogo político e o funcionamento do poder. Aqui: a anistia a participantes de manifestações desde outubro de 2022 e as obrigações das plataformas digitais.",
-    "sociais": "Políticas de inclusão e reparação de desigualdades. Aqui: a reserva de 30% das vagas em concursos federais para pessoas pretas, pardas, indígenas e quilombolas.",
-    "meio ambiente": "Terras, áreas protegidas e clima. Aqui: a demarcação de terras indígenas e a redução da Área de Proteção Ambiental da Baleia Franca.",
-  };
+    const TEMAS_DESC = {
+      "segurança": "Armas de fogo, crimes e violência doméstica. Nas votações usadas aqui: derrubar o decreto federal que afrouxou as regras de armas, e incluir a violência vicária — atingir a mãe fazendo mal aos filhos — na Lei Maria da Penha.",
+      "saúde": "Atendimento público e produção de insumos. Aqui: a Estratégia Nacional de Saúde, que incentiva a indústria nacional de medicamentos e insumos para reduzir a dependência externa do SUS.",
+      "economia": "Impostos, gastos e regras fiscais. Aqui: o corte de pelo menos 10% dos benefícios tributários da União, e o arcabouço fiscal que substituiu o teto de gastos.",
+      "educação": "O que as escolas ensinam e como a política de educação é organizada. Aqui: a inclusão de educação para reação a desastres climáticos nas leis de educação ambiental.",
+      "instituições": "As regras do jogo político e o funcionamento do poder. Aqui: a anistia a participantes de manifestações desde outubro de 2022 e as obrigações das plataformas digitais.",
+      "sociais": "Políticas de inclusão e reparação de desigualdades. Aqui: a reserva de 30% das vagas em concursos federais para pessoas pretas, pardas, indígenas e quilombolas.",
+      "meio ambiente": "Terras, áreas protegidas, licenciamento e energia. Aqui: a demarcação de terras indígenas, a nova Lei Geral do Licenciamento Ambiental e o programa de aceleração da transição energética.",
+    };
   /** Onde cada tema aparece no ranking de cada pesquisa (1 = mais citado). */
   const RANK_BRASIL = {
     "segurança":     { quaest: 1, datafolha: 2 },
