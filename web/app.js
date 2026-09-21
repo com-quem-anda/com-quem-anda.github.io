@@ -212,8 +212,13 @@
     const [reg, ue] = slot === "presidente" ? ["BR", "BR"] : [REGIAO[uf], uf];
     if (!reg) return "";
     const url = `https://divulgacandcontas.tse.jus.br/divulga/#/candidato/${reg}/${ue}/${ID_PLEITO}/${encodeURIComponent(sq)}/${D?.eleicao?.ano ?? 2026}/${ue}`;
-    return `<a class="conferir-tse" href="${url}" target="_blank" rel="noopener"
-      title="Abre a página oficial desta candidatura no DivulgaCandContas, do TSE">conferir no TSE</a>`;
+    // Reaproveita o .info do resto da página: mesmo círculo, e o tooltip
+    // flutuante já escuta essa classe, inclusive por foco de teclado.
+    // aria-label além do data-info porque leitor de tela não lê o tooltip,
+    // e um "i" sozinho não diz para onde o link leva.
+    return `<a class="conferir-tse info" href="${url}" target="_blank" rel="noopener"
+      data-info="Abre a página oficial desta candidatura no DivulgaCandContas, do TSE: bens declarados, prestação de contas e certidões. Fonte primária — não depende desta ferramenta."
+      aria-label="Conferir ${esc(c[1])} no site oficial do TSE">i</a>`;
   };
 
   /** c[5]: quantos registros o TSE tem para esta mesma candidatura. */

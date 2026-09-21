@@ -171,14 +171,24 @@ ol.passos-uso b { color: var(--ink); font-weight: 600; }
 .slot-acao { font-family: var(--mono); font-size: 0.66rem; color: var(--muted); }
 
 /* Fica FORA do <button> do slot de propósito: <a> dentro de <button> é HTML
-   inválido e os dois brigam pelo clique. Discreto porque é conferência, não
-   ação principal — quem quiser checar acha, quem não quiser não tropeça. */
+   inválido e os dois brigam pelo clique. Por isso vai posicionado por cima,
+   no canto da linha do cargo, que é a única parte vazia do slot.
+
+   Herda o visual de .info, mas ganha área de toque maior pelo ::after: os
+   .info da página só abrem tooltip, e errar o alvo não custa nada. Este
+   navega para fora do site, e a cédula só existe em memória — um toque
+   errado no celular é diferente de um acerto. 14px de desenho, 40px de alvo. */
+.slot { position: relative; }
 .conferir-tse {
-  display: block; padding: 0 12px 10px; margin-top: -4px;
-  font-family: var(--mono); font-size: 0.66rem; color: var(--muted);
-  text-decoration: none;
+  position: absolute; top: 9px; right: 13px; z-index: 1;
+  text-decoration: none; font-family: var(--mono); font-style: normal;
 }
-.conferir-tse:hover, .conferir-tse:focus-visible { color: var(--accent); text-decoration: underline; }
+.conferir-tse::after {
+  content: ""; position: absolute; inset: -13px; border-radius: 50%;
+}
+.conferir-tse:hover, .conferir-tse:focus-visible {
+  border-color: var(--accent); color: var(--accent);
+}
 
 .picker { padding: 0 12px 12px; display: grid; gap: 7px; }
 .picker input { font: inherit; font-size: 0.88rem; padding: 8px 10px; width: 100%; border-radius: var(--r); background: var(--ground); color: var(--ink); border: 1px solid var(--line-strong); }
