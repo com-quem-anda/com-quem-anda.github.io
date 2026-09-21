@@ -614,11 +614,77 @@
    * quer saber o tamanho dele no Congresso, não o tamanho da amostra — e
    * confundir os dois faria o gráfico parecer dizer que o PL tem 88 cadeiras.
    */
-  const bancada = (sigla) => {
-    const c = D?.mandatos?.composicao?.[String(sigla).toUpperCase()];
-    if (!c) return "";
-    return `\nCongresso hoje: ${c.camara} deputados + ${c.senado} senadores = ${c.total} de 594 (${num(c.pct, 1)}%)`;
+  const bancada = (sigla) => D?.mandatos?.composicao?.[String(sigla).toUpperCase()] ?? null;
+
+  /**
+   * Texto da bolha. Vai em data-info, que a dica flutuante mostra por hover E
+   * por foco de teclado — o <title> do SVG só aparecia no hover, depois de um
+   * atraso do navegador, e teclado nenhum alcançava.
+   *
+   * Traz as duas contagens de propósito. A bancada é o tamanho do partido; o
+   * `n` é quantos deputados dela entraram na análise. Ver "87 de 92" diz, sem
+   * explicação, o quanto a posição daquela bolha é apoiada em observação.
+   */
+  const dadosBolha = (p) => {
+    const c = bancada(p.sigla);
+    const l = [`${p.sigla} — posição ${num(p.mediana, 2)} no eixo, desvio interno ${num(p.desvio, 2)}`];
+    if (c) {
+      l.push(`Câmara: ${c.camara} deputados`);
+      l.push(`Senado: ${c.senado} senadores`);
+      l.push(`Congresso: ${c.total} de 594 parlamentares (${num(c.pct, 1)}%)`);
+    }
+    l.push(`Na análise: ${p.n} deputados com presença suficiente nas votações`);
+    return l.join("\n");
   };
+
+  /**
+   * Acha lugar para o rótulo sem mover a bolha.
+   *
+   * Jitter aqui seria mentira: a posição É a medição. Deslocar a bolha mudaria
+   * a mediana e o desvio que o gráfico afirma. Então a bolha fica onde o dado
+   * manda e quem se desloca é o texto — mesma lógica do cartão do tour, que
+   * tenta abaixo, acima, direita, esquerda até achar espaço livre.
+   *
+   * Guloso e em ordem de bancada: partido grande é o que alguém procura
+   * primeiro, então escolhe posição antes.
+   */
+  function posicionarRotulos(itens) {
+    const colide = (a, b) => a.x1 > b.x0 && a.x0 < b.x1 && a.y1 > b.y0 && a.y0 < b.y1;
+
+    // As bolhas entram como obstáculo desde o início. Sem isso o rótulo pousa
+    // EM CIMA de um círculo — foi o que a primeira captura mostrou, com "PSD"
+    // e "MDB" escritos sobre o preenchimento e ilegíveis.
+    const ocupado = itens.map((i) => ({ x0: i.x - i.r, x1: i.x + i.r, y0: i.y - i.r, y1: i.y + i.r }));
+
+    // Oito direções, três distâncias: 24 tentativas, da mais perto para a mais
+    // longe. Perto é melhor porque rótulo distante deixa de dizer de quem é.
+    const DIRS = [[0, -1], [0, 1], [1, 0], [-1, 0], [1, -1], [-1, -1], [1, 1], [-1, 1]];
+    const saida = [];
+    for (const it of itens) {
+      const w = it.sigla.length * 5.7 + 4, h = 11;
+      let posto = null;
+      for (const passo of [0, 1, 2]) {
+        for (const [dx, dy] of DIRS) {
+          const d = it.r + 5 + passo * 11;
+          const cx = it.x + dx * d;
+          const cy = it.y + dy * d + (dy > 0 ? 7 : dy < 0 ? -1 : 3.5);
+          const anchor = dx > 0 ? "start" : dx < 0 ? "end" : "middle";
+          const x0 = anchor === "middle" ? cx - w / 2 : anchor === "start" ? cx : cx - w;
+          const caixa = { x0, x1: x0 + w, y0: cy - h, y1: cy + 2 };
+          if (ocupado.some((q) => colide(caixa, q))) continue;
+          ocupado.push(caixa);
+          posto = { ...it, lx: cx, ly: cy, anchor };
+          break;
+        }
+        if (posto) break;
+      }
+      // Nenhuma das 24 coube: solta acima mesmo, longe, em vez de sumir com a
+      // identidade da bolha. Texto sobreposto se lê mal; bolha anônima não se
+      // lê de jeito nenhum, e a identidade é o ponto deste gráfico.
+      saida.push(posto ?? { ...it, lx: it.x, ly: it.y - it.r - 38, anchor: "middle" });
+    }
+    return saida;
+  }
 
   function desenharScatter(pos) {
     const W = 620, H = 420, ml = 46, mr = 16, mt = 18, mb = 42;
@@ -627,7 +693,15 @@
     const y1 = Math.max(...ys) * 1.12;
     const X = (v) => ml + (v - x0) / (x1 - x0) * (W - ml - mr);
     const Y = (v) => H - mb - (v / y1) * (H - mt - mb);
-    const rMax = Math.max(...pos.map((p) => p.n));
+
+    // O raio passa a acompanhar a BANCADA NA CÂMARA, não o tamanho da amostra.
+    // A legenda já prometia "o tamanho da bancada" enquanto o código usava a
+    // amostra — e é a Câmara, não o Congresso todo, porque o eixo sai de
+    // votação nominal de deputado: senador não entra na conta que posiciona a
+    // bolha. Raio pela raiz da grandeza, para a ÁREA ser proporcional a ela.
+    const tam = (p) => D?.mandatos?.composicao?.[p.sigla.toUpperCase()]?.camara ?? p.n;
+    const tMax = Math.max(...pos.map(tam));
+
     let g = "";
     for (const t of [-1, 0, 1, 2]) { if (t < x0 || t > x1) continue;
       g += `<line x1="${X(t).toFixed(1)}" y1="${mt}" x2="${X(t).toFixed(1)}" y2="${H - mb}" stroke="${t === 0 ? "var(--line-strong)" : "var(--line)"}" stroke-width="1"></line>`;
@@ -635,10 +709,22 @@
     for (const v of [0.2, 0.4, 0.6, 0.8]) { if (v > y1) continue;
       g += `<line x1="${ml}" y1="${Y(v).toFixed(1)}" x2="${W - mr}" y2="${Y(v).toFixed(1)}" stroke="var(--line)" stroke-width="1" stroke-dasharray="2 3"></line>`;
       g += `<text x="${ml - 8}" y="${(Y(v) + 3).toFixed(1)}" fill="var(--muted)" font-size="10" font-family="IBM Plex Mono,monospace" text-anchor="end">${String(v).replace(".", ",")}</text>`; }
-    for (const p of pos) {
-      const r = 4 + 9 * Math.sqrt(p.n / rMax);
-      g += `<circle cx="${X(p.mediana).toFixed(1)}" cy="${Y(p.desvio).toFixed(1)}" r="${r.toFixed(1)}" fill="var(--barra)" fill-opacity="0.42" stroke="var(--barra)" stroke-width="1.5"><title>${esc(p.sigla)} — posição ${num(p.mediana, 2)}, desvio ${num(p.desvio, 2)}${bancada(p.sigla)}\nAnálise: ${p.n} deputados com presença suficiente nas votações</title></circle>`;
-      g += `<text x="${X(p.mediana).toFixed(1)}" y="${(Y(p.desvio) - r - 4).toFixed(1)}" fill="var(--ink)" font-size="9.5" font-family="IBM Plex Mono,monospace" text-anchor="middle">${esc(p.sigla)}</text>`;
+
+    const itens = pos
+      .map((p) => ({ ...p, x: X(p.mediana), y: Y(p.desvio), r: 4 + 9 * Math.sqrt(tam(p) / tMax) }))
+      .sort((a, b) => tam(b) - tam(a));
+
+    for (const it of itens) {
+      g += `<circle cx="${it.x.toFixed(1)}" cy="${it.y.toFixed(1)}" r="${it.r.toFixed(1)}" fill="var(--barra)" fill-opacity="0.42" stroke="var(--barra)" stroke-width="1.5"></circle>`;
+    }
+    for (const it of posicionarRotulos(itens)) {
+      if (it.lx === null) continue;
+      g += `<text x="${it.lx.toFixed(1)}" y="${it.ly.toFixed(1)}" fill="var(--ink)" font-size="9.5" font-family="IBM Plex Mono,monospace" text-anchor="${it.anchor}">${esc(it.sigla)}</text>`;
+    }
+    // Alvo de toque por cima de tudo, com raio mínimo: perseguir uma bolinha de
+    // 4px é o anti-padrão clássico de scatter, e no celular é impossível.
+    for (const it of itens) {
+      g += `<circle class="info alvo-bolha" cx="${it.x.toFixed(1)}" cy="${it.y.toFixed(1)}" r="${Math.max(it.r + 7, 13).toFixed(1)}" tabindex="0" role="img" aria-label="${esc(dadosBolha(it))}" data-info="${esc(dadosBolha(it))}"></circle>`;
     }
     g += `<text x="${(W / 2).toFixed(0)}" y="${H - 6}" fill="var(--muted)" font-size="10.5" text-anchor="middle">posição no eixo de votação →</text>`;
     g += `<text x="12" y="${(H / 2).toFixed(0)}" fill="var(--muted)" font-size="10.5" text-anchor="middle" transform="rotate(-90 12 ${(H / 2).toFixed(0)})">↑ menos coeso</text>`;

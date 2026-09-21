@@ -193,6 +193,11 @@ ol.passos-uso b { color: var(--ink); font-weight: 600; }
 .destaque-metodo summary strong { color: var(--accent); }
 .destaque-metodo[open] { background: var(--surface); }
 
+/* Alvo de toque invisível por cima da bolha. Raio mínimo de 13 porque caçar um
+   círculo de 4px é o anti-padrão clássico de scatter — no celular, impossível. */
+.alvo-bolha { fill: transparent; stroke: none; cursor: help; }
+.alvo-bolha:focus-visible { stroke: var(--accent); stroke-width: 2; outline: none; }
+
 .conferir-tse {
   position: relative; margin-left: 7px; vertical-align: 1px;
   text-decoration: none; font-family: var(--mono); font-style: normal;
@@ -238,7 +243,7 @@ figcaption { font-size: 0.76rem; color: var(--muted); }
 svg { display: block; width: 100%; height: auto; }
 #hist { overflow: visible; }
 
-.dica { position: fixed; z-index: 20; max-width: 270px; background: var(--ink); color: var(--ground); font-size: 0.76rem; line-height: 1.45; padding: 8px 10px; border-radius: var(--r); opacity: 0; pointer-events: none; transition: opacity .12s; }
+.dica { position: fixed; z-index: 20; max-width: 290px; white-space: pre-line; background: var(--ink); color: var(--ground); font-size: 0.76rem; line-height: 1.45; padding: 8px 10px; border-radius: var(--r); opacity: 0; pointer-events: none; transition: opacity .12s; }
 .dica.on { opacity: 1; }
 
 ul.votos { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
@@ -429,7 +434,7 @@ figcaption { font-size: 0.76rem; color: var(--muted); }
 svg { display: block; width: 100%; height: auto; }
 #hist { overflow: visible; }
 
-.dica { position: fixed; z-index: 20; max-width: 270px; background: var(--ink); color: var(--ground); font-size: 0.76rem; line-height: 1.45; padding: 8px 10px; border-radius: var(--r); opacity: 0; pointer-events: none; transition: opacity .12s; }
+.dica { position: fixed; z-index: 20; max-width: 290px; white-space: pre-line; background: var(--ink); color: var(--ground); font-size: 0.76rem; line-height: 1.45; padding: 8px 10px; border-radius: var(--r); opacity: 0; pointer-events: none; transition: opacity .12s; }
 .dica.on { opacity: 1; }
 
 ul.votos { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
