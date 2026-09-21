@@ -157,8 +157,15 @@ ol.passos-uso b { color: var(--ink); font-weight: 600; }
 /* cédula */
 .cedula { display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
 .slot { background: var(--surface); }
-.slot-topo { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 3px 12px; align-items: center; padding: 10px 14px; width: 100%; text-align: left; background: none; border: 0; }
-.slot-topo:hover { background: var(--sunk); }
+.slot-topo { position: relative; display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 3px 12px; align-items: center; padding: 10px 14px; width: 100%; text-align: left; }
+/* O botão cobre o slot inteiro por baixo do conteúdo. É ele que recebe o
+   clique e o foco; os textos por cima deixam o ponteiro passar. Isso permite
+   ao link do TSE ficar colado no nome sem ser filho do botão. */
+.slot-alvo { position: absolute; inset: 0; width: 100%; background: none; border: 0; padding: 0; cursor: pointer; }
+.slot-topo > span { position: relative; pointer-events: none; }
+.slot-topo .conferir-tse { pointer-events: auto; }
+.slot-topo:has(.slot-alvo:hover) { background: var(--sunk); }
+.slot-alvo:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: var(--r); }
 .slot-cargo { grid-column: 1 / -1; font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); }
 .slot-nome { font-weight: 500; min-width: 0; overflow-wrap: anywhere; font-size: 0.94rem; }
 .slot-nome .num { font-family: var(--mono); color: var(--muted); margin-right: 8px; font-variant-numeric: tabular-nums; }
@@ -178,13 +185,14 @@ ol.passos-uso b { color: var(--ink); font-weight: 600; }
    .info da página só abrem tooltip, e errar o alvo não custa nada. Este
    navega para fora do site, e a cédula só existe em memória — um toque
    errado no celular é diferente de um acerto. 14px de desenho, 40px de alvo. */
-.slot { position: relative; }
 .conferir-tse {
-  position: absolute; top: 9px; right: 13px; z-index: 1;
+  position: relative; margin-left: 7px; vertical-align: 1px;
   text-decoration: none; font-family: var(--mono); font-style: normal;
 }
+/* 14px de desenho, ~38px de alvo. Errar um .info comum não custa nada; errar
+   este tira a pessoa do site, e a cédula só existe em memória. */
 .conferir-tse::after {
-  content: ""; position: absolute; inset: -13px; border-radius: 50%;
+  content: ""; position: absolute; inset: -12px; border-radius: 50%;
 }
 .conferir-tse:hover, .conferir-tse:focus-visible {
   border-color: var(--accent); color: var(--accent);
@@ -270,7 +278,7 @@ ul.sug .qt { font-family: var(--mono); font-size: 0.68rem; color: var(--muted); 
 .tab-ufs { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
 .tab-ufs th { text-align: right; font-family: var(--mono); font-size: 0.64rem; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 500; padding: 5px 8px; border-bottom: 1px solid var(--line-strong); }
 .tab-ufs th:first-child, .tab-ufs td:first-child { text-align: left; }
-.tab-ufs td { padding: 5px 8px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; color: var(--ink-soft); }
+.tab-ufs td { text-align: right; padding: 5px 8px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; color: var(--ink-soft); }
 .tab-ufs tr { cursor: pointer; }
 .tab-ufs tr:hover td { background: var(--sunk); }
 .tab-ufs tr[aria-current="true"] td { background: var(--accent-soft); color: var(--ink); font-weight: 500; }
@@ -461,7 +469,7 @@ ul.sug .qt { font-family: var(--mono); font-size: 0.68rem; color: var(--muted); 
 .tab-ufs { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
 .tab-ufs th { text-align: right; font-family: var(--mono); font-size: 0.64rem; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 500; padding: 5px 8px; border-bottom: 1px solid var(--line-strong); }
 .tab-ufs th:first-child, .tab-ufs td:first-child { text-align: left; }
-.tab-ufs td { padding: 5px 8px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; color: var(--ink-soft); }
+.tab-ufs td { text-align: right; padding: 5px 8px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; color: var(--ink-soft); }
 .tab-ufs tr { cursor: pointer; }
 .tab-ufs tr:hover td { background: var(--sunk); }
 .tab-ufs tr[aria-current="true"] td { background: var(--accent-soft); color: var(--ink); font-weight: 500; }
@@ -653,7 +661,6 @@ ul.lista-limites li { background: var(--surface); padding: 13px 16px; display: g
 ul.lista-limites b { font-size: .95rem; color: var(--ink); font-weight: 600; }
 ul.lista-limites span { font-size: .89rem; color: var(--ink-soft); max-width: 70ch; overflow-wrap: anywhere; }
 ul.lista-limites code { font-family: var(--mono); font-size: .85em; background: var(--sunk); padding: 1px 4px; border-radius: 2px; }
-.nota-legal { font-size: .93rem; color: var(--ink-soft); background: var(--sunk); border-left: 2px solid var(--line-strong); padding: 13px 16px; border-radius: 0 var(--r) var(--r) 0; max-width: 70ch; }
 .aviso-doc .tabela td:first-child { width: 14rem; }
 @media (max-width: 620px) { .aviso-doc .tabela td:first-child { width: auto; } .aviso-doc .tabela tr { display: grid; gap: 2px; padding-block: 6px; } .aviso-doc .tabela td { border: 0; padding: 2px 0; } .aviso-doc .tabela tbody tr { border-bottom: 1px solid var(--line); } }
 

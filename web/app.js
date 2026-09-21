@@ -254,12 +254,22 @@
       const c = cand(slot);
       const corpo = c ? `<span class="num">${esc(c[0])}</span>${esc(c[1])}` : "sem voto";
       const primeiroVazio = !c && !CARGOS.slice(0, CARGOS.findIndex(([x]) => x === slot)).some(([x]) => escolhas[x] === undefined);
+      // O botão vira uma camada que cobre o slot, e o conteúdo fica por cima.
+      // Assim o link do TSE encosta no nome sendo IRMÃO dele, não filho do
+      // botão: <a> dentro de <button> é HTML inválido, os dois disputam o
+      // clique e o teclado nunca alcança o link. Como o botão fica sem texto,
+      // o aria-label passa a carregar o que ele dizia antes por conteúdo.
+      const rotuloBotao = c
+        ? `${rotulo(slot)}: ${c[1]}, ${c[2]}. Tocar para trocar.`
+        : `${rotulo(slot)}: sem voto. Tocar para escolher.`;
       return `<div class="slot${primeiroVazio ? " proximo" : ""}">
-        <button class="slot-topo" type="button" data-slot="${slot}" aria-expanded="${aberto === slot}">
+        <div class="slot-topo">
+          <button class="slot-alvo" type="button" data-slot="${slot}"
+            aria-expanded="${aberto === slot}" aria-label="${esc(rotuloBotao)}"></button>
           <span class="slot-cargo">${esc(rotulo(slot))}</span>
-          <span class="slot-nome${c ? "" : " vazio"}">${corpo} ${selo(c)}${seloDuplicado(c)}</span>
+          <span class="slot-nome${c ? "" : " vazio"}">${corpo} ${selo(c)}${seloDuplicado(c)}${c ? linkTse(c, slot) : ""}</span>
           <span class="slot-acao">${c ? `<span class="sigla">${esc(c[2])}</span>` : "escolher"}</span>
-        </button>${c ? linkTse(c, slot) : ""}${aberto === slot ? `<div class="picker">
+        </div>${aberto === slot ? `<div class="picker">
           <input type="search" id="busca" placeholder="Nome, número ou partido — ${pool(slot).length} candidatos" value="${esc(busca)}" autocomplete="off" aria-label="Buscar candidato">
           <div class="lista" id="lista">${renderLista(slot)}</div></div>` : ""}</div>`;
     }).join("");
@@ -483,15 +493,24 @@
     el("mapaExterior").textContent = `${mil(D.eleitorado.exterior)} eleitores no exterior não aparecem no mapa: votam para presidente e não pertencem a nenhum estado.`;
 
     const linhas = Object.entries(elei).sort((a, b) => b[1] - a[1]);
-    el("tabUfs").innerHTML = linhas.map(([s, v]) =>
-      `<tr data-uf="${s}" aria-current="${s === uf}"><td>${s}</td><td>${mil(v)}</td><td>${((100 * v) / D.eleitorado.totalUf || (100 * v) / total).toFixed(1).replace(".", ",")}%</td><td id="qt-${s}">—</td></tr>`).join("");
+    // As linhas já vêm da maior para a menor, então somar de cima para baixo
+    // dá a curva de Pareto: quantos estados bastam para chegar a X% do país.
+    // A coluna de candidatos saiu — só a UF selecionada tinha o dado, e as
+    // outras 26 linhas mostravam um travessão que não informava nada.
+    const base = D.eleitorado.totalUf || total;
+    let acum = 0;
+    el("tabUfs").innerHTML = linhas.map(([s, v]) => {
+      const pct = (100 * v) / base;
+      acum += pct;
+      return `<tr data-uf="${s}" aria-current="${s === uf}"><td>${s}</td><td>${mil(v)}</td>` +
+        `<td>${pct.toFixed(1).replace(".", ",")}%</td>` +
+        `<td>${acum.toFixed(1).replace(".", ",")}%</td></tr>`;
+    }).join("");
   }
 
   function marcarUfNoMapa() {
     for (const p of document.querySelectorAll("#mapa path")) p.setAttribute("aria-current", String(p.dataset.uf === uf));
     for (const t of document.querySelectorAll(".tab-ufs tr[data-uf]")) t.setAttribute("aria-current", String(t.dataset.uf === uf));
-    const td = el(`qt-${uf}`);
-    if (td) { const d = dadosUf(); td.textContent = mil(d.gov.length + d.sen.length + d.df.length + d.de.length); }
   }
 
 
@@ -931,7 +950,9 @@
     const noMapa = e.target.closest("#mapa path, .tab-ufs tr[data-uf]");
     if (noMapa) { await trocarUf(noMapa.dataset.uf); return; }
 
-    const topo = e.target.closest(".slot-topo");
+    // .slot-alvo e não .slot-topo: a div agora contém o link do TSE, e mirar
+    // nela faria o clique no link abrir o seletor em vez de ir para o TSE.
+    const topo = e.target.closest(".slot-alvo");
     if (topo) {
       const s = topo.dataset.slot;
       aberto = aberto === s ? null : s; busca = ""; render();
@@ -1366,7 +1387,7 @@
       `<span>versão ${esc(D.versao)}</span>` +
       `<span>candidaturas de ${dt(f.tse.geradoEm)}</span>` +
       `<span>eleitorado de ${dt(f.eleitorado.geradoEm)}</span>` +
-      `<span>Ricardo Dalge · <a href="https://github.com/com-quem-anda/com-quem-anda.github.io/issues" target="_blank" rel="noopener">relatar erro ou comentar</a></span>`;
+      `<span>Criador: Ricardo Dalge · <a href="https://github.com/com-quem-anda/com-quem-anda.github.io/issues" target="_blank" rel="noopener">relatar erro ou comentar</a></span>`;
     el("rodapeGrafo").textContent =
       `Grafo de aliança: ${D.grafo.conjuntos} conjuntos observados nas 27 UFs, ${D.grafo.partidos.length} partidos, ${Object.keys(D.grafo.prox).length} arestas com proximidade maior que zero — ${Object.keys(D.grafo.fragil).length} delas apoiadas em menos de três coincidências. ${D.anomalias} anomalias no pacote do TSE ainda não aparecem nesta tela.`;
   }
