@@ -179,8 +179,8 @@
    *   /divulga/#/candidato/<REGIÃO>/<UF>/<ID_ELEIÇÃO>/<SQ_CANDIDATO>/<ANO>/<UF>
    * e foi obtido por engenharia reversa de URLs reais — o portal devolve 403
    * para qualquer requisição nossa (Akamai), então nada aqui pôde ser testado
-   * por programa. Cada valor abaixo ou foi visto numa URL real ou está
-   * marcado como não confirmado.
+   * por programa. Todo valor abaixo veio de uma URL que comprovadamente abria:
+   * as cinco regiões, uma a uma, e o id da eleição.
    *
    * ID_ELEIÇÃO é constante para a eleição estadual: mesmo valor observado em
    * SP e RN, em governador e senador. Presidente é outra eleição (CD_ELEICAO
@@ -188,18 +188,19 @@
    * sem link em vez de ganhar um link quebrado.
    */
   const ID_ELEICAO_ESTADUAL = "20322002026";
+  /**
+   * CENTROOESTE vai sem hífen. Não é descuido: é a grafia que o portal usa, e
+   * foi conferida numa URL real do MS. "CENTRO-OESTE", que é como se escreve
+   * em português, leva a página de erro — e as cinco grafias aqui são as cinco
+   * que apareceram em URLs reais, uma por região. Nenhuma é inferida.
+   */
   const REGIAO = {
-    // Confirmadas em URLs reais:
-    SP: "SUDESTE", RN: "NORDESTE",
-    // Mesma região das confirmadas, grafia idêntica:
-    ES: "SUDESTE", MG: "SUDESTE", RJ: "SUDESTE",
-    AL: "NORDESTE", BA: "NORDESTE", CE: "NORDESTE", MA: "NORDESTE",
-    PB: "NORDESTE", PE: "NORDESTE", PI: "NORDESTE", SE: "NORDESTE",
-    // NÃO CONFIRMADAS — grafia inferida. Se o link abrir a busca em vez da
-    // candidatura, é aqui que está o erro.
     AC: "NORTE", AP: "NORTE", AM: "NORTE", PA: "NORTE",
     RO: "NORTE", RR: "NORTE", TO: "NORTE",
-    DF: "CENTRO-OESTE", GO: "CENTRO-OESTE", MT: "CENTRO-OESTE", MS: "CENTRO-OESTE",
+    AL: "NORDESTE", BA: "NORDESTE", CE: "NORDESTE", MA: "NORDESTE",
+    PB: "NORDESTE", PE: "NORDESTE", PI: "NORDESTE", RN: "NORDESTE", SE: "NORDESTE",
+    DF: "CENTROOESTE", GO: "CENTROOESTE", MT: "CENTROOESTE", MS: "CENTROOESTE",
+    ES: "SUDESTE", MG: "SUDESTE", RJ: "SUDESTE", SP: "SUDESTE",
     PR: "SUL", RS: "SUL", SC: "SUL",
   };
 
