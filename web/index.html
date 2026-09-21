@@ -4,21 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Com Quem Anda — veja com quem os partidos do seu voto andam | Eleições 2026</title>
-<meta name="description" content="Monte a cédula que você pretende votar nas Eleições 2026 e descubra se os partidos escolhidos costumam se aliar — e quem você elege junto como vice e suplente. Dados oficiais do TSE, sem cadastro e sem coleta.">
+<meta name="description" content="Monte sua cédula das Eleições 2026 e descubra se os partidos escolhidos costumam se aliar — e quem você elege junto como vice e suplente. Sua cédula nunca sai do seu aparelho.">
 <link rel="canonical" href="https://com-quem-anda.com.br/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Com Quem Anda">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:url" content="https://com-quem-anda.com.br/">
 <meta property="og:title" content="Com Quem Anda — veja com quem os partidos do seu voto andam">
-<meta property="og:description" content="Monte sua cédula das Eleições 2026 e descubra se os partidos que você escolheu costumam se aliar — e quem você elege junto como vice e suplente.">
+<meta property="og:description" content="Monte sua cédula das Eleições 2026 e descubra se os partidos que você escolheu costumam se aliar. Sua cédula nunca sai do seu aparelho.">
 <meta property="og:image" content="https://com-quem-anda.com.br/compartilhar.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Com Quem Anda: monte sua cédula e veja com quem os partidos do seu voto andam.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Com Quem Anda — veja com quem os partidos do seu voto andam">
-<meta name="twitter:description" content="Monte sua cédula das Eleições 2026 e descubra se os partidos que você escolheu costumam se aliar.">
+<meta name="twitter:description" content="Monte sua cédula das Eleições 2026 e veja se os partidos escolhidos costumam se aliar. Sua cédula nunca sai do seu aparelho.">
 <meta name="twitter:image" content="https://com-quem-anda.com.br/compartilhar.png">
 <!-- Os quatro pesos entram no primeiro paint. Sem preload, mono-500 e mono-600 só
      são descobertos depois que o CSS é lido, o que punha um terceiro nível na cadeia.
@@ -48,6 +48,14 @@
    * O texto de privacidade da página é gerado a partir deste bloco, então ele
    * nunca pode mentir sobre o que está ligado.
    *
+   * BEACON DO CLOUDFLARE DESLIGADO NO PAINEL EM 21/09/2026. Se alguém reativar
+   * "Automatic setup" lá, a página passa a mentir — o guarda daqui não vê
+   * injeção feita na borda, porque ela não passa por este arquivo. Teste manual
+   * OBRIGATÓRIO após qualquer mudança de host ou de configuração do CDN:
+   *
+   *   DevTools -> Network, recarregar, e confirmar que não aparece
+   *   "cloudflareinsights" nem "/cdn-cgi/rum".
+   *
    * provedor: "" (nenhum) | "cloudflare" | "goatcounter"
    */
   window.CQA_ANALYTICS = { provedor: "", token: "" };
@@ -63,7 +71,7 @@
   "inLanguage": "pt-BR",
   "isAccessibleForFree": true,
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "BRL" },
-  "description": "Ferramenta para o eleitor montar a cédula das Eleições 2026 e verificar se os partidos escolhidos costumam se aliar entre si, além de mostrar vice e suplentes eleitos junto. Não coleta dados.",
+  "description": "Ferramenta para o eleitor montar a cédula das Eleições 2026 e verificar se os partidos escolhidos costumam se aliar entre si, além de mostrar vice e suplentes eleitos junto. A cédula do usuário nunca sai do aparelho dele.",
   "license": "https://opensource.org/licenses/MIT",
   "isBasedOn": [
     { "@type": "Dataset", "name": "Candidaturas 2026", "creator": { "@type": "GovernmentOrganization", "name": "Tribunal Superior Eleitoral" }, "license": "https://creativecommons.org/licenses/by/4.0/" },
@@ -80,8 +88,9 @@
     <p class="lede">
       Diz-me com quem andas. Monte a cédula que você pretende votar e veja uma coisa que ninguém
       costuma te contar: <strong>se os partidos que você escolheu costumam andar juntos</strong> — ou
-      se andam em campos opostos. Tudo acontece no seu aparelho. Nada é enviado, salvo ou
-      compartilhado com ninguém.
+      se andam em campos opostos.
+      <strong>Sua cédula e suas respostas ficam só no seu aparelho</strong> — nunca são enviadas,
+      salvas em servidor nem compartilhadas.
     </p>
     <button class="botao botao-tour" id="abrirTour" type="button">Como usar esta página</button>
     <div class="abas" role="tablist">
@@ -592,7 +601,7 @@
         <h2>O que esta ferramenta não é</h2>
         <table class="tabela">
           <tbody>
-            <tr><td>Não é pesquisa eleitoral</td><td>Não coleta, não registra e não agrega resposta de ninguém. Nada do que você faz aqui sai do seu navegador, então não existe amostra, não existe estimativa de intenção de voto e não há o que registrar perante a Justiça Eleitoral.</td></tr>
+            <tr><td>Não é pesquisa eleitoral</td><td>Não coleta, não registra e não agrega resposta de ninguém. Sua cédula e suas respostas nunca saem do seu aparelho, então não existe amostra, não existe estimativa de intenção de voto e não há o que registrar perante a Justiça Eleitoral.</td></tr>
             <tr><td>Não é propaganda eleitoral</td><td>Não promove candidatura, não pede voto e não tem vínculo com partido, coligação, federação, candidato ou grupo de interesse.</td></tr>
             <tr><td>Não é recomendação de voto</td><td>A sugestão por partido responde a uma pergunta matemática — qual legenda deixaria a chapa mais coesa — e aparece sempre ao lado da ressalva de que chapa dispersa não é erro.</td></tr>
             <tr><td>Não é avaliação de candidato</td><td>Não mede caráter, competência, honestidade, histórico pessoal nem desempenho de mandato. Não há nota, ranking de qualidade ou juízo de mérito sobre pessoa alguma.</td></tr>
@@ -648,11 +657,7 @@
       <section>
         <h2>Privacidade</h2>
         <div class="alerta-doc">
-          <p>
-            <strong>Nada que você faz aqui sai do seu navegador.</strong> Seus votos, suas respostas
-            e seus pesos de tema são processados na própria página e desaparecem quando você a fecha.
-          </p>
-          <p id="privacidadeAviso"></p>
+          <div id="privacidadeAviso"></div>
           <p id="privacidadeConsequencia"></p>
         </div>
       </section>

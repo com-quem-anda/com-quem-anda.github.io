@@ -124,7 +124,7 @@ async function main(): Promise<void> {
   const presidentes: ArquivoCargo = await ler(`${ufs[0]}/presidente.json`);
 
   const base = {
-    versao: "0.3.0",
+    versao: "0.3.1",
     fonte: {
       tse: { sha256: meta.fonte.sha256, url: meta.fonte.url, geradoEm: meta.geradoEm },
       eleitorado: { url: eleitorado.fonte.url, geradoEm: eleitorado.geradoEm, sha256: eleitorado.fonte.sha256 },

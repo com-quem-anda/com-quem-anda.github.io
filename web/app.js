@@ -840,18 +840,20 @@
       ? `O que se mede é <strong>acesso</strong>, não conteúdo. Quantas pessoas abriram a página e de
          onde vieram — nunca em quem elas pensam votar. Essa parte continua sem existir em lugar
          nenhum, e continuará: receber a cédula de alguém exigiria um servidor, e o projeto não tem.`
-      : `A consequência é assumida: <strong>não existe estatística de uso desta ferramenta</strong>,
-         e nunca se saberá por aqui como os eleitores brasileiros montam suas cédulas. Receber isso
-         exigiria um servidor, e a promessa vale mais que o dado.`;
+      : `A consequência é assumida: sabe-se <strong>quantas pessoas abriram a página</strong>,
+         porque todo servidor web registra isso — e <strong>nada além</strong>. Nunca se saberá
+         por aqui como os eleitores brasileiros montam suas cédulas: receber isso exigiria mandar
+         a cédula para algum lugar, e a promessa vale mais que o dado.`;
     el("metodoUso").innerHTML = ligado
       ? `<strong>Estatísticas de uso.</strong> A página conta visitas com um medidor sem cookie, que
          registra acesso, origem e país em números agregados. <strong>O que ela não conta é o que
          você escolhe:</strong> cédula, respostas e pesos nunca saem do seu aparelho, então não existe
          e nunca existirá um número agregado de como os brasileiros montam suas cédulas.`
-      : `<strong>Estatísticas de uso.</strong> Não há nenhuma. A página não tem analytics, cookie,
-         identificador ou chamada a terceiros — e por isso não existe um número agregado de como os
-         eleitores brasileiros montam suas cédulas. Coletar isso exigiria um servidor para receber,
-         e servidor é justamente o que este projeto não tem.`;
+      : `<strong>Estatísticas de uso.</strong> A página não tem analytics, cookie, identificador
+         nem chamada a terceiros. O servidor que a hospeda conta acessos em agregado, como qualquer
+         servidor web, e é só isso que se sabe. <strong>O que você escolhe não é contado</strong>:
+         não existe, e não existirá por aqui, um número agregado de como os eleitores brasileiros
+         montam suas cédulas.`;
   }
 
   function renderAvisos() {
@@ -1037,29 +1039,50 @@
   }
 
   /** O texto de privacidade sai da configuração, para não poder divergir dela. */
+  /**
+   * O texto inteiro sai daqui, não do HTML, para nunca divergir do que está
+   * ligado. Com provedor vazio ele descreve o comportamento real e verificável:
+   * nenhum código de medição na página, uma única chave em localStorage, e
+   * downloads de arquivo público do próprio domínio.
+   *
+   * "Nada sai do seu aparelho" seria impreciso e foi abandonado de propósito:
+   * o navegador BAIXA dados/base.json, dados/uf/<UF>.json e as fontes. A
+   * promessa honesta é sobre o que o usuário FAZ — cédula, respostas, pesos —
+   * e não sobre tráfego de rede, que existe em qualquer página.
+   */
   function textoPrivacidade() {
-    const terceiros = `<strong>Abrir esta página não contata nenhum servidor de terceiros.</strong>
-      Tudo — texto, estilo, código, fontes de letra e dados — vem deste mesmo endereço. Até as
-      fontes eram do Google Fonts e passaram a ser servidas daqui justamente para que o IP de
-      quem abre não chegue a ninguém. Existe uma única exceção, e ela depende de um clique seu:
-      o <strong>gerador de PDF</strong> é baixado do cdnjs se você pedir para exportar a cédula.
-      Como qualquer arquivo baixado da internet, essa requisição revela seu IP a quem a serve — e
-      nada além disso. <strong>Ela não recebe o que você escolheu.</strong>`;
+    const guarda = `<p><strong>O que o navegador guarda.</strong> Uma única marcação local,
+      "já viu o tutorial", para não repetir a explicação inicial. Ela não identifica você e some
+      ao limpar os dados do site.</p>`;
+
+    const baixa = `<p><strong>O que o site baixa.</strong> Ao escolher um estado, o navegador baixa
+      a lista de candidatos daquele estado — arquivo público, igual para todos. É uma requisição
+      comum de arquivo, como abrir qualquer página; ela não carrega nenhuma escolha sua.</p>`;
+
+    const conferir = `<p><strong>Como conferir.</strong> O código é aberto. Abra as ferramentas de
+      desenvolvedor do navegador, aba Rede, e veja você mesmo o que sai daqui.</p>`;
+
+    const soVoce = (extra) => `<p><strong>O que fica só com você.</strong> Sua cédula, suas respostas
+      nas pautas e qualquer resultado nunca saem do seu aparelho: não são enviados, salvos em
+      servidor nem compartilhados. Não há cadastro, login${extra} nem rastreador. Fechou a página,
+      acabou.</p>`;
 
     if (!analyticsLigado()) {
-      return `Não há analytics, cookie, identificador, login, formulário nem banco de dados.
-        Como não há coleta nem tratamento de dado pessoal pela ferramenta, não há titular,
-        finalidade ou base legal a declarar. ${terceiros}`;
+      return soVoce(", cookie") + guarda + baixa +
+        `<p><strong>Contagem de acessos.</strong> O servidor que hospeda o site conta acessos de
+          forma agregada — quantos, de que país — como todo servidor web faz. <strong>Não há código
+          de medição na página.</strong> Nada disso é cruzado com o que você faz aqui.</p>` +
+        conferir;
     }
+
     const nome = ANALYTICS.provedor === "cloudflare" ? "Cloudflare Web Analytics" : "GoatCounter";
-    return `A página usa <strong>${nome}</strong> para contar visitas. É um contador
-      <strong>sem cookie e sem impressão digital de navegador</strong>: registra que houve um
-      acesso, de que página você veio e de que país, em números agregados. Não cria identificador,
-      não reconhece você entre visitas e não segue você por outros sites.
-      <strong>Nada sobre suas escolhas é enviado</strong> — nem os candidatos da sua cédula, nem
-      as respostas do questionário, nem os pesos que você deu aos temas. Isso continua só no seu
-      aparelho. Base legal: legítimo interesse em medir audiência, com dado agregado e sem perfil.
-      ${terceiros}`;
+    return soVoce("") + guarda + baixa +
+      `<p><strong>Contagem de acessos.</strong> A página carrega <strong>${nome}</strong>, um contador
+        sem cookie e sem impressão digital: registra que houve um acesso, de que página você veio e
+        de que país, em números agregados. Não cria identificador nem segue você por outros sites.
+        <strong>Nada sobre suas escolhas é enviado</strong> — nem os candidatos da sua cédula, nem as
+        respostas, nem os pesos que você deu aos temas.</p>` +
+      conferir;
   }
 
   /* =================== tour guiado =================== */
@@ -1071,7 +1094,7 @@
    */
   const TOUR = [
     { aba: "cedula", alvo: null, titulo: "Bem-vindo",
-      texto: "Esta página faz uma pergunta simples: <strong>os partidos em que você pretende votar costumam andar juntos?</strong> Em dois minutos você monta sua cédula e descobre. Nada do que você fizer aqui sai do seu celular ou computador." },
+      texto: "Esta página faz uma pergunta simples: <strong>os partidos em que você pretende votar costumam andar juntos?</strong> Em dois minutos você monta sua cédula e descobre. Sua cédula nunca sai do seu aparelho." },
     { aba: "cedula", alvo: "#uf", titulo: "Comece pelo seu estado",
       texto: "Cada estado tem candidatos diferentes. Escolhendo o seu, a página passa a mostrar só quem aparece na <strong>sua</strong> urna — e compara sua cédula só com as combinações possíveis aí." },
     { aba: "cedula", alvo: "#cedula .slot:first-child", titulo: "Escolha um candidato",

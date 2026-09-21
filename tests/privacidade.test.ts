@@ -42,7 +42,12 @@ test("o estado do eleitor nunca é serializado para sair da página", () => {
 });
 
 test("o medidor de acesso, se ligado, não recebe estado do eleitor", () => {
-  const bloco = app.slice(app.indexOf("function ligarAnalytics"), app.indexOf("function textoPrivacidade"));
+    // Sem comentários: a invariante é sobre o CÓDIGO tocar o estado do eleitor.
+    // A fatia inclui o bloco de documentação da função seguinte, e prosa que
+    // menciona "respostas" para explicar que elas NÃO são enviadas não é uma
+    // violação — seria absurdo proibir o comentário de nomear o que protege.
+    const cru = app.slice(app.indexOf("function ligarAnalytics"), app.indexOf("function textoPrivacidade"));
+    const bloco = cru.replace(/\/\*[\s\S]*?\*\//g, "").replace(/^[ \t]*\/\/.*$/gm, "");
   assert.ok(bloco.length > 50, "função de analytics não encontrada");
   for (const nome of ESTADO_DO_ELEITOR) {
     assert.ok(!bloco.includes(nome), `ligarAnalytics referencia ${nome}`);
@@ -60,7 +65,9 @@ test("o medidor de acesso, se ligado, não recebe estado do eleitor", () => {
 test("o texto de privacidade é gerado pela configuração, não escrito à mão", () => {
   // Se o texto voltasse a ser fixo no HTML, ele poderia mentir sobre o que está ligado.
   for (const id of ["privacidadeAviso", "privacidadeConsequencia", "metodoUso"]) {
-    const vazio = new RegExp(`<p id="${id}"></p>`);
+    // A tag não importa: privacidadeAviso virou <div> para conter vários parágrafos.
+    // O que importa é estar VAZIA — texto fixo aqui poderia divergir da configuração.
+    const vazio = new RegExp(`<(p|div) id="${id}"></\\1>`);
     assert.ok(vazio.test(html), `${id} deve ficar vazio no HTML e ser preenchido pelo código`);
   }
   assert.ok(app.includes("function textoPrivacidade"), "o texto precisa sair da configuração");
@@ -129,6 +136,22 @@ test("abrir a página não contata nenhum terceiro", () => {
   for (const f of new Set(refs)) {
     assert.ok(existsSync(new URL(`../web/fontes/${f}`, import.meta.url)),
       `CSS aponta para fontes/${f}, que não existe no repositório`);
+  }
+});
+
+test("o navegador guarda uma chave só, e nenhuma outra forma de estado", () => {
+  // A aba Avisos promete literalmente "uma única marcação local". Uma segunda
+  // chave, ou um sessionStorage discreto, tornaria esse texto falso sem que
+  // nada quebrasse na tela — que é como texto de privacidade envelhece.
+  const chaves = [...app.matchAll(/localStorage\.(?:set|get|remove)Item\(\s*([A-Za-z_$][\w$]*|"[^"]*")/g)]
+    .map((m) => m[1]!);
+  assert.ok(chaves.length > 0, "nenhum uso de localStorage encontrado — o texto fala de um");
+  const distintas = new Set(chaves);
+  assert.equal(distintas.size, 1,
+    `o texto promete uma chave só e o código usa ${distintas.size}: ${[...distintas].join(", ")}`);
+
+  for (const api of ["sessionStorage", "indexedDB", "serviceWorker", "document.cookie"]) {
+    assert.ok(!app.includes(api), `${api} apareceu: o texto de privacidade diz que não existe`);
   }
 });
 

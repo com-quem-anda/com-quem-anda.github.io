@@ -9,6 +9,33 @@ como artifact, a partir dos mesmos JSONs de `data/build`.
 
 Especificação completa: [`CEDULA-ABERTA-SPEC.md`](CEDULA-ABERTA-SPEC.md).
 
+## Privacidade
+
+Quatro fatos, e os textos da página descrevem exatamente estes:
+
+1. **A cédula, as respostas das pautas e os resultados nunca saem do aparelho.** Não há
+   `fetch` nem `POST` que os carregue, não há `pushState` e nada vai para a query string.
+2. **O navegador baixa arquivos do próprio domínio** — `dados/base.json`, `dados/uf/{UF}.json`
+   e as fontes. Por isso "nada sai do aparelho" seria **impreciso**, e foi abandonado de
+   propósito: a promessa honesta é sobre o que o usuário **faz**, não sobre tráfego de rede,
+   que existe em qualquer página.
+3. **`localStorage` guarda uma única chave** (`TOUR_CHAVE`), marcando que o tutorial já foi
+   visto. Não identifica ninguém e some ao limpar os dados do site.
+4. **Sem cookie, `sessionStorage`, IndexedDB, service worker, script externo ou analytics no
+   navegador.** A contagem de acessos é feita apenas na borda pelo host, agregada, sem JS.
+
+### Teste manual obrigatório
+
+O beacon do Cloudflare Web Analytics foi **desligado no painel em 21/09/2026**. Ele podia ser
+injetado na borda por "Automatic setup", **sem passar por este repositório** — então nenhum
+teste automatizado daqui o veria. Depois de qualquer mudança de host ou de configuração do CDN:
+
+> DevTools → **Network**, recarregar, e confirmar que **não** aparece `cloudflareinsights`
+> nem `/cdn-cgi/rum`.
+
+Se aparecer, a página está mentindo e o texto de privacidade precisa mudar junto — ou o beacon
+precisa sair.
+
 ## Métricas de acesso
 
 **A medição de acesso acontece na borda do Cloudflare, não na página.** Em
