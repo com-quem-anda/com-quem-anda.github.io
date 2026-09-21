@@ -41,8 +41,23 @@ navegador do celular, sem terminal e sem `gh` autenticado.
 
 A regra fica **criada e desativada** de antemão. Criar sob pressão é onde se erra.
 
-> Cloudflare → Security → WAF → Custom rules → `pânico`
-> Expressão: `(http.host contains "com-quem-anda")` · Ação: `Block` · **deixar desativada**
+> Cloudflare → página **Security rules** → **Create rule** → **Custom rules**
+> Nome: `pânico` · Field `Hostname` · Operator `contains` · Value `com-quem-anda`
+> Action: **Block** · **deixar desativada**
+
+O Block devolve **403**. Personalizar essa página exige plano Pro; no Free vem a
+tela padrão do Cloudflare, que para o caso basta.
+
+⚠️ **O painel do Cloudflare muda de nome com frequência.** Em set/2026 isto já
+esteve em `Security → WAF → Custom rules`, a documentação oficial citava um botão
+`Save as Draft` que não existia na tela, e o caminho real era outro. Não confie no
+passo a passo acima ao pé da letra: o que importa é que exista uma regra que bloqueie
+o hostname e que ela esteja **desligada** até você precisar. Confirme pelo efeito,
+não pelo nome do menu:
+
+```bash
+curl -s -o /dev/null -w "%{http_code}\n" https://com-quem-anda.com.br/
+```
 
 Para derrubar: abrir a regra, ativar. Todo mundo passa a receber 403 em segundos, no
 mundo inteiro, sem esperar propagação de DNS. Para voltar: desativar.
